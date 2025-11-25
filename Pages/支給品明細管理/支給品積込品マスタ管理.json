@@ -1,0 +1,1265 @@
+{
+  "Rows": {
+    "Count": 39
+  },
+  "Cols": {
+    "Count": 84
+  },
+  "Values": {
+    "1,1": "機種(艇種)",
+    "1,6": "仕様コード",
+    "1,9": "仕様コード",
+    "1,10": "品番",
+    "1,19": "検索",
+    "1,24": "クリア",
+    "1,39": "分類絞込",
+    "1,50": "クリア",
+    "4,1": "機種",
+    "4,6": "仕様コード",
+    "4,9": "仕様コード",
+    "4,10": "品番",
+    "4,18": "品名/変更仕様",
+    "4,26": "分類",
+    "4,32": "規格寸法",
+    "4,39": "発送元",
+    "4,49": "数量",
+    "4,52": "単位",
+    "4,55": "工程",
+    "4,64": "備考",
+    "5,52": 99,
+    "36,1": "更新",
+    "36,10": "Excelエクスポート",
+    "36,18": "Excelインポート"
+  },
+  "AttachInfos": {
+    "1,19": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "mtsumikomihin_shikyuhin",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "mtsumikomihin_shikyuhin",
+                    "ColumnName": "KISHU",
+                    "GUID": "de9dfc24-31e6-45c6-b8d1-9523213ec046"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=支給品積込品マスタ管理!B3"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "mtsumikomihin_shikyuhin",
+                    "ColumnName": "SHIYO_CODE",
+                    "GUID": "fd75e6cd-f065-4ee4-8340-00427778a418"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=支給品積込品マスタ管理!G3"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "mtsumikomihin_shikyuhin",
+                    "ColumnName": "HINBAN",
+                    "GUID": "3faf7f99-6a1c-4767-b8ee-a37ef467593e"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=支給品積込品マスタ管理!K3"
+                  }
+                }
+              ]
+            },
+            "ID": "23e2c983981a41c49cde079725ef50e9"
+          }
+        ],
+        "Text": "検索",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,24": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "mtsumikomihin_shikyuhin",
+            "ID": "31ab0f49471740a081cf8dfebb6350dc"
+          },
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=支給品積込品マスタ管理!B3"
+                },
+                "Value": "%Null%"
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=支給品積込品マスタ管理!G3"
+                },
+                "Value": "%Null%"
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=支給品積込品マスタ管理!K3"
+                },
+                "Value": "%Null%"
+              }
+            ]
+          }
+        ],
+        "Text": "クリア",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,50": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "moption_futai_koji",
+            "ID": "b35e0996cc734a378f49ba338778d8a4"
+          },
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=支給品積込品マスタ管理!AN3"
+                },
+                "Value": "%Null%"
+              }
+            ]
+          }
+        ],
+        "Text": "クリア",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "2,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "InputCharOption": {
+          "Format": "A;a;9;@"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "2,6": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "InputCharOption": {
+          "Format": "A;a;9;@"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "2,10": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "InputCharOption": {
+          "Format": "A;a;K;9;@"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "2,39": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "1",
+            "DisplayValue": "積込品"
+          },
+          {
+            "Value": "2",
+            "DisplayValue": "支給品"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "mtsumikomihin_shikyuhin",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "mtsumikomihin_shikyuhin",
+                "ColumnName": "BUNRUI",
+                "GUID": "9994f4a6-f576-472b-becf-40ef9122e15e"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=支給品積込品マスタ管理!AN3"
+              }
+            },
+            "ID": "0fc68897db9944b1abd73ee5cac4a497"
+          }
+        ]
+      }
+    },
+    "4,1": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "mtsumikomihin_shikyuhin",
+        "RowIndex": 4,
+        "ColumnIndex": 1,
+        "RowCount": 31,
+        "ColumnCount": 80,
+        "OrderByCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "mtsumikomihin_shikyuhin",
+                "ColumnName": "KISHU",
+                "GUID": "ae9ad0de-c324-469d-95b6-987a22ec989f"
+              },
+              "Order": 0
+            },
+            {
+              "ColumnBindingInfo": {
+                "TableName": "mtsumikomihin_shikyuhin",
+                "ColumnName": "SHIYO_CODE",
+                "GUID": "e0d38a57-2dee-44eb-8cab-d910cecb667e"
+              },
+              "Order": 0
+            },
+            {
+              "ColumnBindingInfo": {
+                "TableName": "mtsumikomihin_shikyuhin",
+                "ColumnName": "BUNRUI",
+                "GUID": "efd668a5-932b-4b26-875d-64c8a426fc4f"
+              },
+              "Order": 0
+            },
+            {
+              "ColumnBindingInfo": {
+                "TableName": "mtsumikomihin_shikyuhin",
+                "ColumnName": "HINBAN",
+                "GUID": "88eb6d69-b86c-489d-8bc0-6b36f3c3a527"
+              },
+              "Order": 0
+            }
+          ]
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "RowHeaderContextMenu": {
+          "ContextMenuItems": [
+            {
+              "Text": "挿入",
+              "Visible": true,
+              "OperationType": 2
+            },
+            {
+              "Text": "削除",
+              "Visible": true,
+              "OperationType": 3
+            },
+            {
+              "Text": "複製",
+              "Visible": true,
+              "OperationType": 4
+            }
+          ]
+        },
+        "ColumnOperation": 2,
+        "CommitType": 1,
+        "DoNotLoadDataWhenLoadPage": true
+      }
+    },
+    "5,1": {
+      "BindingInfo": {
+        "TableName": "mtsumikomihin_shikyuhin",
+        "ColumnName": "KISHU",
+        "GUID": "ffd2ef75-9138-4ce6-b0fc-3f0314b08ab3"
+      }
+    },
+    "5,6": {
+      "BindingInfo": {
+        "TableName": "mtsumikomihin_shikyuhin",
+        "ColumnName": "SHIYO_CODE",
+        "GUID": "deb6eaa6-11f3-4fa2-a0bc-489808b57536"
+      }
+    },
+    "5,10": {
+      "BindingInfo": {
+        "TableName": "mtsumikomihin_shikyuhin",
+        "ColumnName": "HINBAN",
+        "GUID": "75918645-8637-40ee-b5b1-bd8b26371568"
+      }
+    },
+    "5,18": {
+      "BindingInfo": {
+        "TableName": "mtsumikomihin_shikyuhin",
+        "ColumnName": "HINMEI_MEISHO",
+        "GUID": "e9757594-5cd4-4e39-8f84-0c0ba74d0a58"
+      }
+    },
+    "5,26": {
+      "BindingInfo": {
+        "TableName": "mtsumikomihin_shikyuhin",
+        "ColumnName": "BUNRUI",
+        "GUID": "e7b10604-341e-47c1-887d-b99dd6c16d7d"
+      },
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "ShowOnlyEdit": false,
+        "Items": [
+          {
+            "Value": "1",
+            "DisplayValue": "積込"
+          },
+          {
+            "Value": "2",
+            "DisplayValue": "支給"
+          }
+        ]
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "5,32": {
+      "BindingInfo": {
+        "TableName": "mtsumikomihin_shikyuhin",
+        "ColumnName": "KIKAKU_SUNPO",
+        "GUID": "08279ac8-d7ff-4c48-b89a-e1bc5a4b7b5d"
+      }
+    },
+    "5,39": {
+      "BindingInfo": {
+        "TableName": "mtsumikomihin_shikyuhin",
+        "ColumnName": "HASSOMOTO",
+        "GUID": "3fc524bf-14fd-4f42-98f0-be16c2c34810"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "SelectOnly": false,
+        "ValidateItem": true,
+        "MaxDropDownItemCount": 3,
+        "IsBounding": true,
+        "DataSource": "mname",
+        "ValueColumnBindingInfo": {
+          "TableName": "mname",
+          "ColumnName": "MEISHO_CODE",
+          "GUID": "9e84a2ac-3c27-45c0-b5ea-5cbabb08b27b"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "mname",
+          "ColumnName": "MEISHO",
+          "GUID": "c1e1eb99-d995-4eaa-982d-ec110e1512c2"
+        },
+        "ItemsQuery": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "mname",
+            "ColumnName": "MEISHO_KUBUN",
+            "GUID": "bf32cb62-3bcf-41cf-980e-25085981406d"
+          },
+          "Value": "84"
+        },
+        "ItemsSort": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "mname",
+                "ColumnName": "MEISHO_CODE",
+                "GUID": "9d8ed3b2-12fd-457a-afe4-0310366f54bd"
+              },
+              "Order": 0
+            }
+          ]
+        }
+      }
+    },
+    "5,49": {
+      "BindingInfo": {
+        "TableName": "mtsumikomihin_shikyuhin",
+        "ColumnName": "SURYO",
+        "GUID": "10bc5e5f-ab36-4225-bff6-c6fc725d4697"
+      }
+    },
+    "5,52": {
+      "BindingInfo": {
+        "TableName": "mtsumikomihin_shikyuhin",
+        "ColumnName": "TANI",
+        "GUID": "2c3de610-f0d5-4d1b-86ac-a939a5759702"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "SelectOnly": false,
+        "ValidateItem": true,
+        "MaxDropDownItemCount": 10,
+        "IsBounding": true,
+        "DataSource": "mname",
+        "ValueColumnBindingInfo": {
+          "TableName": "mname",
+          "ColumnName": "MEISHO_CODE",
+          "GUID": "a7f7e9e1-8c1b-455b-96f1-5a41ba581732"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "mname",
+          "ColumnName": "MEISHO",
+          "GUID": "a1e1b685-9163-49d9-9fc8-03fd436c8b86"
+        },
+        "ItemsQuery": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "mname",
+            "ColumnName": "MEISHO_KUBUN",
+            "GUID": "32a985d4-dfd6-47d3-b8fb-9af58ef9a419"
+          },
+          "Value": "48"
+        },
+        "ItemsSort": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "mname",
+                "ColumnName": "MEISHO_CODE",
+                "GUID": "c9873c44-9f6e-4003-bc58-7079bd67bfa0"
+              },
+              "Order": 0
+            }
+          ]
+        },
+        "CellDefaultValue": 99
+      }
+    },
+    "5,55": {
+      "BindingInfo": {
+        "TableName": "mtsumikomihin_shikyuhin",
+        "ColumnName": "KOTEI_CODE",
+        "GUID": "5189a1a2-e3b2-47cb-99ac-703b1fee63ad"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "DataSource": "mkoteiname",
+        "ValueColumnBindingInfo": {
+          "TableName": "mkoteiname",
+          "ColumnName": "KOTEI_CODE",
+          "GUID": "8e387e35-8091-4250-a117-4bfa0f2c9117"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "mkoteiname",
+          "ColumnName": "KOTEI_NAME",
+          "GUID": "4fac0480-4fe3-419d-ad74-31cec1da44e5"
+        }
+      }
+    },
+    "5,64": {
+      "BindingInfo": {
+        "TableName": "mtsumikomihin_shikyuhin",
+        "ColumnName": "BIKO",
+        "GUID": "8ba36a68-69a1-4505-8a22-fcbac4468743"
+      }
+    },
+    "36,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "確認",
+                  "FormulaText": "表示データを更新しますか？",
+                  "YesButtonText": "はい",
+                  "NoButtonText": "いいえ",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+                    "ListviewName": "リストビュー1",
+                    "UpdateType": 3
+                  },
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                    "MessageFormula": "データを更新しました！！"
+                  }
+                ],
+                "ID": "317ab547-1c03-41a7-b49f-7f498a7dd15d"
+              }
+            ]
+          }
+        ],
+        "Text": "更新",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "36,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "確認",
+                  "FormulaText": "表示データをExcelに出力しますか？",
+                  "YesButtonText": "はい",
+                  "NoButtonText": "いいえ",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ExportListViewToExcelCommand, ServerDesignerCommon",
+                    "ListViewName": "リストビュー1",
+                    "NewOtherName": "",
+                    "IsOnlyExportValue": false
+                  },
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                    "MessageFormula": "Excelにエクスポートしました！！"
+                  }
+                ],
+                "ID": "2842ec12-f5a3-428b-aa43-4265c3cd6be2"
+              }
+            ]
+          }
+        ],
+        "Text": "Excelエクスポート",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "36,18": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "確認",
+                  "FormulaText": "表示データをExcelから入力しますか？",
+                  "YesButtonText": "はい",
+                  "NoButtonText": "いいえ",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ImportExcelToListViewCommand, ServerDesignerCommon",
+                    "ListViewName": "リストビュー1",
+                    "ImportExcelToListViewMode": 2,
+                    "UseIndex": true,
+                    "SheetNameOrIndex": "1",
+                    "ImportExcelToListViewColumnInfos": [
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=支給品積込品マスタ管理!B6"
+                        },
+                        "ColumnName": "機種",
+                        "IsPrimaryKey": true
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=支給品積込品マスタ管理!G6"
+                        },
+                        "ColumnName": "仕様コード",
+                        "IsPrimaryKey": true
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=支給品積込品マスタ管理!AA6"
+                        },
+                        "ColumnName": "品番"
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=支給品積込品マスタ管理!AI6"
+                        },
+                        "ColumnName": "変更仕様",
+                        "IsPrimaryKey": true
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=支給品積込品マスタ管理!AJ6"
+                        },
+                        "ColumnName": "数量"
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=支給品積込品マスタ管理!AM6"
+                        },
+                        "ColumnName": "単価"
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=支給品積込品マスタ管理!AX6"
+                        },
+                        "ColumnName": "単位"
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=支給品積込品マスタ管理!AY6"
+                        },
+                        "ColumnName": "分類"
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=支給品積込品マスタ管理!BD6"
+                        },
+                        "ColumnName": "適用年月"
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=支給品積込品マスタ管理!BB6"
+                        },
+                        "ColumnName": "備考（オプション工事）"
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=支給品積込品マスタ管理!BC6"
+                        },
+                        "ColumnName": "備考（積込品）"
+                      }
+                    ],
+                    "IsShowSuccessAlert": true,
+                    "SuccessMessage": "Excelファイルのインポートが正常に完了しました。"
+                  }
+                ],
+                "ID": "be38c6b4-7abe-4189-b48e-31ca51d13a87"
+              }
+            ]
+          }
+        ],
+        "Text": "Excelインポート",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 13.333333333333332,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 0,
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Formatter": 3,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 0,
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Formatter": 3,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 4,
+        "FontFamily": 1,
+        "FontSize": 18.666666666666664,
+        "Foreground": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Formatter": 5,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 12.0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 6,
+        "FontFamily": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 6,
+        "FontFamily": 1,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 4 80",
+        "Body",
+        "black",
+        "[AUTO]General",
+        "Accent 4 60",
+        "@",
+        "Accent 1 -25"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 0,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "0,18": 0,
+      "0,19": 0,
+      "0,20": 0,
+      "0,21": 0,
+      "0,22": 0,
+      "0,23": 0,
+      "0,24": 0,
+      "0,25": 0,
+      "0,26": 0,
+      "0,27": 0,
+      "0,28": 0,
+      "0,29": 0,
+      "0,30": 0,
+      "0,31": 0,
+      "0,32": 0,
+      "0,33": 0,
+      "0,34": 0,
+      "0,35": 0,
+      "0,36": 0,
+      "0,37": 0,
+      "0,38": 0,
+      "0,39": 0,
+      "0,40": 0,
+      "0,41": 0,
+      "0,42": 0,
+      "0,43": 0,
+      "0,44": 0,
+      "0,45": 0,
+      "0,46": 0,
+      "0,47": 0,
+      "0,48": 0,
+      "0,49": 0,
+      "0,50": 0,
+      "0,51": 0,
+      "0,52": 0,
+      "0,53": 0,
+      "0,54": 0,
+      "0,55": 0,
+      "0,56": 0,
+      "0,57": 0,
+      "0,58": 0,
+      "0,59": 0,
+      "0,60": 0,
+      "0,61": 0,
+      "0,62": 0,
+      "0,63": 0,
+      "0,64": 0,
+      "0,65": 0,
+      "0,66": 0,
+      "0,67": 0,
+      "0,68": 0,
+      "0,69": 0,
+      "0,70": 0,
+      "0,71": 0,
+      "0,72": 0,
+      "0,73": 0,
+      "0,74": 0,
+      "0,75": 0,
+      "0,76": 0,
+      "0,77": 0,
+      "0,78": 0,
+      "0,79": 0,
+      "0,80": 0,
+      "1,1": 1,
+      "1,2": 2,
+      "1,3": 2,
+      "1,4": 2,
+      "1,5": 2,
+      "1,6": 1,
+      "1,7": 2,
+      "1,8": 2,
+      "1,9": 3,
+      "1,10": 4,
+      "1,11": 2,
+      "1,12": 2,
+      "1,13": 2,
+      "1,14": 2,
+      "1,15": 2,
+      "1,16": 2,
+      "1,17": 2,
+      "1,18": 5,
+      "1,19": 6,
+      "1,20": 7,
+      "1,21": 7,
+      "1,22": 7,
+      "1,23": 5,
+      "1,24": 6,
+      "1,25": 7,
+      "1,26": 7,
+      "1,27": 7,
+      "1,34": 0,
+      "1,38": 5,
+      "1,39": 4,
+      "1,40": 2,
+      "1,41": 2,
+      "1,42": 2,
+      "1,43": 2,
+      "1,44": 2,
+      "1,45": 2,
+      "1,46": 2,
+      "1,47": 2,
+      "1,48": 2,
+      "1,49": 5,
+      "1,50": 6,
+      "1,51": 7,
+      "1,52": 7,
+      "1,53": 7,
+      "1,65": 0,
+      "1,66": 0,
+      "1,67": 0,
+      "1,68": 0,
+      "1,69": 0,
+      "1,70": 0,
+      "1,71": 0,
+      "1,72": 0,
+      "1,73": 0,
+      "1,74": 0,
+      "1,75": 0,
+      "1,76": 0,
+      "1,77": 0,
+      "1,78": 0,
+      "1,79": 0,
+      "1,80": 0,
+      "2,1": 8,
+      "2,2": 9,
+      "2,3": 9,
+      "2,4": 9,
+      "2,5": 10,
+      "2,6": 8,
+      "2,7": 9,
+      "2,8": 9,
+      "2,9": 10,
+      "2,10": 8,
+      "2,11": 11,
+      "2,12": 11,
+      "2,13": 11,
+      "2,14": 11,
+      "2,15": 11,
+      "2,16": 11,
+      "2,17": 12,
+      "2,18": 5,
+      "2,19": 7,
+      "2,20": 7,
+      "2,21": 7,
+      "2,22": 7,
+      "2,23": 5,
+      "2,24": 7,
+      "2,25": 7,
+      "2,26": 7,
+      "2,27": 7,
+      "2,34": 0,
+      "2,39": 13,
+      "2,40": 2,
+      "2,41": 2,
+      "2,42": 2,
+      "2,43": 2,
+      "2,44": 2,
+      "2,45": 2,
+      "2,46": 2,
+      "2,47": 2,
+      "2,48": 2,
+      "2,49": 5,
+      "2,50": 7,
+      "2,51": 7,
+      "2,52": 7,
+      "2,53": 7,
+      "2,65": 0,
+      "2,66": 0,
+      "2,67": 0,
+      "2,68": 0,
+      "2,69": 0,
+      "2,70": 0,
+      "2,71": 0,
+      "2,72": 0,
+      "2,73": 0,
+      "2,74": 0,
+      "2,75": 0,
+      "2,76": 0,
+      "2,77": 0,
+      "2,78": 0,
+      "2,79": 0,
+      "2,80": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 0,
+      "3,9": 0,
+      "3,10": 0,
+      "3,11": 0,
+      "3,12": 0,
+      "3,13": 0,
+      "3,14": 0,
+      "3,15": 0,
+      "3,16": 0,
+      "3,17": 0,
+      "3,18": 5,
+      "3,19": 5,
+      "3,20": 5,
+      "3,21": 5,
+      "3,22": 5,
+      "3,23": 5,
+      "3,24": 5,
+      "3,25": 5,
+      "3,26": 0,
+      "3,27": 0,
+      "3,28": 0,
+      "3,29": 0,
+      "3,30": 0,
+      "3,31": 0,
+      "3,32": 0,
+      "3,33": 0,
+      "3,34": 0,
+      "3,35": 0,
+      "3,36": 0,
+      "3,37": 0,
+      "3,38": 0,
+      "3,39": 0,
+      "3,40": 0,
+      "3,41": 0,
+      "3,42": 0,
+      "3,43": 0,
+      "3,44": 0,
+      "3,45": 0,
+      "3,46": 7,
+      "3,47": 7,
+      "3,48": 7,
+      "3,49": 7,
+      "3,50": 7,
+      "3,51": 7,
+      "3,52": 7,
+      "3,53": 7,
+      "3,54": 7,
+      "3,55": 7,
+      "3,56": 7,
+      "3,57": 7,
+      "3,58": 7,
+      "3,59": 7,
+      "3,60": 7,
+      "3,61": 0,
+      "3,62": 0,
+      "3,63": 0,
+      "3,64": 0,
+      "3,65": 0,
+      "3,66": 0,
+      "3,67": 0,
+      "3,68": 0,
+      "3,69": 0,
+      "3,70": 0,
+      "3,71": 0,
+      "3,72": 0,
+      "3,73": 0,
+      "3,74": 0,
+      "3,75": 0,
+      "3,76": 0,
+      "3,77": 0,
+      "3,78": 0,
+      "3,79": 0,
+      "3,80": 0,
+      "4,1": 0,
+      "4,6": 0,
+      "4,9": 0,
+      "4,10": 0,
+      "4,18": 5,
+      "4,26": 0,
+      "4,32": 5,
+      "4,33": 7,
+      "4,34": 7,
+      "4,35": 7,
+      "4,36": 7,
+      "4,37": 7,
+      "4,38": 7,
+      "4,39": 5,
+      "4,49": 5,
+      "4,50": 7,
+      "4,51": 7,
+      "4,52": 5,
+      "4,53": 7,
+      "4,54": 7,
+      "4,55": 5,
+      "4,64": 5,
+      "4,80": 0,
+      "5,1": 0,
+      "5,6": 5,
+      "5,7": 7,
+      "5,8": 7,
+      "5,9": 7,
+      "5,10": 7,
+      "5,18": 5,
+      "5,26": 0,
+      "5,32": 5,
+      "5,33": 7,
+      "5,34": 7,
+      "5,35": 7,
+      "5,36": 7,
+      "5,37": 7,
+      "5,38": 7,
+      "5,39": 5,
+      "5,49": 5,
+      "5,50": 7,
+      "5,51": 7,
+      "5,52": 5,
+      "5,53": 7,
+      "5,54": 7,
+      "5,55": 5,
+      "5,64": 5,
+      "5,80": 0,
+      "36,1": 14,
+      "36,10": 15,
+      "36,11": 7,
+      "36,12": 7,
+      "36,13": 7,
+      "36,14": 7,
+      "36,15": 7,
+      "36,18": 16,
+      "36,19": 7,
+      "36,20": 7,
+      "36,21": 7,
+      "36,22": 7,
+      "37,10": 7,
+      "37,11": 7,
+      "37,12": 7,
+      "37,13": 7,
+      "37,14": 7,
+      "37,15": 7,
+      "37,18": 7,
+      "37,19": 7,
+      "37,20": 7,
+      "37,21": 7,
+      "37,22": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,5",
+    "1,6,1,4",
+    "1,10,1,8",
+    "1,19,2,4",
+    "1,24,2,4",
+    "1,39,1,10",
+    "1,50,2,4",
+    "2,1,1,5",
+    "2,6,1,4",
+    "2,10,1,8",
+    "2,39,1,10",
+    "5,1,1,5",
+    "5,6,1,4",
+    "5,10,1,8",
+    "5,18,1,8",
+    "5,26,1,6",
+    "5,32,1,7",
+    "5,39,1,10",
+    "5,49,1,3",
+    "5,52,1,3",
+    "5,55,1,9",
+    "5,64,1,15",
+    "6,1,29,80",
+    "36,1,2,6",
+    "36,10,2,6",
+    "36,18,2,5",
+    "4,1,1,5",
+    "4,6,1,4",
+    "4,10,1,8",
+    "4,18,1,8",
+    "4,26,1,6",
+    "4,32,1,7",
+    "4,39,1,10",
+    "4,49,1,3",
+    "4,52,1,3",
+    "4,55,1,9",
+    "4,64,1,15"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "引合受注管理メニュー",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//Y3pomPnq6cPve++RH3I9B+2n8w0ch8cdoCNsmfZoA8hfwbR9BBpq+XUISqE6ewpEKf81tNIKlq9GEngyW0FM2LmMvluijT2A5uTgtLFdqD9arKMPap8iHxttsjcWvlR/VESSgmjL/lTLUTg8PI2Y2QD/Ing2eaAH1lfiyC0UJDkqoDVSU66QtMmt5+AlaKcGJmpleZgGUzZEAAqm2dGqBQmxg9myWxt3GWdeDDVkHv13CFbZsaF5OiZWMa8Xvq0gHNGDaqP+mUxiehNCTBZDmER0T/kVw16S94RGUWj+w0sPR6OcyeDLMBm0UMeoBU3pAK+chKrtue9gjsmS67Yphia8zJHmurWWC30I8qlrSmLWadqtNio2TgOKgDgvRdE+f+1scKj9S/Agfue6NKuyDyUfh3YDgNbu46ErPCfIPKm+Wnx3VvthVbDbXIpBLaVJOTK6+X2UUMMwObb4GS3/Pv/PSQHOnwlkE4wmDS/amQ0oafAcMSMbdd99hsT2/aR+mTP1y+c/bD3auLXvdaf9WvVCXlPSkEnk4v0DQODN4PxR7i8XB4o2i1ku+Wc6ehkl6YWmR5R0xAxNqp2zlD+ls8/LUmHSkHDFoYbgVeCVmEqL5ee7CPbZvBitXD0Ofo8g1yRYlNapDvc3Bp1pjEVQ48eM5y9ZDQgm0ZbCe4OPs4tpt5cnFTXogbgeLXDMI/H17nG5rhXc+mxGN/LCW8zIfEQFBYpW/xWFhDkYQlyEhjZl4pHki72BBr8IMUBtjo17T8iEw6PkpQ9vZ/TmdRAJl6n8hF7u1pXeHyJawVIWD+ipRCpEEqgros5H0vhKcIbDVSqxRcF1KJjy3rOw/e/Ng74P/3TTao5xuKtPCsF6N2iqjieN3tnVIDCLN4GsJlJmfI3lIksuk4YfowcZPIfcUA==|920

@@ -1,0 +1,604 @@
+{
+  "Rows": {
+    "InLogicalVisibleIndexes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Count": 16
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "0,1": "該当艇種・仕様情報",
+    "1,1": "部位名称",
+    "1,7": "新規作成",
+    "3,1": "部位名称",
+    "3,7": "新規作成",
+    "7,1": "艇種",
+    "9,1": "仕様",
+    "13,1": "作成",
+    "13,12": "キャンセル"
+  },
+  "AttachInfos": {
+    "1,7": {
+      "BindingInfo": {
+        "TableName": "miroshiyo",
+        "ColumnName": "BUIMEISHO",
+        "GUID": "69e02747-62fd-4d78-9b76-03a77a1ff8d9"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "CellDefaultValue": "新規作成",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "3,7": {
+      "BindingInfo": {
+        "TableName": "miroshiyo",
+        "ColumnName": "BUIDAIBUNRUI_MEISHO",
+        "GUID": "57be1e7b-f4f0-428b-94c3-43a5ba575c1c"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "CellDefaultValue": "新規作成",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "7,7": {
+      "BindingInfo": {
+        "TableName": "miroshiyo",
+        "ColumnName": "KISHU",
+        "GUID": "c41aafe3-52ef-4319-80cb-b79702e81725"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "9,7": {
+      "BindingInfo": {
+        "TableName": "miroshiyo",
+        "ColumnName": "SHIYO",
+        "GUID": "ccd51e0f-3b20-44ca-a02f-b66de18946b5"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "13,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=艇種・艇番新規作成!H1"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 2
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                    "MessageFormula": "既に艇種・仕様情報が存在します。　前の画面で艇種・仕様を検索して、色を追加してください"
+                  }
+                ],
+                "ID": "0e20a505-37b8-4c00-87f3-ca87b8e46f3b"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=艇種・艇番新規作成!H8"
+                      }
+                    ]
+                  }
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                    "MessageFormula": "艇種は入力してください"
+                  }
+                ],
+                "ID": "46a416d7-3c73-416c-b034-b5bd8103e872"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "miroshiyo",
+                    "UpdateType": "add",
+                    "ShowConfirm": true,
+                    "ConfirmText": "艇種・仕様情報を追加しますか？",
+                    "UpdateBindingValues": [
+                      {
+                        "BindingInfo": {
+                          "TableName": "miroshiyo",
+                          "ColumnName": "KISHU",
+                          "GUID": "5e556c49-4481-4fb2-a216-39d5bb9b83a8"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=艇種・艇番新規作成!H8"
+                        }
+                      },
+                      {
+                        "BindingInfo": {
+                          "TableName": "miroshiyo",
+                          "ColumnName": "SHIYO",
+                          "GUID": "0a8810a3-4bea-400b-8711-73971983de99"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=艇種・艇番新規作成!H10"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "miroshiyo",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "miroshiyo",
+                            "ColumnName": "KISHU",
+                            "GUID": "3aa32971-60b6-4315-ab00-c854e49e0a2e"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=艇種・艇番新規作成!H8"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "miroshiyo",
+                            "ColumnName": "SHIYO",
+                            "GUID": "cda9ecf3-f355-40d0-b724-b6ba4d493df7"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=艇種・艇番新規作成!H10"
+                          }
+                        }
+                      ]
+                    },
+                    "ID": "1beeba11bc3e40e999a1a386c19c3d42"
+                  },
+                  {
+                    "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                    "PassValueBack": true,
+                    "ReloadData": true
+                  }
+                ],
+                "ID": "c906e502-3a3a-475c-a571-35bfbedafb23"
+              }
+            ]
+          }
+        ],
+        "Text": "作成",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "13,12": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "キャンセル",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 3,
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Background": 3,
+        "FontFamily": 0,
+        "Formatter": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 3,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "Background": 3,
+        "Foreground": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 3,
+        "FontFamily": 0,
+        "Foreground": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Accent 3 80",
+        "Accent 2 80",
+        "black",
+        "@"
+      ],
+      "Borders": [
+        {
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,1": 0,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 2,
+      "0,8": 1,
+      "0,9": 1,
+      "0,10": 1,
+      "0,11": 1,
+      "0,12": 1,
+      "0,13": 1,
+      "0,14": 1,
+      "0,15": 1,
+      "0,16": 1,
+      "1,1": 3,
+      "1,2": 4,
+      "1,3": 4,
+      "1,4": 4,
+      "1,5": 4,
+      "1,6": 5,
+      "1,7": 6,
+      "1,8": 7,
+      "1,9": 7,
+      "1,10": 7,
+      "1,11": 7,
+      "1,12": 7,
+      "1,13": 7,
+      "1,14": 7,
+      "1,15": 7,
+      "1,16": 8,
+      "2,1": 4,
+      "2,2": 4,
+      "2,3": 4,
+      "2,4": 4,
+      "2,5": 4,
+      "2,6": 5,
+      "2,7": 9,
+      "2,8": 10,
+      "2,9": 10,
+      "2,10": 10,
+      "2,11": 10,
+      "2,12": 10,
+      "2,13": 10,
+      "2,14": 10,
+      "2,15": 10,
+      "2,16": 11,
+      "3,1": 12,
+      "3,2": 4,
+      "3,3": 4,
+      "3,4": 4,
+      "3,5": 4,
+      "3,6": 5,
+      "3,7": 6,
+      "3,8": 7,
+      "3,9": 7,
+      "3,10": 7,
+      "3,11": 7,
+      "3,12": 7,
+      "3,13": 7,
+      "3,14": 7,
+      "3,15": 7,
+      "3,16": 8,
+      "4,1": 4,
+      "4,2": 4,
+      "4,3": 4,
+      "4,4": 4,
+      "4,5": 4,
+      "4,6": 5,
+      "4,7": 9,
+      "4,8": 10,
+      "4,9": 10,
+      "4,10": 10,
+      "4,11": 10,
+      "4,12": 10,
+      "4,13": 10,
+      "4,14": 10,
+      "4,15": 10,
+      "4,16": 11,
+      "7,1": 13,
+      "7,2": 14,
+      "7,3": 14,
+      "7,4": 14,
+      "7,5": 14,
+      "7,6": 15,
+      "7,7": 16,
+      "7,8": 7,
+      "7,9": 7,
+      "7,10": 7,
+      "7,11": 7,
+      "7,12": 7,
+      "7,13": 7,
+      "7,14": 7,
+      "7,15": 7,
+      "7,16": 8,
+      "8,1": 14,
+      "8,2": 14,
+      "8,3": 14,
+      "8,4": 14,
+      "8,5": 14,
+      "8,6": 15,
+      "8,7": 9,
+      "8,8": 10,
+      "8,9": 10,
+      "8,10": 10,
+      "8,11": 10,
+      "8,12": 10,
+      "8,13": 10,
+      "8,14": 10,
+      "8,15": 10,
+      "8,16": 11,
+      "9,1": 12,
+      "9,2": 4,
+      "9,3": 4,
+      "9,4": 4,
+      "9,5": 4,
+      "9,6": 5,
+      "9,7": 6,
+      "9,8": 7,
+      "9,9": 7,
+      "9,10": 7,
+      "9,11": 7,
+      "9,12": 7,
+      "9,13": 7,
+      "9,14": 7,
+      "9,15": 7,
+      "9,16": 8,
+      "10,1": 4,
+      "10,2": 4,
+      "10,3": 4,
+      "10,4": 4,
+      "10,5": 4,
+      "10,6": 5,
+      "10,7": 9,
+      "10,8": 10,
+      "10,9": 10,
+      "10,10": 10,
+      "10,11": 10,
+      "10,12": 10,
+      "10,13": 10,
+      "10,14": 10,
+      "10,15": 10,
+      "10,16": 11,
+      "13,1": 17,
+      "13,12": 18,
+      "13,13": 1,
+      "13,14": 1,
+      "13,15": 1,
+      "13,16": 1,
+      "14,12": 1,
+      "14,13": 1,
+      "14,14": 1,
+      "14,15": 1,
+      "14,16": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,7,1,10",
+    "1,1,2,6",
+    "1,7,2,10",
+    "3,1,2,6",
+    "3,7,2,10",
+    "7,1,2,6",
+    "7,7,2,10",
+    "9,1,2,6",
+    "9,7,2,10",
+    "13,1,2,5",
+    "13,12,2,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//RkBbrIg/+xvDeCQ3CGnPIsmCMS6PGpgSVcMWUd/rtu48oz0x2dzxO+UQdVrjWPjXFftH+jQNql1OxNCqvVqUf13wj9w0FJQ0HeFrsujgBSXOaQVmJVBgJ+eHyYisjTKbyWXqeA5ZAggGHiq47BVIpk8Ubs4Cv32eP958cPmeZ/EPKX6fLFkYB+h9pBllS2QzFl9iRSDbp1dhp2b2FHUEwtemCUo7En8dLaU5/A/JMma07taLXsODi9PgpFCT859qwl+z9XN5vqcx5VJzj/jrqWE56x3JW6hp7rCK25JQZIm9084Tl/4vJFVa7n2G2/d3El+lNhRU5CFak2QJP5zvYw7zexBAxGATyk5upfpnVbmzJ97iEhf3gB0XJu+gNwsTGtuNBKY7y/uYqvoFk4Kv54xnfaU2xQjkuD6JuYxTq0D+HH9SGw8Zwe4NtXBl2iCQK7JHMAPtGdZfN8We1Xkdf1foZ/hMzXZgMFu8XZvXltrJ3e+bmAvq2sLj0+1Esp04eb85+ZTaHgN4AaELsYlrzP60BrEnaVbT1bU+pDWg4aGDzFp+ABlOeiJC0/gAtkZggNAwQUPORw23adeQD+EPC2JUI//pmC2Bay4K97b/U7utflS7KZNIH/XX+bBpRzjfsu7v5vVqXWo/NFfuVE05i34JzfrKt8FS/XAmAih9uj96MlfnyKUCZEZUEu/M2Ur//ScyAaJytmArUroaDMcngCMtz8KShtgRfuTfmk+h+NTcg1QAkGnKBEHZH8omZCWOI6KpE4SnzhTz2QYRIUA45SGQ3mi2MgtU55ITlnSyI0+/aXHaE7cJM5pLtzEI/N8j7Nmlj1dXQtQHF0WZFhEIHknmR3o6NEdNZTNru9Gfk9wYDW/hLH4k2EwNYl57EwfmO22ya/FhdJyVpcYs+PMmvw==|920

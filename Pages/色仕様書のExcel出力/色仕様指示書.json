@@ -1,0 +1,706 @@
+{
+  "Rows": {
+    "InLogicalVisibleIndexes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      56,
+      57
+    ],
+    "Count": 58
+  },
+  "Cols": {
+    "InLogicalVisibleIndexes": [
+      35,
+      36,
+      37
+    ],
+    "Count": 61
+  },
+  "Values": {
+    "8,40": "担当",
+    "9,5": "色仕様指示書",
+    "11,5": "艇種ー艇番",
+    "15,5": "部位大分類",
+    "15,10": "部材名",
+    "15,17": "色名称",
+    "15,24": "色コード",
+    "15,29": "変更区分",
+    "15,38": "備考",
+    "49,29": "Excel",
+    "49,41": "PDF"
+  },
+  "Formulas": {
+    "16,17": "IF(AL17=\"\",\"\",ODATA(\"miroshiyom?$select=HYOUJUNSHOKU_MEISHO&$filter=HYOUJUNSHOKU eq \"&IF(ISBLANK(AL17),\"null\",AL17)))",
+    "16,24": "IF(AL17=\"\",\"\",ODATA(\"mname?$select=ZOKUSEI2&$filter=MEISHO_KUBUN eq 74 and MEISHO_CODE eq \"&IF(ISBLANK(AL17),\"null\",AL17)))"
+  },
+  "AttachInfos": {
+    "10,40": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "11,11": {
+      "BindingInfo": {
+        "TableName": "tjuchu",
+        "ColumnName": "SEIBAN",
+        "GUID": "41fac37b-5124-4c10-8eb3-65149e83e7c7"
+      }
+    },
+    "15,5": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "ymia_v_iroshiyom",
+        "RowIndex": 15,
+        "ColumnIndex": 5,
+        "RowCount": 33,
+        "ColumnCount": 44,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ReserveStyleForBlankRow": true,
+        "ColumnOperation": 2
+      }
+    },
+    "16,5": {
+      "BindingInfo": {
+        "TableName": "ymia_v_iroshiyom",
+        "ColumnName": "BUIDAIBUNRUI_MEISHO",
+        "GUID": "d518d34a-aae9-447a-8d63-c54a871f531f"
+      }
+    },
+    "16,10": {
+      "BindingInfo": {
+        "TableName": "ymia_v_iroshiyom",
+        "ColumnName": "BUIMEISHO",
+        "GUID": "595c798b-268c-4b15-9d9c-1b34745b0ac7"
+      }
+    },
+    "16,35": {
+      "BindingInfo": {
+        "TableName": "ymia_v_iroshiyom",
+        "ColumnName": "HYOJUN_COLOR",
+        "GUID": "d03719b2-ead1-4355-bb95-25eb5d5436b7"
+      }
+    },
+    "16,36": {
+      "BindingInfo": {
+        "TableName": "ymia_v_iroshiyom",
+        "ColumnName": "TOKUBETSU_SHITEI_COLOR",
+        "GUID": "25286b4f-72c5-4bba-986d-b9a87af2f35b"
+      }
+    },
+    "16,37": {
+      "BindingInfo": {
+        "TableName": "ymia_v_iroshiyom",
+        "ColumnName": "HYOJI_COLOR",
+        "GUID": "b88d4856-8009-4342-8415-dbd73b4da094"
+      }
+    },
+    "16,38": {
+      "BindingInfo": {
+        "TableName": "ymia_v_iroshiyom",
+        "ColumnName": "HINBAN",
+        "GUID": "515d9839-fd5c-4d3c-b60c-f6db309b83bf"
+      }
+    },
+    "49,17": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "WaterMark": "ファイル名を記入して出力"
+      }
+    },
+    "49,29": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "確認",
+                  "FormulaText": "本当に実行してもよろしいですか？",
+                  "YesButtonText": "はい",
+                  "NoButtonText": "いいえ",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+                    "ExportExcelPageNameMode": 2,
+                    "TargetPageName": "色仕様指示書",
+                    "NewOtherName": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=色仕様指示書!R50"
+                    }
+                  }
+                ],
+                "ID": "cdc4e73b-c148-4cd2-91d3-6fbb7c7e641e"
+              }
+            ]
+          }
+        ],
+        "Text": "Excel",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "49,41": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "確認",
+                  "FormulaText": "本当に実行してもよろしいですか？",
+                  "YesButtonText": "はい",
+                  "NoButtonText": "いいえ",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
+                    "ExportExcelPageNameMode": 2,
+                    "TargetPageName": "色仕様指示書出力ページ",
+                    "NewOtherName": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=色仕様指示書!R50"
+                    }
+                  }
+                ],
+                "ID": "355ebd9c-7d98-4204-a31f-9b836519a306"
+              }
+            ]
+          }
+        ],
+        "Text": "PDF",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "56,6": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "色仕様指示書出力ページ"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "FontFamily": 1,
+        "HorizontalAlignment": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 3,
+        "FontFamily": 1,
+        "FontSize": 21.333333333333332,
+        "FontWeight": 4,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 5,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 1,
+        "HorizontalAlignment": 2,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 6
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 5,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 7,
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 8,
+        "FontFamily": 1,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "black",
+        "Body",
+        "Center",
+        "Background 1 0",
+        "Bold",
+        "@",
+        "General",
+        "Accent 2 0",
+        "Accent 4 0"
+      ],
+      "Borders": [
+        {
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "2,5": 0,
+      "2,6": 0,
+      "2,7": 0,
+      "2,8": 0,
+      "2,9": 0,
+      "2,10": 0,
+      "2,11": 0,
+      "2,25": 1,
+      "2,26": 1,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 0,
+      "3,9": 0,
+      "3,10": 0,
+      "3,11": 0,
+      "3,25": 1,
+      "3,26": 1,
+      "8,40": 2,
+      "8,41": 3,
+      "8,42": 3,
+      "8,43": 3,
+      "8,44": 3,
+      "8,45": 3,
+      "8,46": 3,
+      "8,47": 3,
+      "8,48": 3,
+      "9,5": 4,
+      "9,6": 5,
+      "9,7": 5,
+      "9,8": 5,
+      "9,9": 5,
+      "9,10": 5,
+      "9,11": 5,
+      "9,12": 5,
+      "9,13": 5,
+      "9,14": 6,
+      "9,15": 1,
+      "9,16": 1,
+      "9,17": 1,
+      "9,18": 1,
+      "9,40": 3,
+      "9,41": 3,
+      "9,42": 3,
+      "9,43": 3,
+      "9,44": 3,
+      "9,45": 3,
+      "9,46": 3,
+      "9,47": 3,
+      "9,48": 3,
+      "10,5": 7,
+      "10,6": 1,
+      "10,7": 1,
+      "10,8": 1,
+      "10,9": 1,
+      "10,10": 1,
+      "10,11": 1,
+      "10,12": 1,
+      "10,13": 1,
+      "10,14": 8,
+      "10,15": 1,
+      "10,16": 1,
+      "10,17": 1,
+      "10,18": 1,
+      "10,40": 9,
+      "10,41": 5,
+      "10,42": 5,
+      "10,43": 5,
+      "10,44": 5,
+      "10,45": 5,
+      "10,46": 5,
+      "10,47": 5,
+      "10,48": 6,
+      "11,5": 10,
+      "11,6": 5,
+      "11,7": 5,
+      "11,8": 5,
+      "11,9": 5,
+      "11,10": 6,
+      "11,11": 5,
+      "11,12": 11,
+      "11,13": 11,
+      "11,14": 11,
+      "11,15": 11,
+      "11,16": 11,
+      "11,17": 11,
+      "11,18": 12,
+      "11,40": 7,
+      "11,41": 1,
+      "11,42": 1,
+      "11,43": 1,
+      "11,44": 1,
+      "11,45": 1,
+      "11,46": 1,
+      "11,47": 1,
+      "11,48": 8,
+      "12,5": 13,
+      "12,6": 14,
+      "12,7": 14,
+      "12,8": 14,
+      "12,9": 14,
+      "12,10": 15,
+      "12,11": 16,
+      "12,12": 16,
+      "12,13": 16,
+      "12,14": 16,
+      "12,15": 16,
+      "12,16": 16,
+      "12,17": 16,
+      "12,18": 17,
+      "12,40": 13,
+      "12,41": 14,
+      "12,42": 14,
+      "12,43": 14,
+      "12,44": 14,
+      "12,45": 14,
+      "12,46": 14,
+      "12,47": 14,
+      "12,48": 15,
+      "15,35": 1,
+      "15,37": 1,
+      "15,38": 1,
+      "15,39": 1,
+      "15,40": 1,
+      "15,41": 1,
+      "15,42": 1,
+      "15,43": 1,
+      "15,44": 1,
+      "15,45": 1,
+      "15,46": 1,
+      "15,47": 1,
+      "15,48": 1,
+      "16,35": 1,
+      "16,36": 1,
+      "16,37": 18,
+      "16,38": 1,
+      "16,39": 1,
+      "16,40": 1,
+      "16,41": 1,
+      "16,42": 1,
+      "16,43": 1,
+      "16,44": 1,
+      "16,45": 1,
+      "16,46": 1,
+      "16,47": 1,
+      "16,48": 1,
+      "49,17": 19,
+      "49,18": 0,
+      "49,19": 0,
+      "49,20": 0,
+      "49,21": 0,
+      "49,22": 0,
+      "49,23": 0,
+      "49,24": 0,
+      "49,25": 0,
+      "49,26": 0,
+      "49,27": 0,
+      "49,28": 0,
+      "49,29": 20,
+      "49,30": 0,
+      "49,31": 0,
+      "49,32": 0,
+      "49,33": 0,
+      "49,34": 0,
+      "49,35": 0,
+      "49,36": 0,
+      "49,41": 21,
+      "49,42": 3,
+      "49,43": 3,
+      "49,44": 3,
+      "49,45": 3,
+      "50,17": 0,
+      "50,18": 0,
+      "50,19": 0,
+      "50,20": 0,
+      "50,21": 0,
+      "50,22": 0,
+      "50,23": 0,
+      "50,24": 0,
+      "50,25": 0,
+      "50,26": 0,
+      "50,27": 0,
+      "50,28": 0,
+      "50,29": 0,
+      "50,30": 0,
+      "50,31": 0,
+      "50,32": 0,
+      "50,33": 0,
+      "50,34": 0,
+      "50,35": 0,
+      "50,36": 0,
+      "50,41": 3,
+      "50,42": 3,
+      "50,43": 3,
+      "50,44": 3,
+      "50,45": 3,
+      "56,6": 1,
+      "56,7": 1,
+      "56,8": 1,
+      "56,9": 1,
+      "56,10": 1,
+      "56,11": 1,
+      "56,12": 1,
+      "56,13": 1,
+      "57,6": 1,
+      "57,7": 1,
+      "57,8": 1,
+      "57,9": 1,
+      "57,10": 1,
+      "57,11": 1,
+      "57,12": 1,
+      "57,13": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "9,5,2,10",
+    "11,5,2,6",
+    "16,5,1,5",
+    "16,10,1,7",
+    "16,17,1,7",
+    "16,24,1,5",
+    "16,29,1,6",
+    "2,5,2,7",
+    "49,41,2,5",
+    "49,29,2,8",
+    "49,17,2,12",
+    "11,11,2,8",
+    "56,6,2,8",
+    "2,14,2,6",
+    "16,38,1,11",
+    "17,5,31,44",
+    "8,40,2,9",
+    "10,40,3,9",
+    "15,5,1,5",
+    "15,10,1,7",
+    "15,17,1,7",
+    "15,24,1,5",
+    "15,29,1,6",
+    "15,38,1,11"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+        "TargetTableName": "ymia_v_iroshiyom",
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "ymia_v_iroshiyom",
+            "ColumnName": "JUCHU_NBR",
+            "GUID": "14288dd5-fc29-4412-b497-2cca1a1f0b6a"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=色仕様指示書!F3"
+          }
+        },
+        "ID": "f0f91209a3ff46609dc8053aefd4beea"
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=色仕様指示書!AK17"
+                  }
+                ]
+              },
+              "value": "%Null%"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=色仕様指示書!Z3"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=色仕様指示書!AJ17"
+                    }
+                  }
+                ]
+              }
+            ],
+            "ID": "345c0b72-986b-4d4b-af83-07ee79b35042"
+          },
+          {
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=色仕様指示書!Z3"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=色仕様指示書!AK17"
+                    }
+                  }
+                ]
+              }
+            ],
+            "ID": "f32845fd-e1ee-4902-ae47-9337f7bf10de"
+          }
+        ]
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "ymia_v_iroshiyom"
+  },
+  "PrintInfo": {
+    "ColumnStart": 4,
+    "ColumnEnd": 49,
+    "RowStart": 7,
+    "RowEnd": 48,
+    "Centering": 3,
+    "ZoomFactor": 0.8499999999999999,
+    "PaperSize": {},
+    "ShowColumnHeader": 1,
+    "ShowRowHeader": 1,
+    "Margin": {
+      "Left": 24,
+      "Right": 24
+    },
+    "PageOrder": 1
+  }
+}//qZLy69uKRmcic9+qi8BAj5Veh6LxVySCqUSqruDudgBwyecVkX5sD7vnDVZwKpLTw6DCIu5R8nKI8eJ5xmz3T0OuVkwZAk5osGKOZx7rLQHHPDZfg0S0CKNom0peB5JMbrb1m+Qg76Ew8f8bQRaVJoC2SXznb68uWHsZh1wf5jr6NnlBe7vM41e6NMqjrprNtGilcs1SNQ+H0GxJTitF0XCyqKh1SUBl/LMBphSmuW8LYEOpAnHsJGMCIgWd9VOosgfmCqrkuoVKffBdhYXKNwJpv0xVKiIcyYkVUFUgWmbw8N4OrYKr9usauOAShUypPuQmbaBVDL/Bw+1q43MATnt3/APLv2S50EB5YujisPN8dvhL1BrtUYw5IUb3iHX9Xc3i2c6kh9kGJ3qz8DwKcxL1ujnf6NIctIumH49oBr3Ia5/ODDydnhTz9Uagfv8Px+jE8THqtNJ0uMUgbjOYH7O/Dapygq+xFsdYMMIkdaKGQGwDJatjb6qsjro223K2nxRCIFjZpA1Ejx6Htj//zDULb1658xtLqxZDCCU+y8G0eOVgvJo/K5izA4er4tDCPGPHA03TUhVgmGMYdUpaUshThxA+zdYZyvT25OT2r/ZOKeBuA5fEekiyRN7iGIAlytjOWftJY4oCZhBXFoDhSamf9rCjofsGdoosJUd+8f7Pb4PZmfMoK5IVECnFvxoiNsJqzIFU4QOMPZLJ/fgOEYERNyyp4iakYIQf303XbpziGQcyT0nUigHo9FEtgo1TZged0ACPl6WrxTNB8CBA50u4j4A+3InVpeACZI48PB33Yp+Cf/cM6pnbZUI7tNFqmP6RaeHRNYcVLUHj7vj65Qp8tWNK+OkJf+u/YZQjL/uPVmPYboH9UeKqOMdPchfSBqCO9g1xRDeAvEWyTNIVbg==|920

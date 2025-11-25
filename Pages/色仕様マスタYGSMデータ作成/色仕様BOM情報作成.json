@@ -1,0 +1,584 @@
+{
+  "Rows": {
+    "Count": 37
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "36": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "37": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "38": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "39": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "41": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "44": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "45": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "46": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "76": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 33.0
+        }
+      },
+      "77": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 33.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "Count": 80
+  },
+  "Values": {
+    "2,2": "艇種-仕様",
+    "2,7": "品番",
+    "2,30": "New Path",
+    "2,47": "親品番",
+    "2,54": "親品名",
+    "2,62": "色コード",
+    "2,66": "色名称",
+    "2,72": "色略称",
+    "2,76": "艇種",
+    "2,77": "仕様",
+    "33,1": "データ投入"
+  },
+  "Formulas": {
+    "3,30": "LEFT(SUBSTITUTE(N4,\"~\",\"@\",LEN(N4)-LEN(SUBSTITUTE(N4,\"~\",\"\"))-1),FIND(\"@\",SUBSTITUTE(N4,\"~\",\"@\",LEN(N4)-LEN(SUBSTITUTE(N4,\"~\",\"\"))-1))-1)&\"~\"",
+    "3,47": "ODATA(\"mkosei?$select=HINBAN&$filter=ROOT_HINBAN eq \"&IF(ISBLANK(C4),\"null\",\"'\"&C4&\"'\")&\" and PATH eq \"&IF(ISBLANK(AE4),\"null\",\"'\"&AE4&\"'\"))",
+    "3,54": "ODATA(\"mhinban?$select=HINMEI&$filter=HINBAN eq \"&IF(ISBLANK(AV4),\"null\",\"'\"&AV4&\"'\"))",
+    "3,62": "RIGHT(H4,3)",
+    "3,66": "ODATA(\"mname?$select=MEISHO&$filter=MEISHO_KUBUN eq 74 and ZOKUSEI1 eq \"&IF(ISBLANK(BK4),\"null\",\"'\"&BK4&\"'\"))",
+    "3,72": "ODATA(\"mname?$select=ZOKUSEI2&$filter=MEISHO_KUBUN eq 74 and ZOKUSEI1 eq \"&IF(ISBLANK(BK4),\"null\",\"'\"&BK4&\"'\"))"
+  },
+  "AttachInfos": {
+    "2,1": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "mkosei",
+        "RowIndex": 2,
+        "ColumnIndex": 1,
+        "RowCount": 30,
+        "ColumnCount": 78,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+          "CompareType": 2,
+          "ColumnBindingInfo": {
+            "TableName": "mkosei",
+            "ColumnName": "HINBAN",
+            "GUID": "24f95555-2b41-4537-ab03-b44754a8b880"
+          },
+          "Value": "49608-00"
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "3,2": {
+      "BindingInfo": {
+        "TableName": "mkosei",
+        "ColumnName": "ROOT_HINBAN",
+        "GUID": "b3115b57-86bf-47aa-8b74-fb30854433a8"
+      }
+    },
+    "3,7": {
+      "BindingInfo": {
+        "TableName": "mkosei",
+        "ColumnName": "HINBAN",
+        "GUID": "df5f15b1-9d8d-4382-9cb5-813fabcc7c11"
+      }
+    },
+    "3,13": {
+      "BindingInfo": {
+        "TableName": "mkosei",
+        "ColumnName": "PATH",
+        "GUID": "dce9a510-1d44-48a5-9ac9-c2cafc9af83b"
+      }
+    },
+    "33,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "確認",
+                  "FormulaText": "データを投入しますか？",
+                  "YesButtonText": "はい",
+                  "NoButtonText": "いいえ",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "ymia_m_colorcd_ygsm",
+                    "UpdateType": "delete",
+                    "ShowConfirm": false,
+                    "RowsToUpdate": 1,
+                    "RowsToUpdateCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 1,
+                      "ColumnBindingInfo": {
+                        "TableName": "ymia_m_colorcd_ygsm",
+                        "ColumnName": "艇種",
+                        "GUID": "73dbdd71-41ac-4276-a7f8-f61b4edfea02"
+                      }
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+                    "LoopInfo": {
+                      "$type": "Forguncy.Model.ListviewKindLoopInfo, ServerDesignerCommon",
+                      "ListviewName": "リストビュー1"
+                    },
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                        "TableName": "ymia_m_colorcd_ygsm",
+                        "UpdateType": "add",
+                        "ShowConfirm": false,
+                        "UpdateBindingValues": [
+                          {
+                            "BindingInfo": {
+                              "TableName": "ymia_m_colorcd_ygsm",
+                              "ColumnName": "機種コード",
+                              "GUID": "22afb8b0-d71a-4202-a868-baba4ec4721b"
+                            },
+                            "Value": "-"
+                          },
+                          {
+                            "BindingInfo": {
+                              "TableName": "ymia_m_colorcd_ygsm",
+                              "ColumnName": "艇種",
+                              "GUID": "faf83e89-f7c0-4a2d-bb8d-cff4dfbf58cc"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=色仕様BOM情報作成!C4"
+                            }
+                          },
+                          {
+                            "BindingInfo": {
+                              "TableName": "ymia_m_colorcd_ygsm",
+                              "ColumnName": "仕様",
+                              "GUID": "bc30d4e8-027d-470c-8028-dd159e4354a5"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=色仕様BOM情報作成!C4"
+                            }
+                          },
+                          {
+                            "BindingInfo": {
+                              "TableName": "ymia_m_colorcd_ygsm",
+                              "ColumnName": "部品コード",
+                              "GUID": "3f325f2b-3ecd-4df7-9adf-510d4f39b9a7"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=色仕様BOM情報作成!AV4"
+                            }
+                          },
+                          {
+                            "BindingInfo": {
+                              "TableName": "ymia_m_colorcd_ygsm",
+                              "ColumnName": "部品名称",
+                              "GUID": "d6602402-ed5f-4fd1-b3b7-57006123d027"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=色仕様BOM情報作成!BC4"
+                            }
+                          },
+                          {
+                            "BindingInfo": {
+                              "TableName": "ymia_m_colorcd_ygsm",
+                              "ColumnName": "部品PSパス",
+                              "GUID": "670a40e5-1e32-4121-ab02-fd0b815a35a4"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=色仕様BOM情報作成!AE4"
+                            }
+                          },
+                          {
+                            "BindingInfo": {
+                              "TableName": "ymia_m_colorcd_ygsm",
+                              "ColumnName": "色コード",
+                              "GUID": "383337a0-633e-445c-a847-555e33d74e8c"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=色仕様BOM情報作成!BK4"
+                            }
+                          },
+                          {
+                            "BindingInfo": {
+                              "TableName": "ymia_m_colorcd_ygsm",
+                              "ColumnName": "色名称",
+                              "GUID": "df425c3d-afc4-477a-b4e2-00a88bc72d85"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=色仕様BOM情報作成!BO4"
+                            }
+                          },
+                          {
+                            "BindingInfo": {
+                              "TableName": "ymia_m_colorcd_ygsm",
+                              "ColumnName": "色PSパス",
+                              "GUID": "ce1025e9-6045-490e-b90c-0dbc2e40914a"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=色仕様BOM情報作成!N4"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "ID": "ea6d09fc-c183-4e86-9207-ba0ac03ee64d"
+              }
+            ]
+          }
+        ],
+        "Text": "データ投入",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 13.333333333333332,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null,
+        "ShrinkToFit": true
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null,
+        "ShrinkToFit": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "General"
+      ]
+    },
+    "CellStyles": {
+      "2,1": 0,
+      "2,2": 0,
+      "2,7": 0,
+      "2,13": 0,
+      "2,30": 1,
+      "2,47": 0,
+      "2,54": 0,
+      "2,62": 0,
+      "2,66": 0,
+      "2,72": 0,
+      "2,76": 0,
+      "2,77": 0,
+      "2,78": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,7": 0,
+      "3,13": 2,
+      "3,30": 3,
+      "3,47": 0,
+      "3,48": 0,
+      "3,49": 0,
+      "3,54": 0,
+      "3,55": 0,
+      "3,56": 0,
+      "3,57": 0,
+      "3,62": 0,
+      "3,66": 0,
+      "3,67": 0,
+      "3,68": 0,
+      "3,72": 0,
+      "3,76": 0,
+      "3,77": 0,
+      "3,78": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "3,2,1,5",
+    "3,7,1,6",
+    "3,13,1,17",
+    "3,30,1,17",
+    "3,47,1,7",
+    "3,54,1,8",
+    "3,62,1,4",
+    "3,66,1,6",
+    "3,72,1,4",
+    "4,1,28,78",
+    "33,1,2,5",
+    "2,2,1,5",
+    "2,7,1,6",
+    "2,13,1,17",
+    "2,30,1,17",
+    "2,47,1,7",
+    "2,54,1,8",
+    "2,62,1,4",
+    "2,66,1,6",
+    "2,72,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "引合受注管理メニュー",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//Yy78oYY04pxoHmoaVnlcSpmNRX41RzeBez2984xqM+ut3RMgwgEFr6RHi5bYVDf6LeFXGj9MevwY3RV0/rYumWYL33ySeoUlDUHCZEJnmFuKBvif/P/ypmLIKlEAs+Dac1FNKx6aDgh98qcIzc21pQ0xQrEsAfu9h8dBkyP5J0FPwoh++nvVuyr8yr82gGR2ETTd+sCprl243n1ErSq/Wz80LOb4lUMrxa7ILPZZ+C0VLR5DMNXA+EU8aY4wNS8TPLe4Jg/sDoxEjnu77+XsUmhFtU1jw5PG99UWUr1ptWkNrX3YIEy1Am1nBnHvaPS28wlHOYfuPgWhtUh5ECLuDxWW2cBOzpviHDynJD0hoXuCQeis3uIMFKLErLmgn5cRxOv7s5HWuKDfGq9yd3jcgZiZV3f4Yh0+XojpSCe/XpPOjPJCJGfhwcabL6Vt7S/P77xAic+4WizZTvmM/hC2YSbApM5U5O+Ts7XRcLfqVQroAZLw767f9yhKRiZv3NBzkQh/t2UOltsj1LZXFAtVCzUPZ/YyNcYQOS6S7XrBeL1/96TX2QYLK6ChnEdca+l3R5phDlcc+c43+H/Q4mcn9UF2bhAv9MMd48McK35NjOXbDDL+EG7XT8QLU+XSoacok756VHF7JQt8aaHumUypgXk0MapzfttpW5vFz7DpZlJUPnf/wpQow1c056QaLlyeoctTNgoRWjphXOeBsEF4wUadQq6h01CmuxaipHar3KXYC9FLtjLzam10A/GUk4/2OSN7kSfRWJiF68LMvttPgAO58SMl3MoIgLQ5+NPkYkKPnhu4DqdLEBPWMfc5Z3WsWfosqmxg9+jMUaQsVNUxy2lJP4YdTgFjOJ0c2qLfVjLGasgdgKqlnCCe9FRZQG83e3tqLnk36MexEz9AeEh7pA==|920
