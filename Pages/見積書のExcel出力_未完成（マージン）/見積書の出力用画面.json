@@ -73,7 +73,7 @@
     "10,2": "毎度格別の御引き立て誠に有り難うございます。",
     "10,31": "発行日",
     "11,2": "下記の通り見積り申しあげます。",
-    "11,31": "藩主",
+    "11,31": "艇種",
     "12,2": "見積り有効期限：発効後３ヶ月以内",
     "12,31": "枝番",
     "13,2": "消費税別途",
@@ -230,7 +230,7 @@
                     "NewOtherName": ""
                   }
                 ],
-                "ID": "57bed6e6-083a-425a-ad78-80b1794f39c7"
+                "ID": "f8e931da-79b3-4b08-b263-9e6a03f3ae94"
               }
             ]
           },
@@ -270,7 +270,7 @@
                     "AutoFitRowHeight": true
                   }
                 ],
-                "ID": "48819da5-a24a-4ea9-b90a-57bc2698ccad"
+                "ID": "2d5bb3c3-a914-4710-83aa-df5792ea0b34"
               }
             ]
           },
@@ -1130,4 +1130,4 @@
     },
     "PageOrder": 1
   }
-}//XVxv3QCwJUxHFm/f3yF5uyZb8iSAquPoT2xyNA+vEgAodgOKN7c3KuB3ryO2EKgvOt3HvoRM7RJyUR6zkh/by1/B2EHbr2Q1dxarxv24kE5a0nEWnr8wAYMHg3ld5R8eUbg4Tc0fvhVWqlJS38ZXbxxYQxJAQ8a9zqzIZ7zbBcVNiIOQIZH01KazugS6xP96Ex6Libt8JmSLdM3GJ/NcOpoognKCjq6xJ1kEL7zr4aT+/GQ1xABE0Iy9BGvV79hx47wNenSPtylJIS9eka7jr1wjL9OKVPdPTM92mcDvWx1T4f8+WGJLzbkScymeryn0YTDNwB3Pu7umpwsLDfWsJ9vEJTmpjDjbMc+Wt4vvdSdib+Md1HjHjwmq+h2AHpN11E+hQUq8Z1lwJlZvR5ZZvfhCBJvVBkWbp/ex/5uQF2ABHiyj0LwHLPPiQrU31oNfMSfWanf6UPZKTis0Wu64TyXVX35jsE14P7Yyd1WuKO8aggYQhSEdcJtxC+cDAclEf+EAyyqCBNbLBUZva+H/apGEW5qnoEMbwNfxhsRWQuNoiFvCFPvxk+h5hkx4XrN2KNj6OdRjFZ/fIM8/ZMa1DJlGCeI5FsMxP6G5X3OiPzjm8AFut5aj+xv2YZIJOi1wU7DN5GALvac9fKwXjOzXfdTjQMVtGaF5e2lNm/iLwIJ/6BK8mtokKSP/vZHdy4dGUdz9NccPAqz69GZecg3F4JWXHWNXgkD7GCbNb/URgCI3K0v8FCmKnm5WOws1pY4nGq55tX0JLXeq8+Xkxn+3MFh+no3UMHXDCf4BL4WNan/ZQHWxPoQ4HSCj2D6LXv9WJJg2QlxwwqN/od7L7c5ENI/8EUdfO7LWzSvG3nnCOVm/KnrJqonej+FxNo7PpNkuP1TyeS7UXXmKtXQjAzDxxw==|920
+}//MM/4AD87qun4Y/pOhkFQ62pfKZxw/YDCSMthDnjESnQWvvJVCEilo5BjZcsEbUNR8BWGC9nV+F3TQTG6SWAFaoiAZ+uIYTG0xjQVidWXoaEZAqjjkK9xwZgeC6PWEAUWWzCst5tkU6p/z6XAYOjiGdCA5rnwBwPBZc8jADixNnc0OMjjRWjdCXehZVbNWUzmYxWD1eWBduixZbbCFMctpUrUeyNPa4Q8AnqH8OhfRb8PJiAM15mgXu7tczwgC5c0BjVJ1fwXU3cQuQI2EmC0CpS5beIQ48hHHd2xr5sWQSDlRKVdbgmEtCVNTdt7W5qs330FfAF8MLuN/NhYtAz9DYNMxVcv4ZbcvkcyyXr6VW5Ajz1Yp1RsV3DnMF2t+Nh1zeM5hFtwpb0kHCf+SomPkTHxn9Bq/PPVfNuE4qQvBk9rVHQ6HEArZ/TeEcsnJTOcKrX5tEg/eBerdsNPzU5pcgT+zoP9yJ3T3b09AIrChj1C5R8UNaenzWxm1hW8jWLhHNS1fQ4lTlkQM3ddTyC7w/Y6fdh82kJn1lhpeJHb06mLHWJTj6GaG/KCww+RhgHfwCW+UUhITu1ZIX+MTO5K7Es0sbi0dwh1O3gxJAzzlb9H0bOZR/tpXDgE0CX2LfeD7vMsFvSw0m6euM/5nM8KXCd2AznZQ4PCnnw7o8XvfvQN0x7GddZN37svxpPof+C7GnrI4WyesO+VSpVcmr62uoZ0+mUjO3N+puTK0omauNodMCEUC9u2U3cJWsIcMx7wexP46z4xI7A+2uHcQvnFRXXJV7hTGFvP8qhXIIifZocvQQ/REZ24HgAgEAH7fEmxREAJDdTOYTeWmczy1pLSWvBnrGzFy75ZxIDyOxS1V4fx8dJRxabrlFBPSZeu6b8dKXtNHcndAQ+Bd+1RmuXWLw==|920

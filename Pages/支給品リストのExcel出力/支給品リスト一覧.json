@@ -31,11 +31,6 @@
           "DesignLengthInPixel": 20.0
         }
       },
-      "32": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0
-        }
-      },
       "33": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0
@@ -95,16 +90,21 @@
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0
         }
+      },
+      "45": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
       }
     },
     "InLogicalVisibleIndexes": [
-      40,
       41,
       42,
       43,
-      44
+      44,
+      45
     ],
-    "Count": 45,
+    "Count": 46,
     "DefaultSize": 22.0
   },
   "Cols": {
@@ -114,12 +114,12 @@
     "4,18": "検索",
     "4,28": "製番",
     "6,28": "受注番号",
-    "8,7": "製番",
-    "8,17": "受注番号",
-    "8,23": "納入先",
-    "8,42": "出荷予定日",
-    "9,51": "支給品",
-    "41,41": "Excel・PDF出力"
+    "9,7": "製番",
+    "9,17": "受注番号",
+    "9,23": "納入先",
+    "9,42": "出荷予定日",
+    "10,51": "支給品",
+    "42,41": "Excel・PDF出力"
   },
   "AttachInfos": {
     "4,7": {
@@ -201,11 +201,11 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     },
-    "8,7": {
+    "9,7": {
       "ListViewInfo": {
         "Name": "リストビュー1",
         "TableName": "tshikyuhinr",
-        "RowIndex": 8,
+        "RowIndex": 9,
         "ColumnIndex": 7,
         "RowCount": 26,
         "ColumnCount": 48,
@@ -225,7 +225,7 @@
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=支給品リスト一覧!H10"
+                  "SerializeProperty": "=支給品リスト一覧!H11"
                 }
               },
               {
@@ -235,7 +235,7 @@
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=支給品リスト一覧!R10"
+                  "SerializeProperty": "=支給品リスト一覧!R11"
                 }
               }
             ]
@@ -252,7 +252,7 @@
         "CommitType": 1
       }
     },
-    "9,7": {
+    "10,7": {
       "IsCellIgnoreHideInListview": true,
       "BindingInfo": {
         "TableName": "tshikyuhinr",
@@ -260,7 +260,7 @@
         "GUID": "491b152c-08f2-4635-b93a-a5b86f216c98"
       }
     },
-    "9,17": {
+    "10,17": {
       "IsCellIgnoreHideInListview": true,
       "BindingInfo": {
         "TableName": "tshikyuhinr",
@@ -268,7 +268,7 @@
         "GUID": "29a25f25-75a7-4154-87d1-d97954ac8686"
       }
     },
-    "9,23": {
+    "10,23": {
       "IsCellIgnoreHideInListview": true,
       "BindingInfo": {
         "TableName": "tshikyuhinr",
@@ -276,7 +276,7 @@
         "GUID": "a29140f9-3cde-425b-ab50-d21550237dec"
       }
     },
-    "9,42": {
+    "10,42": {
       "IsCellIgnoreHideInListview": true,
       "BindingInfo": {
         "TableName": "tshikyuhinr",
@@ -284,7 +284,7 @@
         "GUID": "0719e5d1-78af-4112-82a9-f2a1067440bc"
       }
     },
-    "9,51": {
+    "10,51": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -295,7 +295,7 @@
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=支給品リスト一覧!R10"
+                  "SerializeProperty": "=支給品リスト一覧!R11"
                 },
                 "TargetCell": {
                   "SerializeProperty": "=支給品リストExcel出力確認画面!B6"
@@ -309,7 +309,7 @@
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
-    "41,41": {
+    "42,41": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -320,7 +320,7 @@
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=支給品リスト一覧!H10"
+                  "SerializeProperty": "=支給品リスト一覧!H11"
                 },
                 "TargetCell": {
                   "SerializeProperty": "=Excel出力編集画面!K15"
@@ -540,6 +540,19 @@
       },
       {
         "FontFamily": 0,
+        "FontSize": 16.0,
+        "FontWeight": 5,
+        "Foreground": 6,
+        "Formatter": 1,
+        "HorizontalAlignment": 7
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0,
         "FontSize": 18.666666666666664,
         "HorizontalAlignment": 8,
         "BorderBottom": null,
@@ -572,6 +585,10 @@
         "BorderRight": null
       },
       {
+        "FontSize": 18.666666666666664
+      },
+      {
+        "Background": null,
         "FontSize": 18.666666666666664
       }
     ],
@@ -753,77 +770,58 @@
       "7,49": 5,
       "7,50": 5,
       "7,51": 5,
-      "8,7": 23,
-      "8,17": 5,
-      "8,18": 5,
-      "8,19": 5,
-      "8,20": 5,
-      "8,21": 5,
-      "8,22": 5,
+      "8,22": 23,
       "8,23": 23,
+      "8,24": 23,
+      "8,25": 23,
+      "8,26": 23,
+      "8,28": 24,
+      "8,29": 24,
+      "8,30": 24,
+      "8,31": 24,
+      "8,32": 24,
+      "8,33": 25,
+      "8,34": 25,
+      "8,35": 25,
+      "8,36": 25,
+      "8,37": 25,
+      "8,38": 25,
+      "8,39": 25,
+      "8,40": 25,
+      "8,41": 25,
       "8,42": 23,
-      "8,51": 5,
-      "8,52": 5,
-      "8,53": 5,
-      "8,54": 5,
+      "8,43": 23,
+      "8,44": 23,
+      "8,45": 23,
+      "8,46": 23,
+      "8,47": 23,
+      "8,48": 23,
+      "8,49": 23,
+      "8,50": 23,
+      "8,51": 23,
       "9,7": 23,
-      "9,17": 24,
+      "9,17": 5,
       "9,18": 5,
       "9,19": 5,
       "9,20": 5,
       "9,21": 5,
       "9,22": 5,
       "9,23": 23,
-      "9,42": 25,
-      "9,51": 26,
+      "9,42": 23,
+      "9,51": 5,
       "9,52": 5,
       "9,53": 5,
       "9,54": 5,
-      "10,7": 5,
-      "10,8": 5,
-      "10,9": 5,
-      "10,10": 5,
-      "10,11": 5,
-      "10,12": 5,
-      "10,13": 5,
-      "10,14": 5,
-      "10,15": 5,
-      "10,16": 5,
-      "10,17": 5,
+      "10,7": 23,
+      "10,17": 26,
       "10,18": 5,
       "10,19": 5,
       "10,20": 5,
       "10,21": 5,
       "10,22": 5,
-      "10,23": 5,
-      "10,24": 5,
-      "10,25": 5,
-      "10,26": 5,
-      "10,27": 5,
-      "10,28": 5,
-      "10,29": 5,
-      "10,30": 5,
-      "10,31": 5,
-      "10,32": 5,
-      "10,33": 5,
-      "10,34": 5,
-      "10,35": 5,
-      "10,36": 5,
-      "10,37": 5,
-      "10,38": 5,
-      "10,39": 5,
-      "10,40": 5,
-      "10,41": 5,
-      "10,42": 5,
-      "10,43": 5,
-      "10,44": 5,
-      "10,45": 5,
-      "10,46": 5,
-      "10,47": 5,
-      "10,48": 5,
-      "10,49": 5,
-      "10,50": 5,
-      "10,51": 5,
+      "10,23": 23,
+      "10,42": 27,
+      "10,51": 28,
       "10,52": 5,
       "10,53": 5,
       "10,54": 5,
@@ -1931,17 +1929,55 @@
       "33,52": 5,
       "33,53": 5,
       "33,54": 5,
-      "41,41": 27,
-      "41,42": 5,
-      "41,43": 5,
-      "41,44": 5,
-      "41,45": 5,
-      "41,46": 5,
-      "41,47": 5,
-      "41,48": 5,
-      "41,49": 5,
-      "41,50": 5,
-      "42,41": 5,
+      "34,7": 5,
+      "34,8": 5,
+      "34,9": 5,
+      "34,10": 5,
+      "34,11": 5,
+      "34,12": 5,
+      "34,13": 5,
+      "34,14": 5,
+      "34,15": 5,
+      "34,16": 5,
+      "34,17": 5,
+      "34,18": 5,
+      "34,19": 5,
+      "34,20": 5,
+      "34,21": 5,
+      "34,22": 5,
+      "34,23": 5,
+      "34,24": 5,
+      "34,25": 5,
+      "34,26": 5,
+      "34,27": 5,
+      "34,28": 5,
+      "34,29": 5,
+      "34,30": 5,
+      "34,31": 5,
+      "34,32": 5,
+      "34,33": 5,
+      "34,34": 5,
+      "34,35": 5,
+      "34,36": 5,
+      "34,37": 5,
+      "34,38": 5,
+      "34,39": 5,
+      "34,40": 5,
+      "34,41": 5,
+      "34,42": 5,
+      "34,43": 5,
+      "34,44": 5,
+      "34,45": 5,
+      "34,46": 5,
+      "34,47": 5,
+      "34,48": 5,
+      "34,49": 5,
+      "34,50": 5,
+      "34,51": 5,
+      "34,52": 5,
+      "34,53": 5,
+      "34,54": 5,
+      "42,41": 29,
       "42,42": 5,
       "42,43": 5,
       "42,44": 5,
@@ -1950,35 +1986,46 @@
       "42,47": 5,
       "42,48": 5,
       "42,49": 5,
-      "42,50": 5
+      "42,50": 5,
+      "43,41": 5,
+      "43,42": 5,
+      "43,43": 5,
+      "43,44": 5,
+      "43,45": 5,
+      "43,46": 5,
+      "43,47": 5,
+      "43,48": 5,
+      "43,49": 5,
+      "43,50": 5
     },
     "RowStyles": {
-      "6": 28,
-      "7": 28,
-      "8": 28,
-      "9": 28,
-      "10": 28,
-      "11": 28,
-      "12": 28,
-      "13": 28,
-      "14": 28,
-      "15": 28,
-      "16": 28,
-      "17": 28,
-      "18": 28,
-      "19": 28,
-      "20": 28,
-      "21": 28,
-      "22": 28,
-      "23": 28,
-      "24": 28,
-      "25": 28,
-      "26": 28,
-      "27": 28,
-      "28": 28,
-      "29": 28,
-      "30": 28,
-      "31": 28
+      "6": 30,
+      "7": 30,
+      "8": 31,
+      "9": 30,
+      "10": 30,
+      "11": 30,
+      "12": 30,
+      "13": 30,
+      "14": 30,
+      "15": 30,
+      "16": 30,
+      "17": 30,
+      "18": 30,
+      "19": 30,
+      "20": 30,
+      "21": 30,
+      "22": 30,
+      "23": 30,
+      "24": 30,
+      "25": 30,
+      "26": 30,
+      "27": 30,
+      "28": 30,
+      "29": 30,
+      "30": 30,
+      "31": 30,
+      "32": 30
     },
     "SheetStyle": {
       "FontFamily": 0,
@@ -1989,24 +2036,24 @@
     }
   },
   "Spans": [
-    "41,41,2,10",
+    "42,41,2,10",
     "4,7,2,11",
     "4,18,2,4",
     "6,28,2,5",
     "6,33,2,9",
     "4,28,2,5",
     "4,33,2,9",
-    "10,7,24,48",
-    "9,17,1,6",
-    "9,51,1,4",
+    "10,17,1,6",
+    "10,51,1,4",
+    "10,7,1,10",
+    "10,42,1,9",
+    "10,23,1,19",
     "9,7,1,10",
-    "9,42,1,9",
+    "9,17,1,6",
     "9,23,1,19",
-    "8,7,1,10",
-    "8,17,1,6",
-    "8,23,1,19",
-    "8,42,1,9",
-    "8,51,1,4"
+    "9,42,1,9",
+    "9,51,1,4",
+    "11,7,24,48"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2033,4 +2080,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//88u4wt25at9Ck/vLgjB7OoPwIDCtArDFIbTgkP3HXeUNNHzAyVq7Afcio2PvnXNy2uUnTrkfhhHTHf4DOMH7gvvFunh/+Z82NgzHjpT2FQJpPOqBjfaHWhLTIsPcYWc/xSna4mv0wBCI4+c7kHog91Xv2zwAndBa3JrQ0NRlRz313lGLQ6MMcXESP7db+rkV1tFGZ92jG4ZSuu7B6IFyyZdcEE5vV4AcElFLdptHFaTXK80BsoUCOzsuVK8Qb8reP1qmg0QEGR/Iu7K3h3DfjU8grEWBjcKo/QxxWzfaM3HodlO2mzEQWnc1ArysoIeTfo+CSBCYJCDblCwv4Ebbp+TmxNogzhV84IN4LyM3lXdL2yR8qGVuXPbu5aXpux6tuEJ3AE58XU8jMweMKpoVNj9m/nWz24tyEnGc7WUqaDYNAQaoyCwxEcFAhxKygGJ7d+XSpYvQi8j4rit0TixjPBeF5zU2GtABCjxsNvuP8UF3/E8yQFXRZ3URwPyBy8ahmkbHhizn6/8HM2EwHUu0Ggie0q8svFXxmNNZqutckCzCZcXFmPlejGPuGjXKB0ULlm7rfofVDAq8xCOMhWuZHZ58vncQHATboZ0/z+PkAou1MLQNxTUwjP3+VLQRDiUigeHRa14gGU5fxw3eszX0UM7pyI+Yf4upqLa5xo0MRFrO33KbOaIvSRd303HpWwRMmfFvwe5ykac7v23DpVh0hF7L4ZZpu/jTjYpLxI6iHnPAIx0KUhX2W/M6fne7LybG7B1tjRR2OhwwaSamLQMyGfbdEZR/YKD3nMdyOVh+QfXYodtkitX1urDWpBI84vy4nBi48ViW3Dx1bMvyD9Veg+2iNMeXVrQy6z/gi5lsyG/IfT/csYgxd0aR6M2fcZey92ULM9U5tK7Ge2W+cZjVqQ==|920
+}//JiUxxXkD8KoL4MQBW7XtZxIvQWD8owLw+WS3HaghPWvRHwxvRDhPL0UFPdtS33Rfo72UjTUsPdI6KWh/OXLnnbI6asg+LI6H3UVMvRbaZLBV5c+oEipr9I5bHvo6pdSYlVTW+0T8w/NdSWyFF+RalB8BK5mdzCBEpwjhPzBnnVgZpEB313uMFT071DEjQ2zYqiS602OoO01mglg4wU7NzjO+3v/iE7aGElNdnP01Tc/9yF3dzJNXJ2q3d/vMDjBL62qPEtP/bYMUWoD7dm6vWYeFCXj/MgQk4QgmhnBhQlTXTplR4JgnwV9kthsk6wV8jaMeDNb+PJXqCzVdm//ge3sSuHFembBECdWxBELQseCh45QODj2z7LDVNPm1JhAEbWf+4yj83rGLOwCflJVBwjktvMXOxJldJJe6r3mP3B6pNqx4bfdOweCEvWeOTJw9j0RdJ6vUw3pAWOe+baNSr7PP0Qb9Upz7Egl1ZOb1mmuNNsVHe3Isk5u3FshrMIhkMrc+OYvFujJmf6pEO6V0ACBlLUALSTtGOy62Iq1htZ2RwWXAHtlyv115GrDFPCLxSYU/NfBN3LgMIpi96qoLw0WrYJeq2jiafajFLqMOFIZbjkCVdrwa7ky2kQDV3rJ02LsX1HeFN3vgbn6IzMQsNC9LOW04bc/a7bfoWLeDaE12TDCUxaTruIx3i/XcLiYjApQErMbpqzyEebyAZOrKzj7q/q1x+iKLL6xisxYA36SuzAiBAcg8OkkfD/bnPmQUyrLffSKbF5mtlHfZ/sVcjza43++cT6bQHLHr7jQYI+4HlRXAlaAMIFiuj+7/qWDT4fjrssBuVnUqCB/QEM9N4266jYKRGXfdZYHvQrGwgmeBO85FzEmGLJLt9/1mxsiajNTNxBC0YHHxUo9s3RmE2g==|920
