@@ -1,6 +1,6 @@
 {
   "PageType": 0,
-  "ColumnCount": 64,
+  "ColumnCount": 63,
   "RowCount": 89,
   "Formulas": {
     "2,32": "RIGHT(G2,4)",

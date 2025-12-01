@@ -149,45 +149,15 @@
   },
   {
     "ModuleName": "PCPage/工事指令一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA093025",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-12-01T14:37:31.8106563+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\工事指令書のExcel出力\\工事指令一覧.json",
-      "Pages\\工事指令書のExcel出力\\工事指令一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/工事指令書Excel出力",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA093025",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-12-01T15:02:04.0223043+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\工事指令書のExcel出力\\工事指令書Excel出力.json",
-      "Pages\\工事指令書のExcel出力\\工事指令書Excel出力.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/工事指令書出力画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA093025",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-12-01T17:25:47.2140914+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\工事指令書のExcel出力\\工事指令書出力画面.json",
-      "Pages\\工事指令書のExcel出力\\工事指令書出力画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/予備画面",
@@ -215,31 +185,11 @@
   },
   {
     "ModuleName": "PCPage/出荷伝票一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA093025",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-12-01T14:08:51.6268242+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\出荷伝票のExcel出力_未完成\\出荷伝票一覧.json",
-      "Pages\\出荷伝票のExcel出力_未完成\\出荷伝票一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/出荷伝票出力画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA093025",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-12-01T14:09:58.3519904+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\出荷伝票のExcel出力_未完成\\出荷伝票出力画面.json",
-      "Pages\\出荷伝票のExcel出力_未完成\\出荷伝票出力画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/出荷指図書・集品リスト",
@@ -267,17 +217,7 @@
   },
   {
     "ModuleName": "PCPage/色仕様指示書出力ページ",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA093025",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-12-01T17:01:20.9213589+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様書のExcel出力\\色仕様指示書出力ページ.json",
-      "Pages\\色仕様書のExcel出力\\色仕様指示書出力ページ.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/検索画面 (3)",
