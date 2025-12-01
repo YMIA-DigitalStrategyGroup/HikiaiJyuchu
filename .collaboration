@@ -199,7 +199,17 @@
   },
   {
     "ModuleName": "PCPage/出荷伝票出力画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA093025",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-12-01T14:09:58.3519904+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\出荷伝票のExcel出力_未完成\\出荷伝票出力画面.json",
+      "Pages\\出荷伝票のExcel出力_未完成\\出荷伝票出力画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/出荷指図書・集品リスト",
