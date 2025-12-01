@@ -257,7 +257,17 @@
   },
   {
     "ModuleName": "PCPage/色仕様指示書出力ページ",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA093025",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-12-01T17:01:20.9213589+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様書のExcel出力\\色仕様指示書出力ページ.json",
+      "Pages\\色仕様書のExcel出力\\色仕様指示書出力ページ.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/検索画面 (3)",
