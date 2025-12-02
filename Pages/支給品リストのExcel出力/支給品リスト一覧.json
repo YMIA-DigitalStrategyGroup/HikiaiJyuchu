@@ -204,7 +204,7 @@
     "9,7": {
       "ListViewInfo": {
         "Name": "リストビュー1",
-        "TableName": "tshikyuhinr",
+        "TableName": "tjuchu",
         "RowIndex": 9,
         "ColumnIndex": 7,
         "RowCount": 26,
@@ -255,33 +255,33 @@
     "10,7": {
       "IsCellIgnoreHideInListview": true,
       "BindingInfo": {
-        "TableName": "tshikyuhinr",
-        "ColumnName": "SHIKYUHIN_MEISAI_NBR",
-        "GUID": "491b152c-08f2-4635-b93a-a5b86f216c98"
+        "TableName": "tjuchu",
+        "ColumnName": "TEHAI_KOBAN",
+        "GUID": "7ae3fbf2-5b85-442a-b6c5-5b0545d2a120"
       }
     },
     "10,17": {
       "IsCellIgnoreHideInListview": true,
       "BindingInfo": {
-        "TableName": "tshikyuhinr",
+        "TableName": "tjuchu",
         "ColumnName": "JUCHU_NBR",
-        "GUID": "29a25f25-75a7-4154-87d1-d97954ac8686"
+        "GUID": "b6f86fbb-fe7f-4fea-b6df-ae2a26801f8e"
       }
     },
     "10,23": {
       "IsCellIgnoreHideInListview": true,
       "BindingInfo": {
-        "TableName": "tshikyuhinr",
-        "ColumnName": "HASSOMOTO",
-        "GUID": "a29140f9-3cde-425b-ab50-d21550237dec"
+        "TableName": "tjuchu",
+        "ColumnName": "NONYUSAKI",
+        "GUID": "8e83b866-6039-4120-b3b6-4feef05134f4"
       }
     },
     "10,42": {
       "IsCellIgnoreHideInListview": true,
       "BindingInfo": {
-        "TableName": "tshikyuhinr",
-        "ColumnName": "NYUKA_DATE",
-        "GUID": "0719e5d1-78af-4112-82a9-f2a1067440bc"
+        "TableName": "tjuchu",
+        "ColumnName": "KOJO_SHUKKA_DATE",
+        "GUID": "5149e3f2-7b0d-436a-b0a8-7a20f9fc3db2"
       }
     },
     "10,51": {
@@ -2043,17 +2043,17 @@
     "6,33,2,9",
     "4,28,2,5",
     "4,33,2,9",
+    "11,7,24,48",
     "10,17,1,6",
-    "10,51,1,4",
-    "10,7,1,10",
-    "10,42,1,9",
-    "10,23,1,19",
-    "9,7,1,10",
     "9,17,1,6",
-    "9,23,1,19",
-    "9,42,1,9",
+    "10,51,1,4",
     "9,51,1,4",
-    "11,7,24,48"
+    "10,42,1,9",
+    "9,42,1,9",
+    "10,7,1,10",
+    "9,7,1,10",
+    "10,23,1,19",
+    "9,23,1,19"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2080,4 +2080,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//JiUxxXkD8KoL4MQBW7XtZxIvQWD8owLw+WS3HaghPWvRHwxvRDhPL0UFPdtS33Rfo72UjTUsPdI6KWh/OXLnnbI6asg+LI6H3UVMvRbaZLBV5c+oEipr9I5bHvo6pdSYlVTW+0T8w/NdSWyFF+RalB8BK5mdzCBEpwjhPzBnnVgZpEB313uMFT071DEjQ2zYqiS602OoO01mglg4wU7NzjO+3v/iE7aGElNdnP01Tc/9yF3dzJNXJ2q3d/vMDjBL62qPEtP/bYMUWoD7dm6vWYeFCXj/MgQk4QgmhnBhQlTXTplR4JgnwV9kthsk6wV8jaMeDNb+PJXqCzVdm//ge3sSuHFembBECdWxBELQseCh45QODj2z7LDVNPm1JhAEbWf+4yj83rGLOwCflJVBwjktvMXOxJldJJe6r3mP3B6pNqx4bfdOweCEvWeOTJw9j0RdJ6vUw3pAWOe+baNSr7PP0Qb9Upz7Egl1ZOb1mmuNNsVHe3Isk5u3FshrMIhkMrc+OYvFujJmf6pEO6V0ACBlLUALSTtGOy62Iq1htZ2RwWXAHtlyv115GrDFPCLxSYU/NfBN3LgMIpi96qoLw0WrYJeq2jiafajFLqMOFIZbjkCVdrwa7ky2kQDV3rJ02LsX1HeFN3vgbn6IzMQsNC9LOW04bc/a7bfoWLeDaE12TDCUxaTruIx3i/XcLiYjApQErMbpqzyEebyAZOrKzj7q/q1x+iKLL6xisxYA36SuzAiBAcg8OkkfD/bnPmQUyrLffSKbF5mtlHfZ/sVcjza43++cT6bQHLHr7jQYI+4HlRXAlaAMIFiuj+7/qWDT4fjrssBuVnUqCB/QEM9N4266jYKRGXfdZYHvQrGwgmeBO85FzEmGLJLt9/1mxsiajNTNxBC0YHHxUo9s3RmE2g==|920
+}//bAKsPFd+X2qE81e4+jPA5+IKYcW2SNxbj2/72bfcCIUWXZEqjmm5a+kbd5nk18t2P+SJTM6KTKEffgXGT4jeTBLvp72r+1NqmZAv3EMlffo2hTDgCm4IWwEA+k7Ztn7KnZPjowT9oWxIS69CZOYEP5Abu+P5Hzia8KFWOoyStJ7Z7bywm5IJyHMo7emtTEa5xXlJMWg9E0vwITljXHyaY4Bkuu2G6PtW0R9J9NC7D19Ap/aZVbgeDDrOnxgBIWEhlmF2MMMVKeCM0lfJQt0gjOQYbfnIzKvX6ELpYGDPaqS5XDLqUD14UbRtaQfAz9J1WgQyTD83v0ZQs4duPw9CVA5DIxifFTG69iuUObDoJc6yqHnwGw24bXuE4Ht4nsm4jOrvlnHHlqL1BsQ74LuDnyg15pVomcjdyy9faa778HeNN6TXU+ThS8j/G4Tfgx/M7c1VJ16g1JrJ8aKwPO/Mx18yiXf/ezlXbcaQgfe2hwKg2sIN4ErZuo3w1DEF5wCy44yrGbeoSQO28wfngrqrPdy8ZiVEygwovbZe6UYb9SJU9d4IMsSoGttjjyXAm42N5xcT4UuXLwlQS/y7HxrU+ODEXYYkZBoGM7e+tAbctwBGB1DVHW08KN5mjuIt4hR0uFhXScXF3wkOZHDqpjOjf3XJ0OkZnZIqwXVbpkZRjgaya/SqeYUOwhGb1pONIO2buE9vACl2YJga5vVISijrCBtZDoL6LxbwLxsgBGuSC++HPHMLCfNpUjnbMJ82inhyvo0pMc3dsMLhhnCM+Vum4Ppm7I40RqF1TJ7TIosuEQKaCY6lcR+aU5Ru0XoE4v1hrjaAun4xWNy8X8vQMMs0sai+b764PuMFiS+7bv88x1owhxQnyQPC7EGwJi3lmZiP6tjbZ2P9gi9YBJNv5FC5Vg==|920
