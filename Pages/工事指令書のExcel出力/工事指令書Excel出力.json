@@ -133,7 +133,7 @@
     "40,42": "数量",
     "40,45": "卸価格",
     "82,42": "Excel",
-    "82,48": "PDF"
+    "82,46": "PDF"
   },
   "Formulas": {
     "16,40": "TODAY()",
@@ -346,7 +346,9 @@
       }
     },
     "41,42": {
-      "TotalRowSetting": {},
+      "TotalRowSetting": {
+        "StaticText": "[合計]"
+      },
       "BindingInfo": {
         "TableName": "tjuchum",
         "ColumnName": "SURYO",
@@ -397,11 +399,15 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+                    "ExportExcelPageNameMode": 2,
                     "TargetPageName": "工事指令書出力画面",
-                    "NewOtherName": ""
+                    "NewOtherName": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=工事指令書Excel出力!AE83"
+                    }
                   }
                 ],
-                "ID": "c2a9e8db-646e-444e-809b-e3c18b0057f6"
+                "ID": "c4358a19-ecbc-43e8-ad2a-f15e1c5eb760"
               }
             ]
           }
@@ -410,7 +416,7 @@
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
-    "82,48": {
+    "82,46": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -428,11 +434,16 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
+                    "ExportExcelPageNameMode": 2,
                     "TargetPageName": "工事指令書Excel出力",
-                    "NewOtherName": ""
+                    "NewOtherName": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=工事指令書Excel出力!AE83"
+                    },
+                    "AutoFitRowHeight": true
                   }
                 ],
-                "ID": "5b71305f-d237-4585-8148-6d78c91368ab"
+                "ID": "38e3e51d-526e-44f3-9ed2-27d20c3a9c33"
               }
             ]
           }
@@ -746,6 +757,16 @@
         "Formatter": 6,
         "BorderTop": 0,
         "BorderLeft": 0
+      },
+      {
+        "Background": 17,
+        "FontFamily": 1,
+        "Foreground": 3
+      },
+      {
+        "Background": 18,
+        "FontFamily": 1,
+        "Foreground": 3
       }
     ],
     "Types": {
@@ -766,7 +787,9 @@
         "Bottom",
         "Accent 1",
         "#,##0_ ;[Red]-#,##0",
-        "0_);[Red](0)"
+        "0_);[Red](0)",
+        "Accent 1 80",
+        "Accent 1 60"
       ],
       "Borders": [
         {
@@ -1965,13 +1988,11 @@
       "82,39": 5,
       "82,40": 5,
       "82,41": 21,
-      "82,42": 12,
+      "82,42": 55,
       "82,43": 12,
       "82,44": 12,
       "82,45": 12,
-      "82,48": 12,
-      "82,49": 12,
-      "82,50": 12,
+      "82,46": 56,
       "83,30": 32,
       "83,31": 33,
       "83,32": 33,
@@ -1987,10 +2008,7 @@
       "83,42": 12,
       "83,43": 12,
       "83,44": 12,
-      "83,45": 12,
-      "83,48": 12,
-      "83,49": 12,
-      "83,50": 12
+      "83,45": 12
     },
     "SheetStyle": {
       "FontFamily": 1
@@ -2054,14 +2072,14 @@
     "42,5,32,46",
     "82,30,2,12",
     "82,42,2,4",
-    "82,48,2,3",
     "41,45,1,6",
     "75,46,1,5",
     "40,5,1,2",
     "40,7,1,3",
     "40,11,1,31",
     "40,42,1,3",
-    "40,45,1,6"
+    "40,45,1,6",
+    "82,46,2,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2202,4 +2220,4 @@
     },
     "PageOrder": 1
   }
-}//kMGi1ni/VHZ4t8ueDBEJPY4Dj4j9LWeM0L4Yw5Vm2YS/TFoTo1IdZoDeAzBMMryiSbw5sT32mFrjNyVkBQAil3DJjjhvw10dicfQ4K4riRUl6cw1mnrUFpU3PkFEVy3ne8CVKaqq3kTiQ5Sc7777ACUCca4WVneLfoVcs3o2I74UjaMch4Zv8+PvB52S3lEbzqb6tcGxX53CxE5+Q0zKfRwqLYM9MqanqbMKKShLrydRfzsfsxnDLeSlr/hR3owJIf6C8aQXoV2xalRFnAxp24GD6kISq8RbKekt6pWTUj1GbkJdujNk4F4ug35edSpY+f/OK8Ijz/828T0V4R+MmvIcIU1625zMwvThWZFWLtHWmI8wiN4fl6nX6NxiimB+/0Wioexe92DFvgqd/td14BZcvzXJOIzXtixeZgySRBiWjjK+LICERcnNWHt9rgXvm7y3Wm2AwTD+zAGnB0maFYNVHFCVF43ODGet36KFBRy3WCilxNxua8B64aBfBXzqPsYl90b61IWz8z4ZgR8mP09+CvJw4RSHBR+/8vZsllLw5Bu77NE5SvGil7NdyPXb52zCBmOHgmLojEEtSyx3/Boa9fxnlF51rUod5DLN9ncPTvTKarV6yKaBABoVJjTx1JbA1SWjMS4kP+WA//vYXCcWTfkAr8sqg+0Yzqhwe5FLH34GImUC9qUg+yMcugELQIy2HrSYMRs8o7A+nop/ogCAPFbOnBasVkhEGwHfv2P9LD/21akhefIRq6j88E0/xY7iWUOZXlA8QaXxyAXMP/aH3CwEBftRqskzS8Ysu3uQkpwQ3aC0lmYUYkEHLWJjNcWFR4fgIjCqX5aFgfGFV7lBcbKeFVf8Sv15ODWcb4HFNQO9z1KJhN+JXEv/MlaJ6lPy/gSZ/A1PLb52BPJBlQ==|920
+}//jJCRp5xcs3PvJ5eeinHw5ip6ZoLsqEWJrji3oQc2lzL/booqXzQ9yEODUgESerfBM2n3TbCrNpPh42+NDLCzH06+k9CdeOigNmBfDXyJPKMlPZiZ7S8nWSj7m9z/jWn9FyuXdb5/SRXmoXfzy8aBo0VkpOT5fLlAmO6j9lDrckW65k0B/a4rezFLyQOYtkmrMd/Jg4CKfCCvuEE1jToVpNCJUVJiM439hzzABaEHgLu7JpjK9aqM/9MyW94cCgDQh6FHf15WlJieBKCpeKWb5vxRxOdyv3xbcKM0jIS7M2V2EbmZfFM/zkBQELnz2OjzB3nP2xsQpP+RLRx4ksZIvVHk8YxAD0EOQsDW/1If3yVxmnIBsAEn7RaRWNEeeDTGUgs+/6j+2+9gEHcvZWDtM8lWgPmEHccz8RkUBk6vMTU5bI9vnD4y1iPUr5QOQl4wBt7OwhbxDmbapuR6ISfiEojeQK/StUUVV24Dff488M9JvotXlrTcNQ4Wo6TMCuuw1McXnthHa9snHzIIvzo3a+zCqwMhXEpooGqqrd3Vix8cZu+i8vYgg86KMW2iul00zjNLsN94qPjx9fwUbiAFjRTYhh6OkrTsT72lomF0idwpA9Cw1+3ih52ERYA+1gX3e5vMHaRm3u685gZsDQ5ay/8HlHV+1Acz+aWZuDbk9Yjr841fY3aavaWT4oZDnyOXa+yMHuS8LYP1z2cQANyiDgPpyFViguRpNbVduH+Wsj13HHqG+DxrYI3zuw3WCmL3vvLTCeeRw0cF1W39KNql7BPsZjog+3vQFNCvgIVfNpPew1QaLA37KDbZ5LjQqafaCr6ARtnW2yjl0ciJlXAZ8IeFkkFTpPTCZR1BMzs/C6t2fe5SIO2kiUom11yAwnOcib1W5lIp5GdbRR7yXBpcHg==|920

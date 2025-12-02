@@ -123,6 +123,15 @@
       }
     },
     "InLogicalVisibleIndexes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
       69,
       70,
       71,
@@ -182,8 +191,8 @@
     "58,4": "＜販売店様へ＞",
     "59,4": "納船時に上記積み込み品の確認をお願いします。欠品の際は、納船日より3日以内にご連絡ください。",
     "60,4": "その期日を過ぎますと、欠品扱いを致しかねる場合がありますので、あらかじめご了承ください。",
-    "63,28": "Excel出力",
-    "63,45": "PDF",
+    "63,28": "Excel",
+    "63,33": "PDF",
     "69,10": "Excel出力画面確認"
   },
   "Formulas": {
@@ -312,7 +321,7 @@
               "ColumnBindingInfo": {
                 "TableName": "ttsumikomihinmr",
                 "ColumnName": "TSUMIKOMIHIN_MEISAI_NBR",
-                "GUID": "afe98597-8278-417e-a0a2-bc5af366ba63"
+                "GUID": "32422b72-1770-4585-b797-3737218733b8"
               },
               "Order": 0
             }
@@ -682,28 +691,16 @@
                     }
                   }
                 ],
-                "ID": "3126113b-6045-40b0-966b-d65222960c2c"
+                "ID": "2d74ba3a-94e1-460a-990a-9c6375d73f9b"
               }
             ]
           }
         ],
-        "Text": "Excel出力",
+        "Text": "Excel",
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
-    "63,34": {
-      "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "WaterMark": "出力ファイル名を入力"
-      }
-    },
-    "63,45": {
+    "63,33": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -725,11 +722,12 @@
                     "TargetPageName": "Excel出力",
                     "NewOtherName": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=Excel出力編集画面!AI64"
-                    }
+                      "SerializeProperty": "=Excel出力編集画面!AG68"
+                    },
+                    "AutoFitRowHeight": true
                   }
                 ],
-                "ID": "ca2e4931-06e5-47c3-b6b9-e41185e9175c"
+                "ID": "8f64b73a-53b4-42aa-ad47-50dae1921ee5"
               }
             ]
           }
@@ -1138,7 +1136,7 @@
       },
       {
         "FontFamily": 1,
-        "FontSize": 18.666666666666664,
+        "FontSize": 14.666666666666666,
         "Formatter": 2,
         "BorderBottom": null,
         "BorderTop": 0,
@@ -1160,10 +1158,10 @@
         "BorderRight": 0
       },
       {
-        "Background": 14,
+        "Background": 11,
         "FontFamily": 1,
         "FontSize": 18.666666666666664,
-        "FontWeight": 4,
+        "Foreground": 3,
         "Formatter": 8,
         "HorizontalAlignment": 7,
         "BorderBottom": null,
@@ -1172,9 +1170,10 @@
         "BorderRight": null
       },
       {
-        "Background": 15,
+        "Background": 14,
         "FontFamily": 1,
-        "FontWeight": 4,
+        "FontSize": 18.666666666666664,
+        "Foreground": 3,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -1209,11 +1208,21 @@
       },
       {
         "FontFamily": 1,
+        "Formatter": 2
+      },
+      {
+        "FontFamily": 1,
         "FontSize": 18.666666666666664,
         "FontWeight": 4,
         "Formatter": 8,
         "BorderBottom": null,
         "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": null,
         "BorderLeft": null,
         "BorderRight": null
       }
@@ -1234,8 +1243,7 @@
         "Accent 1 80",
         "Left",
         "Background 1 -15",
-        "Accent 2 0",
-        "Accent 4 0"
+        "Accent 1 60"
       ],
       "Borders": [
         {
@@ -3993,22 +4001,18 @@
       "63,30": 19,
       "63,31": 19,
       "63,32": 19,
-      "63,34": 56,
-      "63,35": 57,
-      "63,36": 57,
-      "63,37": 57,
-      "63,38": 57,
-      "63,39": 57,
-      "63,40": 57,
-      "63,41": 57,
-      "63,42": 57,
-      "63,43": 57,
-      "63,44": 58,
-      "63,45": 60,
-      "63,46": 19,
-      "63,47": 19,
-      "63,48": 19,
-      "63,49": 19,
+      "63,33": 60,
+      "63,34": 19,
+      "63,35": 19,
+      "63,36": 19,
+      "63,37": 19,
+      "63,38": 21,
+      "63,39": 21,
+      "63,40": 21,
+      "63,41": 21,
+      "63,42": 21,
+      "63,43": 21,
+      "63,44": 21,
       "64,17": 61,
       "64,18": 62,
       "64,19": 62,
@@ -4025,22 +4029,18 @@
       "64,30": 19,
       "64,31": 19,
       "64,32": 19,
-      "64,34": 61,
-      "64,35": 62,
-      "64,36": 62,
-      "64,37": 62,
-      "64,38": 62,
-      "64,39": 62,
-      "64,40": 62,
-      "64,41": 62,
-      "64,42": 62,
-      "64,43": 62,
-      "64,44": 63,
-      "64,45": 19,
-      "64,46": 19,
-      "64,47": 19,
-      "64,48": 19,
-      "64,49": 19,
+      "64,33": 19,
+      "64,34": 19,
+      "64,35": 19,
+      "64,36": 19,
+      "64,37": 19,
+      "64,38": 21,
+      "64,39": 21,
+      "64,40": 21,
+      "64,41": 21,
+      "64,42": 21,
+      "64,43": 21,
+      "64,44": 21,
       "65,17": 21,
       "67,18": 21,
       "67,19": 21,
@@ -4055,10 +4055,44 @@
       "67,28": 21,
       "67,29": 64,
       "67,30": 19,
-      "67,31": 19,
-      "67,32": 19,
-      "67,33": 19,
-      "69,10": 65,
+      "67,31": 36,
+      "67,32": 65,
+      "67,33": 21,
+      "67,34": 21,
+      "67,35": 21,
+      "67,36": 21,
+      "67,37": 21,
+      "67,38": 21,
+      "67,39": 21,
+      "67,40": 21,
+      "67,41": 21,
+      "67,42": 19,
+      "67,43": 19,
+      "67,44": 19,
+      "67,45": 19,
+      "67,46": 19,
+      "67,47": 19,
+      "67,48": 19,
+      "67,49": 19,
+      "68,32": 21,
+      "68,33": 21,
+      "68,34": 21,
+      "68,35": 21,
+      "68,36": 21,
+      "68,37": 21,
+      "68,38": 21,
+      "68,39": 21,
+      "68,40": 21,
+      "68,41": 21,
+      "68,42": 19,
+      "68,43": 19,
+      "68,44": 19,
+      "68,45": 19,
+      "68,46": 19,
+      "68,47": 19,
+      "68,48": 19,
+      "68,49": 19,
+      "69,10": 66,
       "69,11": 19,
       "69,12": 19,
       "69,13": 19,
@@ -4068,10 +4102,18 @@
       "69,17": 19,
       "69,18": 19,
       "69,31": 19,
-      "69,32": 19,
-      "69,33": 19,
-      "69,34": 19,
-      "69,35": 19,
+      "69,32": 67,
+      "69,33": 67,
+      "69,34": 67,
+      "69,35": 67,
+      "69,42": 19,
+      "69,43": 19,
+      "69,44": 19,
+      "69,45": 19,
+      "69,46": 19,
+      "69,47": 19,
+      "69,48": 19,
+      "69,49": 19,
       "70,10": 19,
       "70,11": 19,
       "70,12": 19,
@@ -4176,9 +4218,6 @@
     "14,10,2,11",
     "69,10,3,9",
     "63,17,2,11",
-    "63,28,2,5",
-    "63,34,2,11",
-    "63,45,2,5",
     "19,3,1,2",
     "19,5,1,6",
     "19,11,1,9",
@@ -4190,6 +4229,10 @@
     "20,3,20,48",
     "41,46,4,4",
     "41,42,4,4",
+    "72,4,2,5",
+    "11,40,2,10",
+    "63,28,2,5",
+    "63,33,2,5",
     "18,3,1,2",
     "18,5,1,6",
     "18,11,1,9",
@@ -4197,9 +4240,7 @@
     "18,31,1,3",
     "18,34,1,3",
     "18,37,1,3",
-    "18,41,1,10",
-    "72,4,2,5",
-    "11,40,2,10"
+    "18,41,1,10"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -4273,4 +4314,4 @@
       "Right": 25
     }
   }
-}//dVzpMvWXxExSw0U39ywMJILrdWNBm/hmiTipzMaTbivNuVacIednDQF8kXO13XNyvXxULGMYrGx/+17Oy1yjKJjB55p1Wz35XixPC45W35h4Gohi9Ba8cD6U7j33pEdSgaU0Wwx1CmWP17t8iLTbgJzaOxRE9780QLbF+pVXZlRAibWiQXQjgv+U4APE4ApKcpcQHFyb4Jy06TCaT4qAh9G3K9/6ZucHC/uX5eUAfKy6+oqqo4zTsYJIBo1RrwOZiephr5LWH/51p+j/DA4y3Hd97sr2jYlHZeJUdbV2K6RLcrh2NX+5fXjkTIU6adaTn6w9hAXy55DfdOwFbmHoaBdzdvmrPvBKJNvNxzLVn8f/CtedwrOdhMDd1YlgpOlZ+eHVUDEaixW/bjObyamhV1k+/7AU3LTJvjGKCyHrupQlyv1H5680QiqVMws1l8unvYMx5kpjG2T0Z8oWuyl514NWYPMMZjMv2jfRn1bTdbBLQvhSQewmOI4Rc6vGn3WtDwpBI3g9wgePC5pSrJh9cPipw22uyQsCuSy4zhq1gjrnZMpPXdyvleEeUxQD6p7S5xfQ9pVN4bylQXxwuOmASTumZGihjcORXFRE5fVX2yRhKtg1oYkYGiNPcoXQYifDpMFHbDidUKxoOpu3T27l69qcBLHuqP405Oe9iaP93BhIaSI5U7raGcV+LzF+5fxiEeHoMhk0rMAeNT96bYVdKebty8y18Hwm3w5V2bjr43fjSm5rVh5/rfxjAQWIUoaKx7Pu6gshfFtteUDVIClyyP3D7I/pMUxYDazZR7BD/q+AKlMj5M4Q1XVsTZ7YELPAIqmBHf7wiKejLCXErXjW+BM9GnosrxuIb2KK5lvBn8Rl3E3HSmuoORwDOf0wzuMDuGrzqwjsCFfRRMBvJEkfMg==|920
+}//NpQpoNM6ayw9ZLqKIeEtUHbBanrGeEJV5nO6J1aGYYiPtn2Nf8Jy122MtsoUY0VlwM6rv1lru5lIPqv1xVwUcnxfsZFR/XJTte9fBEEp9K/Vw2xl9PjM4cUxXutnAmOr64oRjBfjttV15wdPP3BLofs0C+dSQeCo2tqLv93zAUkvk4DaTia4ABu9pr28Jp/WvMhojDhCUTOVi0r5sptT11Mdh4Ihf0TjLCgfosCmKv4aQjC2r9XV89gDRVsTelY9WTYDqC5sBewnY1t6ZgyZ8FVLq5qfGOSc7kcLGe6hUkvAB/lBj1Pymr+QqmIn7X5r8yCS/yOu4J13bZ8SFdYJ69I33PnTI2r+F80tN2pgzC7r0ik6s+JfFf3zyCmf4dG8e9sYMPRPIx58u3DvjFIV8tkkXB0ksukT4l12e/afYaXav9tcDG9Tm8t9zi4bxJMExF8zb0z7OyoLHukXva3trv8ZB8upPvM5GPH7y1tkemLvhq8ivM5QJBLEjaFaQOgsp3Zl7u6BDj4alSxMteeP1DN5ufuBSJ6cim0+5I45j16LqbUq7tfkPdfkA8pMnj7qKIbdDH9h4KB6jL2Xt44O92XKyLbaBefNtQq+bqde2a50h/ELAylIkZwfi+5t+rkXF8DW3Gyxfmi6zTgNDcYomYW8rHa0rqJxKqLicKo9sGEF8fI41jX1bN1qubkfXCiQp5o3Lb6PNd/DBnUumlXA8aUeRU5Qwx/7inDZM4cSzcQPS7FFXKT2Nszr4As3IElUFtc0K9ptakogdwTVVY8TIkubcuHHGLGtR8HuQmkldAdo03DV0vwOizKEEuaVvSrAKGS5B/Q+7bcXF4uLzU+J4LuFBw6L+DbvdIgW6YxTcU4DpMCWAK19a9BtAypiVtCINwzxUT8zvZ4bioLCjBE4og==|920

@@ -176,6 +176,10 @@
       0,
       1,
       2,
+      3,
+      4,
+      5,
+      6,
       58,
       59,
       60,
@@ -316,7 +320,7 @@
     "47,2": "　＊YMIA担当者：支給品リスト返信の期日を記載し管理願います。",
     "49,2": "　＊YMS担当者様：入荷予定日を記入し、期日までにYMIA担当者に返信下さい。",
     "53,31": "Excel",
-    "53,46": "PDF"
+    "53,35": "PDF"
   },
   "Formulas": {
     "22,30": "IF(AY23=\"\",\"\",ODATA(\"mname?$select=MEISHO&$filter=MEISHO_CODE eq \"&IF(ISBLANK(AY23),\"null\",AY23)&\" and KUBUN_MEISHO eq '発送元'\"))",
@@ -607,7 +611,7 @@
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "WaterMark": "出力ファイル名を入力してください"
+        "WaterMark": "ファイル名を入力"
       }
     },
     "53,31": {
@@ -662,7 +666,7 @@
                     }
                   }
                 ],
-                "ID": "1c98622e-eee8-4d10-a016-8797427086ca"
+                "ID": "42075762-65d9-4c37-8f83-08695f1ff46b"
               }
             ]
           },
@@ -676,19 +680,7 @@
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
-    "53,37": {
-      "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "WaterMark": "出力ファイル名を入力"
-      }
-    },
-    "53,46": {
+    "53,35": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -734,12 +726,12 @@
                     "TargetPageName": "支給品リストExcel出力画面",
                     "NewOtherName": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=支給品リストExcel出力確認画面!AL54"
+                      "SerializeProperty": "=支給品リストExcel出力確認画面!V54"
                     },
                     "AutoFitRowHeight": true
                   }
                 ],
-                "ID": "6e9f39a0-81e1-462d-9e4b-e418d0fb7a95"
+                "ID": "785f8f2f-f1d9-4630-bcce-d26184c5f8bc"
               }
             ]
           },
@@ -1201,12 +1193,18 @@
         "BorderRight": 1
       },
       {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null
+      },
+      {
         "Background": 12,
         "FontFamily": 0,
         "FontSize": 18.666666666666664,
         "Foreground": 2,
         "BorderBottom": null,
-        "BorderTop": 0,
+        "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
       },
@@ -1217,8 +1215,13 @@
         "Foreground": 2,
         "BorderBottom": null,
         "BorderTop": null,
-        "BorderLeft": null,
         "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null
       }
     ],
     "Types": {
@@ -1235,8 +1238,8 @@
         "Right",
         "mm/dd",
         "yyyy\"年\"m\"月\"d\"日\"",
-        "Accent 2 0",
-        "Accent 4 40"
+        "Accent 1 80",
+        "Accent 1 60"
       ],
       "Borders": [
         {
@@ -3183,16 +3186,15 @@
       "53,27": 7,
       "53,28": 7,
       "53,29": 7,
-      "53,30": 8,
-      "53,31": 70,
-      "53,32": 7,
-      "53,33": 7,
-      "53,34": 8,
-      "53,37": 27,
-      "53,46": 71,
-      "53,47": 1,
-      "53,48": 1,
-      "53,49": 1,
+      "53,30": 70,
+      "53,31": 71,
+      "53,32": 1,
+      "53,33": 1,
+      "53,34": 1,
+      "53,35": 72,
+      "53,36": 1,
+      "53,37": 1,
+      "53,38": 1,
       "54,21": 13,
       "54,22": 14,
       "54,23": 14,
@@ -3202,15 +3204,15 @@
       "54,27": 14,
       "54,28": 14,
       "54,29": 14,
-      "54,30": 15,
-      "54,31": 14,
-      "54,32": 14,
-      "54,33": 14,
-      "54,34": 15,
-      "54,46": 1,
-      "54,47": 1,
-      "54,48": 1,
-      "54,49": 1
+      "54,30": 73,
+      "54,31": 1,
+      "54,32": 1,
+      "54,33": 1,
+      "54,34": 1,
+      "54,35": 0,
+      "54,36": 1,
+      "54,37": 1,
+      "54,38": 1
     },
     "SheetStyle": {
       "FontFamily": 0,
@@ -3259,9 +3261,8 @@
     "19,16,2,14",
     "53,21,2,10",
     "53,31,2,4",
-    "53,46,2,4",
-    "53,37,2,9",
     "5,42,2,10",
+    "53,35,2,4",
     "21,3,1,13",
     "21,16,1,14",
     "21,30,1,4",
@@ -3342,4 +3343,4 @@
     },
     "PageOrder": 1
   }
-}//XwPAEywfMpPL5aMkrxxOMBdIIzAJnFFV8fiSiDEVeJBWodKPGLKjPHfnxf8DpQm4d063nlH62AcK362bqt7BhueJUcACxstES9KI8J9oBkPZjV386jBgyLL68XDKiGmVnlz/b+Q+75odsxBwryUkQspnLR5I2bEHFibrmZM5p7ZR9ypmsG1zn+InKozIAOQcCfEIEqkIzRNSDp1Fo33Yv/GJ0LKI7PSWqlEl8ggoWey090HckwQwTeO63uvPjeqEtOsb0Jhuy/vfTwhINcZdk1uqHkjAeWxrVSYokXMAmFzfq9qjNo6f8kz0ACEKder8R6LVIyJQw+4+7eamOoCiLFJlSnTiGXRQojOJ/Difj1mJGbQtAjJTojgZZ+7/1R7ADO+r5CR0Mx4xTGpwkzawiqU2qTrKPFUiqe8xVnYJk2R6Hh+WAPzv/ir9zxH+Qv5Gs8cQCQ4gVkVAEoYGMbr9seCt+oajvsjzRZXg6j73g3Vapzwsc7Bml1Zi4Rj2AQ6zSbu4RSA914o1nmfYr+FBJBm5Y0EY3yHAO1MGe0/bKcRVqOtwU64eFgKNH6uhGzMppDYXxK8+G7FdYJ6tIO9eDXy0vzcxJnuANdJSLZy5NTYDVuJtunDk3UiNs2IaIRtgxlG+FT1JVgbeItTaBn5CTJhXdGJWY8hMTYxfT1B6SVlYEDMY3vQ+NXsvXlXd8KNqIqoYyCwt3e8aZtvVVO5mzn6DzM7M2Xxw9+bcUQt6F/u1Yy2esxofjSAQTapJ6IoymrBrOhK7Js77LnsmdIDkV2KesNLIPmydrhjFkliMJ892kbQfyinFw72tlBpLORigl8++klKE3gEJBkBDQveBTlKzRd3j0OqjpyDCRCPgiPzKSo//30zxWm8ijY2oNjDwhLc/IwsFxUX9ho+5yZiY4w==|920
+}//5gXSfDr7Ov1JZK53XHzESMSXhn7tVV8C4a+2g53btheiBgwU6qnPcw5vg7ycfql3UF56fcRID9OPyuZZtuLDQk/a9vemAtivuULpl3ExCWf1nqab4isaWHYfHLoE1A1ibHs04q1HT4ezFE+x5QkYVf6kf7y3d3nhaHOnXo9RY4OGnLP1NS1QiPPixQ/ZvPk3ZdxH93HwZ/Sd8ipcOin2HYfgXMsBmgmxOXoPB0anAGb0RKP5NuQTB3Jz2EBxWSsFB3vDq+lIMs5+UiUvvj9dLjPu38iEW8PB3HAkqQ8kJgSax8jfNIPye8gG8v5n6D4e1rVJPZH7qFMXkZhr3jCaiN4vA1qLLOsR+CKDEHYwaPSVGi7HGwzowzFpTL3TBiXWMTFiJRbOnGEysoqfABd+PQvr6Xn8CxJxvCMWioO9m6JR8Bsg7AHKm0fUe9f/aiERWu+NiYqGaIZOV+owu/Hr1qa7D6so2pLnRLiISLQ+zbimXndw+hZVcExOiAWrFg5X14iCsbSDF62JUGxZ5sGOud9RdtuQGJWnGcNjOjnfKVdr3wA8FDeN5kN4nc9Zai+yRREur+zTuBTMzXKqPgz2xJjFZf3AxxAlBuFr6b1+y2V+79susadp6hlkBmSfSKD5B6v6/OcniCZy9J6xqJLGozcjUjW9WFG6z8KIIwM8xWRDWOisQDbBPhr5w3sOMlu482puzFNODy9zNFG3YuW/5MSl+dYdTAvGoREpBcNC2Y4+V/H5REzGWPmDxyCKLv6vSjDJJ6kFPUXrP2vODKuyhNPhpAOOtqHqrxVq5QoNlADpHxkkSX8DZmmu+Br2BTlGon4zAMbknW3MP2qUuHDGpsUFRlMcIEbhr3d8nf+n5e4H3LSQjxejTDUJ4Ue9kYKotLNJsD3+0c2seJlwb3GBcQ==|920

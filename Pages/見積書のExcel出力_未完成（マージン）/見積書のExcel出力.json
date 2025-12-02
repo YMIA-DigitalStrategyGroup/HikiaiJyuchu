@@ -27,6 +27,13 @@
         }
       }
     },
+    "InLogicalVisibleIndexes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
     "Count": 67
   },
   "Cols": {
@@ -232,7 +239,9 @@
       }
     },
     "22,34": {
-      "TotalRowSetting": {},
+      "TotalRowSetting": {
+        "StaticText": "[合計]"
+      },
       "BindingInfo": {
         "TableName": "tmitsumorim",
         "ColumnName": "suryo",
@@ -305,7 +314,7 @@
                     "NewOtherName": ""
                   }
                 ],
-                "ID": "1089086f-902f-4e30-9a98-aefa34e2eb59"
+                "ID": "6364665b-1b9d-4861-a42e-f3f26000495c"
               }
             ]
           },
@@ -345,7 +354,7 @@
                     "AutoFitRowHeight": true
                   }
                 ],
-                "ID": "39ac34f6-6ab2-44b1-accd-8250145cce81"
+                "ID": "d7e65600-c788-40fe-b182-cd694b55c0f8"
               }
             ]
           },
@@ -1547,4 +1556,4 @@
     },
     "PageOrder": 1
   }
-}//G4OLtlS6ezGSl40wx2hIWgU72bZrWcwAK6VF1VHYagnnJ12JbzJIQMNItxlQWft4nY17MsfA94QP9HATB34krUFscbBAF4WIXXWChtaJQuibQKgwgAXc3SqnqOurJuv1yDCTZ/jMFh7Amz/5vxDWERFkc3mMxwE+10AzIc1avbTPUVIkkeE5//l2sfoWsmhWIsHEsl45sLqyp/eYq+i67ElYiWd47NzgxFDMSJrk9kspaaTzOYdQifhWQojIz06xGdVqCWS2z6xZE83VuWF8laSMuqBgGEiUoOozfTlIiDo8hwKSgkZ+WFlURNwwDsGPrb50AC9Rd6j63ILKynvhdhW7Y5t7lCoeOnZ0Xa+STaq7m1Ee/wJ76WyywjFV80C1TZ06mpeZ3uhe+TnF31zM9V0G3EA8f1t1C6KQQbsccxPYkkJiCeJPFcg7JHZazxKiAga7C8lLdFfYWWnikvOYgDD93oJFIU22t6dKSOchAifyqCTH0dGt+bWGevhObbT7Uia5pDD+z+roZo1833T85BeNLNbgzkqZHE1GW2V7IlwWzBHWIA8chqvYikaSBD7F/f6koQf+0Qhma0m+iZ1zD1k2bk7D1BNzWvxugU7OvGmoAHVH5DZifcomFCAxqVVGMxGSSwzWMLrJurAHPGXe58S96jivT7jDjs5KIyOBOKIRM/DA1RTioA3Xxk0IQDYn1nHFej+4RfWiH9JqDHmWFwIH773/pstOaTXem5FftcYVyXEUtzBsLoryLi9VKGJDPacs4lb6On4xPoz0LLUzrr9P71RkZdIYqSPCaal5u54VD/Fd2Lny9EHhphxSdu34Ojk9bXtvltEfWGVG4sVTjUXJSngPqfFgYoOu/dgGOq8EZFdmyQykxSsriXbCBx0c3x7vqR+RDM2e6EAI38BKag==|920
+}//rOPydjR1FVd9FlrQwXTqpVY+BlralTxiUM26IzkBBBvlX9VynybtyWO6X74WESl9YfB+WcjS3N9EODJ93tVA7Au23Xoupit6dGW5B+3jj/AR31Do2nL86wf5db53hPqlorWcHvLA2CdUaD4ySjb0ecKPOuRCHqbBwDZNmhxve/n7+qrDZa8js9ZpygNwMZbyStu6MnHszZTlVKwOF0dTcYJzheqJgNeYRaKy4lsE1407iLodSIsAScsAmSKnvag80w8w/eXlXsQjNP4OniYbDff8/B2zpt+D4VPm3FP8pFy8bI/Zr0lzEK/YidUdMYsAvzg1ZupmkEfrWIqoDTsMHFwYFoFvXQbKPhB+gjMBNi3yeQMRz+p7lEx2j2LxXIX/GSQ/1s3ULqvswUawltr4mGYQTWZ/MZCRjkfezCUKYLqOGCaDEYUwfI9BpFP8hfd3lQODtfBrvBVFAXiI1l9naVSIuUrjjyODDBDBZY3wOavr24tfn1JTLOEpQ2OxivjT8hyels68AvKRfIQ7VKGdVC5NQlRJwBHHsAzthEmd3pfvZmuRJjA7jf1r7+o0hi1zUhwLd0yqd5KkzzRi8SElvNtj7UcLs5SYtSe0ozsn4HSgE4bzVSH5LddkMlGbzhXjDEMyuolcM6h4cmH63hstrOjp5VVLJvI0Nl2abvauY09So2jWhTivYx8ZQuyeAFU8MJkJVGAcyCxYrpBYuwC9+PlQvc+OOHPEdoK2sw1SsX1gZBCuQyhNhbonuofCx/ZfZBZYWNmHzSurWYcf6x3LQd/rbvQn4mc6SOzAIRjEH1S5fj7hrhdPn1uaBsZ7TWsK+FpXRkf/TIjv1YTy7bffXrps26BX4pNIXmMvFZoQ3QjLCqUXIiYnzXjA8O4dmTH09h+RXo2okzdrrf3ifBCjuw==|920

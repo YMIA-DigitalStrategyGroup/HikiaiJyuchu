@@ -287,6 +287,9 @@
         "TableName": "t_shukka_yotei",
         "ColumnName": "SHUKKA_YOTEI_DATE",
         "GUID": "ac4a40d4-dd53-4cde-8766-83850d2449b2"
+      },
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon"
       }
     },
     "10,51": {
@@ -478,6 +481,7 @@
       },
       {
         "FontFamily": 0,
+        "FontSize": 18.666666666666664,
         "Formatter": 1,
         "BorderBottom": null,
         "BorderTop": 0,
@@ -625,6 +629,11 @@
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "HorizontalAlignment": 8
       },
       {
         "FontFamily": 0,
@@ -881,8 +890,8 @@
       "10,21": 5,
       "10,22": 5,
       "10,23": 23,
-      "10,42": 23,
-      "10,51": 29,
+      "10,42": 29,
+      "10,51": 30,
       "10,52": 5,
       "10,53": 5,
       "10,54": 26,
@@ -2063,7 +2072,7 @@
       "34,53": 5,
       "34,54": 26,
       "34,55": 27,
-      "42,41": 30,
+      "42,41": 31,
       "42,42": 5,
       "42,43": 5,
       "42,44": 5,
@@ -2085,33 +2094,33 @@
       "43,50": 5
     },
     "RowStyles": {
-      "6": 31,
-      "7": 31,
-      "8": 32,
-      "9": 31,
-      "10": 31,
-      "11": 31,
-      "12": 31,
-      "13": 31,
-      "14": 31,
-      "15": 31,
-      "16": 31,
-      "17": 31,
-      "18": 31,
-      "19": 31,
-      "20": 31,
-      "21": 31,
-      "22": 31,
-      "23": 31,
-      "24": 31,
-      "25": 31,
-      "26": 31,
-      "27": 31,
-      "28": 31,
-      "29": 31,
-      "30": 31,
-      "31": 31,
-      "32": 31
+      "6": 32,
+      "7": 32,
+      "8": 33,
+      "9": 32,
+      "10": 32,
+      "11": 32,
+      "12": 32,
+      "13": 32,
+      "14": 32,
+      "15": 32,
+      "16": 32,
+      "17": 32,
+      "18": 32,
+      "19": 32,
+      "20": 32,
+      "21": 32,
+      "22": 32,
+      "23": 32,
+      "24": 32,
+      "25": 32,
+      "26": 32,
+      "27": 32,
+      "28": 32,
+      "29": 32,
+      "30": 32,
+      "31": 32,
+      "32": 32
     },
     "SheetStyle": {
       "FontFamily": 0,
@@ -2132,14 +2141,14 @@
     "10,17,1,6",
     "10,51,1,4",
     "11,7,24,48",
-    "9,17,1,6",
-    "9,51,1,4",
     "10,7,1,10",
-    "9,7,1,10",
     "10,23,1,19",
-    "9,23,1,19",
     "10,42,1,9",
-    "9,42,1,9"
+    "9,7,1,10",
+    "9,17,1,6",
+    "9,23,1,19",
+    "9,42,1,9",
+    "9,51,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2166,4 +2175,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//uTpLbaoUvGrZSaswdZUS6AWNSC1wwd26UMHih9HudKeWjsfc+ZqqYXlw65BXe8+vZJwclcdiqEJ5CPW8iNfA5pbVM0G/u0Rpr0b8CdeOo3EoETnVZ1FDHAONlfXM7ntku8mvWmeuoemlyf98WVajb9ZnS/SbYu4eDHcaJnoJZ6ocsXh1xQf74umgdrSL7Xrika+/Os/+RzFi7YWAzuQ9OCILgugW5Ru/rBmOb3IzMPs+vHobivyK6zL35Y5OeDekYhS5VFpMVVZa7ovJymrtx82cX+aQDVJIlFcfqbI6FrdXge2IKI7SO0OaieW81DL/unwYOZ10aaqD9W7jpIS8dCoqPI5/c97KMhC21kARM2stDgRHgZmzg6AyUn9rNBp2PgNQVJhCWWg+i/u4VOoVppEsQXTnfibx1/lQJkesnvC8KAvaMeLnOGLpB8ipLLECJnk/Vr+8+hZllbFruB6vPtmOh3IvDMeUMHVg95C7kr75TlT7RGcW0hzBQanGCByCEuAx8s6h6hWuNk9FHtW4zU1zYxswBuGGaNmZOgWPBd4Ocmn8DV1pwgbfV8GXZ4jTyU3zHOJNwpuXg2GEAEggP9vawSEvTNOkbiARjsuZn1WEun3oEdNWDIvUHd9qzd93mT0stM7fa5o3IH/fh/SVzV4xgv2vXyv0D5psjt7nIUsCrtXyoQePe51knxvzR89yTbmNMzk3jQc5h7eGnrWtFR2RD8woxlGIMk/+AQwpmU4OsGbYWjfO7iZpneFqon5VkHI1oxH66W0emsgrMkx4aJaaF8qxY7AYtXbDXJmi/ciyM7Dqvpx8gXY9b+pCz5FTuRxlUyXNZyuHbvVP7pyaiuzHt/o1eINo7XQTwvFwQ1nkWOkWJfetOsfQJjgiMrMzr8PlGcTdQ31sCc+7agjfhQ==|920
+}//CGYKDcMLv1Wgq3IS7oQPsqASucg0gPH1Qfgiz4+KjoxtSPWeb99F7aTBAaMp3gyIKbQ+BCge8Bd5PLtrHF4ebBcP4LC/gW5piJhJ1h+FoGB/r+TVFu9hQfGuqoF5PeFV4pgc9Cgqnbmc70WDkQENLrocw6pPHkQ911Q0ca04wNWVnsH85hH6gX9lsWjJ/HC9WtUDVHMQ/313u9crOkXCdDsM6sriBhsk4i9XNzuSohBZgBpWW/yTPut7k0+RSaS5foPyoqUZNUVzJsLi4Zu3CWTZc+owAFGBLVqCqjV3EOr88LOC4PyYAL9KYNoaykjPuN4ZIAHxPJ65ZzFzuhunSEQ5wNpoiWhWc2N69jO/CrxDxoBGPoYmbFsi6G6evx/axSQodNx38xXwX/v4OLVG07GfRC9aIeNEV36+USgBkmd1QMXV6OLQ6s0aLLljWTsnUJfhdu4fkLmSO21stbSSSDiG0oZLsTZ8dSUl8yCBt4sXRLYDnxC/L4vSOXTnB/DMVh7SauCuL93SO/jzqZgHu6U7kzRBdWYKPTCErnmp7ZQqUrXgwHdiHvLOuw3Xjm+lUGbjpmJQ2f2Td83I5o0/OU743Xeovle9dLCruRUkRsor8OxFdvsvDDVT1KCExPkylHP1uY0JzRy26hyiIUArPFj6XDRqYX6IMyonH3ZSV9IiUQnj62/zdi+piT4TFTBTNd40fcsX5fpvPvreWpeLedTwNycnol8488yjlSj+ZIsDKdH1GvAgwFyVEPxtYUqDTe93pfU8zJlaGiNhIq0kNki+hU5Bo99Ry2MyltgD1XI+EDS391VI/TeUA+k9vzwnMpD9jEITRxHyRt2dsKBxvzbDEvs6SG57d70Ju7x+r6U/n6TQSE7gPwGGqed9HV/IjmYXIXTL5C0WPOjmDfW4Xw==|920

@@ -62,9 +62,9 @@
   },
   "Values": {
     "1,16": "送 付 案 内 書 １",
+    "1,44": "PDF出力",
     "3,37": "出荷日",
     "4,7": "送先住所",
-    "5,44": "PDF出力",
     "6,7": "送先氏名",
     "6,37": "到着予定時刻",
     "9,7": "販売店住所",
@@ -150,21 +150,7 @@
     "64,26": "ODATA(\"tjuchu?$select=ENGINE_KATASHIKI&$filter=JUCHU_NBR eq \"&IF(ISBLANK($BE$10),\"null\",$BE$10))"
   },
   "AttachInfos": {
-    "4,11": {
-      "BindingInfo": {
-        "TableName": "t_shukka_yotei",
-        "ColumnName": "NONYUSAKI_ADDRESS",
-        "GUID": "518390ff-0fcb-4e42-accd-0be4f2bb946d"
-      }
-    },
-    "4,37": {
-      "BindingInfo": {
-        "TableName": "t_shukka_yotei",
-        "ColumnName": "SHUKKA_YOTEI_DATE",
-        "GUID": "73300ad2-1a5d-47ad-b5a8-5df796cf098f"
-      }
-    },
-    "5,44": {
+    "1,44": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -181,6 +167,20 @@
           "Color": "Background 1",
           "UseCellTypeForeColor": true
         }
+      }
+    },
+    "4,11": {
+      "BindingInfo": {
+        "TableName": "t_shukka_yotei",
+        "ColumnName": "NONYUSAKI_ADDRESS",
+        "GUID": "518390ff-0fcb-4e42-accd-0be4f2bb946d"
+      }
+    },
+    "4,37": {
+      "BindingInfo": {
+        "TableName": "t_shukka_yotei",
+        "ColumnName": "SHUKKA_YOTEI_DATE",
+        "GUID": "73300ad2-1a5d-47ad-b5a8-5df796cf098f"
       }
     },
     "6,11": {
@@ -905,6 +905,12 @@
       "1,40": 0,
       "1,41": 0,
       "1,42": 0,
+      "1,44": 0,
+      "1,45": 0,
+      "1,46": 0,
+      "1,47": 0,
+      "1,48": 0,
+      "1,49": 0,
       "2,7": 0,
       "2,8": 0,
       "2,9": 0,
@@ -941,6 +947,7 @@
       "2,40": 0,
       "2,41": 0,
       "2,42": 0,
+      "2,44": 0,
       "2,45": 0,
       "2,46": 0,
       "2,47": 0,
@@ -1082,12 +1089,6 @@
       "5,40": 15,
       "5,41": 15,
       "5,42": 17,
-      "5,44": 0,
-      "5,45": 0,
-      "5,46": 0,
-      "5,47": 0,
-      "5,48": 0,
-      "5,49": 0,
       "5,50": 0,
       "5,51": 0,
       "5,52": 0,
@@ -1128,12 +1129,6 @@
       "6,40": 8,
       "6,41": 8,
       "6,42": 19,
-      "6,44": 0,
-      "6,45": 0,
-      "6,46": 0,
-      "6,47": 0,
-      "6,48": 0,
-      "6,49": 0,
       "6,51": 0,
       "6,52": 0,
       "6,53": 0,
@@ -3588,7 +3583,6 @@
     "8,56,1,4",
     "8,53,1,3",
     "9,53,1,3",
-    "5,44,2,6",
     "11,56,1,4",
     "19,53,2,5",
     "6,31,3,6",
@@ -3602,7 +3596,8 @@
     "38,13,2,13",
     "38,26,2,11",
     "64,13,2,13",
-    "64,26,2,11"
+    "64,26,2,11",
+    "1,44,2,6"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -3764,4 +3759,4 @@
     },
     "PageOrder": 1
   }
-}//cvjXIH4XoPsDPXBnQl/DBD/rYqvoOvyipCMz7C7NzHWe/x6j9AmYu4wjIQGKgZ+UtgoDg2Q2cT+CjvIIiTBVr9oV0Bo0/7tpaIEQACxCPD00eaD7B4JcLOeK+/4nzF/kUl0iZqQUWlzy5qlQjnfA8Kg4EfwF/AXGaAimWMX5MpVFXrv2XidqXPYZ6bszmdJS906DKAQI+CrH4H3oNUcMI5bwNkJ2Zuryp20dYTLdS5W3R1U2PL+Dm/kcsAVs96wu5pGoscei9uGfSwgfrmPSxdNaeSKW/g3ozeqrMRGuO5c9Qanc8fDFtAZLS56utEEmEbGQjaXbfs+RMnIZEFph+F2zZ7PBX6E2n2k+ZVVVOMqIecl05PXO10Br01uURL4Imhy8ujqDGo1n8VP9JQ+WuFfRLLgfuVjBWu7OEZdxA1DzB8DcdwRmxi+PjvjHcYIPMsyhcFE9BODabUkmKzmu4HnBOGwBTduueTDK/al6LH11mW/VKuvo1ti4OAwXQBB9N0Yj4pscYjxkNnqdHkppL0TYKNvuWv42p6pQncdyVq9i2KoF+WT4LVp/MWaeZMsF9W16Lh4Jdalft1rJn1f1631n7FHIEYJDTwQJPvrCL6tu3AaVLUlKaR6l81edOIAkbUbmc+KbUqS+XEtEnUYEOb6G+OHha4GnLGBs3wWPouA4Wa/yjACIyv/rSlVvaPamOYRyG7EBA3MZfEB1j+9Fph2EvRgfhsNr1sdlWV5Ae1PQlTxw93wvV0WsSVHLeae1BwvGA7UHQzsg1y8I2rU8rGUeQbj7JxbJA0M6sbq4zvn6Jo1qSjrlrxyE/iyhERVQr1OOIRHFFMmIC/0zK7NxT9rmtypZ9UpAnQuHt3r8AvhzTXhJp5EKIYVoTiiTkJXBkxXvjg0ERM9Wie6329TzoA==|920
+}//Xjt5t+y02ro2Zo99YGDJHPLW/GJ4C7OzLeqwYrVF9kVFZybu+/jwrDXHxNQpQS+iRbJrR8SIKGtbOoH3Tbs0XPj0zVXzB+XOZ/RSaWdWGqbzXDyl0I0mH422EtywdDXfEVcvEEQHfdDbKHS1hp3EhoFIb5O/ZuTSNJsyKUczYVFhtswi5XAyr3JWKAllXPwRWl1R6Pg94nM1QNkJiHME3YS34qr8tygpKCxd89tNDaECdeyXkUPBSbFY123lYmqbCypAcP+XWe0bSZj11LzoO/Fzt5XmwEtV4+dxR/PxWFBhKuET5Bfs7e76l9ZmF2D3o6qiXxzCLcbkZbJhfSKsTaG4og64hXuR17k4mwpSJcikW3IZ6Fv6ZiQoyMsDSb9SuvW6y+mTndSx/M9hKoknJfHUQF4UbmEizKG7hRKP9T7Ggax1yYtOvgUNIJH6odoC/W8pyUgnXA0QItNcr6numxXBoA5Yvz/xBtpLV7PUKTJZW9NmRM6VCUaN0Bls4xUI9ZPAu59ciPTcSzYhWhNBqG/K5G7GOUACQZ+hehsTZO5O7MzONa166wamsbBzss9xFQAeWFm1EGOyrTTnIMgjfpNtC/IRjFqsCr6DRZhx9XiRoXI6sL2giPDcqpriWPRo74+vUHARlg4HRSSTYRcqAqm1l5Y7rxAa5XvuoiuJPMOfLNldYjvD7xFtFpjW3yIEYBKWBPfWBtm/ykGGByvcAfCbCEOauBGmqg5Fm9OjzBNZFLEdlTzvPvOZ3bK09XmmaRbdl2CvXLcwG75FVmHVMYVQDYCR2MbLYgEPOx3Q34k5Nkgz/Dg1HbuAY9fpNdRDI6VepAnZeFxICnhYWxOjqKZCNhcXhLC/ncHwUZfDUL8faqkVNVfH3SUpGqvFrZZaGHq/fuTajBic6IKVA/2vzA==|920
