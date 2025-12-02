@@ -256,8 +256,13 @@
       "IsCellIgnoreHideInListview": true,
       "BindingInfo": {
         "TableName": "t_shukka_yotei",
-        "ColumnName": "JUCHU_MEISAI_NBR",
-        "GUID": "26adb290-94f2-40f1-9745-6f239340483f"
+        "ColumnName": "JUCHU_NBR",
+        "GUID": "26ac8920-edde-44e5-98bc-796e6733f78e",
+        "RelationBinding": {
+          "RelatedTable": "tjuchu",
+          "RelatedColumn": "JUCHU_NBR",
+          "DisplayColumn": "TEHAI_KOBAN"
+        }
       }
     },
     "10,17": {
@@ -272,17 +277,17 @@
       "IsCellIgnoreHideInListview": true,
       "BindingInfo": {
         "TableName": "t_shukka_yotei",
-        "ColumnName": "JUCHU_NBR",
-        "GUID": "39626b4e-b0c6-4997-80c9-f9f68a51b0c6",
-        "RelationBinding": {
-          "RelatedTable": "tjuchu",
-          "RelatedColumn": "JUCHU_NBR",
-          "DisplayColumn": "TEHAI_KOBAN"
-        }
+        "ColumnName": "NONYUSAKI_NAME",
+        "GUID": "cc22922f-4c28-4cf6-9d41-81571ee1437a"
       }
     },
     "10,42": {
-      "IsCellIgnoreHideInListview": true
+      "IsCellIgnoreHideInListview": true,
+      "BindingInfo": {
+        "TableName": "t_shukka_yotei",
+        "ColumnName": "SHUKKA_YOTEI_DATE",
+        "GUID": "ac4a40d4-dd53-4cde-8766-83850d2449b2"
+      }
     },
     "10,51": {
       "CellType": {
@@ -862,15 +867,7 @@
       "9,21": 5,
       "9,22": 5,
       "9,23": 23,
-      "9,42": 5,
-      "9,43": 5,
-      "9,44": 5,
-      "9,45": 5,
-      "9,46": 5,
-      "9,47": 5,
-      "9,48": 5,
-      "9,49": 5,
-      "9,50": 5,
+      "9,42": 23,
       "9,51": 5,
       "9,52": 5,
       "9,53": 5,
@@ -884,15 +881,7 @@
       "10,21": 5,
       "10,22": 5,
       "10,23": 23,
-      "10,42": 5,
-      "10,43": 5,
-      "10,44": 5,
-      "10,45": 5,
-      "10,46": 5,
-      "10,47": 5,
-      "10,48": 5,
-      "10,49": 5,
-      "10,50": 5,
+      "10,42": 23,
       "10,51": 29,
       "10,52": 5,
       "10,53": 5,
@@ -2141,16 +2130,16 @@
     "4,28,2,5",
     "4,33,2,9",
     "10,17,1,6",
-    "10,42,1,9",
     "10,51,1,4",
-    "10,7,1,10",
-    "10,23,1,19",
-    "9,7,1,10",
+    "11,7,24,48",
     "9,17,1,6",
-    "9,23,1,19",
-    "9,42,1,9",
     "9,51,1,4",
-    "11,7,24,48"
+    "10,7,1,10",
+    "9,7,1,10",
+    "10,23,1,19",
+    "9,23,1,19",
+    "10,42,1,9",
+    "9,42,1,9"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2177,4 +2166,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//dCSmE0V61GkVDoQEP2HEE/GXOXO4c8UzHUXp7qfjTPlAvAoGelBm9CpEepR9Lp405ytvdcuS5/56LxnDeN5BmXtiMu3UyKSO/a86JqaHFdJuUNNT5eS5Ian1Ra0cpUAc4TtvE6pIhv8i/N66nMqHnaH/H6qn8BMGSsoTSMU37dz2/cV8rSsstRHGok3jJkr1+7Vvl0U8+xx02jmqzuGr3ZBq4F0Q+INGb/McvFnqOFfaoT1gptX4wAfmOoUmGwFdVxOxKLJFaWm1aYXYdG3lPAFwXYPQzB6rxh08eRQ3t7XaRODCe/EVpBH9n0Y8EpYhBNAdAQEtcrNZlwGaKAa6R9IqL+p/vKOKTrHfaONL2mKHKQSPvSiQQlWBfB6PxXrZvjuYuIdIKPA0dRylj6F0ovsF2K765RkfcRKlRaWWhmCO4I2jjDR2Ul9QwEc5/jc7ybmQ3jA3Yme9UaSLvs8rLl9Jwz7k1yfJD94FHHklr9pihWBRBMSXBkS7Yx/gD0JkDj1EoT1gPZ8NezCtUulgSuRTaR/23mWUFycU55YQDxqW1z+WTKRuc7mIBPk7a7SH2oBxyStysrYFdQR4ERmYpwUhOsBTSctzCUis0xo7XOlyDLHOLvsLvV4MSqNbQr4M0Pg2MbHyTIg3j0rMALiVDIco7KxRX79WkKILQUKAkkYJSOI9iLl2cIHsnyfMSnUMdVvgj5cTtG9DZPzn3FXj0emC7TYXVkUtF48B/NzfDwe7PCLT2tuC9oAnDUFt2tSBVoY4uk0pIvs06JA9mAe3WIEPijrkE6QNKTUjY5HaObV6+k+F1k4QkUi0mlw3z6CV1ffHL/+rI/GGBRlbLPBuGxwJjDvwAV2ir5Xh68Ks5HZvI8Kfv2sOtI5AdxOAKTclPQz1wFfj6jlc0FvDkDyG2Q==|920
+}//uTpLbaoUvGrZSaswdZUS6AWNSC1wwd26UMHih9HudKeWjsfc+ZqqYXlw65BXe8+vZJwclcdiqEJ5CPW8iNfA5pbVM0G/u0Rpr0b8CdeOo3EoETnVZ1FDHAONlfXM7ntku8mvWmeuoemlyf98WVajb9ZnS/SbYu4eDHcaJnoJZ6ocsXh1xQf74umgdrSL7Xrika+/Os/+RzFi7YWAzuQ9OCILgugW5Ru/rBmOb3IzMPs+vHobivyK6zL35Y5OeDekYhS5VFpMVVZa7ovJymrtx82cX+aQDVJIlFcfqbI6FrdXge2IKI7SO0OaieW81DL/unwYOZ10aaqD9W7jpIS8dCoqPI5/c97KMhC21kARM2stDgRHgZmzg6AyUn9rNBp2PgNQVJhCWWg+i/u4VOoVppEsQXTnfibx1/lQJkesnvC8KAvaMeLnOGLpB8ipLLECJnk/Vr+8+hZllbFruB6vPtmOh3IvDMeUMHVg95C7kr75TlT7RGcW0hzBQanGCByCEuAx8s6h6hWuNk9FHtW4zU1zYxswBuGGaNmZOgWPBd4Ocmn8DV1pwgbfV8GXZ4jTyU3zHOJNwpuXg2GEAEggP9vawSEvTNOkbiARjsuZn1WEun3oEdNWDIvUHd9qzd93mT0stM7fa5o3IH/fh/SVzV4xgv2vXyv0D5psjt7nIUsCrtXyoQePe51knxvzR89yTbmNMzk3jQc5h7eGnrWtFR2RD8woxlGIMk/+AQwpmU4OsGbYWjfO7iZpneFqon5VkHI1oxH66W0emsgrMkx4aJaaF8qxY7AYtXbDXJmi/ciyM7Dqvpx8gXY9b+pCz5FTuRxlUyXNZyuHbvVP7pyaiuzHt/o1eINo7XQTwvFwQ1nkWOkWJfetOsfQJjgiMrMzr8PlGcTdQ31sCc+7agjfhQ==|920
