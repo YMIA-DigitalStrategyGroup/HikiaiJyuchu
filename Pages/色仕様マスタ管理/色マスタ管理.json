@@ -31,6 +31,12 @@
       }
     },
     "InLogicalVisibleIndexes": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
       81,
       82,
       83,
@@ -48,7 +54,7 @@
     "4,7": "仕様",
     "4,13": "検索",
     "4,19": "艇種・艇番\r\n新規作成",
-    "6,69": "機種～部位分類　手動設定",
+    "6,65": "機種～部位分類　手動設定",
     "7,2": "色仕様マスタ情報",
     "7,37": "色マスタ明細",
     "8,2": "艇種",
@@ -222,7 +228,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     },
-    "6,69": {
+    "6,65": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -523,7 +529,7 @@
       "BindingInfo": {
         "TableName": "miroshiyo",
         "ColumnName": "HYOUJUNSHOKU_MEISHO",
-        "GUID": "5c36cd8d-385b-4391-86c5-999b7b7c99a7"
+        "GUID": "9340aedb-4c65-44e9-997b-0cb6de8e38ee"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -701,7 +707,7 @@
       "BindingInfo": {
         "TableName": "miroshiyom",
         "ColumnName": "HYOUJUNSHOKU",
-        "GUID": "c2de4eb5-ac77-4dfd-97d0-6cac1581bd23"
+        "GUID": "2a627172-9282-49b5-869f-b8b618ed1544"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -900,7 +906,7 @@
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=色マスタ管理!M2"
+                  "SerializeProperty": "=色マスタ管理!V2"
                 }
               },
               {
@@ -988,7 +994,7 @@
                   "TableValueType": 0,
                   "BindingInfos": [
                     {
-                      "GUID": "737601cc-9660-4364-8ff4-605235b6df21",
+                      "GUID": "bdcae621-8859-4032-8897-a6610ecaabbf",
                       "BindingInfo": {
                         "TableName": "mname",
                         "ColumnName": "MEISHO_CODE",
@@ -1024,7 +1030,7 @@
                     ]
                   }
                 },
-                "ID": "8c50dd219b9b45b3a54d898505172613"
+                "ID": "1bdad039be8f4664ade1dc68cbd451f8"
               },
               {
                 "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
@@ -1254,7 +1260,7 @@
                     "MessageFormula": "色マスタを更新しました！"
                   }
                 ],
-                "ID": "048a9726-b9ea-4334-abc3-83ab2b5debb0"
+                "ID": "fc04afc5-a92c-4202-8349-7d44f087a4da"
               }
             ]
           }
@@ -1371,7 +1377,7 @@
                     "Disabled": true
                   }
                 ],
-                "ID": "e896e67e-5791-4fde-b1ba-7ef9a2e56cab"
+                "ID": "2c2f636e-0ed6-4409-bd1c-ce80ffe77cc0"
               }
             ]
           }
@@ -1453,7 +1459,7 @@
                     "MessageFormula": "色マスタを更新しました！"
                   }
                 ],
-                "ID": "e11007e4-cfca-4053-886f-84f4985fedd0"
+                "ID": "fc5103d8-f25b-476c-a4b4-cf8804309e93"
               }
             ]
           }
@@ -1790,7 +1796,7 @@
       "5,23": 4,
       "5,36": 9,
       "6,36": 9,
-      "6,69": 13,
+      "6,65": 13,
       "7,26": 4,
       "7,27": 4,
       "7,28": 4,
@@ -3075,17 +3081,9 @@
     "5,2,1,5",
     "5,7,1,5",
     "7,26,1,6",
-    "9,2,1,4",
-    "9,6,1,3",
-    "9,9,1,7",
-    "9,16,1,7",
-    "9,23,1,6",
-    "9,29,1,3",
-    "9,33,1,2",
     "9,38,1,6",
     "9,44,1,5",
     "9,49,1,6",
-    "10,1,37,34",
     "26,37,1,4",
     "26,41,1,4",
     "26,45,1,6",
@@ -3104,15 +3102,8 @@
     "9,76,1,5",
     "9,62,1,7",
     "10,37,12,49",
-    "6,69,1,12",
     "9,55,1,7",
-    "8,2,1,4",
-    "8,6,1,3",
-    "8,9,1,7",
-    "8,16,1,7",
-    "8,23,1,6",
-    "8,29,1,3",
-    "8,33,1,2",
+    "6,65,1,10",
     "8,38,1,6",
     "8,44,1,5",
     "8,49,1,6",
@@ -3126,7 +3117,22 @@
     "25,45,1,6",
     "25,51,1,6",
     "25,57,1,6",
-    "25,63,1,6"
+    "25,63,1,6",
+    "9,2,1,4",
+    "9,6,1,3",
+    "9,9,1,7",
+    "9,16,1,7",
+    "9,23,1,6",
+    "9,29,1,3",
+    "9,33,1,2",
+    "10,1,37,34",
+    "8,2,1,4",
+    "8,6,1,3",
+    "8,9,1,7",
+    "8,16,1,7",
+    "8,23,1,6",
+    "8,29,1,3",
+    "8,33,1,2"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -3167,4 +3173,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//AZqL1j6J6LasxCxtDl5C5z32eefTXaMgmkGyyczWP0HskIRYOEtXPdFTUfV9kF++I++PvYOUXboZB7rmdkX2pA+1kcaTVRnwtKsHIWHtSOZBJ/sLrr3mSDN/mD5xJgpwCz21DDa9EpcFmj81ukX4j+YR//jmKSU87QqVMv80yhRQ4qyWtSEq0k2mOm8qR/5XVCCMHpsEpk2EJeqlCzDPlzjRXbGD+aWPsQInesQWJeCVPyW1kUBx57iwIdX+NytSF29KYtvlSpo+K3TmRMNcphixm/0GOiAb4XQqK/HompKKRwtC+KKOgUJC+CrNMvedb1GGe+n9Y2xZBZFlTUQ4ZbY6UNbM9Y4CsWt83XJCPwKcoESsRoJch3ngIkbDdNHUZCB7wkLNYTRCkqcMEVEZk4CyHdyusOSPXXxHc5JhfmC1MW+7kROhSMzWkEuRQAtOzI70xvBN93n9QNO9+13XiieTifkwF6c0FIMW3XP/8FOLyxBZs+nUwgzep1aaxxaaFTrBzaRGEQuM7krmRRBhA9ivN95cELYAvCf7fKx8vBUTFecMKW/MBejTfCPcwFxZ60ZnjbirzCTFuC670t4vUdaQXGnX/RMaUoZWDfk44IYbFYLz+utolwSkjvz6ihuzASqY5t/egVBGQPVcI7jmoeLKRfJ1tIIYnOGZZx9B4Rj2zMbNss4lJCbSokXMBuCzBQKWGVTxtV6yzzrztBblrqZIOUFbwxygZ+M3CejodD2UpfjfE+lPeJWGOc6J84s6ZHsaKLOzvldWMwcdYBkzOi837zWPlOpnLTtTOj0VA1ZVNlsJQzkRZTm1bJUlrm81QcbZlZkWKI/uaHDLORTRfgmyP1xqSJZjDtbYT2S+39nKYptFs9YfBbTGL24PY9GBhHOyAuHUkC3KYerGl5nvDQ==|920
+}//TZNUuprhUdarXDfiJxZNNXRFcHzDQBNowvMW2l0xPMKKwPbITB5kv4kKEK4ff/cpLFQVWTVA48r4PCf+XpGxqTs7Xfq+KmLVhh9rtNFB/ZvKq0BbVTgBnd9svkfMXdDm4jbltx3H5ZzTmcwpbm1xnL2BWEHTPKaeyNYRNcwak0ykWaSP5l9Cuqr6VC/Yf3LtwNxhJOYDO0DbE4ZVShpLllmeLxGh0d2xnDCpZDCT7XH3JGNiRMJ12aXZPx9Kpyq+goQgUUFG2gN6EUZxlXoqDRtGZiQaTtEoGO86b4BiSgn/wU0ETz3Auu0rWCQr8ZfppIdL9OZqVVYsdJOetZ1sT5fc4CttjDa9Ui98i/Ftoa87F6/j2VnWBV8omvMl7wAZn2TefY0Fc0MA1/qOEbGi+cCWpDqrFXJ0pKJgpuo9NGxKWKvQ4TxHcsG6X0+FhidoK3szqnV4ia5Sqy8ECgiTbyPv3rJW6RyjgiAV5mebIxcX05QGqPWr6Xr/gTX7ESycebov3b+qb/ea6XWT0SG+OatgeYfyCibt+2kcCy2+ZOq7Mr6FA9DF4UqnFLvkL4wuHLWZPktXykVE3gALYUdfgi4eSbjVou2KloFyfBPfBzn/qQrNpQnlZ8zh7GL4mh61v0X5STgrGEFq+Sfm6bjF5EtaEx4ui943Fg/YpvmGew1yQEz7v0z3hirk9HlFXvyBnU8eYOKsagtu4LDCzUqB7trkIHAdEd00phZioJ8dF04eyLsQzVBsUjYHRPLbIDyNnzxxxXomNclpb9LQlnnDWd1PRLAxg0wa38h7iAF426fpIxp4jcaCQucRu/XKFIM1J6/e6FyxXvpatZhah1PXdihdPwmagQpByBlaXqKuoivA1QMJbi9bPJW057+jiFOPuonRfK0uEQxmSeyfV9FiFg==|920
