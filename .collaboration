@@ -13,7 +13,16 @@
   },
   {
     "ModuleName": "Table/tmitsumorim",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T08:45:28.7322765+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tmitsumorim.json"
+    ]
   },
   {
     "ModuleName": "Table/tshikyuhinr",
@@ -29,7 +38,16 @@
   },
   {
     "ModuleName": "Table/tjuchu",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T08:45:28.7322966+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tjuchu.json"
+    ]
   },
   {
     "ModuleName": "Table/tjuchum",
@@ -77,7 +95,16 @@
   },
   {
     "ModuleName": "Table/mkosei",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T08:45:28.7320168+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\mkosei.json"
+    ]
   },
   {
     "ModuleName": "Table/tshukka",
