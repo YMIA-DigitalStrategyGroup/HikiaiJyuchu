@@ -22,6 +22,8 @@
     "38,13": "ODATA(\"tjuchu?$select=TEHAI_KOBAN&$filter=JUCHU_NBR eq \"&IF(ISBLANK($BE$10),\"null\",$BE$10))",
     "38,26": "ODATA(\"tjuchu?$select=ENGINE_KATASHIKI&$filter=JUCHU_NBR eq \"&IF(ISBLANK($BE$10),\"null\",$BE$10))",
     "64,13": "ODATA(\"tjuchu?$select=TEHAI_KOBAN&$filter=JUCHU_NBR eq \"&IF(ISBLANK($BE$10),\"null\",$BE$10))",
-    "64,26": "ODATA(\"tjuchu?$select=ENGINE_KATASHIKI&$filter=JUCHU_NBR eq \"&IF(ISBLANK($BE$10),\"null\",$BE$10))"
+    "64,26": "ODATA(\"tjuchu?$select=ENGINE_KATASHIKI&$filter=JUCHU_NBR eq \"&IF(ISBLANK($BE$10),\"null\",$BE$10))",
+    "33,11": "ODATA(\"mtorihiki?$select=ADDRESS&$filter=HANBAITEN_KIGYO_CODE eq \"&IF(ISBLANK(BB20),\"null\",BB20))",
+    "59,11": "ODATA(\"mtorihiki?$select=ADDRESS&$filter=HANBAITEN_KIGYO_CODE eq \"&IF(ISBLANK(BB20),\"null\",BB20))"
   }
 }
