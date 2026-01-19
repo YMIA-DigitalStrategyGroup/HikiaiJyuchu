@@ -130,7 +130,7 @@
                     "MessageFormula": "既に艇種・仕様情報が存在します。　前の画面で艇種・仕様を検索して、色を追加してください"
                   }
                 ],
-                "ID": "0e20a505-37b8-4c00-87f3-ca87b8e46f3b"
+                "ID": "8e9a506f-1f4c-46bb-b38a-acad4ec81951"
               },
               {
                 "Condition": {
@@ -150,7 +150,7 @@
                     "MessageFormula": "艇種は入力してください"
                   }
                 ],
-                "ID": "46a416d7-3c73-416c-b034-b5bd8103e872"
+                "ID": "26e79f2f-7e36-4377-88ac-5e7cdae95760"
               },
               {
                 "CommandList": [
@@ -225,7 +225,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "c906e502-3a3a-475c-a571-35bfbedafb23"
+                "ID": "773cd9bf-4038-4634-a77e-091e6b7ce6ca"
               }
             ]
           }
@@ -601,4 +601,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//RkBbrIg/+xvDeCQ3CGnPIsmCMS6PGpgSVcMWUd/rtu48oz0x2dzxO+UQdVrjWPjXFftH+jQNql1OxNCqvVqUf13wj9w0FJQ0HeFrsujgBSXOaQVmJVBgJ+eHyYisjTKbyWXqeA5ZAggGHiq47BVIpk8Ubs4Cv32eP958cPmeZ/EPKX6fLFkYB+h9pBllS2QzFl9iRSDbp1dhp2b2FHUEwtemCUo7En8dLaU5/A/JMma07taLXsODi9PgpFCT859qwl+z9XN5vqcx5VJzj/jrqWE56x3JW6hp7rCK25JQZIm9084Tl/4vJFVa7n2G2/d3El+lNhRU5CFak2QJP5zvYw7zexBAxGATyk5upfpnVbmzJ97iEhf3gB0XJu+gNwsTGtuNBKY7y/uYqvoFk4Kv54xnfaU2xQjkuD6JuYxTq0D+HH9SGw8Zwe4NtXBl2iCQK7JHMAPtGdZfN8We1Xkdf1foZ/hMzXZgMFu8XZvXltrJ3e+bmAvq2sLj0+1Esp04eb85+ZTaHgN4AaELsYlrzP60BrEnaVbT1bU+pDWg4aGDzFp+ABlOeiJC0/gAtkZggNAwQUPORw23adeQD+EPC2JUI//pmC2Bay4K97b/U7utflS7KZNIH/XX+bBpRzjfsu7v5vVqXWo/NFfuVE05i34JzfrKt8FS/XAmAih9uj96MlfnyKUCZEZUEu/M2Ur//ScyAaJytmArUroaDMcngCMtz8KShtgRfuTfmk+h+NTcg1QAkGnKBEHZH8omZCWOI6KpE4SnzhTz2QYRIUA45SGQ3mi2MgtU55ITlnSyI0+/aXHaE7cJM5pLtzEI/N8j7Nmlj1dXQtQHF0WZFhEIHknmR3o6NEdNZTNru9Gfk9wYDW/hLH4k2EwNYl57EwfmO22ya/FhdJyVpcYs+PMmvw==|920
+}//Wk4/CeNt+s9G3zHg2J+F6jSgPahB+MUIFQV/HBfnGbZKU6u2Wtb1pUz1473drpOTlf4xMUP4PCUAcq9YXyd17GK4VAmP8yTS7v0ij3iVp/U0ERQ1Pmstc3/3VHLZXdZ3cfUIYqWhztQiClewVu4VXqRzIvsFP6YpFD+baQEnrF+AIWOMY3JVKExcPRA8qMxOsPchmuWLucx8501LgHvbJTkWI553PlJZ4foiYdTGU5H8lyHILUQwUExRRdACotz9dMUKEvFgqPgRgbRb6AWUxGlr6G27udivtBCKEUS/WIap9TsVgBR9wkK7cM52sW8IdyEOGweOdkSJdwsLg8lHu/o9+Q212Qgv7uZWDb4FKHtCaqqL6GyAVYA2npY1Im+u7DwFkQPyQK8BUfZRno4HCgR/1HVBrml88oKfKOwYE62nY7sNhiSjG0jO6S/6rbyUqK5/wkYqIeqHWSZ464mRDPYxd5jSTBsHCn+mc2Sp96Rzdg5o9aecUf5eWsZr7EpAptN17TEaMPRH3ppJQYFs+7AwJTVCz/LfdLDhr0pub7mdbVaCRXs6H794IV1g6g2WVlQxwG45cIE9vTVw1e6KR3CqjNU3T6RFcQTQbQm5MteSB/I5UKaFR3NkwCZv+1zdGBWeEnsIMBx39YMjMjKETDD9NX194ARNqpvOh77G97POFIweLZxu2tOcSTvv0yYDACSkFCy0kMVc7ybttiajavVgEX5UmDSIJsIIpAiOI2HyAJqZugqvRPAxjsBKS09SaWLMf3btcuMxNA3s0mNipg1s0SMiJz5yRVbgNy1QyK9Z9Nbm6CmG1ll8yws7Kn5OfvWcDOdcjD0qMRkfYwmgN4yuKrSmKKVwHCy2Q6YqNF0IcFegY0ivzXplWbBuz2FKx3KMV/cUnJXgsajArRbkQw==|920

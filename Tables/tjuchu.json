@@ -610,6 +610,7 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DefaultValue": 0,
       "DatabaseColumnType": "int",
       "MaxLength": -1,
       "Name": "EDABAN",

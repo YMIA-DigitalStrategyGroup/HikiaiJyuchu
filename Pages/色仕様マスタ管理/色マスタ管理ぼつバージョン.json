@@ -572,7 +572,7 @@
                             "MessageFormula": "既に部位名称が登録されています"
                           }
                         ],
-                        "ID": "5372170d-3984-4a36-a65d-6e0def6a07e5"
+                        "ID": "43b5125b-f3f5-43cf-bb5b-d14fa5c33736"
                       },
                       {
                         "CommandList": [
@@ -767,12 +767,12 @@
                             "MessageFormula": "色マスタを登録しました！"
                           }
                         ],
-                        "ID": "fd2bd366-02bd-43d0-bee0-0cee40769e88"
+                        "ID": "2526f4b1-256a-4a46-876a-7ab687784f0c"
                       }
                     ]
                   }
                 ],
-                "ID": "0a411126-9f7c-4cc1-a2e0-e6567a5c0344"
+                "ID": "6bfc064d-7937-448a-b0d5-6e61b3e30089"
               }
             ]
           }
@@ -993,7 +993,7 @@
                     "MessageFormula": "色マスタを更新しました！"
                   }
                 ],
-                "ID": "c63de1c2-157a-43cc-894e-73f6f703c372"
+                "ID": "5c264999-5050-4e8f-a7f1-89158a5109cc"
               }
             ]
           }
@@ -1035,7 +1035,7 @@
                     "RowsToUpdateListViewName": "リストビュー4"
                   }
                 ],
-                "ID": "9fe4e735-016a-4634-9bbe-a5bc0e494fe8"
+                "ID": "4b04a465-5849-49aa-8ed8-d16ff1698b3b"
               }
             ]
           }
@@ -2466,4 +2466,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//IEJkOLBTfaZ0nQbDFtf1fAbKEg0SXZ0JEDvzsYDhGgaCPE6AnPj2nV6BkxqyqD52KRPtVO1hLF9KpvvfPekUW9HOUY0mntmHDCtGLFLmrsaJrs+A8/HyIM4KOx9m7e4jANfdyWYuwvW7DmOgpSEJIek3tabq3ljvo23a0ct+11aaI89IKaviO9pZjS4mwVLrquADOAwn3iIFRFvPyU/YcSnsYx41D/+4qq1L4AJyYTDsacrXKwFfZOh467/+CI9teRQ7BxEhEaai+tJWWSdkVSwQO8YSO3TT8TRXi5B1pz/iEhghobuHzT7CgQJZeO8pWhUTSgzjt0Ll1ES3sMVUWBdFOTwCYi+sGvQxZKscW5gk9UMYy35e5VY4zifSXbHbI5qwRZMMVPdhJwypea0g/X7WlELtxC0Evrmjl7kOAPwjtTrf7PLBUwP1vMfP5WO5FxUC5vORkq59x9ZMx12wwJofbxvd2KzRRVAj6XNRzrd6xLU9RhY4+eJS6h37kLC+yNZUMzAAG/R/EJAkuMVczjKX8VIh+VIcM2jRnd4LoOmAO1EjHd7f8mXdaQZMKfziZIWjpNe+Xh2wMeNkL/AqNVKrx0WfUr93yfrKbHMqoQC+cvHwKn6eQCFqu/Cj4zE/aqz0JVoztNV7dRfGysM9wsAGw0jKKg1dGg++jCmYcOShaXlXNieC/57tfrd7rG1ylxZzzNGbP6Zq20gknj1TvB+lrGD0TlsyRHeZ3B4uGnz/oPCc4g1IbIHrIw0Tby5EaCVtN4H3vlcn+v2HuTfB13qhWIQ/hmXadLsPdO7J/qKnA/v4oy9KwX9l8Q8YICad4tY66b7WcDVyX9sdm32PkPlTbe8IPxtkX3ja/D6vX5FxrnIFgWwbpqKgNgsOsTflny8RhY9dvXbR0d4AVVdB4Q==|920
+}//1e9k/27anH2g3/EE27wVE3OzWPQ/i6BYqgBaeyK4TXrcmDbkzv/zrU5g1eJ8zjuslOnk5qXHI6l5rFqDojxebALfXAnstFP0nefUI/AKzp8Sw4GWvPES/cJo1GPneQ1J7822R6xqyqOCARGhTl9cqREVOaG9JYy5m2naB/2IeNkCQs+CVmZtfM5pursl05yY5ZmZtqTRQZLkchYadGXmKojpErK8fjzTkyu1iJynZGVHju+yhFqlgYVnSF2ds5Y7ejFjuD6lu0dWnEPA3iGhcuGjVeWDxQou2sl4YY6A/y2o5RlqVxfWFS3tH9qtPee48GV9sC0gznDA5pK8Xqj91nKXXRbyb7A2b/krbSTxXCausK7dcj8aWC9xwOoLC4pkYiwPdQuyhg/QUNJ6SJftxJs88RLBC4LbtDrmDsnC/Juvq5eB5zPb9Vi53MleyqFrwBD+tQ2qx8hIjdByDMhUosxT4eNcdiwLshZnKQuGj0D7NNZdiR2CYsbxKkLxGiHKX+J6goz0GhbuBGTRUlTArZUnu0W4/YWGgTTQyxfxxwFI2yJd9pc32LiaKuTZbiWVhp0IZaQf5N2gc1QPdolk5E1FJFSwJx4LjnwVw9Jb921WBXUTYo1jki7r44D9nwvYDMsx9pENsdbkHMjCYaQQLod7iEefsoCmuM0t0WEhALS9JfP6B0rg9ldnauk7JA1izw5KFpOGEU8anQGBPtnaR87bpjgE0JHQng8cbhLSQnouZ7g1aNJxYjV1bfrZ9O8Vz2oJLx3IZR+3thoOZNyhUipNMXCuaXqZguooDMryWN5P7vZ5IhP3Fe4WThJhjn4JeZg2WWsSksLhPF78R4o6dyEq9i2eq/2jPXBFf/QWPS01s7v8e6UfMObHbz57VON8epfy24eWlrSP2FhG/KwFwA==|920
