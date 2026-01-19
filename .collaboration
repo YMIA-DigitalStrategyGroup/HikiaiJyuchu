@@ -1,79 +1,250 @@
 [
   {
     "ModuleName": "Table/mkoteiname",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6698916+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\mkoteiname.json"
+    ]
   },
   {
     "ModuleName": "Table/mname",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6699565+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\mname.json"
+    ]
   },
   {
     "ModuleName": "TableView/ymia_v_tshikyuhin",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.669968+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\ymia_v_tshikyuhin.json"
+    ]
   },
   {
     "ModuleName": "Table/tmitsumorim",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6699739+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tmitsumorim.json"
+    ]
   },
   {
     "ModuleName": "Table/tshikyuhinr",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6700755+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tshikyuhinr.json"
+    ]
   },
   {
     "ModuleName": "Table/tmitsumori",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6700227+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tmitsumori.json"
+    ]
   },
   {
     "ModuleName": "Table/ttsumikomihinmr",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6700434+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\ttsumikomihinmr.json"
+    ]
   },
   {
     "ModuleName": "Table/tjuchu",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6700363+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tjuchu.json"
+    ]
   },
   {
     "ModuleName": "Table/tjuchum",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6699944+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tjuchum.json"
+    ]
   },
   {
     "ModuleName": "TableView/ymia_v_ttsumikomihin",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.66998+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\ymia_v_ttsumikomihin.json"
+    ]
   },
   {
     "ModuleName": "Table/tshodan",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.669986+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tshodan.json"
+    ]
   },
   {
     "ModuleName": "Table/tiroshiyom",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6700293+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tiroshiyom.json"
+    ]
   },
   {
     "ModuleName": "Table/miroshiyom",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.669916+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\miroshiyom.json"
+    ]
   },
   {
     "ModuleName": "TableView/ymia_v_iroshiyom",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.670052+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\ymia_v_iroshiyom.json"
+    ]
   },
   {
     "ModuleName": "Table/ymia_m_colorcd_ygsm",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6699343+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\ymia_m_colorcd_ygsm.json"
+    ]
   },
   {
     "ModuleName": "Table/miroshiyo",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6699424+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\miroshiyo.json"
+    ]
   },
   {
     "ModuleName": "Table/mtsumikomihin_shikyuhin",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6700155+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\mtsumikomihin_shikyuhin.json"
+    ]
   },
   {
     "ModuleName": "Table/mkotei",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6698784+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\mkotei.json"
+    ]
   },
   {
     "ModuleName": "Table/moption_futai_koji",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6700591+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\moption_futai_koji.json"
+    ]
   },
   {
     "ModuleName": "Table/mkosei",
@@ -82,7 +253,7 @@
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-01-19T13:50:41.4081195+09:00",
+    "LockDateTime": "2026-01-19T13:52:00.6699284+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\mkosei.json"
@@ -90,15 +261,42 @@
   },
   {
     "ModuleName": "Table/tshukka",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6700678+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\tshukka.json"
+    ]
   },
   {
     "ModuleName": "Table/t_shukka_yotei",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6699471+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\t_shukka_yotei.json"
+    ]
   },
   {
     "ModuleName": "Table/mtorihiki",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6699624+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\mtorihiki.json"
+    ]
   },
   {
     "ModuleName": "Pages/積込品のExcel出力",
@@ -470,6 +668,15 @@
   },
   {
     "ModuleName": "Table/ttsumikomihinm",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:00.6700872+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\ttsumikomihinm.json"
+    ]
   }
 ]
