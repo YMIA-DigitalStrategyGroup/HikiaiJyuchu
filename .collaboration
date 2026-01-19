@@ -205,23 +205,72 @@
   },
   {
     "ModuleName": "Pages/色仕様書のExcel出力",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T14:05:57.7732387+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\色仕様書のExcel出力"
+    ]
   },
   {
     "ModuleName": "PCPage/色仕様一覧",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T14:05:57.7731627+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様書のExcel出力\\色仕様一覧.json",
+      "Pages\\色仕様書のExcel出力\\色仕様一覧.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/色仕様指示書",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T14:05:57.7729022+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様書のExcel出力\\色仕様指示書.json",
+      "Pages\\色仕様書のExcel出力\\色仕様指示書.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/色仕様指示書出力ページ",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T14:05:57.7732271+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様書のExcel出力\\色仕様指示書出力ページ.json",
+      "Pages\\色仕様書のExcel出力\\色仕様指示書出力ページ.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/検索画面 (3)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T14:05:57.7730005+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様書のExcel出力\\検索画面 (3).json",
+      "Pages\\色仕様書のExcel出力\\検索画面 (3).rd"
+    ]
   },
   {
     "ModuleName": "Pages/色仕様マスタ管理",
