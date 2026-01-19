@@ -300,291 +300,999 @@
   },
   {
     "ModuleName": "Pages/積込品のExcel出力",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5064336+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\積込品のExcel出力"
+    ]
   },
   {
     "ModuleName": "PCPage/積込品一覧",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.503882+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\積込品のExcel出力\\積込品一覧.json",
+      "Pages\\積込品のExcel出力\\積込品一覧.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/Excel出力編集画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5052667+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\積込品のExcel出力\\Excel出力編集画面.json",
+      "Pages\\積込品のExcel出力\\Excel出力編集画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/Excel出力",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5045126+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\積込品のExcel出力\\Excel出力.json",
+      "Pages\\積込品のExcel出力\\Excel出力.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/検索画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5046366+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\積込品のExcel出力\\検索画面.json",
+      "Pages\\積込品のExcel出力\\検索画面.rd"
+    ]
   },
   {
     "ModuleName": "Pages/支給品明細管理",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5115607+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\支給品明細管理"
+    ]
   },
   {
     "ModuleName": "PCPage/支給品積込品マスタ管理",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5115507+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\支給品明細管理\\支給品積込品マスタ管理.json",
+      "Pages\\支給品明細管理\\支給品積込品マスタ管理.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/支給品明細入荷日登録",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5111977+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\支給品明細管理\\支給品明細入荷日登録.json",
+      "Pages\\支給品明細管理\\支給品明細入荷日登録.rd"
+    ]
   },
   {
     "ModuleName": "Pages/支給品リストのExcel出力",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5080544+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\支給品リストのExcel出力"
+    ]
   },
   {
     "ModuleName": "PCPage/支給品リスト一覧",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5073601+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\支給品リストのExcel出力\\支給品リスト一覧.json",
+      "Pages\\支給品リストのExcel出力\\支給品リスト一覧.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/支給品リストExcel出力確認画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5079272+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\支給品リストのExcel出力\\支給品リストExcel出力確認画面.json",
+      "Pages\\支給品リストのExcel出力\\支給品リストExcel出力確認画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/支給品リストExcel出力画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5076938+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\支給品リストのExcel出力\\支給品リストExcel出力画面.json",
+      "Pages\\支給品リストのExcel出力\\支給品リストExcel出力画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/検索画面 (2)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5080385+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\支給品リストのExcel出力\\検索画面 (2).json",
+      "Pages\\支給品リストのExcel出力\\検索画面 (2).rd"
+    ]
   },
   {
     "ModuleName": "Pages/工事指令書のExcel出力",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5107007+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\工事指令書のExcel出力"
+    ]
   },
   {
     "ModuleName": "PCPage/工事指令一覧",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5101137+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\工事指令書のExcel出力\\工事指令一覧.json",
+      "Pages\\工事指令書のExcel出力\\工事指令一覧.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/工事指令書Excel出力",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5106945+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\工事指令書のExcel出力\\工事指令書Excel出力.json",
+      "Pages\\工事指令書のExcel出力\\工事指令書Excel出力.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/工事指令書出力画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5103066+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\工事指令書のExcel出力\\工事指令書出力画面.json",
+      "Pages\\工事指令書のExcel出力\\工事指令書出力画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/予備画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5104939+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\工事指令書のExcel出力\\予備画面.json",
+      "Pages\\工事指令書のExcel出力\\予備画面.rd"
+    ]
   },
   {
     "ModuleName": "Pages/見積書のExcel出力_未完成（マージン）",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5087036+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\見積書のExcel出力_未完成（マージン）"
+    ]
   },
   {
     "ModuleName": "PCPage/見積書一覧",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.508335+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書一覧.json",
+      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書一覧.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/見積書のExcel出力",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5086965+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力.json",
+      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/見積書の出力用画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5085172+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書の出力用画面.json",
+      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書の出力用画面.rd"
+    ]
   },
   {
     "ModuleName": "Pages/出荷伝票のExcel出力_未完成",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5099465+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\出荷伝票のExcel出力_未完成"
+    ]
   },
   {
     "ModuleName": "PCPage/出荷伝票一覧",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5092936+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\出荷伝票のExcel出力_未完成\\出荷伝票一覧.json",
+      "Pages\\出荷伝票のExcel出力_未完成\\出荷伝票一覧.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/出荷伝票出力画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5095228+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\出荷伝票のExcel出力_未完成\\出荷伝票出力画面.json",
+      "Pages\\出荷伝票のExcel出力_未完成\\出荷伝票出力画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/出荷指図書・集品リスト",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5098092+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\出荷伝票のExcel出力_未完成\\出荷指図書・集品リスト.json",
+      "Pages\\出荷伝票のExcel出力_未完成\\出荷指図書・集品リスト.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/送品案内書・受領書",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5096494+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\出荷伝票のExcel出力_未完成\\送品案内書・受領書.json",
+      "Pages\\出荷伝票のExcel出力_未完成\\送品案内書・受領書.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/運賃請求明細",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5099368+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\出荷伝票のExcel出力_未完成\\運賃請求明細.json",
+      "Pages\\出荷伝票のExcel出力_未完成\\運賃請求明細.rd"
+    ]
   },
   {
     "ModuleName": "Pages/色仕様書のExcel出力",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5071174+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\色仕様書のExcel出力"
+    ]
   },
   {
     "ModuleName": "PCPage/色仕様一覧",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5070144+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様書のExcel出力\\色仕様一覧.json",
+      "Pages\\色仕様書のExcel出力\\色仕様一覧.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/色仕様指示書",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.506694+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様書のExcel出力\\色仕様指示書.json",
+      "Pages\\色仕様書のExcel出力\\色仕様指示書.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/色仕様指示書出力ページ",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5071067+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様書のExcel出力\\色仕様指示書出力ページ.json",
+      "Pages\\色仕様書のExcel出力\\色仕様指示書出力ページ.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/検索画面 (3)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5068108+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様書のExcel出力\\検索画面 (3).json",
+      "Pages\\色仕様書のExcel出力\\検索画面 (3).rd"
+    ]
   },
   {
     "ModuleName": "Pages/色仕様マスタ管理",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5428652+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理"
+    ]
   },
   {
     "ModuleName": "PCPage/色マスタ管理ぼつバージョン",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5413559+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理\\色マスタ管理ぼつバージョン.json",
+      "Pages\\色仕様マスタ管理\\色マスタ管理ぼつバージョン.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/色マスタ管理Original",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5132794+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理\\色マスタ管理Original.json",
+      "Pages\\色仕様マスタ管理\\色マスタ管理Original.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/ページ1",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5425573+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理\\ページ1.json",
+      "Pages\\色仕様マスタ管理\\ページ1.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/色マスタ管理",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5423017+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理\\色マスタ管理.json",
+      "Pages\\色仕様マスタ管理\\色マスタ管理.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/色マスタ明細管理",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5428422+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理\\色マスタ明細管理.json",
+      "Pages\\色仕様マスタ管理\\色マスタ明細管理.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/艇種・艇番新規作成",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5424569+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理\\艇種・艇番新規作成.json",
+      "Pages\\色仕様マスタ管理\\艇種・艇番新規作成.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/色マスタ管理 (2)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.541924+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理\\色マスタ管理 (2).json",
+      "Pages\\色仕様マスタ管理\\色マスタ管理 (2).rd"
+    ]
   },
   {
     "ModuleName": "Pages/オプション工事マスタ管理",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5118189+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\オプション工事マスタ管理"
+    ]
   },
   {
     "ModuleName": "PCPage/オプション工事マスタ管理",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5118139+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\オプション工事マスタ管理\\オプション工事マスタ管理.json",
+      "Pages\\オプション工事マスタ管理\\オプション工事マスタ管理.rd"
+    ]
   },
   {
     "ModuleName": "Pages/色仕様マスタYGSMデータ作成",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5120226+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタYGSMデータ作成"
+    ]
   },
   {
     "ModuleName": "PCPage/色仕様BOM情報作成",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5120182+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタYGSMデータ作成\\色仕様BOM情報作成.json",
+      "Pages\\色仕様マスタYGSMデータ作成\\色仕様BOM情報作成.rd"
+    ]
   },
   {
     "ModuleName": "Pages/ビルトイン ページ",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5453992+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン ページ"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_ログイン",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5447868+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン ページ\\FGC_ログイン.json",
+      "Pages\\ビルトイン ページ\\FGC_ログイン.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_401ページ",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5449747+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン ページ\\FGC_401ページ.json",
+      "Pages\\ビルトイン ページ\\FGC_401ページ.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_パスワードの変更",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5451616+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン ページ\\FGC_パスワードの変更.json",
+      "Pages\\ビルトイン ページ\\FGC_パスワードの変更.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_接続タイムアウト",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5443203+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン ページ\\FGC_接続タイムアウト.json",
+      "Pages\\ビルトイン ページ\\FGC_接続タイムアウト.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_パスワードを忘れた場合",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5445193+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン ページ\\FGC_パスワードを忘れた場合.json",
+      "Pages\\ビルトイン ページ\\FGC_パスワードを忘れた場合.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_メールサブスクリプション",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5450613+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン ページ\\FGC_メールサブスクリプション.json",
+      "Pages\\ビルトイン ページ\\FGC_メールサブスクリプション.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_ただいまメンテナンス中です",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5451052+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン ページ\\FGC_ただいまメンテナンス中です.json",
+      "Pages\\ビルトイン ページ\\FGC_ただいまメンテナンス中です.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_認証アプリの構成",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5453827+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン ページ\\FGC_認証アプリの構成.json",
+      "Pages\\ビルトイン ページ\\FGC_認証アプリの構成.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_コードの入力",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5452391+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン ページ\\FGC_コードの入力.json",
+      "Pages\\ビルトイン ページ\\FGC_コードの入力.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_プロファイルの編集",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5453245+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン ページ\\FGC_プロファイルの編集.json",
+      "Pages\\ビルトイン ページ\\FGC_プロファイルの編集.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_パスワードのリセット",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.544864+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン ページ\\FGC_パスワードのリセット.json",
+      "Pages\\ビルトイン ページ\\FGC_パスワードのリセット.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_パスワードのリセット用リンクの送信",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5444141+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン ページ\\FGC_パスワードのリセット用リンクの送信.json",
+      "Pages\\ビルトイン ページ\\FGC_パスワードのリセット用リンクの送信.rd"
+    ]
   },
   {
     "ModuleName": "Pages/ビルトイン モバイルページ",
-    "ModuleType": 6
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5441298+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン モバイルページ"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_ログイン_モバイル",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5440087+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン モバイルページ\\FGC_ログイン_モバイル.json",
+      "Pages\\ビルトイン モバイルページ\\FGC_ログイン_モバイル.rd"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_401ページ_モバイル",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5431035+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン モバイルページ\\FGC_401ページ_モバイル.json",
+      "Pages\\ビルトイン モバイルページ\\FGC_401ページ_モバイル.rd"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_パスワードの変更_モバイル",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5433404+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン モバイルページ\\FGC_パスワードの変更_モバイル.json",
+      "Pages\\ビルトイン モバイルページ\\FGC_パスワードの変更_モバイル.rd"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_接続タイムアウト_モバイル",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5436871+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン モバイルページ\\FGC_接続タイムアウト_モバイル.json",
+      "Pages\\ビルトイン モバイルページ\\FGC_接続タイムアウト_モバイル.rd"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_パスワードを忘れた場合_モバイル",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5432396+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン モバイルページ\\FGC_パスワードを忘れた場合_モバイル.json",
+      "Pages\\ビルトイン モバイルページ\\FGC_パスワードを忘れた場合_モバイル.rd"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_メールサブスクリプション_モバイル",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5431895+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン モバイルページ\\FGC_メールサブスクリプション_モバイル.json",
+      "Pages\\ビルトイン モバイルページ\\FGC_メールサブスクリプション_モバイル.rd"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_ただいまメンテナンス中です_モバイル",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5440526+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン モバイルページ\\FGC_ただいまメンテナンス中です_モバイル.json",
+      "Pages\\ビルトイン モバイルページ\\FGC_ただいまメンテナンス中です_モバイル.rd"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_認証アプリの構成_モバイル",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5432877+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン モバイルページ\\FGC_認証アプリの構成_モバイル.json",
+      "Pages\\ビルトイン モバイルページ\\FGC_認証アプリの構成_モバイル.rd"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_コードの入力_モバイル",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5441172+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン モバイルページ\\FGC_コードの入力_モバイル.json",
+      "Pages\\ビルトイン モバイルページ\\FGC_コードの入力_モバイル.rd"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_プロファイルの編集_モバイル",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.543041+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン モバイルページ\\FGC_プロファイルの編集_モバイル.json",
+      "Pages\\ビルトイン モバイルページ\\FGC_プロファイルの編集_モバイル.rd"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_パスワードのリセット用リンクの送信_モバイル",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5438182+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン モバイルページ\\FGC_パスワードのリセット用リンクの送信_モバイル.json",
+      "Pages\\ビルトイン モバイルページ\\FGC_パスワードのリセット用リンクの送信_モバイル.rd"
+    ]
   },
   {
     "ModuleName": "MobilePage/FGC_パスワードのリセット_モバイル",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5438853+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\ビルトイン モバイルページ\\FGC_パスワードのリセット_モバイル.json",
+      "Pages\\ビルトイン モバイルページ\\FGC_パスワードのリセット_モバイル.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/メニューページ",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:52:07.5428941+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\メニューページ.json",
+      "Pages\\メニューページ.rd"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/FGC_ユーザーマスターページ",
