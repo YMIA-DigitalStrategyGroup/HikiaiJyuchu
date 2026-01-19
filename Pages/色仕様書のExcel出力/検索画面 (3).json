@@ -69,8 +69,7 @@
     "6,2": "製番",
     "6,13": "受注番号",
     "6,20": "納入先",
-    "6,28": "出荷予定日",
-    "31,4": "決定"
+    "6,28": "出荷予定日"
   },
   "AttachInfos": {
     "1,7": {
@@ -164,40 +163,6 @@
         "TableName": "tjuchu",
         "ColumnName": "KOJO_SHUKKA_YOTEI_DATE",
         "GUID": "4ec84ce6-28ec-4ada-b8ad-5305288f1794"
-      }
-    },
-    "31,4": {
-      "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "PageName": "Excel出力編集画面",
-            "PassValues": [
-              {
-                "Source": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='検索画面 (3)'!Z2"
-                },
-                "TargetCell": {
-                  "SerializeProperty": "=Excel出力編集画面!AO5"
-                }
-              },
-              {
-                "Source": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='検索画面 (3)'!H2"
-                },
-                "TargetCell": {
-                  "SerializeProperty": "=Excel出力編集画面!K15"
-                }
-              }
-            ],
-            "DeleteCachedQuery": true
-          }
-        ],
-        "Text": "決定",
-        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -383,7 +348,6 @@
   },
   "Spans": [
     "7,2,1,11",
-    "31,4,3,11",
     "7,13,1,7",
     "8,2,22,44",
     "7,20,1,8",
@@ -420,4 +384,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//6SpYTPJsZtUSQPHcwrW8Fx0uTrITwVNixdDwzER3tE44XgLDzs8WLwDxuiQW+7DlDDMW1sOLIBW4zw0dguWd9Tjkx8hGpT7j0w+Moh1P1fVDtmQnoYmjjcgIkhaZ26gP8pJZShG0Dj4UNd2LRQd5V2N3t1uBMMwz0HWdb0JTeshU8blSsghAoKoRgXia57eJyQUjAbWPTMOoo73MgZXglXCqhw/49Zn9vg9NK/ruhPEeC94fsvu0ihiaIXb3L4nLDmS+HqfE+HHz+XVRj+btVZFMdPS4gj46ZvgqiuizMdd5u46bMYAXUYRJzcKj25rKERcuUajylEsS3CSnhp9WcKecMiXgBopvSWE2MMh31r4zQYaKCnMkAd/f1PEW1JNW6qCWP03RqPl+XOAlD3R5TVSy61mEuJhog8PwfW7i9p2U5tVRw04AiyhQO+LSsE1pWf19A2aybDfdZ6hWNQ82e+iesawlT/O4NtWLYntd953/ykP9BBX31YQD8UZXmEu+xbjKGO5dqWlv7ShkMJTVlQKES13sRK3+357xbb+K85F5hfLp3+cbeefuFmp+wGL4ymSWkWrZK8DzFxvWtV2VExgpbu6aUgdWnhGSA3KrL8rYT2QGk6KhPTIbnpBk/ZmIy/ZK/2ZX1pWgYYdhhUNUxmuCsVN67NdfsnOGCh3SKvsDDHnOD62jiy4WxPMDfI8ctN8smFnT40ja/RioGd/9cWQ/K3Yv0IZSZHqruFPXgT/D8FpIaw1tR0nQi/isrnOGRMno2zmPOBI1xfTA5SSkWUrNG9LjLTf8cc6s0NmWcWj1o7NmC2u6vHFZrMaCb9UQUbIN+ZYCQCSFNOLc3CQItm2iQFGp3opcQOs4np0xQ/bGTo+4PuuTdllZDGCw+jesMUMgl5GeGervkC2eahPigw==|920
+}///aPjKJ3d43K3jUYqUxBAJzJt+GzrLtkrygXqsCsjLyxmlvYkpiReHvpj/wmJ6IaDKk580MW83dHaHssWBFioKB4FE5d/GmBrAC8xBvvPwAcFZinEeS72jVLr6DELxoz1Lj4kO15MyAFjBNINbedICW/79Mx5ypccRWafaatPbsmpfasFbAXsNRrOyPX7upuphjMol69FuHbzws2xC35MS/26i5Jpd3vH+1kkUGTdhJ/UDEzPu5jWG72UKB0QyPampQ8cOOH/w0dwZaTRuN3Rn8hqI2Y6xGZ01rk0wMHi9O8DTEAzwK0xn6zXgNO0zzyJQ5Sxc7baFZVFD+MyZ1/NF9oHd9gdRDllXSJ2TVLN4HL3T0rY3f7FtcUWTb4MmXAVrhBFceHe+T4HeGOqn3pMbhR1JwW/F0Q9Rr0ytr2SPl34hA9qFdNA2ocY4aKS1DjgDqgVBSvO6eKbwmVairjMU0B1yCj1Nqk4RUxllPTRh6UiFvEj4Nefv7yps7L9SNrvkCMeuWxBUY6grhRFXFBbXaANaVVOSUIx8e3MGAc1/IqXquOQCXoRQXUwJKH6y7T5zvglQEYGg0odhPrp2gs2GdDQ+qRSLFz0wf+tbq+9Fy2p4sTeQ3nec/GQCCpTs2VmD2ZSt7Cq6azPAqNgUEisvpJV/pLkxHIhoqAD1MmZvrQVjay1huP7Bj0oVUntlFW41qcRigzJNsadqtZhit8SN3TXL+FrKOPNOKQsfwBte3nt1uTYKvugAlkOrt4NgWOpyEDFKR4T945IXJk3NYgyO4rORh9UGvgozbX52fRewXYkI55thoSnrqOYqV5C66lv2Jc0dLcmeGizTFmTDJOEUR+ZSYKiMWtsPmRgAcHCfeIDQnxR5yTisKG4XsO3xBmVVVQL0OrqFEydCSV67RmFVQ==|920

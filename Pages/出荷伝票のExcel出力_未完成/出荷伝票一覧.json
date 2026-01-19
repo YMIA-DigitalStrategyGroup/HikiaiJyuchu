@@ -118,8 +118,7 @@
     "9,17": "受注番号",
     "9,23": "納入先",
     "9,42": "出荷予定日",
-    "10,51": "出荷伝票",
-    "42,41": "Excel・PDF出力"
+    "10,51": "出荷伝票"
   },
   "AttachInfos": {
     "4,7": {
@@ -365,41 +364,6 @@
           }
         ],
         "Text": "出荷伝票",
-        "TemplateKey": "_RS_Normal_Style2"
-      }
-    },
-    "42,41": {
-      "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "PageName": "Excel出力編集画面",
-            "PassValues": [
-              {
-                "Source": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=出荷伝票一覧!H11"
-                },
-                "TargetCell": {
-                  "SerializeProperty": "=Excel出力編集画面!K15"
-                }
-              },
-              {
-                "Source": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=出荷伝票一覧!AH7"
-                },
-                "TargetCell": {
-                  "SerializeProperty": "=Excel出力編集画面!AO5"
-                }
-              }
-            ],
-            "DeleteCachedQuery": true,
-            "LoadBindingDataOption": 1
-          }
-        ],
-        "Text": "Excel・PDF出力",
         "TemplateKey": "_RS_Normal_Style2"
       }
     }
@@ -648,11 +612,10 @@
         "HorizontalAlignment": 8
       },
       {
-        "Background": 9,
         "FontFamily": 0,
         "FontSize": 18.666666666666664,
         "FontWeight": 5,
-        "Foreground": 10,
+        "Foreground": 9,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -677,7 +640,6 @@
         "Background 1 0",
         "Center",
         "Left",
-        "Accent 2 40",
         "Text 1 0"
       ],
       "Borders": [
@@ -2135,7 +2097,6 @@
     }
   },
   "Spans": [
-    "42,41,2,10",
     "4,7,2,11",
     "4,18,2,4",
     "6,28,2,5",
@@ -2179,4 +2140,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//GnOvSZ8eUv/BEp7hL4SfhBiISkHNzj2Vs06OXa9UPUCWi7u/sPLQ8KeP+Fe6t2bhPXgHrf1TemM1fwuUgne9dEv524I+xm+8FWK27oWYPyAcRZQ8wRUDx9W15q9g7fVMSBG0FkAfVuQXDUv2JU9Myqeq0eGnmID4aLsawyBuUdA3e/b6ew09Picmg5k1SKRjph4q55RZjzYETjcyRJsBBunSDRrqrTg+HdWmIX+KPSou4FRCoSC2j2tV8u2DazfIoqLTt6NQE1MOZoPEuqmvOe3dn/l8uX8KZfm5URaoOx7Y9POJNW/UDgzx4Zmgu33jDhxfY0KpNhfos9bQscGXoRw0X+H6C/SBDznbkmqcbDvvypPjfNmfEXK2W0uPjPV/FttBB/rCLm3Qxw+kd2+LvvmbM8QJk44elK5AV3zNPNHvRTfXGgI49xYdOGV6nRuw0MTDUY2MzO5AEVXQpjAOLD8hBZc87p0KZR/FwCzGKiMHIe3ozQYueqvtnDjeiIB40OjQObGiGIMOFQHScv+M2yylRs7yqRwscAxJs4e7KZSkdsOrB1zgXlGh59MCFxiI5mKtvHXXZTCs/49h9+83K3+kFLd9eFbjWyTFSFMUEjbgo3m6BwlO4V3XhBeHBng86Tc6AoIbOgI+K2Aiab05qWWTR8s6/6wzqMUyonY7HPo9b07xoaB12UI2ibtNZmmV1YfirTZp6WmqyAO5qzvZSGJft9KoAu/TmHZ8X1E7IeM4OysF2MDRzKm8LkMFaQ79cI7JIuxYv+eSU8H3WurNZkg4tOOZafJRef1s9M01a96A41J0AL49LfMtJ4QJBWnEXLM6qdp3c7+6PKZROAZP4EV6eMtfxM/RnUQvBTUPklsdn4PfjAgRnoVMKCdAS6oKt7UzCWmqkzeJWqA0mCMCeA==|920
+}//l0q+eIsShuoAQ+MW+rPJm4iWkw5vUE8ZWEwx+1ZyvTKxGySdRnxCUJwewn/e4Xga9VN7wG7iQLbOxNIxBaQ6MH066owdzZNi52uXQBgGSSD67yfQWZrVb6aue2LClJioC56nhCoXvGzf1Jy92Ydfg/i0xQ9/junD0nTaeWCAWaK7TnGgDwiaHSvgf/WpYKpasRjfybgZ+3TjIPX+MDJzxL/qpOkvwMQ0h9X8KdnSHr7Pju2eFoEFZeGUp8JVhE6oC98QpG+bX+pqGoR9VMEDDKNfZDpYu5w6GUZe9vX2aBUAjzavjE7i+pBQJnBjR0E8a9wyRB56rj78PzhbhQCcsXfoW5gNwFQFBBlv+NnCzKbmC0Zp/7PhFUOv0tktfMAn6tvImNL6Q6kL2KWTJFkkRdIoXgjrVsB1HSo1pDWhbk/79tL2qqD4wqIV1wbWNPd20YaEXFKhB5kAHQmN05dDWR3lfHua5kzod0pvcIIpJrJ31t/gJLIsrtW2TWhd71Rzs1V7uwjqR3ruyj+72xER666jk3sBUBMJEX0MdYpUURbTWz/ip2W1NPjqZM9bBS6eSIcGDSm7t7JZ2i+7FJH8Rtb5Kt7stKyFq6Y84kjFz5ur8h/iP/lhbHur//Crw6+iGUgpBU4ilOCJ+xaNdCCpZbPV1wyjnbZe8i+m/ZGWwJDaujFmxcsHiCVM3lVM5a1ONFEdRt3SepC87h91aJbELNIWKN+Bg43d3Olv/h4djSR4I/Bxvdw3s9YL0C/cFB1PRo/N7iuZgP7LHqm1qqUne3TbdLuHojWS3f/SWZpHdr2va/XiMBDwL1PcFGm6pQjTU7rd7b6HxFlI/LYLEs/bLsCGFzkn4djDk3r6OClZ4nCO98pR9a9LlNURM0uOZyn1UhEnvxSL0DmFc0SqrxcidA==|920
