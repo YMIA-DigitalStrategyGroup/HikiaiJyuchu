@@ -1373,5 +1373,15 @@
   {
     "ModuleName": "PublishSetting",
     "ModuleType": 41
+  },
+  {
+    "ModuleName": "Table/ttsumikomihinm",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-19T13:40:34.8646478+09:00",
+    "ModuleType": 7
   }
 ]
