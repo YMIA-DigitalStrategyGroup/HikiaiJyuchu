@@ -215,7 +215,7 @@
                   "SerializeProperty": "=色仕様一覧!C10"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=色仕様指示書!L12"
+                  "SerializeProperty": "=色仕様指示書!L16"
                 }
               }
             ]
@@ -247,6 +247,7 @@
         "FontFamily": 0,
         "BorderBottom": 0,
         "BorderTop": 0,
+        "BorderLeft": null,
         "BorderRight": 0
       },
       {
@@ -281,11 +282,11 @@
         "BorderRight": 0
       },
       {
-        "FontFamily": 0
-      },
-      {
         "FontFamily": 0,
-        "Formatter": 7
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -296,8 +297,7 @@
         "Accent 1 40",
         "Bold",
         "Background 1 0",
-        "Center",
-        "yyyy/MM/dd"
+        "Center"
       ],
       "Borders": [
         {
@@ -407,7 +407,7 @@
       "9,2": 6,
       "9,13": 6,
       "9,18": 6,
-      "9,37": 7,
+      "9,37": 6,
       "9,38": 6,
       "9,39": 6,
       "9,40": 6,
@@ -1576,23 +1576,27 @@
       "39,14": 6
     },
     "SheetStyle": {
-      "FontFamily": 0
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
-    "37,5,3,10",
-    "3,13,2,4",
     "3,2,2,11",
-    "5,19,2,5",
+    "3,13,2,4",
     "3,19,2,5",
-    "5,24,2,9",
     "3,24,2,9",
-    "9,37,1,8",
+    "5,19,2,5",
+    "5,24,2,9",
+    "9,2,1,11",
     "9,13,1,5",
     "9,18,1,19",
+    "9,37,1,8",
     "9,45,1,4",
-    "9,2,1,11",
     "10,2,24,47",
+    "37,5,3,10",
     "8,2,1,11",
     "8,13,1,5",
     "8,18,1,19",
@@ -1617,11 +1621,10 @@
       ]
     },
     "RowBreakLines": [],
-    "RepeatRangeSettings": [],
-    "RelatedDataTableName": "tjuchu"
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "PaperSize": {},
     "Margin": {}
   }
-}//fkn+SsxRrwN6JfPxUbRePCwG2gYnJZXpAPR/kxZAKpwOu4Hoe+ukYNYKNE1AwCYeY1RrJ/gilWU5SG69cdms1q+dAtHX/y1LwbG5M5oxRjPDsr29qXdbjE3nUgk0MS3Q0jGfL8SHHCmkGART1a5rmAbLt8be1zyNof2DgHgzDttV/ZwxD7neRCLSyvRNZyAbiQTa7txZTdMBhR5rBgM3s/VTtPsJK4fBRDk+lYWHh0c6mtYY+QppmEf3XT4uhGdib3DSSQSJINqKuQNB+zgE2A6ROpsE+0+bCcGRNqveqj4TM6CaHOFTnEGYQLcnv5wf+OGaWu8/+6ZhEywGM/w+6DJ95V9vu3hynHsGT+sX7uppp3wpl2wDlyCbpKqOLGCWPHG+HPKPKiyCj+T1Pk7dSqc0dwpd2L++95Q29LTnv3IQVCPRxc3hPs6Cdx1k1RJXYHNJGLpSbh1aWvMXlskr8+etaY7UcZUibjXbgmY1K+0fgy+1guH3Tt6jz+HHP6bpdNroa/SmX6NCgrH5TJTxWsYwu0wBHOR9qSzsa/I9f5rCj8mJcRXgnokeeDHppz2sFULkpUR6qgAqlmv09kxwpYcnb5ozh+fuQZLAkR6LopgGNCvZphtuanWbYsu4ezQLW5r0eubxmz0tcn1vpdX2lF8Kuu5hHkhjK38XtnhWlqaNKRoJ4qI7xGteGKTZOWHpNn/kpfTfcwJSjOEhvbrdlr5/+eQQqPvkNCWN4YfUaLvljzs55qbqwIJbPJBjMGDrpLcPBRBsPIObV2N/sXnwLhPij8QHHQXFewTzu2HmU/4J8ELDfbbdlXFDvgZsG1PLHR8NTBfC6nWnyHwkkSBQL9PQl7py0DYy0FvvRfwFHzEw49/1hcW5ZjtiFLgu92ssIupgtZgAThCpclIIxJJp4A==|920
+}//IyEuJAvFvi00ZPPKFCJQfMfchmyQw4XZRygsc/8ru7WzLxXBBvQfRpQGv3GWIAdd5JPSDNaIr+VuVY0yoAcwrkEw0+5zx+bMMbBed7J3uDXHqnQx1e/sXVWjm+Q4Knz0QPkHvj4laTfRHQGqfpGt7Mc+AcE/LQSB7VN++01+L/7ILEeR4iAStILG4Kk1oW1TqUQhOuV0MGFJNQ7Qd2xYxGCbjS6afOoWeUKXazV/9HC8bfuv1phY9l0LANJm2VnOacNPWBxf32Y0DyvrixewZXDzVTBMSXtY/wGy65OsV0Kr3BaaRlaaXw1+KSZpEsTjLdkQsjd0VNkb9d2MaH5DZMwWL7F9c+zE7TJhAjHXxfJGmqBY6F8LpiIbwH8UUVe06pVX5SwSJibSrNKWLJ5fbNjjlyEcUfmKplU8ybyYs5oHTQ+6awafeGufXEDKYB2Brej1b21wnkoGA3+Pht+uDDWldNl7HGT+Lgnf+/rblDII4DFc4OMLsROad3Bs+RZRQIXivSJaD+kd9z1XgiSoWSOCXOFLYPb0ElANMP7rTYj/sVPzd+YFwEeP0wEdlQgauxsQdTUxSL2hHIs2Hn7A7uyP9OJifHsIQSorFlxSDyaKfCHXVYSnIywuSJX9F68GEAHaK3KkoWj+m0NNYiRdPj/bIjzP+3JlQNIDutRJa7N9wwoc6/oNSrABsTMnlUUcFau0GHHWJaTamErTtcnn0z2A61vBoHxVoYRQoS/JAx1Tzrzruqc0MgAkFrG9JAXiJTCR5KvTdCA2owZloIBY4vhlzX5NFKCRxoNux/xj8kqoEMytv64EZ8stq/XaAQyYQAWFCeothVdvBC2Oj9sAfl4upxbbXSgXLjAedkrDFQ/x6spXVMfUm+tZaVOfBvJUuHYJyqLvJmZ3I0Uu+emahw==|920

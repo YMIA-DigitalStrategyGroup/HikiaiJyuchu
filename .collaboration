@@ -125,72 +125,23 @@
   },
   {
     "ModuleName": "Pages/支給品リストのExcel出力",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-19T16:44:14.241346+09:00",
-    "ModuleType": 6,
-    "ToRemoveFiles": [
-      "Pages\\支給品リストのExcel出力"
-    ]
+    "ModuleType": 6
   },
   {
     "ModuleName": "PCPage/支給品リスト一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-19T16:44:14.2410769+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\支給品リストのExcel出力\\支給品リスト一覧.json",
-      "Pages\\支給品リストのExcel出力\\支給品リスト一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/支給品リストExcel出力確認画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-19T16:44:14.2413048+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\支給品リストのExcel出力\\支給品リストExcel出力確認画面.json",
-      "Pages\\支給品リストのExcel出力\\支給品リストExcel出力確認画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/支給品リストExcel出力画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-19T16:44:14.2412134+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\支給品リストのExcel出力\\支給品リストExcel出力画面.json",
-      "Pages\\支給品リストのExcel出力\\支給品リストExcel出力画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/検索画面 (2)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-19T16:44:14.2413379+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\支給品リストのExcel出力\\検索画面 (2).json",
-      "Pages\\支給品リストのExcel出力\\検索画面 (2).rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/工事指令書のExcel出力",
@@ -254,72 +205,23 @@
   },
   {
     "ModuleName": "Pages/色仕様書のExcel出力",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-19T14:05:57.7732387+09:00",
-    "ModuleType": 6,
-    "ToRemoveFiles": [
-      "Pages\\色仕様書のExcel出力"
-    ]
+    "ModuleType": 6
   },
   {
     "ModuleName": "PCPage/色仕様一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-19T14:05:57.7731627+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様書のExcel出力\\色仕様一覧.json",
-      "Pages\\色仕様書のExcel出力\\色仕様一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/色仕様指示書",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-19T14:05:57.7729022+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様書のExcel出力\\色仕様指示書.json",
-      "Pages\\色仕様書のExcel出力\\色仕様指示書.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/色仕様指示書出力ページ",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-19T14:05:57.7732271+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様書のExcel出力\\色仕様指示書出力ページ.json",
-      "Pages\\色仕様書のExcel出力\\色仕様指示書出力ページ.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/検索画面 (3)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-19T14:05:57.7730005+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様書のExcel出力\\検索画面 (3).json",
-      "Pages\\色仕様書のExcel出力\\検索画面 (3).rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/色仕様マスタ管理",
