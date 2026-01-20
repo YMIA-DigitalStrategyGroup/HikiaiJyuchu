@@ -101,7 +101,17 @@
   },
   {
     "ModuleName": "PCPage/Excel出力編集画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-20T17:00:22.6811355+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\積込品のExcel出力\\Excel出力編集画面.json",
+      "Pages\\積込品のExcel出力\\Excel出力編集画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/Excel出力",
