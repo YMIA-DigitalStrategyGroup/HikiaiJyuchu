@@ -485,5 +485,15 @@
   {
     "ModuleName": "Table/ttsumikomihinm",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "PCPage/出荷伝票Excel出力画面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-20T14:57:28.0331795+09:00",
+    "ModuleType": 1
   }
 ]
