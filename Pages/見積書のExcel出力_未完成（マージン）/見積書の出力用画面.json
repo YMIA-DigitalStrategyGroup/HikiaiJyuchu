@@ -86,6 +86,9 @@
     "17,31": "TEL：0978-68-0824",
     "18,31": "FAX：0978-68-0894",
     "19,31": "担当者：円福",
+    "21,7": "品名",
+    "21,35": "数量",
+    "21,38": "金額",
     "59,38": "Excel",
     "59,43": "PDF"
   },
@@ -230,7 +233,7 @@
                     "NewOtherName": ""
                   }
                 ],
-                "ID": "8b6d7d2b-4dea-4296-94f4-9eb56a5355e3"
+                "ID": "5e83997c-2e3e-4814-bde0-947e9be70327"
               }
             ]
           },
@@ -270,7 +273,7 @@
                     "AutoFitRowHeight": true
                   }
                 ],
-                "ID": "1074d835-07fe-4faa-a3d8-126262939df2"
+                "ID": "3d289eef-b589-446f-8dc5-adfc3469dfde"
               }
             ]
           },
@@ -1130,4 +1133,4 @@
     },
     "PageOrder": 1
   }
-}//lftqonA/qx5BkU2DftNU4NHfXvt/k/cdYGyjTrv7jKmFDmGNclGLA/KIaCTc4PHgGrZzZrNYwfuHC4Pn4LOkxr2gEvW87VUFql4CXeuez410xXAz54XeVvF0BqOiv47MRs7J3ycMiiyvOXGsiyC0LuF0tJVQ4N9amgPPr5MmANfehvsLqzNPW5MrSvvOY3rH7ftiQA5x8kC0pziRHWAcO4LZbc7MhQxPL4MvOqBEgYL4iDTGKdjDm8b+hMMvZrp97Pf/Y76XqDknqK9/oM0aoz95Q3ToadM+SNqjr3NpYIqAL1CBKBsshSO5te/8eFsLK8UWubx+iazk9rE5RQMGV5iESN6/C/fPNXbKhR8KaPusi3g2FmZzS513QMlDyy/kLbz/bs3AHUkCgj09vOaoucZ5TKD/5BYRveGOP+xIOak41cqQL3087Gk0hMFPKlTeAlRfa6lqE2JdodCWugEAYQOrmSmR/cq3INMx83jpJjeTxS4J+ZL++KExYoS+gjPK6tTIWQvNU1l7+ONQbLGvMHFeEzvw54q0UWhJmbrV9WZWtNUalXllnozAYJj+40Wj3JuDhM8DptrbFZ7TH6GiUYWty658dz8rEy+E41syAmY81abtvgXeSGDJnIlRiCXd5GGJACELxynfj28IdJfkXQ9BDgRC6Q9o/kuQW0X4Llb9ZrNtybozlJpoOv5ya7vqo8YMhfps0bVJYhRiX7oLTT18/fD33gSfpOUCY5B6XBQ9atcp2O8TX/gFP8TcXa6RIECX8crKCD3xIsi14i1Y+p1pZs1h2hjZ8zgI/da1Mw7Zn6aRfEAiMSiPQ8g9g2q3cm4Gs3G2b3AOpi4JnOPVWeRR3C0B330FL+NHC+2AH62N0cVWRkl8c9kSIqHgJAoDUoZa3QvZNuTdnVKwupb+ZQ==|920
+}//IAUnlPFo3pqTqoiOqHSy3aAqBRymALdnSgSlhnz03pufb5f8D0NuqFiraEe+0eEzvU178as2fQ3GKeMkQc9plHcww/d6vLrS6B/qPo32l5thEFoAnYje0m2rquCtmyoyZD2G5pMnCXC8jL8ymTMeiE6MHWi1DXTc5Yv0F7hCT6uaGkpxxWHyvW00uSCCGAXQmRVQVacG8Rh7dgmvuJ7pNucI4eyKUs/+6Z+pukPW+zuSSqVC8tKDnv+eTSAKm9HfUfMpxynlqynhP206LolGNuiLz5K8OqWjCkSQQFbyU2sHDmTKlTPkSKfgYIBOaxrdFiIIHCCtMwKtpZcd9mSQOaS9dOXDmtZiGCDB2uP99S97RxzY6NQyMPnNedOQJWyRV/gusN6appnsXFkB0mFCyG+m2FJMB8IVfqQ9TKt4XvAvVNg83Bzrtc+i4SpywQ2X99Q7+tQWXZRgNmlWmMd/WZbkDNTJNic1g2PvXOePLqlyrj0r8qbUg1NNY3YYkmKnfjMEBODSstvDmWdIllnmltcDVHWfHq8OlQ3vZECgUj1jURCkH51ab3ZN6jwkIPopmpJTGfcolaRFceCXp49E3LLc48A1rYd29mWt3DA4z385SFEv4suB4lN2oA51Y+mauz+WmuPtyk3rq9FfQGGGW7ayvVFDY37iX0xMQa1IwhLYAi/TyLSdb3Hs+lt3T+w3ADytV+6ystKcgbGQ8/XXrx7j1o3M996P3Kea4E+CIwKpmmet7qmkJ5gzr2J5AnRES62ITcZakrICX3wc+MsKf6Kn9BWYh+F76WER6pNWYYyJypODT1wuUVWOEQ7JAzHDPungte+ZMH2bPdDchaPIULJjq9a10jZ2XNr38MQsL119vpHa/QwlYwYpCDClBXvKImRsrKZT55HZVHMYgx+0UA==|920
