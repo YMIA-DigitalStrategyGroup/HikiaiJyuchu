@@ -153,7 +153,17 @@
   },
   {
     "ModuleName": "PCPage/工事指令書Excel出力",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-20T11:34:01.8156326+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\工事指令書のExcel出力\\工事指令書Excel出力.json",
+      "Pages\\工事指令書のExcel出力\\工事指令書Excel出力.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/工事指令書出力画面",
