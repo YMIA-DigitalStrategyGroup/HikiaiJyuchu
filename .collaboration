@@ -216,7 +216,17 @@
   },
   {
     "ModuleName": "PCPage/見積書の出力用画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA093025",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-22T13:49:14.8820431+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書の出力用画面.json",
+      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書の出力用画面.rd"
+    ]
   },
   {
     "ModuleName": "Pages/出荷伝票のExcel出力_未完成",
