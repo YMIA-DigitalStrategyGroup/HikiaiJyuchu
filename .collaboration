@@ -490,5 +490,15 @@
   {
     "ModuleName": "PCPage/見積書のExcel出力用(完成版)",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "ServerCommand/サーバーサイドコマンド1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-01-23T14:33:18.8281699+09:00",
+    "ModuleType": 15
   }
 ]
