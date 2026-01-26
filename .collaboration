@@ -101,31 +101,11 @@
   },
   {
     "ModuleName": "PCPage/Excel出力編集画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-26T11:24:00.4244303+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\積込品のExcel出力\\Excel出力編集画面.json",
-      "Pages\\積込品のExcel出力\\Excel出力編集画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Excel出力",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-26T11:19:13.9801759+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\積込品のExcel出力\\Excel出力.json",
-      "Pages\\積込品のExcel出力\\Excel出力.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/検索画面",
@@ -205,31 +185,11 @@
   },
   {
     "ModuleName": "PCPage/出荷伝票一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-23T13:33:26.5110569+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\出荷伝票のExcel出力_未完成\\出荷伝票一覧.json",
-      "Pages\\出荷伝票のExcel出力_未完成\\出荷伝票一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/出荷伝票出力画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-23T13:53:43.7315787+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\出荷伝票のExcel出力_未完成\\出荷伝票出力画面.json",
-      "Pages\\出荷伝票のExcel出力_未完成\\出荷伝票出力画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/出荷指図書・集品リスト",
@@ -513,12 +473,6 @@
   },
   {
     "ModuleName": "ServerCommand/サーバーサイドコマンド1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-23T14:33:18.8281699+09:00",
     "ModuleType": 15
   }
 ]
