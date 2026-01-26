@@ -133,17 +133,7 @@
   },
   {
     "ModuleName": "PCPage/支給品リストExcel出力確認画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-26T13:28:35.2556415+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\支給品リストのExcel出力\\支給品リストExcel出力確認画面.json",
-      "Pages\\支給品リストのExcel出力\\支給品リストExcel出力確認画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/支給品リストExcel出力画面",
