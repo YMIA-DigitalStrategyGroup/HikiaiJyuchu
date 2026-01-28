@@ -142,21 +142,21 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-            "TargetTableName": "tjuchu",
+            "TargetTableName": "tmitsumori",
             "SqlCondition": {
               "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
               "CompareType": 6,
               "ColumnBindingInfo": {
-                "TableName": "tjuchu",
-                "ColumnName": "TEHAI_KOBAN",
-                "GUID": "4e2e71bd-794d-4398-a6b4-462388fb311c"
+                "TableName": "tmitsumori",
+                "ColumnName": "MITSUMORI_NBR",
+                "GUID": "a67f98c4-cd33-48dd-81f0-1c68cc805d97"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=見積書一覧!H5"
               }
             },
-            "ID": "10572e4e22204ca5ad509f0db993498f"
+            "ID": "fb3d0d8f4b5845a98ffeaed53f97f95e"
           }
         ],
         "Text": "検索",
@@ -317,7 +317,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
-            "SessionGuid": "923b3661-3c6e-432d-995b-017dc6f0eaed",
+            "SessionGuid": "2db6b89f-7ac7-4242-be81-7c809fec4919",
             "OpenReportName": "レポート1",
             "SideBarPosition": 0,
             "PassParameters": [
@@ -347,7 +347,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
-                  "GUID": "afdf8fd1-102a-48f8-8be9-0fa120124fde",
+                  "GUID": "1de8fe42-a631-4cfd-ae0f-97af0d0ff5c4",
                   "BindingInfo": {
                     "TableName": "tmitsumori",
                     "ColumnName": "KANRI_NBR",
@@ -369,7 +369,7 @@
                 }
               }
             },
-            "ID": "ed766ece39aa499493fc561fe7032c41"
+            "ID": "95169e4a4943478b98a54751b570f8b6"
           },
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
@@ -2249,4 +2249,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//KXDAiMMpzFqInwaMcWrqiLwdySLO2X0KyXm9wY/Ycum9zWTVEXGxkXoKvFTlU+kIyfMSKhswl/ljQMqhCj4DtXlqYVPoXgMz2hAai4lakvqr4YtzjJLswtE9R/EBYOagtIXwmfUfalAEoAdeMFCWeV4OjuPYAfmRimnjtzBHAhW2K9rA/wN1oMIrSUA7gRTMftokazeMdnBQQsx/PXesnCyKFUmfvq9geaK3dC60QuPjknxjZgo+Bnn8sJduHoxua7x9bc7p7c6y68WTOnbFC3QpPxUcnT0M5VdWhXq5Jx/TCrerT+d6f4xNagXH7NS27fFCz8syO6r5AlSdJuXBPA1LZ1LmFf9Jhjw5jjTjkeQ9y5TJ8vnn1KmsjXeX8wOq3dYIWcn6PTDSQDCDK3atJBysBm5QYca6g2VGds71adls4AijbG0J0XFoLY8+5rdzp2UyryUNM3oKEAyEJCjglOr8biOS4YIiBVdIpidh0QDCyxK1V9f130YQczx0kraDWRVg/sbl4Te+kLX0AdoSseDMIv88mxMjB+QpTmNaHmQl08QrY+sqOlRIh+4xS6mt7pqQ8RgnehqpxnVIhUoQTkaHB7l8lePSQfxmg0jTPAH5b+1QCZHoeuNKTtqAO6K1zCCVfOZmyP1dn24HUzVpi8mteEm0bCxdIm4d3c6Wd2nnfu+LuKkq38xkm6oh6OdVyOu2Q7xbJFx41JN/rUnLIEORPu/+fhVYvZzugHNqhqvJZEmyfuBdiRyi242/F178NauI1Q4WxKeQSstUBonOW6qZ0/ad/yqe/bqtCDEku89TSM75WnBW6fjTqQpjKyfDUKpTXRuXXKIhjeqxck/ZG8ROSsbiLgeQYywIv8v/Ig1GnDwXKATD82fTUV+We3BrY+QFJ4PxTXN29N6Tdj3eVw==|920
+}//F/gGUVjOifbI64jirorhLp8/LvGMRWRmQJegPbmU06ZGSlIcNYBdbLd9l+JGcf6IpZcWmv2QVTBiWUhRj4F4geFB6FF6VpzYFkJnpMW3Tg8vTWd5lJPs4y888eqgaEDOMO3N9n6Szqwez4K3j2z/sLDUj/mlpYyWYNYgWpsyhrBdASVP9pKXBWo52nrVMTdDdFPMOt7Z44qVIuCjnRN77fwZkxz1sYE6OmOxcZOPdg/6UWnvD1zYtAR5I5SqElGcEoLmVoJJqz8LTIG5oJP5y3a2oBiSBZ7DFch7zHLUvcd2pPzHU2UB1mo4l80qffXDwaWfQgzgVwzbuBaf1mUfv+zsEnCnA2zqezcTjyh8McHKJTTP29/zMF8/zMp9U/zBZiMdyfEeOOtWVGdU4/HdGxvVThYhrNKYmiQozgDE3Mz4AgursxV3u82K7StXLQB+eLnRlaGZPGaYoKsJJ3d/lilIl0noGYV4EPCF9aCovzlQlPbvD5LmgaLCazkf1ur+l8T5LWGNzhGQxJ2/QVFnX2CeCcf2K2t9QcoMAAOVvOguSVo5miLl1tdsEFoiXeDoC5c3Ri55KuZrfCOqGgxRTPjYuQjRvHB5t8SwfxKR6Q/yRn12fPRwplFH+nh/fRNbvd0SJ7UU4RF/+wo7I1C7YQAVkQH/i6MNyAI0gNhAykba1b5Ars/d3rq3NSfLJCeTtNjSVVMrCUFw2HTs7+8gK9mwsOvzdPOL5MVieWsDGEK8hjpgToXPzUPMtWcBqHIj+v0ZsdVlKbjBQ1FnkasNtEy+fbvZuEwGLkjGMtUjgi9dDVWSl63oriZGkMQ3MtUGprA5IyIxjBUypqP4fPo4RTOXBWFH4vmCyuuhvVpIiWhwhwK55e7P5qQwrgkDUM/LwoNqRdOLNNc8a/kBZWdOkg==|920
