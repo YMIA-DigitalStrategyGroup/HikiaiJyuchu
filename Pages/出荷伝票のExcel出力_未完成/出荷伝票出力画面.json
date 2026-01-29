@@ -142,7 +142,10 @@
     "64,13": "ODATA(\"tjuchu?$select=TEHAI_KOBAN&$filter=JUCHU_NBR eq \"&IF(ISBLANK($BE$10),\"null\",$BE$10))",
     "64,26": "ODATA(\"tjuchu?$select=ENGINE_KATASHIKI&$filter=JUCHU_NBR eq \"&IF(ISBLANK($BE$10),\"null\",$BE$10))",
     "33,11": "SUBSTITUTE(ODATA(\"mtorihiki?$select=ADDRESS&$filter=HANBAITEN_KIGYO_CODE eq \"&IF(ISBLANK(BB20),\"null\",BB20)),\"　\",\"\")",
-    "59,11": "SUBSTITUTE(ODATA(\"mtorihiki?$select=ADDRESS&$filter=HANBAITEN_KIGYO_CODE eq \"&IF(ISBLANK(BB20),\"null\",BB20)),\"　\",\"\")"
+    "59,11": "SUBSTITUTE(ODATA(\"mtorihiki?$select=ADDRESS&$filter=HANBAITEN_KIGYO_CODE eq \"&IF(ISBLANK(BB20),\"null\",BB20)),\"　\",\"\")",
+    "10,39": "ODATA(\"mname?$select=MEISHO&$filter=MEISHO_KUBUN eq 104 and MEISHO_CODE eq \"&IF(ISBLANK(BE11),\"null\",BE11))",
+    "34,39": "ODATA(\"mname?$select=MEISHO&$filter=MEISHO_KUBUN eq 104 and MEISHO_CODE eq \"&IF(ISBLANK(BE11),\"null\",BE11))",
+    "60,39": "ODATA(\"mname?$select=MEISHO&$filter=MEISHO_KUBUN eq 104 and MEISHO_CODE eq \"&IF(ISBLANK(BE11),\"null\",BE11))"
   },
   "AttachInfos": {
     "1,44": {
@@ -235,13 +238,6 @@
         "TableName": "t_shukka_yotei",
         "ColumnName": "TOCHAKU_TIME",
         "GUID": "147a731a-dbc6-426a-af66-4b293ec7c4bc"
-      }
-    },
-    "10,39": {
-      "BindingInfo": {
-        "TableName": "mname",
-        "ColumnName": "MEISHO",
-        "GUID": "6cb34125-d8c9-46c8-91b8-b8882c099d81"
       }
     },
     "10,56": {
@@ -857,14 +853,6 @@
         "FontFamily": 0,
         "BorderBottom": 1,
         "BorderRight": 1
-      },
-      {
-        "FontFamily": 0,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 0,
-        "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": 0
       },
       {
         "FontFamily": 0,
@@ -2242,10 +2230,10 @@
       "34,36": 17,
       "34,37": 8,
       "34,38": 9,
-      "34,39": 67,
-      "34,40": 9,
-      "34,41": 9,
-      "34,42": 21,
+      "34,39": 35,
+      "34,40": 45,
+      "34,41": 45,
+      "34,42": 46,
       "35,7": 8,
       "35,8": 9,
       "35,9": 9,
@@ -2396,7 +2384,7 @@
       "39,10": 50,
       "39,11": 50,
       "39,12": 51,
-      "39,13": 68,
+      "39,13": 67,
       "39,14": 50,
       "39,15": 50,
       "39,16": 50,
@@ -2409,7 +2397,7 @@
       "39,23": 50,
       "39,24": 50,
       "39,25": 51,
-      "39,26": 68,
+      "39,26": 67,
       "39,27": 50,
       "39,28": 50,
       "39,29": 50,
@@ -2434,7 +2422,7 @@
       "40,12": 32,
       "40,13": 32,
       "40,14": 32,
-      "40,15": 69,
+      "40,15": 68,
       "40,16": 17,
       "40,17": 17,
       "40,18": 17,
@@ -2614,7 +2602,7 @@
       "45,12": 9,
       "45,13": 9,
       "45,14": 28,
-      "45,15": 70,
+      "45,15": 69,
       "45,16": 11,
       "45,17": 11,
       "45,18": 11,
@@ -2650,7 +2638,7 @@
       "46,12": 9,
       "46,13": 9,
       "46,14": 9,
-      "46,15": 71,
+      "46,15": 70,
       "46,37": 25,
       "46,38": 0,
       "46,39": 0,
@@ -2665,7 +2653,7 @@
       "47,12": 64,
       "47,13": 64,
       "47,14": 64,
-      "47,15": 72,
+      "47,15": 71,
       "47,16": 50,
       "47,17": 50,
       "47,18": 50,
@@ -3049,10 +3037,10 @@
       "60,36": 17,
       "60,37": 8,
       "60,38": 9,
-      "60,39": 67,
-      "60,40": 9,
-      "60,41": 9,
-      "60,42": 21,
+      "60,39": 35,
+      "60,40": 45,
+      "60,41": 45,
+      "60,42": 46,
       "61,7": 8,
       "61,8": 9,
       "61,9": 9,
@@ -3203,7 +3191,7 @@
       "65,10": 50,
       "65,11": 50,
       "65,12": 51,
-      "65,13": 68,
+      "65,13": 67,
       "65,14": 50,
       "65,15": 50,
       "65,16": 50,
@@ -3216,7 +3204,7 @@
       "65,23": 50,
       "65,24": 50,
       "65,25": 51,
-      "65,26": 68,
+      "65,26": 67,
       "65,27": 50,
       "65,28": 50,
       "65,29": 50,
@@ -3241,7 +3229,7 @@
       "66,12": 32,
       "66,13": 32,
       "66,14": 32,
-      "66,15": 69,
+      "66,15": 68,
       "66,16": 17,
       "66,17": 17,
       "66,18": 17,
@@ -3421,7 +3409,7 @@
       "71,12": 9,
       "71,13": 9,
       "71,14": 28,
-      "71,15": 70,
+      "71,15": 69,
       "71,16": 11,
       "71,17": 11,
       "71,18": 11,
@@ -3457,7 +3445,7 @@
       "72,12": 9,
       "72,13": 9,
       "72,14": 9,
-      "72,15": 71,
+      "72,15": 70,
       "72,16": 0,
       "72,17": 0,
       "72,18": 0,
@@ -3493,7 +3481,7 @@
       "73,12": 64,
       "73,13": 64,
       "73,14": 64,
-      "73,15": 72,
+      "73,15": 71,
       "73,16": 50,
       "73,17": 50,
       "73,18": 50,
@@ -3582,7 +3570,6 @@
     "40,15,1,22",
     "35,39,1,2",
     "35,41,1,2",
-    "34,39,1,4",
     "36,39,1,4",
     "11,11,2,20",
     "35,11,2,20",
@@ -3624,7 +3611,6 @@
     "66,15,1,22",
     "61,39,1,2",
     "61,41,1,2",
-    "60,39,1,4",
     "62,39,1,4",
     "61,11,2,20",
     "64,37,2,6",
@@ -3665,12 +3651,14 @@
     "64,26,2,11",
     "1,44,2,6",
     "4,44,2,6",
-    "10,39,1,4",
     "8,56,1,9",
     "4,57,2,5",
     "1,57,2,4",
     "33,11,2,26",
-    "59,11,2,26"
+    "59,11,2,26",
+    "10,39,1,4",
+    "34,39,1,4",
+    "60,39,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -3690,7 +3678,7 @@
             "SerializeProperty": "=出荷伝票出力画面!BE10"
           }
         },
-        "ID": "405d50dab55a48a6b3850db1a427f348"
+        "ID": "ede5355a87f44fe6a40538c46e43a6e7"
       },
       {
         "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
@@ -3766,7 +3754,7 @@
           "TableValueType": 0,
           "BindingInfos": [
             {
-              "GUID": "ea314a75-f408-449c-9267-5f15125fa126",
+              "GUID": "d8611785-3d17-46de-943d-b1df382d83d8",
               "BindingInfo": {
                 "TableName": "mname",
                 "ColumnName": "MEISHO",
@@ -3802,7 +3790,8 @@
             ]
           }
         },
-        "ID": "b19a5290afd3432c81fa78c76c727b50"
+        "ID": "acba683c310142dcb05a575fd82de651",
+        "Disabled": true
       },
       {
         "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -3837,7 +3826,8 @@
               "SerializeProperty": "=出荷伝票出力画面!運送業者"
             }
           }
-        ]
+        ],
+        "Disabled": true
       }
     ],
     "PermissionData": {
@@ -3873,4 +3863,4 @@
     },
     "PageOrder": 1
   }
-}//r2nSytaqAcWZV5gvHgBYCvv6Nro2rXPB+vwRRi3nqp8S8CW7410Eo9NZ79C6pmYOuAwbvYI4dpzuL1cbmtg3KmH6UcXtG0ZxOdvjNQrd3MzZohtt8iCecFhhLNh4q2YsiMupEJOXZCZJnF73zoZpk8nu02En4GHTQbA5vsBV/+uq70keZte47c8Sbh5AMzymwQZjMzPYYXK76nlXZOmoE2fO05jrCQ9KpAJ7RtDVaSJkK26LiJrldO2XQ3yIGpr6P4dvp5tS8qy7g5kjsZhpo2dkYHJx0LmP4amqi77fexWigUhiypOULoKC2YOUJU640qnVRSxso1xFJ49sXQUGhbORQ80mq3k42UZSTfR/RCPAcN/xzUDbMDt/jfDJ/JE7JCotmnEPIqpGH6UEeJ6tWqVAZTFrd9mALPEnz9+86PCns0TgoA2YCRAOYh9ls6qCRf79J5RNQRBTJgWqfd7+sSJqhHUd6VEH9R13e2uEJ1ojNB8uiYKN3ym8EfaB5SUZ1qI11xWqfBB8a4fPLPSMSZz+spt3a7jH4WAHNMzvjYDausqs38xcx2OFLQtQdpC7z0oG1UNHQR4TPB3WlsIBB6q/a6fdR9JmUT/aT4IOIDJxDS3eXdMvfJfhsPYu4WnAjxAkaQb5dvJRSkHtvauryvnJIQegxcltwZ64pGn6AJHj6DWgkaMnxCFRlD8W0P11lLjzHr5F80QajQ6UlzB8rAXFNZw5qn/gpfulH4qOhhANWgehleiJ7vgmuzHdn7o5HTEC9lQjhhG00NXiE+nmMXggHTkkADFuwMBi+CIUWXcEGha1vwmBiqAE0oQcEjO419Rx96q72ZiU8SFWPyUDdzY4zFNPduGjjonEzU+cSFbHoIqY82XOx1KpQMVwiT4ncOrfFB2+cpwS/f+hx1pAhg==|920
+}//Gz1uRN57jZtaRiD0qRkk4H3yokGYzmcenWFKIYSIFoLkKcH2S/Tcy7ShW71Drcsoucp3tf1+CgUTDLc9McUyRrAjJ4m9uT7w4/Wyq9hjR7n5euMua8hKQcL9oJdakxFaJwjVkvCyQluDJ6XhRHBiO+Hfni7SLaoNJZDamwuzGabMYoNrb1EyQCCPcdPWZdgstfWizjJAIIvtKK686EhlU07qpbuJ3AmJ4KdOsEeUBlgSB+TWsGWtVX8CLsvQU+Ry3Fe8BE1d6D0kDl6EMuzlC3CEPvSfGHkNxGtiqaAL8POFyfz96IkWmvWifrXTwvgWYQOC8mf+SN3jxW2uSnMntgT+mB8jUngV23JTcM95/1p/UoXU/fVYiPC/glczdO2keNOlt/FsB5ob/RQ8HKkHoy9bDzGLyA9Q0XOVhM1jVTGVDfsvbh1nIvje4t0PHAlrjOCQILFe6R8Pts5BUvW6RXZDMOl2EQKogoCtOFQRVUbGun1NMUaWlNNdNyfm4cCWVxccxn1Wn32I4ghS+Qh4Snwru9Z12tvaQm37hUPuMlr2QFt8d/c3qJW1F7rCd87KdlobseTmq4RJ/qahKv+vfTRL9KtW5TE4ghZr7fJI/fSaa+i5/G4Z2WWDO+MqDmQIhs2hfH2cSwpaCOLZ6wqaRgqJ2GD5vPt98NIAHg3pNZHSbBQIGMW+FU3JKHWNxEAaSpqzk8gaAeeHSD9FqOuD+PDX6sQQAjynrnC0Ja/Vr2ysYT8AhHQLiOcsnDUPrtIRNPK0vXcJ+hFk9O8HDJoK2/YnXSRrpt6twDlsDTwXIxKuPFW5YS6qPZ9oSiGrHYBo9YtR5SnHIyQds/HVdmOpCUcnbQEGiTpEKoM+Ereuky6WnIItMm2LelWewbJ2xrQjZtCNf6tuzKJGICf8Nu1QUw==|920
