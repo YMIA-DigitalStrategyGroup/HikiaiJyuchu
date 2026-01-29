@@ -33,13 +33,18 @@
       2,
       3,
       4,
-      58,
-      59,
-      60
+      58
     ],
     "Count": 67
   },
   "Cols": {
+    "RowColumnAttachedInfos": {
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      }
+    },
     "InLogicalVisibleIndexes": [
       6,
       49,
@@ -95,7 +100,6 @@
   },
   "Formulas": {
     "10,35": "TODAY()",
-    "19,7": "BB11&BB13",
     "22,4": "IF(G23=\"\",\"\",ODATA(\"mname?$select=ZOKUSEI1&$filter=MEISHO_CODE eq \"&IF(ISBLANK(G23),\"null\",G23)&\" and KUBUN_MEISHO eq '工事区分'\"))"
   },
   "AttachInfos": {
@@ -181,6 +185,20 @@
           "RelatedColumn": "KANRI_NBR",
           "DisplayColumn": "KENMEI"
         }
+      }
+    },
+    "19,7": {
+      "BindingInfo": {
+        "TableName": "tmitsumori",
+        "ColumnName": "KISHU",
+        "GUID": "28d45915-d7c6-4661-8b65-db2bcd1534fa"
+      }
+    },
+    "19,11": {
+      "BindingInfo": {
+        "TableName": "tmitsumori",
+        "ColumnName": "KIBAN",
+        "GUID": "e3ae68ab-0593-4702-8385-2985c481c22e"
       }
     },
     "19,14": {
@@ -320,7 +338,7 @@
                     "NewOtherName": ""
                   }
                 ],
-                "ID": "76645c59-487b-4528-9f39-06908e6ed6f5"
+                "ID": "649d89d6-1e10-4194-a0b2-26cdaac68409"
               }
             ]
           },
@@ -360,7 +378,7 @@
                     "AutoFitRowHeight": true
                   }
                 ],
-                "ID": "361430eb-2e18-450b-b3d9-42297fbf469d"
+                "ID": "43561483-b0b9-4758-bb72-507ee1a84530"
               }
             ]
           },
@@ -617,6 +635,21 @@
       {
         "FontFamily": 0,
         "FontSize": 16.0,
+        "HorizontalAlignment": 13,
+        "VerticalAlignment": 8,
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
         "HorizontalAlignment": 10,
         "VerticalAlignment": 8,
         "BorderBottom": 0,
@@ -700,9 +733,6 @@
       {
         "BorderBottom": 0,
         "BorderLeft": 0
-      },
-      {
-        "BorderBottom": 0
       },
       {
         "BorderBottom": 0,
@@ -1226,14 +1256,14 @@
       "19,4": 30,
       "19,5": 30,
       "19,6": 30,
-      "19,7": 33,
-      "19,8": 32,
-      "19,9": 32,
-      "19,10": 32,
-      "19,11": 32,
-      "19,12": 32,
-      "19,13": 32,
-      "19,14": 34,
+      "19,7": 34,
+      "19,8": 35,
+      "19,9": 35,
+      "19,10": 35,
+      "19,11": 36,
+      "19,12": 35,
+      "19,13": 35,
+      "19,14": 37,
       "19,15": 32,
       "19,16": 32,
       "19,17": 32,
@@ -1242,10 +1272,10 @@
       "19,20": 32,
       "19,30": 25,
       "19,31": 0,
-      "21,2": 35,
-      "21,3": 36,
-      "21,6": 37,
-      "21,7": 37,
+      "21,2": 38,
+      "21,3": 39,
+      "21,6": 40,
+      "21,7": 40,
       "21,8": 1,
       "21,9": 1,
       "21,10": 1,
@@ -1272,15 +1302,15 @@
       "21,31": 1,
       "21,32": 1,
       "21,33": 1,
-      "21,34": 37,
+      "21,34": 40,
       "21,35": 1,
       "21,36": 1,
-      "21,37": 38,
+      "21,37": 41,
       "22,2": 8,
       "22,3": 8,
-      "22,4": 39,
+      "22,4": 42,
       "22,5": 8,
-      "22,6": 40,
+      "22,6": 43,
       "22,7": 10,
       "22,8": 10,
       "22,9": 10,
@@ -1308,10 +1338,10 @@
       "22,31": 10,
       "22,32": 10,
       "22,33": 10,
-      "22,34": 41,
+      "22,34": 44,
       "22,35": 10,
       "22,36": 10,
-      "22,37": 42,
+      "22,37": 45,
       "22,38": 8,
       "22,39": 8,
       "22,40": 8,
@@ -1320,26 +1350,26 @@
       "22,43": 8,
       "22,44": 8,
       "22,45": 8,
-      "59,19": 43,
-      "59,20": 43,
-      "59,21": 43,
-      "59,22": 43,
-      "59,23": 43,
-      "59,24": 43,
-      "59,25": 43,
-      "59,26": 44,
-      "59,27": 36,
-      "59,28": 36,
-      "59,29": 36,
-      "59,30": 36,
-      "59,31": 36,
-      "59,32": 36,
-      "59,33": 36,
-      "59,34": 36,
-      "59,35": 36,
-      "59,36": 36,
-      "59,37": 45,
-      "59,38": 46,
+      "59,19": 46,
+      "59,20": 46,
+      "59,21": 46,
+      "59,22": 46,
+      "59,23": 46,
+      "59,24": 46,
+      "59,25": 46,
+      "59,26": 47,
+      "59,27": 39,
+      "59,28": 39,
+      "59,29": 39,
+      "59,30": 39,
+      "59,31": 39,
+      "59,32": 39,
+      "59,33": 39,
+      "59,34": 39,
+      "59,35": 39,
+      "59,36": 39,
+      "59,37": 48,
+      "59,38": 49,
       "59,39": 0,
       "59,40": 0,
       "59,41": 0,
@@ -1348,25 +1378,25 @@
       "59,44": 0,
       "59,45": 0,
       "59,46": 0,
-      "60,19": 43,
-      "60,20": 43,
-      "60,21": 43,
-      "60,22": 43,
-      "60,23": 43,
-      "60,24": 43,
-      "60,25": 43,
-      "60,26": 47,
-      "60,27": 48,
-      "60,28": 48,
-      "60,29": 48,
-      "60,30": 48,
-      "60,31": 48,
-      "60,32": 48,
-      "60,33": 48,
-      "60,34": 48,
-      "60,35": 48,
-      "60,36": 48,
-      "60,37": 49,
+      "60,19": 46,
+      "60,20": 46,
+      "60,21": 46,
+      "60,22": 46,
+      "60,23": 46,
+      "60,24": 46,
+      "60,25": 46,
+      "60,26": 50,
+      "60,27": 35,
+      "60,28": 35,
+      "60,29": 35,
+      "60,30": 35,
+      "60,31": 35,
+      "60,32": 35,
+      "60,33": 35,
+      "60,34": 35,
+      "60,35": 35,
+      "60,36": 35,
+      "60,37": 51,
       "60,38": 11,
       "60,39": 0,
       "60,40": 0,
@@ -1414,7 +1444,6 @@
     "12,53,2,5",
     "17,7,1,14",
     "18,7,1,14",
-    "19,7,1,7",
     "19,14,1,7",
     "22,2,1,2",
     "22,34,1,3",
@@ -1427,7 +1456,9 @@
     "21,4,1,2",
     "21,7,1,27",
     "21,34,1,3",
-    "21,37,1,9"
+    "21,37,1,9",
+    "19,7,1,4",
+    "19,11,1,3"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1564,4 +1595,4 @@
     },
     "PageOrder": 1
   }
-}//2w3RhnNVDezE2BOFf2kRsLwhv29He5kj67+yj8aV2uvHm4OTzRUUKB+d5ISElM17PIjLDrMYacjFDwFXkCGAeF/lwniRoqcrAD3fPnuNv322XgtJ6VLPZZbag+iuH9xEDE8x5gWW9RaxYlWWKyPtG5K5F+EK+YuBQWqRc0lbgcbV1hweub418UjUqTT97LgG/9kbc4Ki4TcSp9PeEZNmSQKzKjSBgUKRQeXIH3ec2FBnARNGl9GVjNw8Hch46V4nJWPPQNBafZthV3lfzTGM1fWPI5aFTnDkQ2SxEn8y+EBHu2msmIg0tus5EP3Ij1wW4ABzJvH/HyY53whFhj9HG9572hWayBWCD/Q5hef7aHyRqdc0osRQp1UxsrAA/kps8UmpvgnwivbTMrApFdQn9HxyerH3NjCNwluTI27KwdZ6qm3UZaMGfvbyavMui5qGQ1Ylm9F0AJr+OS2ua+AC1rlW2nMPjH7tivMfuqWEv/X+IOY5v8F3Dd5Vg1isBaGPD0IaOk+R1pi1vRdWJR01pfcrTTHrOTbKGYLlE9zpKINYA2ucFFw30KhNvguiDkxgdQAggu9XsLbkrNMFsd+BD4Dd6G66wTcpqODRF++h2FTcaL8Mx68zq0sNqxfkeASSMF3omaU1h9XkF4AC8XEOu/pmQ0TRwbyDkIi6DLNZJf9cDA5FGz0+k55zvFub16sBWiaf9zlviwewAItanAbKUKH3xZJKOOumSYdrtZTmtPsiHkjYnKeWccv7yHWjzxpB3xHtPoFce5ruWzGyRWq/0dKJewLsweEtLSeVAUeG54CIGsvRTbgTFSb06kbHqBX2c1mVcliXdpYQJ/4LYIbhjD6b9G48u/OFPrtTKKPDSZNZJooVvUIsJl8XbOdhSRCHkY6J1mIyqBNHVSuu9xndwg==|920
+}//omD+bVIsfLJX2vqeAxzWq8IJkqwSQbySNhh/x8BqQG/dgd7Dm25bgOwwiH9jufbk7zQ4CapGdj9wSBthqJtHAgKIQomzVMQY3hOlrzf5n9fHAYIvAXZ9I/ibMVVRMvTt4pQNAGZWqj7ooAdE0pMRPWQKLx2zdPiHD2dyjEkyGte68VG8+xwD5dx7j7mPJGQU6zqGZrffR8AZhme5NNdC09+eIGIlrEaazNU1xkI0LmDVn/yUh/UVddP6d2B53lqc6phx0C3dIalhmKk/3nqcCbF4iNiB3CP5HVfOa9NNEkDUXT5nTtr/0EWR2rd8yXEyCgUwnnEffuuEUzPTYFRKunLd58+xemWBX/9Si+nUMgiGtBHso0CJOl3I1Z1aQ9pY0sjPuV3FRpq5zMoAMClgu3Tk+Q22C1ANydIBgzW9hKrjmJjhGSaOiyt1ymohXKTKrEvD0aSPMj5Dq6Jjng6tZIa5wq6Sp2MnnSy2lyQ/ir2XfosQotJzu6RaXqsmo+lB0Ha83neVQAjDa0tdE31fZ1aMskUmEMGmpgCkRk+MprbI7eji6p6TEjjrDcnHisYz+WA93BhEuOTumkeD47EKnUlUWChIIzGCSNMaS1UCh83l7n2hr9Bp/ot4siKrzhKnOMPBOfXAyMPc1KJKU62733ZrN+CoqTiYT1nuojk96nAGKXaLE+xSgVqt2x9QXUggj+IWtcfOgHtJbpHSH0Gvzp4BItgTkNyz8P3pq8hHS6glJo5y6ukgBY4GKhypaDRKWWuE+JclARHEaYlcr4X4Srs9kjEb6Ls0vi7+3nft5BrMub9d86NxOEew7j1n1Fvc4rmOkkIxa5892XmWduob3qoSX+GoQFcfC5g0KX+rDboE8uS7nqhJlc7XiBIl9Ym7MDHYvU2WemR/jLz4TLpHZw==|920

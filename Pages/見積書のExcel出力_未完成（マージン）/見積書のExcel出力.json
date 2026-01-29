@@ -37,8 +37,26 @@
     "Count": 67
   },
   "Cols": {
+    "RowColumnAttachedInfos": {
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      }
+    },
     "InLogicalVisibleIndexes": [
-      6
+      6,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
     ],
     "Count": 60
   },
@@ -70,7 +88,7 @@
     "17,30": "TEL：0978-68-0824",
     "18,2": "引合物件名",
     "18,30": "FAX：0978-68-0894",
-    "19,2": "商品名",
+    "19,2": "商　品　名",
     "19,30": "担当者：円福",
     "21,6": "　",
     "21,7": "品名",
@@ -81,7 +99,6 @@
   },
   "Formulas": {
     "10,35": "TODAY()",
-    "19,7": "BB11&BB13",
     "22,4": "IF(G23=\"\",\"\",ODATA(\"mname?$select=ZOKUSEI1&$filter=MEISHO_CODE eq \"&IF(ISBLANK(G23),\"null\",G23)&\" and KUBUN_MEISHO eq '工事区分'\"))"
   },
   "AttachInfos": {
@@ -167,6 +184,20 @@
           "RelatedColumn": "KANRI_NBR",
           "DisplayColumn": "KENMEI"
         }
+      }
+    },
+    "19,7": {
+      "BindingInfo": {
+        "TableName": "tmitsumori",
+        "ColumnName": "KISHU",
+        "GUID": "850b83d6-6ffb-4836-9a15-2c03788e7e1d"
+      }
+    },
+    "19,11": {
+      "BindingInfo": {
+        "TableName": "tmitsumori",
+        "ColumnName": "KIBAN",
+        "GUID": "37c8dd5f-8743-46cb-aa9d-e92f4678aaad"
       }
     },
     "19,14": {
@@ -303,14 +334,14 @@
                   {
                     "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
                     "ExportExcelPageNameMode": 2,
-                    "TargetPageName": "見積書のExcel出力",
+                    "TargetPageName": "見積書のExcel出力用(完成版)",
                     "NewOtherName": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=見積書のExcel出力!N60"
                     }
                   }
                 ],
-                "ID": "758428a5-af5a-4ab0-885f-26acd767a7d1"
+                "ID": "548f32ba-78ea-4e43-99e1-b35ce1f37065"
               }
             ]
           }
@@ -357,7 +388,7 @@
                     }
                   }
                 ],
-                "ID": "261d70ea-5a4f-4403-aa05-0cf39d4297f3"
+                "ID": "4dac7ea9-2f2e-45aa-bb8a-94d4b54f08e7"
               }
             ]
           }
@@ -605,6 +636,21 @@
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "HorizontalAlignment": 13,
+        "VerticalAlignment": 8,
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "BorderBottom": 0
       },
       {
         "FontFamily": 0,
@@ -1246,14 +1292,14 @@
       "19,4": 30,
       "19,5": 30,
       "19,6": 30,
-      "19,7": 33,
-      "19,8": 32,
-      "19,9": 32,
-      "19,10": 32,
-      "19,11": 32,
-      "19,12": 32,
-      "19,13": 32,
-      "19,14": 34,
+      "19,7": 34,
+      "19,8": 35,
+      "19,9": 35,
+      "19,10": 35,
+      "19,11": 36,
+      "19,12": 35,
+      "19,13": 35,
+      "19,14": 37,
       "19,15": 32,
       "19,16": 32,
       "19,17": 32,
@@ -1262,8 +1308,8 @@
       "19,20": 32,
       "19,30": 25,
       "19,31": 0,
-      "21,6": 35,
-      "21,7": 36,
+      "21,6": 38,
+      "21,7": 39,
       "21,8": 1,
       "21,9": 1,
       "21,10": 1,
@@ -1290,15 +1336,15 @@
       "21,31": 1,
       "21,32": 1,
       "21,33": 1,
-      "21,34": 37,
+      "21,34": 40,
       "21,35": 1,
       "21,36": 1,
-      "21,37": 35,
-      "22,2": 38,
-      "22,3": 38,
-      "22,4": 39,
-      "22,5": 38,
-      "22,6": 40,
+      "21,37": 38,
+      "22,2": 41,
+      "22,3": 41,
+      "22,4": 42,
+      "22,5": 41,
+      "22,6": 43,
       "22,7": 10,
       "22,8": 10,
       "22,9": 10,
@@ -1326,10 +1372,10 @@
       "22,31": 10,
       "22,32": 10,
       "22,33": 10,
-      "22,34": 41,
+      "22,34": 44,
       "22,35": 10,
       "22,36": 10,
-      "22,37": 42,
+      "22,37": 45,
       "22,38": 8,
       "22,39": 8,
       "22,40": 8,
@@ -1471,35 +1517,35 @@
       "59,10": 0,
       "59,11": 0,
       "59,12": 0,
-      "59,13": 43,
-      "59,14": 44,
-      "59,15": 44,
-      "59,16": 44,
-      "59,17": 44,
-      "59,18": 44,
-      "59,19": 44,
-      "59,20": 44,
-      "59,21": 44,
-      "59,22": 44,
-      "59,23": 45,
-      "59,24": 46,
+      "59,13": 46,
+      "59,14": 47,
+      "59,15": 47,
+      "59,16": 47,
+      "59,17": 47,
+      "59,18": 47,
+      "59,19": 47,
+      "59,20": 47,
+      "59,21": 47,
+      "59,22": 47,
+      "59,23": 48,
+      "59,24": 49,
       "59,25": 0,
       "59,26": 0,
       "59,27": 0,
       "59,28": 0,
       "59,29": 0,
-      "59,30": 43,
-      "59,31": 44,
-      "59,32": 44,
-      "59,33": 44,
-      "59,34": 44,
-      "59,35": 44,
-      "59,36": 44,
-      "59,37": 44,
-      "59,38": 44,
-      "59,39": 44,
-      "59,40": 45,
-      "59,41": 47,
+      "59,30": 46,
+      "59,31": 47,
+      "59,32": 47,
+      "59,33": 47,
+      "59,34": 47,
+      "59,35": 47,
+      "59,36": 47,
+      "59,37": 47,
+      "59,38": 47,
+      "59,39": 47,
+      "59,40": 48,
+      "59,41": 50,
       "59,42": 0,
       "59,43": 0,
       "59,44": 0,
@@ -1531,7 +1577,7 @@
       "60,10": 0,
       "60,11": 0,
       "60,12": 0,
-      "60,13": 48,
+      "60,13": 51,
       "60,14": 32,
       "60,15": 32,
       "60,16": 32,
@@ -1541,14 +1587,14 @@
       "60,20": 32,
       "60,21": 32,
       "60,22": 32,
-      "60,23": 49,
+      "60,23": 52,
       "60,24": 0,
       "60,25": 0,
       "60,26": 0,
       "60,27": 0,
       "60,28": 0,
       "60,29": 0,
-      "60,30": 48,
+      "60,30": 51,
       "60,31": 32,
       "60,32": 32,
       "60,33": 32,
@@ -1558,7 +1604,7 @@
       "60,37": 32,
       "60,38": 32,
       "60,39": 32,
-      "60,40": 49,
+      "60,40": 52,
       "60,41": 0,
       "60,42": 0,
       "60,43": 0,
@@ -1613,7 +1659,6 @@
     "12,53,2,5",
     "17,7,1,14",
     "18,7,1,14",
-    "19,7,1,7",
     "19,14,1,7",
     "22,2,1,2",
     "22,34,1,3",
@@ -1630,7 +1675,9 @@
     "21,4,1,2",
     "21,7,1,27",
     "21,34,1,3",
-    "21,37,1,9"
+    "21,37,1,9",
+    "19,7,1,4",
+    "19,11,1,3"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1679,7 +1726,7 @@
             }
           ]
         },
-        "ID": "39f6e296d29746cfb3686c3a2c724d01"
+        "ID": "88d85fcf577944efa70eb3c07d140668"
       },
       {
         "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
@@ -1767,4 +1814,4 @@
     },
     "PageOrder": 1
   }
-}//pVhhGB40sP3f6gSN3AZsEyG0y55Jzv4hOOMgQ1tDXO7gf6cL4KBLXtRuVLpUxavlcQMvmW8WcAHZserr2wIaYb3OQDyqSo/adqHUjyWjyrXHORbVvh/CtFpIzgTM7JMaFkPR+2B/VhKXvcHPTUBj2wPuRFl4alSPqgE60WEX2ADt8MQpJakDkRlUGrED+XT4lAu7bP97bxCM0PFMkCSrgumIjQzMJusXyqHjJ5rXFmt3wLABk6g/LXZXJi9JJNvQX7Tx4SW1VxrQq0vjqBgXonS1UwQGSiKU5Kr65w9wBXG9OyX0+rkBJ+M46gcQvfIjsPNxXEdHR3NLd96dbUQU8plojJVhgcHQfylMzHRlzsyK/ExpMH3f5gRFerc88iFpdw78a+j9ck+i1Gzu4FFzpaqCTodLE9aL63KW1NGsx+xJV62TpdiI8nTjibg9v75fsIcoibV0u857S+ZcRuisTwEcK9fXdqU2HcNGN94oZrs+YnS6IkAUVv7areKIbgBPynpnNgA4AZQEHesxLr8NQ7fmmHlZj50NTFFYS1Vhj4m0H+E411Dy8u7TGy0b37xJ2ayxggn7ckwHOoabWREJswozZFQNRa73+xyeY/ZFtxizCvREIrye448PWanKo0tMZgICpCufHNSRKsft84cEJxdyWZcrLgk1Ni5kSYlUl+wiFaERpjmeRWR9ai1vofSe5ymdekIjcGoWW6x7oXFsbdxZuTBU0SGYwuz7W+KubCFXuGi6h5Ud1MxX0TzF1/1Z7j4AuSWOwVG9NGPSgOVnAnHwIvcl4g83vtLmbGgcv3EvvDFC/XFnCC70VUnhSN8CgMV7zMDabs4eioJRLnD3DiIy9I78jKmeIM+4XgXqK7gxYiD8EFHdXihJM8meINZbkB/gdIAbUCvdyi7KtbOWGw==|920
+}//pELclkEuDD6m2/emZrLVBVG+eLRB71jRtf/XnpH5F2MViDzL2QKZnjdPzFB4llP0oq40cWHzewB1Dl2MCkPpBJinXQHlxuZTzDdPj6mLz/v/i4zTGZbFBTqKOkfsJr+erFVv6EcIVpeBA0jU9RY1swwrJs9Fl8rxtmaCVnKaDSmOpdL45W2i6T09K9KserRFWbfgqzTPSCMJwYcmyiqEITGDJNLfTsKQdmFaOofXb7tloUQs+S9Z+xDbapXjWKUXUZPg83B1fVM0x9a2We/o1K2ARGSXM8A34SaqFjyn7xL4DDHhxchEXFbZtksJuwZOHdBuUCNhJd453twAtcAWohUPJNSprA38tqqKXNcZBrLJ2p1swlD7pkg0PM77vtRXgZBSDZZITKB5j4H+GTE8tb6P703bBOBFjlYKePfGbeCTk0cQicMIgWcDEO7ignCgHKy9TleRU/sW7w0Nu3QELDYEHD8zSN1GdnfD7/q0dVnB/nL3S6T1Et2CLnpTlYV2UB1MM7zZhxB/xUiFZzb9TrO5eFYTe7O80kcD3A4iuM1WpMIm1xXJN22sngf9OhyYfgQL5OgKasbSty+K/PPIqpACXlJ1OR4cApfJ8bJyl9iecKNPMqqHpmfCJUZqWUOcW3cL/yar14Ii1QDuI7FtLM+adzS0dGETlanLnXewjmjS9XtixnrLFerkPQW+I2MhrixQ9O4NOuf4H9Qzb2goot134RugqBVt0odZGJ6hqDCPh0GHirkSegZo3GX0eLdMMUMrLqgsBZ956NE+ASkxCBsWpHcEmscLsIbsP3QbyQhT7EjfSdpjdhA3tbgtemPpm1mqo1fPrP1qxKzhDOQEr0rblt73Dj9FXgGL4fas0NR4ySELWV8DOpiH7MIA5TE9udzlAHTLsGiDJH8KFOPmCg==|920

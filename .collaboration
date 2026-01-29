@@ -169,31 +169,11 @@
   },
   {
     "ModuleName": "PCPage/見積書一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-29T11:13:36.7440119+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書一覧.json",
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/見積書のExcel出力",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-29T11:28:33.0268893+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力.json",
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/見積書の出力用画面",
@@ -477,16 +457,7 @@
   },
   {
     "ModuleName": "PublishSetting",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-29T10:10:41.0911794+09:00",
-    "ModuleType": 41,
-    "ToRemoveFiles": [
-      "PublishSetting.json"
-    ]
+    "ModuleType": 41
   },
   {
     "ModuleName": "Table/ttsumikomihinm",
@@ -498,17 +469,7 @@
   },
   {
     "ModuleName": "PCPage/見積書のExcel出力用(完成版)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-29T11:22:41.3511315+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力用(完成版).json",
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力用(完成版).rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "ServerCommand/サーバーサイドコマンド1",

@@ -113,7 +113,7 @@
   "Values": {
     "4,18": "検索",
     "4,28": "製番",
-    "6,28": "受注番号",
+    "6,28": "見積番号",
     "9,7": "機種",
     "9,14": "機番",
     "9,18": "見積番号",
@@ -183,7 +183,7 @@
     "6,28": {
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "CellDefaultValue": "受注番号",
+        "CellDefaultValue": "見積番号",
         "SavedValidators": [
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
@@ -237,7 +237,7 @@
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=見積書一覧!O11"
+                  "SerializeProperty": "=見積書一覧!S11"
                 }
               }
             ]
@@ -317,7 +317,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
-            "SessionGuid": "2db6b89f-7ac7-4242-be81-7c809fec4919",
+            "SessionGuid": "f3caaef7-7f14-47ae-9771-33b4381f7ba5",
             "OpenReportName": "レポート1",
             "SideBarPosition": 0,
             "PassParameters": [
@@ -378,33 +378,6 @@
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=見積書一覧!S11"
-                },
-                "TargetCell": {
-                  "SerializeProperty": "=見積書のExcel出力!BB2"
-                }
-              },
-              {
-                "Source": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=見積書一覧!X11"
-                },
-                "TargetCell": {
-                  "SerializeProperty": "=見積書のExcel出力!BB5"
-                }
-              },
-              {
-                "Source": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=見積書一覧!見積番号"
-                },
-                "TargetCell": {
-                  "SerializeProperty": "=見積書のExcel出力!BB9"
-                }
-              },
-              {
-                "Source": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=見積書一覧!H11"
                 },
                 "TargetCell": {
@@ -423,10 +396,37 @@
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=見積書一覧!S11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=見積書のExcel出力!BB2"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=見積書一覧!X11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=見積書のExcel出力!BB5"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                   "SerializeProperty": "=見積書一覧!AA11"
                 },
                 "TargetCell": {
                   "SerializeProperty": "=見積書のExcel出力!BB16"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=見積書一覧!見積番号"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=見積書のExcel出力!BB9"
                 }
               }
             ]
@@ -2249,4 +2249,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//F/gGUVjOifbI64jirorhLp8/LvGMRWRmQJegPbmU06ZGSlIcNYBdbLd9l+JGcf6IpZcWmv2QVTBiWUhRj4F4geFB6FF6VpzYFkJnpMW3Tg8vTWd5lJPs4y888eqgaEDOMO3N9n6Szqwez4K3j2z/sLDUj/mlpYyWYNYgWpsyhrBdASVP9pKXBWo52nrVMTdDdFPMOt7Z44qVIuCjnRN77fwZkxz1sYE6OmOxcZOPdg/6UWnvD1zYtAR5I5SqElGcEoLmVoJJqz8LTIG5oJP5y3a2oBiSBZ7DFch7zHLUvcd2pPzHU2UB1mo4l80qffXDwaWfQgzgVwzbuBaf1mUfv+zsEnCnA2zqezcTjyh8McHKJTTP29/zMF8/zMp9U/zBZiMdyfEeOOtWVGdU4/HdGxvVThYhrNKYmiQozgDE3Mz4AgursxV3u82K7StXLQB+eLnRlaGZPGaYoKsJJ3d/lilIl0noGYV4EPCF9aCovzlQlPbvD5LmgaLCazkf1ur+l8T5LWGNzhGQxJ2/QVFnX2CeCcf2K2t9QcoMAAOVvOguSVo5miLl1tdsEFoiXeDoC5c3Ri55KuZrfCOqGgxRTPjYuQjRvHB5t8SwfxKR6Q/yRn12fPRwplFH+nh/fRNbvd0SJ7UU4RF/+wo7I1C7YQAVkQH/i6MNyAI0gNhAykba1b5Ars/d3rq3NSfLJCeTtNjSVVMrCUFw2HTs7+8gK9mwsOvzdPOL5MVieWsDGEK8hjpgToXPzUPMtWcBqHIj+v0ZsdVlKbjBQ1FnkasNtEy+fbvZuEwGLkjGMtUjgi9dDVWSl63oriZGkMQ3MtUGprA5IyIxjBUypqP4fPo4RTOXBWFH4vmCyuuhvVpIiWhwhwK55e7P5qQwrgkDUM/LwoNqRdOLNNc8a/kBZWdOkg==|920
+}//d3NydBE24cjUlW1IfTjHgk8nkiTUhDSh0eZmSdD7L7aX1BPx5yKOx1f4d5o9PJwp7sgceGEYZxzr2G3zE5vCb3ykw1fgusBvHxK9sHsQQUlB1HG3z2CfxsSb+ztBjcrDRjDqblxi6olIRZ/Pg0gBc260gUepIdWMZvpg726GGLLJwGWIwO6/PQoEUkEqNGlK24c0I1HBFAp+jS30YYApbmUbB6F+oTSmmLANxZQY7AKpzI8/zzR3/CdLg4vDvQe/tVMoANUFM9oZOfabYKfHZm7YaWy3ttQ3tjEqRBFtIA40pcEfY/cxZllOAA1fycmM/Vvw+5rbkIO5C9KMcO4mO3YmUcNm+56GyfEc4OI95lZeVrLjAEvtDtYU5y/ZAogvm0dIwTGWZx6K7qFWMkHTw6q/6bpytpjPLvFJjyy/9xniJOroVoyN7g3+7FEFsmiX/Tssy40ucpmF5IuWY5VCi/jc5XKGS80LsSQMD+vZvuA9O6b9JhmHsfX/HH0mEZ+wwyqI1Y5cjxvlRvHO5kotzp/u5HbQGcPnXh1h5BXbN5xaTc8mAN5KaVri8WGcG7STzX79xPBn8Pl/ofG+/n927ZZYIRhITohjyOjoBoiOAPeA9eSqtwL217Spv/ftqrpruPKiKHk51Qchp4RSL6TxiM/H9E9x/iNJI4vVWSaXV02Vzl3R80BlQioPaPQAmo6LEfyX/fQFS5Ei8p9vbyX7EcNVMaFMOHq+40EBhxbXjg5riITjS86m3EJIrG9TMOldpwRU92WjlCZYszO9/SK9mSMbWl67uCcQCovEdXOGRO8Y5fZiNihxifT2r5yCMcjAPjStcdUNsrtvrGZMy2hJ+I2Bg8+b8dP4BdQx5Lz6PkV7tdYgmR+PuS71CYUYEkx+8iUFad3VBRL/UFvHeDR4tQ==|920
