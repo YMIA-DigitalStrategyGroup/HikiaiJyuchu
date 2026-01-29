@@ -13,16 +13,7 @@
   },
   {
     "ModuleName": "Table/tmitsumorim",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-29T10:09:06.4795382+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\tmitsumorim.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tshikyuhinr",
@@ -86,16 +77,7 @@
   },
   {
     "ModuleName": "Table/mkosei",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-01-29T10:09:06.4794+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\mkosei.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tshukka",

@@ -49,14 +49,14 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "decimal",
+      "DatabaseColumnType": "bigint",
       "MaxLength": -1,
       "Name": "TANKA",
       "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "DatabaseColumnType": "decimal",
+      "DatabaseColumnType": "bigint",
       "MaxLength": -1,
       "Name": "KINGAKU",
       "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
