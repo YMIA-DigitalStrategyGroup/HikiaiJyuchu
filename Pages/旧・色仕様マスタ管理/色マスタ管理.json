@@ -3,7 +3,47 @@
     "Count": 51
   },
   "Cols": {
-    "Count": 84
+    "RowColumnAttachedInfos": {
+      "81": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 93.0
+        }
+      },
+      "82": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 93.0
+        }
+      },
+      "83": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 93.0
+        }
+      },
+      "84": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 93.0
+        }
+      },
+      "85": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 93.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "Count": 87
   },
   "Values": {
     "0,2": "機種",
@@ -14,6 +54,7 @@
     "4,7": "仕様",
     "4,13": "検索",
     "4,19": "艇種・艇番\r\n新規作成",
+    "6,65": "機種～部位分類　手動設定",
     "7,2": "色仕様マスタ情報",
     "7,37": "色マスタ明細",
     "8,2": "艇種",
@@ -27,18 +68,19 @@
     "8,38": "品番",
     "8,44": "品名",
     "8,49": "部位名称",
-    "8,55": "YGSM色",
-    "8,58": "YGSM色名",
-    "8,62": "標準色名",
-    "8,67": "略称",
-    "8,70": "-",
-    "8,71": "-",
-    "8,72": "-",
-    "8,73": "-",
+    "8,55": "色情報",
+    "8,62": "備考",
+    "8,69": "機種",
+    "8,73": "仕様",
     "8,74": "-",
+    "8,76": "部位分類",
+    "8,81": "-",
+    "8,82": "-",
+    "8,83": "色名称",
+    "8,84": "下3桁",
+    "8,85": "変換値",
     "9,33": "削除",
     "23,37": "↑↑↑　YGSM情報設定　↑↑↑",
-    "23,70": "手動設定",
     "48,1": "更新",
     "48,14": "Excel\r\nエクスポート",
     "48,20": "Excel\r\nインポート",
@@ -48,9 +90,10 @@
   "Formulas": {
     "9,29": "ODATA(\"mname?$select=ZOKUSEI2&$filter=MEISHO_KUBUN eq 74 and MEISHO_CODE eq \"&IF(ISBLANK(AG10),\"null\",AG10))",
     "9,32": "ODATA(\"mname?$select=MEISHO_CODE&$filter=MEISHO eq \"&IF(ISBLANK(X10),\"null\",\"'\"&X10&\"'\")&\" and MEISHO_KUBUN eq 74\")",
-    "9,62": "ODATA(\"mname?$select=MEISHO&$filter=MEISHO_KUBUN eq 74 and MEISHO_CODE eq \"&IF(ISBLANK(BS10),\"null\",BS10))",
-    "9,67": "ODATA(\"mname?$select=ZOKUSEI2&$filter=MEISHO_KUBUN eq 74 and MEISHO_CODE eq \"&IF(ISBLANK(BS10),\"null\",BS10))",
-    "9,70": "ODATA(\"mname?$select=MEISHO_CODE&$filter=MEISHO_KUBUN eq 74 and ZOKUSEI1 eq \"&IF(ISBLANK(BD10),\"null\",\"'\"&BD10&\"'\"))"
+    "9,85": "INT(ODATA(\"mname?$select=MEISHO_CODE&$filter=MEISHO_KUBUN eq 74 and ZOKUSEI1 eq \"&IF(ISBLANK(CG10),\"null\",\"'\"&CG10&\"'\")))",
+    "9,82": "ODATA(\"mname?$select=MEISHO&$filter=MEISHO_KUBUN eq 74 and MEISHO_CODE eq \"&IF(ISBLANK(BD10),\"null\",BD10))",
+    "9,81": "ODATA(\"mname?$select=MEISHO_CODE&$filter=MEISHO_KUBUN eq 74 and MEISHO_CODE eq \"&IF(ISBLANK(BD10),\"null\",BD10))",
+    "9,84": "RIGHT(CF10,3)"
   },
   "AttachInfos": {
     "4,13": {
@@ -68,11 +111,11 @@
                   "ColumnBindingInfo": {
                     "TableName": "miroshiyo",
                     "ColumnName": "KISHU",
-                    "GUID": "59e65f2c-ee5b-4873-9dd9-9e7530129e21"
+                    "GUID": "14170f65-d131-437c-bde7-c3d9e5770d09"
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "='色マスタ管理 (2)'!C6"
+                    "SerializeProperty": "=色マスタ管理!C6"
                   }
                 },
                 {
@@ -80,16 +123,16 @@
                   "ColumnBindingInfo": {
                     "TableName": "miroshiyo",
                     "ColumnName": "SHIYO",
-                    "GUID": "a7802911-0ea5-4577-a5cd-05b2c7f6f5cc"
+                    "GUID": "3395d898-e41f-4d6b-8ff9-1db093fab14b"
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "='色マスタ管理 (2)'!H6"
+                    "SerializeProperty": "=色マスタ管理!H6"
                   }
                 }
               ]
             },
-            "ID": "46f0ab180bba49bba2a1358340e54bf4"
+            "ID": "d5baded235664683845cb5c46dae6f4d"
           },
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
@@ -102,11 +145,11 @@
                   "ColumnBindingInfo": {
                     "TableName": "ymia_m_colorcd_ygsm",
                     "ColumnName": "艇種",
-                    "GUID": "5c3ec10d-0a83-4793-a406-abc93b8bdc74"
+                    "GUID": "b927cb8e-727a-4bed-84f2-d5409c4cd1f7"
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "='色マスタ管理 (2)'!C6"
+                    "SerializeProperty": "=色マスタ管理!C6"
                   }
                 },
                 {
@@ -114,16 +157,16 @@
                   "ColumnBindingInfo": {
                     "TableName": "ymia_m_colorcd_ygsm",
                     "ColumnName": "仕様",
-                    "GUID": "d3556849-5da2-4cc2-bc76-89838e927935"
+                    "GUID": "66387116-984f-4ff3-9fe5-944454e3daaa"
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "='色マスタ管理 (2)'!H6"
+                    "SerializeProperty": "=色マスタ管理!H6"
                   }
                 }
               ]
             },
-            "ID": "3cf15050e4e6447cbeb1b5248be4d1e0"
+            "ID": "aa5d75eb4a894b5f87b79c2b70aab447"
           }
         ],
         "Text": "検索",
@@ -141,7 +184,7 @@
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!C6"
+                  "SerializeProperty": "=色マスタ管理!C6"
                 },
                 "TargetCell": {
                   "SerializeProperty": "=艇種・艇番新規作成!H8"
@@ -150,7 +193,7 @@
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!H6"
+                  "SerializeProperty": "=色マスタ管理!H6"
                 },
                 "TargetCell": {
                   "SerializeProperty": "=艇種・艇番新規作成!H10"
@@ -185,6 +228,62 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       }
     },
+    "6,65": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "リストビュー1",
+            "UpdateValues": [
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!AX10"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!M2"
+                }
+              },
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!BY10"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!V2"
+                }
+              },
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!BR10"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!C2"
+                }
+              },
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!BV10"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!H2"
+                }
+              }
+            ],
+            "UpdateRowType": 2
+          }
+        ],
+        "Text": "機種～部位分類　手動設定",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
     "8,1": {
       "ListViewInfo": {
         "Name": "色マスタ管理",
@@ -199,7 +298,7 @@
               "ColumnBindingInfo": {
                 "TableName": "miroshiyo",
                 "ColumnName": "BUIDAIBUNRUI_MEISHO",
-                "GUID": "bfdae5c9-3173-4f40-a307-b193c5b43c98"
+                "GUID": "aa4708c2-d3ed-4c00-a976-d3ebca7d566f"
               },
               "Order": 0
             },
@@ -207,7 +306,7 @@
               "ColumnBindingInfo": {
                 "TableName": "miroshiyo",
                 "ColumnName": "BUIMEISHO",
-                "GUID": "32512a15-fc49-4800-a9e0-9f864e3afab2"
+                "GUID": "1e7c6e53-6aa4-4a48-b3a1-19d21fef2503"
               },
               "Order": 0
             }
@@ -222,41 +321,41 @@
               {
                 "TargetCells": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!C2"
+                  "SerializeProperty": "=色マスタ管理!C2"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!C10"
+                  "SerializeProperty": "=色マスタ管理!C10"
                 }
               },
               {
                 "TargetCells": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!H2"
+                  "SerializeProperty": "=色マスタ管理!H2"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!G10"
+                  "SerializeProperty": "=色マスタ管理!G10"
                 }
               },
               {
                 "TargetCells": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!M2"
+                  "SerializeProperty": "=色マスタ管理!M2"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!Q10"
+                  "SerializeProperty": "=色マスタ管理!Q10"
                 }
               },
               {
                 "TargetCells": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!V2"
+                  "SerializeProperty": "=色マスタ管理!V2"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!J10"
+                  "SerializeProperty": "=色マスタ管理!J10"
                 }
               }
             ]
@@ -276,7 +375,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "='色マスタ管理 (2)'!C10"
+                    "SerializeProperty": "=色マスタ管理!C10"
                   }
                 },
                 {
@@ -288,7 +387,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "='色マスタ管理 (2)'!G10"
+                    "SerializeProperty": "=色マスタ管理!G10"
                   }
                 },
                 {
@@ -300,7 +399,7 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "='色マスタ管理 (2)'!Q10"
+                    "SerializeProperty": "=色マスタ管理!Q10"
                   }
                 },
                 {
@@ -312,12 +411,12 @@
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "='色マスタ管理 (2)'!J10"
+                    "SerializeProperty": "=色マスタ管理!J10"
                   }
                 }
               ]
             },
-            "ID": "6eadfeb2ad6b435b9ff327be03d75f1c"
+            "ID": "7d6daaf82cde4476ab55b6cbb8e4131c"
           }
         ],
         "ShowColumnHeaderInDesigner": true,
@@ -358,7 +457,7 @@
         "RowIndex": 8,
         "ColumnIndex": 37,
         "RowCount": 14,
-        "ColumnCount": 40,
+        "ColumnCount": 49,
         "DetailListViewInfo": {
           "ColumnOfDetailTable": "BUIMEISHO",
           "MasterTable": "miroshiyo",
@@ -402,35 +501,35 @@
       "BindingInfo": {
         "TableName": "miroshiyo",
         "ColumnName": "KISHU",
-        "GUID": "c00b7d20-a5e4-4447-a389-12fa2ede8436"
+        "GUID": "5aa57783-ece2-41ff-a402-68031660ef59"
       }
     },
     "9,6": {
       "BindingInfo": {
         "TableName": "miroshiyo",
         "ColumnName": "SHIYO",
-        "GUID": "268732c0-0733-4796-9077-7538c9f4963d"
+        "GUID": "aaf972fb-ac11-47aa-80ad-fff6ededa129"
       }
     },
     "9,9": {
       "BindingInfo": {
         "TableName": "miroshiyo",
         "ColumnName": "BUIDAIBUNRUI_MEISHO",
-        "GUID": "7843c83c-3cdb-4534-a155-64a1adc02672"
+        "GUID": "2f3c1436-89aa-4180-94b5-bd934287a5d6"
       }
     },
     "9,16": {
       "BindingInfo": {
         "TableName": "miroshiyo",
         "ColumnName": "BUIMEISHO",
-        "GUID": "1504e429-c1ba-4b7b-bc76-a9ea7d7a771f"
+        "GUID": "ebaf0f41-76a4-4653-a79d-80353189b9c8"
       }
     },
     "9,23": {
       "BindingInfo": {
         "TableName": "miroshiyo",
         "ColumnName": "HYOUJUNSHOKU_MEISHO",
-        "GUID": "3637c417-fabb-48e3-9057-7296c0e06291"
+        "GUID": "cf4ea0b1-c85a-4fcf-bddc-6ed4b1f2ef9d"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -439,19 +538,19 @@
         "ValueColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO",
-          "GUID": "c921e62a-8499-4755-af8c-6e1669194793"
+          "GUID": "37a41837-eb75-468e-9bdc-0f6e1bed10b9"
         },
         "DisplayColumnBindingInfo": {
           "TableName": "mname",
           "ColumnName": "MEISHO",
-          "GUID": "8a113e9a-454d-4db7-9233-6b3bd4f64ee9"
+          "GUID": "34253fb1-a594-4c7a-a536-b38871227b61"
         },
         "ItemsQuery": {
           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
           "ColumnBindingInfo": {
             "TableName": "mname",
             "ColumnName": "MEISHO_KUBUN",
-            "GUID": "63f95517-1326-494c-9d8d-138ad21e91bb"
+            "GUID": "41a78e6c-bbdc-403e-82c2-26e50c0f56af"
           },
           "Value": "74"
         },
@@ -461,7 +560,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "MEISHO",
-              "GUID": "d76e3516-3538-49b2-9034-71320ce204f3"
+              "GUID": "013a71de-01ac-471e-92b3-85fbd8aa5056"
             },
             "ColumnName": "色名称"
           },
@@ -470,7 +569,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "ZOKUSEI2",
-              "GUID": "fd521465-1073-4f36-8da4-a500df383c30"
+              "GUID": "fafee0c7-2b4f-42d1-9f30-9097de7554a3"
             },
             "ColumnName": "略称"
           },
@@ -479,7 +578,7 @@
             "BindingInfo": {
               "TableName": "mname",
               "ColumnName": "ZOKUSEI1",
-              "GUID": "06f23590-0beb-4013-8779-deb54a577d10"
+              "GUID": "ede4c6a4-c682-4712-9d7b-3fb4854b333c"
             },
             "ColumnName": "色コード"
           }
@@ -505,7 +604,7 @@
                       "BindingInfo": {
                         "TableName": "mname",
                         "ColumnName": "ZOKUSEI2",
-                        "GUID": "4b4386be-8f6b-43dd-8966-aa4d9b4198c6"
+                        "GUID": "31d6212b-ca8a-4b1d-9fa5-fea6ddc5bbe8"
                       },
                       "ColumnName": "ZOKUSEI2"
                     }
@@ -518,7 +617,7 @@
                         "ColumnBindingInfo": {
                           "TableName": "mname",
                           "ColumnName": "MEISHO_KUBUN",
-                          "GUID": "339a26a7-2158-45fb-937b-aae1ef21c5c3"
+                          "GUID": "0145c3b7-395c-4a26-9ea7-ecc00ad730b1"
                         },
                         "Value": "200"
                       },
@@ -527,17 +626,17 @@
                         "ColumnBindingInfo": {
                           "TableName": "mname",
                           "ColumnName": "MEISHO",
-                          "GUID": "bdb488a0-92d9-4d5d-853a-4ad4f61ac580"
+                          "GUID": "cd5a7609-6a00-486a-975f-2c6d05db1e1a"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='色マスタ管理 (2)'!X10"
+                          "SerializeProperty": "=色マスタ管理!X10"
                         }
                       }
                     ]
                   }
                 },
-                "ID": "68b7b4ec369d4b5c9b318b4b71e41dde"
+                "ID": "6042ca5a17a6487b91d6db79238ce56d"
               },
               {
                 "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
@@ -546,11 +645,11 @@
                   {
                     "Column": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "='色マスタ管理 (2)'!AD10"
+                      "SerializeProperty": "=色マスタ管理!AD10"
                     },
                     "Value": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "='色マスタ管理 (2)'!色略称"
+                      "SerializeProperty": "=色マスタ管理!色略称"
                     }
                   }
                 ],
@@ -566,7 +665,7 @@
       "BindingInfo": {
         "TableName": "miroshiyo",
         "ColumnName": "HYOUJUNSHOKU",
-        "GUID": "c084254a-b660-4f36-8a0f-aa97397fec57"
+        "GUID": "9e03442c-cf8d-4323-b4d6-a4d3d4bf98e4"
       }
     },
     "9,33": {
@@ -587,29 +686,97 @@
       "BindingInfo": {
         "TableName": "miroshiyom",
         "ColumnName": "HINBAN",
-        "GUID": "6e253b75-3a20-4dad-a6c2-4bfed8afa04e"
+        "GUID": "168d0964-d82c-44eb-b842-b5113f9b7e92"
       }
     },
     "9,44": {
       "BindingInfo": {
         "TableName": "miroshiyom",
         "ColumnName": "HINMEI",
-        "GUID": "ef19ab62-7d72-4b5d-999a-8851bef0a9e7"
+        "GUID": "24eb426a-afa8-430b-b041-7ff6e2dd71c1"
       }
     },
     "9,49": {
       "BindingInfo": {
         "TableName": "miroshiyom",
         "ColumnName": "BUIMEISHO",
-        "GUID": "9a5cd666-9994-4539-86c9-23919beaf63a"
+        "GUID": "9d9da563-29db-4a97-a1d7-ef00fa0c351e"
       }
     },
     "9,55": {
+      "BindingInfo": {
+        "TableName": "miroshiyom",
+        "ColumnName": "HYOUJUNSHOKU",
+        "GUID": "0e09a1db-73e7-4d5b-8ec8-2f0b694ac084"
+      },
       "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "DataSource": "mname",
+        "ValueColumnBindingInfo": {
+          "TableName": "mname",
+          "ColumnName": "MEISHO_CODE",
+          "GUID": "4de2dfdc-8b28-456c-ac78-c77c40f75f68"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "mname",
+          "ColumnName": "MEISHO",
+          "GUID": "05b8cc12-ece7-45bd-afb1-45680f2e347a"
+        },
+        "ItemsQuery": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "mname",
+            "ColumnName": "MEISHO_KUBUN",
+            "GUID": "8bafc4fc-8dd2-4faa-bddb-cd2d16e4b071"
+          },
+          "Value": "74"
+        },
+        "DropDownSubItems": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+            "GUID": "f7922b472b5c47cd84b1538580dcb362",
+            "BindingInfo": {
+              "TableName": "mname",
+              "ColumnName": "MEISHO_CODE",
+              "GUID": "1d249edb-b15d-483d-9c48-215067ca42d9"
+            },
+            "ColumnName": "管理コード"
+          },
+          {
+            "GUID": "350dcd4b63774a5babf9a790a2405d80",
+            "BindingInfo": {
+              "TableName": "mname",
+              "ColumnName": "ZOKUSEI1",
+              "GUID": "f7b98381-dcc0-4d69-8d20-e9bea7039e7e"
+            },
+            "ColumnName": "色コード"
+          },
+          {
+            "GUID": "7ee241fae0fc4a19ba111ae70b4cbb1a",
+            "BindingInfo": {
+              "TableName": "mname",
+              "ColumnName": "MEISHO",
+              "GUID": "54e45aab-3470-4a97-a38f-e1729da9db00"
+            },
+            "ColumnName": "色名称"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "リストビュー1",
+            "UpdateValues": [
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!CH10"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!BD10"
+                }
+              }
+            ]
           }
         ]
       }
@@ -617,64 +784,53 @@
     "9,62": {
       "BindingInfo": {
         "TableName": "miroshiyom",
-        "ColumnName": "HYOUJUNSHOKU_MEISHO",
-        "GUID": "85a12774-9156-4fef-9698-c329bd0b6238"
+        "ColumnName": "BIKO",
+        "GUID": "9ab1e0cb-9393-4160-bb4f-0ccf7cfc85a1"
       }
     },
-    "9,70": {
-      "BindingInfo": {
-        "TableName": "miroshiyom",
-        "ColumnName": "HYOUJUNSHOKU",
-        "GUID": "9978edab-e285-428a-a544-72c70292f0fb"
-      }
-    },
-    "9,71": {
+    "9,69": {
       "BindingInfo": {
         "TableName": "miroshiyom",
         "ColumnName": "KISHU",
-        "GUID": "9cb4bcb4-bf19-4eed-aa4e-61e04de3871b"
-      },
-      "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ]
-      },
-      "DataValidationInfo": {
-        "IgnoreBlank": false
-      }
-    },
-    "9,72": {
-      "BindingInfo": {
-        "TableName": "miroshiyom",
-        "ColumnName": "SHIYO",
-        "GUID": "be8bf4e0-efc9-4422-8b60-16dd31c4ed3d"
-      },
-      "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ]
-      },
-      "DataValidationInfo": {
-        "IgnoreBlank": false
+        "GUID": "9cbac1c8-5734-40f2-896c-125c2c20cab6"
       }
     },
     "9,73": {
       "BindingInfo": {
         "TableName": "miroshiyom",
-        "ColumnName": "BUIDAIBUNRUI_MEISHO",
-        "GUID": "4e7576d1-e7c2-40d3-8fb8-23e6adbfdafa"
+        "ColumnName": "SHIYO",
+        "GUID": "2941d9f6-c50b-4e71-923d-7be8a5ccbf25"
       }
     },
-    "9,75": {
-      "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_Normal_Style2"
+    "9,76": {
+      "BindingInfo": {
+        "TableName": "miroshiyom",
+        "ColumnName": "BUIDAIBUNRUI_MEISHO",
+        "GUID": "9e8c23b2-3dec-41d1-9d5d-d1cba22e4f14"
+      }
+    },
+    "9,78": {
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "9,79": {
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "9,81": {
+      "BindingInfo": {
+        "TableName": "miroshiyom",
+        "ColumnName": "HYOUJUNSHOKU",
+        "GUID": "8384e8da-8246-4856-b3a6-93f898177de8"
+      }
+    },
+    "9,82": {
+      "BindingInfo": {
+        "TableName": "miroshiyom",
+        "ColumnName": "HYOUJUNSHOKU_MEISHO",
+        "GUID": "3471787a-8842-4824-9a7c-d335e2bf19f7"
       }
     },
     "23,37": {
@@ -689,44 +845,54 @@
               {
                 "SourceCell": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!AT27"
+                  "SerializeProperty": "=色マスタ管理!AT27"
                 },
                 "TargetCell": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!AM10"
+                  "SerializeProperty": "=色マスタ管理!AM10"
                 },
                 "IsPrimaryKey": true
               },
               {
                 "SourceCell": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!AZ27"
+                  "SerializeProperty": "=色マスタ管理!AZ27"
                 },
                 "TargetCell": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!AS10"
+                  "SerializeProperty": "=色マスタ管理!AS10"
                 },
                 "IsPrimaryKey": true
               },
               {
                 "SourceCell": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!BL27"
+                  "SerializeProperty": "=色マスタ管理!BL27"
                 },
                 "TargetCell": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!BG10"
+                  "SerializeProperty": "=色マスタ管理!BG10"
                 },
                 "IsPrimaryKey": true
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!BF27"
+                },
+                "TargetCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!CF10"
+                }
               }
             ],
             "Source": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "='色マスタ管理 (2)'!AL28"
+              "SerializeProperty": "=色マスタ管理!AL28"
             },
             "Target": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "='色マスタ管理 (2)'!AL11"
+              "SerializeProperty": "=色マスタ管理!AL11"
             }
           },
           {
@@ -736,65 +902,157 @@
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!AX10"
+                  "SerializeProperty": "=色マスタ管理!AX10"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!M2"
+                  "SerializeProperty": "=色マスタ管理!V2"
                 }
               },
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!BV10"
+                  "SerializeProperty": "=色マスタ管理!BY10"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!V2"
+                  "SerializeProperty": "=色マスタ管理!V2"
                 }
               },
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!BT10"
+                  "SerializeProperty": "=色マスタ管理!BR10"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!C2"
+                  "SerializeProperty": "=色マスタ管理!C2"
                 }
               },
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!BU10"
+                  "SerializeProperty": "=色マスタ管理!BV10"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!H2"
-                }
-              },
-              {
-                "Column": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!BD10"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=RIGHT('色マスタ管理 (2)'!BW10,3)"
+                  "SerializeProperty": "=色マスタ管理!H2"
                 }
               }
             ],
             "UpdateRowType": 2
+          },
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "リストビュー1",
+            "UpdateValues": [
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!BD10"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!CH10"
+                }
+              }
+            ],
+            "UpdateRowType": 2,
+            "Disabled": true
+          },
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "ListviewName": "リストビュー1",
+            "UpdateValues": [
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!BD10"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=色マスタ管理!CH10"
+                }
+              }
+            ],
+            "UpdateRowType": 2,
+            "Disabled": true
+          },
+          {
+            "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+            "LoopInfo": {
+              "$type": "Forguncy.Model.ListviewKindLoopInfo, ServerDesignerCommon",
+              "ListviewName": "リストビュー1"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                "ParameterName": "色番号",
+                "TableValue": {
+                  "TableName": "mname",
+                  "OnlyGetValue": true,
+                  "TableValueType": 0,
+                  "BindingInfos": [
+                    {
+                      "GUID": "bdcae621-8859-4032-8897-a6610ecaabbf",
+                      "BindingInfo": {
+                        "TableName": "mname",
+                        "ColumnName": "MEISHO_CODE",
+                        "GUID": "6d9aa9e9-7529-4c33-8048-a26e01901c4f"
+                      },
+                      "ColumnName": "MEISHO_CODE"
+                    }
+                  ],
+                  "SqlCondition": {
+                    "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                    "SubConditions": [
+                      {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "mname",
+                          "ColumnName": "MEISHO_KUBUN",
+                          "GUID": "3d9d3605-c336-43dc-850f-590a8a435b66"
+                        },
+                        "Value": "74"
+                      },
+                      {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "mname",
+                          "ColumnName": "ZOKUSEI1",
+                          "GUID": "cf93b33e-9582-4e2f-83ac-f2c0a1cbc99d"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=色マスタ管理!CG10"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "ID": "1bdad039be8f4664ade1dc68cbd451f8"
+              },
+              {
+                "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+                "ListviewName": "リストビュー1",
+                "UpdateValues": [
+                  {
+                    "Column": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=色マスタ管理!BD10"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=色マスタ管理!色番号"
+                    }
+                  }
+                ],
+                "UpdateRowType": 3
+              }
+            ]
           }
         ],
         "Text": "↑↑↑　YGSM情報設定　↑↑↑",
-        "TemplateKey": "_RS_Normal_Style2"
-      }
-    },
-    "23,70": {
-      "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "Text": "手動設定",
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
@@ -805,7 +1063,7 @@
         "RowIndex": 25,
         "ColumnIndex": 37,
         "RowCount": 22,
-        "ColumnCount": 36,
+        "ColumnCount": 33,
         "TopCondition": null,
         "ListViewStyleName": "_RS_Medium3",
         "DoubleClickCommandList": [
@@ -817,54 +1075,54 @@
               {
                 "SourceCell": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!AT27"
+                  "SerializeProperty": "=色マスタ管理!AT27"
                 },
                 "TargetCell": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!AM10"
+                  "SerializeProperty": "=色マスタ管理!AM10"
                 },
                 "IsPrimaryKey": true
               },
               {
                 "SourceCell": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!AZ27"
+                  "SerializeProperty": "=色マスタ管理!AZ27"
                 },
                 "TargetCell": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!AS10"
+                  "SerializeProperty": "=色マスタ管理!AS10"
                 },
                 "IsPrimaryKey": true
               },
               {
                 "SourceCell": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!BL27"
+                  "SerializeProperty": "=色マスタ管理!BL27"
                 },
                 "TargetCell": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!BG10"
+                  "SerializeProperty": "=色マスタ管理!BG10"
                 },
                 "IsPrimaryKey": true
               },
               {
                 "SourceCell": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!BF27"
+                  "SerializeProperty": "=色マスタ管理!BF27"
                 },
                 "TargetCell": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!BW10"
+                  "SerializeProperty": "=色マスタ管理!CD10"
                 }
               }
             ],
             "Source": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "='色マスタ管理 (2)'!AL28"
+              "SerializeProperty": "=色マスタ管理!AL28"
             },
             "Target": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "='色マスタ管理 (2)'!AL11"
+              "SerializeProperty": "=色マスタ管理!AL11"
             }
           },
           {
@@ -874,51 +1132,51 @@
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!AX10"
+                  "SerializeProperty": "=色マスタ管理!AX10"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!M2"
+                  "SerializeProperty": "=色マスタ管理!M2"
                 }
               },
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!BV10"
+                  "SerializeProperty": "=色マスタ管理!CC10"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!V2"
+                  "SerializeProperty": "=色マスタ管理!V2"
                 }
               },
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!BT10"
+                  "SerializeProperty": "=色マスタ管理!CA10"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!C2"
+                  "SerializeProperty": "=色マスタ管理!C2"
                 }
               },
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!BU10"
+                  "SerializeProperty": "=色マスタ管理!CB10"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!H2"
+                  "SerializeProperty": "=色マスタ管理!H2"
                 }
               },
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!BD10"
+                  "SerializeProperty": "=色マスタ管理!BD10"
                 },
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=RIGHT('色マスタ管理 (2)'!BW10,3)"
+                  "SerializeProperty": "=RIGHT(色マスタ管理!CD10,3)"
                 }
               }
             ],
@@ -938,42 +1196,42 @@
       "BindingInfo": {
         "TableName": "ymia_m_colorcd_ygsm",
         "ColumnName": "艇種",
-        "GUID": "9de31bb2-b68d-428b-ad8f-82592927157f"
+        "GUID": "a43f7a1e-ad8b-4fa0-8615-da102046a622"
       }
     },
     "26,41": {
       "BindingInfo": {
         "TableName": "ymia_m_colorcd_ygsm",
         "ColumnName": "仕様",
-        "GUID": "1c5c5024-1350-4f91-af56-b2dec8b1e037"
+        "GUID": "9453120d-a5f2-4bb0-ac61-65e074b47f1a"
       }
     },
     "26,45": {
       "BindingInfo": {
         "TableName": "ymia_m_colorcd_ygsm",
         "ColumnName": "部品コード",
-        "GUID": "f142cab6-02d1-4eb3-80da-c64f445f1e68"
+        "GUID": "ef811c85-7944-46c8-ad8a-98431defdc0b"
       }
     },
     "26,51": {
       "BindingInfo": {
         "TableName": "ymia_m_colorcd_ygsm",
         "ColumnName": "部品名称",
-        "GUID": "c16ea04d-6ee4-43a6-9229-dd70257130fa"
+        "GUID": "45a4d699-0c31-449e-8a83-cbdf632f749e"
       }
     },
     "26,57": {
       "BindingInfo": {
         "TableName": "ymia_m_colorcd_ygsm",
         "ColumnName": "色コード",
-        "GUID": "6de167f8-712a-437a-af48-c5312fc50bbb"
+        "GUID": "c24ef930-4838-47d8-9489-79bdc51d43bd"
       }
     },
     "26,63": {
       "BindingInfo": {
         "TableName": "ymia_m_colorcd_ygsm",
         "ColumnName": "色名称",
-        "GUID": "546c61a3-a513-4310-9ecb-a7fe31124536"
+        "GUID": "8c1faf66-4ed0-4a11-9923-dec3fe8409d0"
       }
     },
     "48,1": {
@@ -1002,7 +1260,7 @@
                     "MessageFormula": "色マスタを更新しました！"
                   }
                 ],
-                "ID": "81d157f2-0260-481e-a404-d66036105100"
+                "ID": "197f8139-26b7-4227-9d4c-a7fc0d642aa6"
               }
             ]
           }
@@ -1037,42 +1295,42 @@
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!C10"
+                  "SerializeProperty": "=色マスタ管理!C10"
                 },
                 "ColumnName": "艇種"
               },
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!G10"
+                  "SerializeProperty": "=色マスタ管理!G10"
                 },
                 "ColumnName": "仕様"
               },
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!J10"
+                  "SerializeProperty": "=色マスタ管理!J10"
                 },
                 "ColumnName": "部位分類"
               },
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!Q10"
+                  "SerializeProperty": "=色マスタ管理!Q10"
                 },
                 "ColumnName": "部位名称"
               },
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!X10"
+                  "SerializeProperty": "=色マスタ管理!X10"
                 },
                 "ColumnName": "標準色名"
               },
               {
                 "Column": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='色マスタ管理 (2)'!AD10"
+                  "SerializeProperty": "=色マスタ管理!AD10"
                 },
                 "ColumnName": "略称"
               }
@@ -1119,7 +1377,7 @@
                     "Disabled": true
                   }
                 ],
-                "ID": "2b1255f0-3e3d-4813-b144-aaad2c91f8bf"
+                "ID": "433b2e81-1b47-4e09-8858-534755009f07"
               }
             ]
           }
@@ -1151,41 +1409,41 @@
                       {
                         "Column": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='色マスタ管理 (2)'!AX10"
+                          "SerializeProperty": "=色マスタ管理!AX10"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='色マスタ管理 (2)'!M2"
+                          "SerializeProperty": "=色マスタ管理!M2"
                         }
                       },
                       {
                         "Column": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='色マスタ管理 (2)'!BV10"
+                          "SerializeProperty": "=色マスタ管理!CC10"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='色マスタ管理 (2)'!V2"
+                          "SerializeProperty": "=色マスタ管理!V2"
                         }
                       },
                       {
                         "Column": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='色マスタ管理 (2)'!BT10"
+                          "SerializeProperty": "=色マスタ管理!CA10"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='色マスタ管理 (2)'!C2"
+                          "SerializeProperty": "=色マスタ管理!C2"
                         }
                       },
                       {
                         "Column": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='色マスタ管理 (2)'!BU10"
+                          "SerializeProperty": "=色マスタ管理!CB10"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='色マスタ管理 (2)'!H2"
+                          "SerializeProperty": "=色マスタ管理!H2"
                         }
                       }
                     ],
@@ -1201,7 +1459,7 @@
                     "MessageFormula": "色マスタを更新しました！"
                   }
                 ],
-                "ID": "610552b6-4707-4feb-a826-8a1c315263c1"
+                "ID": "16b7037a-3966-44b6-a8f6-64d87b88188b"
               }
             ]
           }
@@ -1309,6 +1567,11 @@
         "BorderRight": 0
       },
       {
+        "Background": 7,
+        "FontFamily": 1,
+        "Formatter": 3
+      },
+      {
         "FontSize": 13.333333333333332,
         "BorderBottom": null,
         "BorderTop": null,
@@ -1324,30 +1587,31 @@
         "BorderRight": null
       },
       {
-        "Background": 7,
+        "Background": 5,
         "FontFamily": 1,
         "FontSize": 13.333333333333332
       },
       {
-        "Background": 7,
-        "FontSize": 13.333333333333332,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
+        "Background": 5,
         "FontFamily": 1,
         "FontSize": 13.333333333333332,
-        "Formatter": 3,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "Formatter": 3
       },
       {
+        "Background": 8,
         "FontFamily": 1,
         "FontSize": 13.333333333333332
+      },
+      {
+        "Background": 8,
+        "FontSize": 13.333333333333332
+      },
+      {
+        "FontSize": 13.333333333333332
+      },
+      {
+        "Background": 9,
+        "FontSize": 12.0
       },
       {
         "FontSize": 10.666666666666666,
@@ -1357,27 +1621,11 @@
         "BorderRight": null
       },
       {
-        "Formatter": 6
-      },
-      {
-        "FontFamily": 1,
         "FontSize": 13.333333333333332,
         "Formatter": 6
       },
       {
-        "FontFamily": 1,
-        "FontSize": 13.333333333333332,
-        "Formatter": 6,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "Background": 7
-      },
-      {
-        "Background": 8
+        "Background": 10
       },
       {
         "FontFamily": 1,
@@ -1388,7 +1636,7 @@
         "BorderRight": null
       },
       {
-        "Background": 7,
+        "Background": 10,
         "FontFamily": 1,
         "Formatter": 3,
         "WordWrap": true,
@@ -1398,7 +1646,7 @@
         "BorderRight": null
       },
       {
-        "Background": 8,
+        "Background": 7,
         "FontFamily": 1,
         "Formatter": 3,
         "WordWrap": true,
@@ -1426,8 +1674,10 @@
         "Accent 2 80",
         "Accent 1 0",
         "@",
-        "Accent 2 -25",
-        "Accent 6 -25"
+        "Accent 6 -25",
+        "Background 1 -50",
+        "Accent 3 -50",
+        "Accent 2 -25"
       ],
       "Borders": [
         {
@@ -1496,6 +1746,12 @@
       "1,27": 1,
       "1,28": 1,
       "1,29": 1,
+      "1,36": 4,
+      "1,37": 4,
+      "1,38": 4,
+      "1,39": 4,
+      "1,40": 4,
+      "2,36": 4,
       "2,37": 4,
       "2,38": 4,
       "2,39": 4,
@@ -1540,6 +1796,7 @@
       "5,23": 4,
       "5,36": 9,
       "6,36": 9,
+      "6,65": 13,
       "7,26": 4,
       "7,27": 4,
       "7,28": 4,
@@ -1554,92 +1811,97 @@
       "7,64": 4,
       "7,65": 4,
       "7,66": 4,
-      "8,1": 13,
-      "8,2": 13,
-      "8,6": 14,
+      "8,1": 14,
+      "8,2": 14,
+      "8,6": 15,
       "8,9": 4,
       "8,10": 4,
       "8,11": 4,
-      "8,12": 14,
-      "8,19": 14,
+      "8,12": 15,
+      "8,19": 15,
       "8,36": 9,
-      "8,37": 14,
-      "8,38": 14,
+      "8,37": 15,
+      "8,38": 15,
       "8,39": 4,
       "8,40": 4,
       "8,41": 4,
       "8,42": 4,
       "8,43": 4,
-      "8,44": 14,
+      "8,44": 15,
       "8,45": 4,
       "8,46": 4,
       "8,47": 4,
       "8,48": 4,
-      "8,49": 14,
+      "8,49": 15,
       "8,50": 4,
       "8,51": 4,
       "8,52": 4,
       "8,53": 4,
       "8,54": 4,
-      "8,55": 15,
-      "8,58": 16,
+      "8,55": 16,
       "8,62": 17,
-      "8,67": 13,
-      "8,70": 13,
-      "8,71": 18,
-      "8,72": 14,
-      "8,73": 13,
-      "8,74": 13,
-      "9,1": 13,
-      "9,2": 14,
-      "9,6": 14,
-      "9,9": 14,
+      "8,69": 18,
+      "8,73": 19,
+      "8,74": 20,
+      "8,76": 19,
+      "8,83": 21,
+      "8,84": 15,
+      "8,85": 20,
+      "9,1": 14,
+      "9,2": 15,
+      "9,6": 15,
+      "9,9": 15,
       "9,10": 4,
       "9,11": 4,
       "9,12": 4,
       "9,13": 4,
       "9,14": 4,
       "9,15": 4,
-      "9,16": 14,
+      "9,16": 15,
       "9,17": 4,
       "9,18": 4,
       "9,19": 4,
       "9,20": 4,
       "9,21": 4,
       "9,22": 4,
-      "9,23": 14,
-      "9,29": 14,
-      "9,32": 19,
+      "9,23": 15,
+      "9,29": 15,
+      "9,32": 22,
       "9,33": 4,
       "9,36": 9,
-      "9,37": 14,
-      "9,38": 14,
+      "9,37": 15,
+      "9,38": 15,
       "9,39": 4,
       "9,40": 4,
       "9,41": 4,
       "9,42": 4,
       "9,43": 4,
-      "9,44": 14,
+      "9,44": 15,
       "9,45": 4,
       "9,46": 4,
       "9,47": 4,
       "9,48": 4,
-      "9,49": 14,
+      "9,49": 15,
       "9,50": 4,
       "9,51": 4,
       "9,52": 4,
       "9,53": 4,
       "9,54": 4,
-      "9,55": 20,
-      "9,62": 14,
-      "9,67": 4,
-      "9,70": 14,
-      "9,71": 21,
-      "9,72": 22,
-      "9,73": 14,
-      "9,74": 14,
-      "9,75": 17,
-      "9,76": 4,
+      "9,55": 23,
+      "9,62": 20,
+      "9,69": 15,
+      "9,70": 4,
+      "9,71": 4,
+      "9,72": 4,
+      "9,73": 15,
+      "9,74": 4,
+      "9,75": 4,
+      "9,76": 15,
+      "9,77": 4,
+      "9,78": 4,
+      "9,79": 4,
+      "9,80": 4,
+      "9,81": 15,
       "10,36": 9,
       "10,37": 4,
       "10,38": 4,
@@ -2086,19 +2348,18 @@
       "21,72": 4,
       "22,36": 9,
       "23,36": 9,
-      "23,37": 23,
-      "23,70": 24,
+      "23,37": 24,
       "24,36": 9,
       "25,36": 9,
-      "25,37": 14,
+      "25,37": 15,
       "25,38": 4,
       "25,39": 4,
       "25,40": 4,
-      "25,41": 14,
+      "25,41": 15,
       "25,42": 4,
       "25,43": 4,
       "25,44": 4,
-      "25,45": 14,
+      "25,45": 15,
       "25,46": 4,
       "25,47": 4,
       "25,48": 4,
@@ -2110,13 +2371,13 @@
       "25,54": 4,
       "25,55": 4,
       "25,56": 4,
-      "25,57": 14,
+      "25,57": 15,
       "25,58": 4,
       "25,59": 4,
       "25,60": 4,
       "25,61": 4,
       "25,62": 4,
-      "25,63": 14,
+      "25,63": 15,
       "25,64": 4,
       "25,65": 4,
       "25,66": 4,
@@ -2124,36 +2385,36 @@
       "25,68": 4,
       "25,69": 4,
       "26,36": 9,
-      "26,37": 14,
+      "26,37": 15,
       "26,38": 4,
       "26,39": 4,
       "26,40": 4,
-      "26,41": 14,
+      "26,41": 15,
       "26,42": 4,
       "26,43": 4,
       "26,44": 4,
-      "26,45": 14,
+      "26,45": 15,
       "26,46": 4,
       "26,47": 4,
       "26,48": 4,
       "26,49": 4,
       "26,50": 4,
-      "26,51": 14,
+      "26,51": 15,
       "26,52": 4,
       "26,53": 4,
       "26,54": 4,
       "26,55": 4,
       "26,56": 4,
-      "26,57": 14,
-      "26,58": 14,
-      "26,59": 14,
+      "26,57": 15,
+      "26,58": 15,
+      "26,59": 15,
       "26,60": 4,
       "26,61": 4,
       "26,62": 4,
-      "26,63": 14,
-      "26,64": 14,
-      "26,65": 14,
-      "26,66": 14,
+      "26,63": 15,
+      "26,64": 15,
+      "26,65": 15,
+      "26,66": 15,
       "26,67": 4,
       "26,68": 4,
       "26,69": 4,
@@ -2820,7 +3081,29 @@
     "5,2,1,5",
     "5,7,1,5",
     "7,26,1,6",
-    "7,61,1,6",
+    "9,38,1,6",
+    "9,44,1,5",
+    "9,49,1,6",
+    "26,37,1,4",
+    "26,41,1,4",
+    "26,45,1,6",
+    "26,51,1,6",
+    "26,57,1,6",
+    "26,63,1,6",
+    "48,1,2,5",
+    "48,14,2,5",
+    "48,20,2,5",
+    "48,27,2,5",
+    "48,37,2,5",
+    "23,37,1,32",
+    "27,37,20,33",
+    "9,69,1,4",
+    "9,73,1,3",
+    "9,76,1,5",
+    "9,62,1,7",
+    "10,37,12,49",
+    "9,55,1,7",
+    "6,65,1,10",
     "9,2,1,4",
     "9,6,1,3",
     "9,9,1,7",
@@ -2828,30 +3111,7 @@
     "9,23,1,6",
     "9,29,1,3",
     "9,33,1,2",
-    "9,38,1,6",
-    "9,44,1,5",
-    "9,49,1,6",
-    "9,58,1,4",
-    "9,62,1,5",
-    "9,67,1,3",
-    "9,75,1,2",
     "10,1,37,34",
-    "10,37,12,40",
-    "26,37,1,4",
-    "26,41,1,4",
-    "26,45,1,6",
-    "26,51,1,6",
-    "26,57,1,6",
-    "26,63,1,6",
-    "27,37,20,36",
-    "48,1,2,5",
-    "48,14,2,5",
-    "48,20,2,5",
-    "48,27,2,5",
-    "48,37,2,5",
-    "23,37,1,32",
-    "23,70,1,7",
-    "9,55,1,3",
     "8,2,1,4",
     "8,6,1,3",
     "8,9,1,7",
@@ -2862,11 +3122,11 @@
     "8,38,1,6",
     "8,44,1,5",
     "8,49,1,6",
-    "8,55,1,3",
-    "8,58,1,4",
-    "8,62,1,5",
-    "8,67,1,3",
-    "8,75,1,2",
+    "8,55,1,7",
+    "8,62,1,7",
+    "8,69,1,4",
+    "8,73,1,3",
+    "8,76,1,5",
     "25,37,1,4",
     "25,41,1,4",
     "25,45,1,6",
@@ -2884,7 +3144,7 @@
           {
             "TargetCells": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "='色マスタ管理 (2)'!BT1"
+              "SerializeProperty": "=色マスタ管理!BT1"
             }
           }
         ],
@@ -2913,4 +3173,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//fjgpH71+0BmPjKY+BdLm2sLfmh4eDLFflGWL6FiATCHoo+0TWiLjCUL+tMLt88Q4eSaMYJYOLftxeSqrqGdsEyucXVbBZ6k8uKjkSuhMM374VAwMHMjZs9tyWk8kSJm9dOqCBVLAtfuoeBJ/X7taoWg/LkDMNUy1/Cf5dCr0no2ZV9rKGuBWs6rxY6Ocy3YTD0gnLKkOQMUVgSjO+SGgC8Ftvj3FRCNauOrehuzfPrOlQ/Sr8szleh179qV8n9CacBPxn4SOJlsaSxmS6TGo1xz9fWTxH5OLkH4bmUHTT3SrUlVvPujtnovA11t7YkjgrIXYijO+Hh/oSRUlC6TDWe9JsahkrflaKIrf8maj6QurmWYp9ro5JGyeUtqjUcb3NCt79B/0HJWvIrDLvEu4AfMvFR6blUMNU4UEiwkLuqJotO7Yls0jJwhJSgoTUYSGQ5YzsCbfilWyRtG76MERFn04jxQVu8iEbBLf9mASRptHUQT2d0yPERjiO2uXoMFJJmuLs00tgE8l+ZT1pM30csbAdHYRhGqBDCSq7mBiPdFn7SsqnXOLvhKfH0gqktgnlSgoaf/bqqZZRTqOYaKtdbOzN9U4sIRv2rbw1QsjUYkKcW9ZgOFfU5ChnwihGlZA6bKigu+Rhdtsfu08mLPNedxjcVQuGbwxjjfOixVfLdCBLbbTCILVe9aS6XfLbmpwb1FNcfo4nK9udlZd9nTXfGDmpJnBCfUnGTBdX4NnTJbX0L8VtWlVnZlcdSB7ZXxVPTA3/DpCZI62sVH8eu8SLhG8K75M4HuJ6hnvFhEXck2LToU6XFdDtWDVli+PtmVjzLknlon52n1vjENxQwFglf3W+LKS/vi8/4POrSVJ64GKzXKaf3Y55RTW0nTQ0VY7B3rkevjng4txn4XKbzcv6A==|920
+}//0sTyQPtX7yPuxX0HZ9utO6FdfR19W5LvC0nBnS6GnpIoVADESid4sDEQ923GmnLoJbtX3z+PgWUZcrK4/wS8/2K2K6lujttO2BYTlm8vZBsNqmnidO1dS3MfuGQAq4l6wZQgKl7fTb0S6aTHknyMbBwNw4/VCSP1CMx+MN5e2asrWFS/rEJoxMg5TEtZdITJRGQJWUGBIE9jOITvLvls/hUf/yx67FDiCrh8Uf0tVlPbpVkwMnipYaY7pKJrtBodbLL0+wE3Ja8+FCezBtqrl8WgAYKYSVz90Le/sZDMF/sX1GOarDcLNxVlMI3ZLTlbCEMdKLc3LQnNj1WvrlF0CabeFvioTpJWWJvBTJjIYR8e8CSLX/gRdq7l46VLSy0oSQ8Ap2008MSKFBgWt+42BTApN14Upn2bXLjKOXxtW5gDfYFnDr7GUmRKDqLHO1lfSfi0nr7z9/Y4KPU35xgympQt/uJvc9Ak3zuIofzp/X5rkk4xE/OEogsPxrKaNaQYsJadwsp6GsoEsnF9VvuwhHTpNnPYo1pSaTxjBUCBzHZtPmmGoa6TSW1U8EJZ6Dh8lr50zPsm6vJDfqfeGOK64svbB+T36HLmwyFDRITtiQzoFHmm+8+6w1uVTWBiTHexwcd7IqdH703WhBPyYvJb0c7OUlRTbRpvFNvmjJDXoz7ZAcqrxGUdGq1MCWGLc/tNnesRzLKMx+4yd3iU3uImNmo11ybpNxjjwq+O+iCqHSMtwduDIWxt9SB/0hJHTNXLvO2fT4AfCwbjBN6RwITMrb6uWoszHvDABVaIr34burKKuPwETii9VTL39Pi7wHRtsIyoxU9iC9Oye9pjVxaxp349TosU305i5bqTKmHmvvNNRnhpbEN1MvDSywpOPFrhgk2Vxae8e1tiJgTsXvTHZA==|920

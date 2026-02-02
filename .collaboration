@@ -77,16 +77,7 @@
   },
   {
     "ModuleName": "Table/mkosei",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:07:51.9146282+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\mkosei.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tshukka",
@@ -213,184 +204,48 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "Pages/色仕様書のExcel出力",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:18.253031+09:00",
-    "ModuleType": 6,
-    "ToRemoveFiles": [
-      "Pages\\色仕様書のExcel出力"
-    ]
-  },
-  {
     "ModuleName": "PCPage/色仕様一覧",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:18.2537158+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様書のExcel出力\\色仕様一覧.json",
-      "Pages\\色仕様書のExcel出力\\色仕様一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/色仕様指示書",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:18.2535133+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様書のExcel出力\\色仕様指示書.json",
-      "Pages\\色仕様書のExcel出力\\色仕様指示書.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/色仕様指示書出力ページ",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:18.2537552+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様書のExcel出力\\色仕様指示書出力ページ.json",
-      "Pages\\色仕様書のExcel出力\\色仕様指示書出力ページ.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/検索画面 (3)",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:18.2535751+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様書のExcel出力\\検索画面 (3).json",
-      "Pages\\色仕様書のExcel出力\\検索画面 (3).rd"
-    ]
-  },
-  {
-    "ModuleName": "Pages/色仕様マスタ管理",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:37.6795443+09:00",
-    "ModuleType": 6,
-    "ToRemoveFiles": [
-      "Pages\\色仕様マスタ管理"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/色マスタ管理ぼつバージョン",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:37.6811836+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様マスタ管理\\色マスタ管理ぼつバージョン.json",
-      "Pages\\色仕様マスタ管理\\色マスタ管理ぼつバージョン.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/色マスタ管理Original",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:37.6806615+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様マスタ管理\\色マスタ管理Original.json",
-      "Pages\\色仕様マスタ管理\\色マスタ管理Original.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/ページ1",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:37.6819913+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様マスタ管理\\ページ1.json",
-      "Pages\\色仕様マスタ管理\\ページ1.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/色マスタ管理",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:37.681854+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様マスタ管理\\色マスタ管理.json",
-      "Pages\\色仕様マスタ管理\\色マスタ管理.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/色マスタ明細管理",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:37.6821553+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様マスタ管理\\色マスタ明細管理.json",
-      "Pages\\色仕様マスタ管理\\色マスタ明細管理.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/艇種・艇番新規作成",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:37.6819411+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様マスタ管理\\艇種・艇番新規作成.json",
-      "Pages\\色仕様マスタ管理\\艇種・艇番新規作成.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/色マスタ管理 (2)",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:37.681651+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様マスタ管理\\色マスタ管理 (2).json",
-      "Pages\\色仕様マスタ管理\\色マスタ管理 (2).rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/オプション工事マスタ管理",
@@ -614,82 +469,34 @@
   },
   {
     "ModuleName": "PCPage/色マスタ管理_新",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:05:50.9091594+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "Pages/色マスタ管理_新",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:05:50.9096349+09:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "PCPage/色仕様設定画面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:05:50.9093946+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/色マスタ選択画面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:05:50.9095344+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/色仕様書Excel出力",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:05:50.9096087+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "Table/ymia_m_miroshiyom",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:05:23.0826518+09:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "Pages/旧・色仕様書のExcel出力",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:18.2530398+09:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "Pages/旧・色仕様マスタ管理",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:06:37.6795535+09:00",
     "ModuleType": 6
   }
 ]
