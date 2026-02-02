@@ -274,35 +274,114 @@
   },
   {
     "ModuleName": "Pages/色仕様マスタ管理",
-    "ModuleType": 6
+    "State": 2,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-02T16:06:37.6795443+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理"
+    ]
   },
   {
     "ModuleName": "PCPage/色マスタ管理ぼつバージョン",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-02T16:06:37.6811836+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理\\色マスタ管理ぼつバージョン.json",
+      "Pages\\色仕様マスタ管理\\色マスタ管理ぼつバージョン.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/色マスタ管理Original",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-02T16:06:37.6806615+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理\\色マスタ管理Original.json",
+      "Pages\\色仕様マスタ管理\\色マスタ管理Original.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/ページ1",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-02T16:06:37.6819913+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理\\ページ1.json",
+      "Pages\\色仕様マスタ管理\\ページ1.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/色マスタ管理",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-02T16:06:37.681854+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理\\色マスタ管理.json",
+      "Pages\\色仕様マスタ管理\\色マスタ管理.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/色マスタ明細管理",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-02T16:06:37.6821553+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理\\色マスタ明細管理.json",
+      "Pages\\色仕様マスタ管理\\色マスタ明細管理.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/艇種・艇番新規作成",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-02T16:06:37.6819411+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理\\艇種・艇番新規作成.json",
+      "Pages\\色仕様マスタ管理\\艇種・艇番新規作成.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/色マスタ管理 (2)",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-02T16:06:37.681651+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色仕様マスタ管理\\色マスタ管理 (2).json",
+      "Pages\\色仕様マスタ管理\\色マスタ管理 (2).rd"
+    ]
   },
   {
     "ModuleName": "Pages/オプション工事マスタ管理",
@@ -602,6 +681,16 @@
       "Email": "example@example.com"
     },
     "LockDateTime": "2026-02-02T16:06:18.2530398+09:00",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages/旧・色仕様マスタ管理",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-02T16:06:37.6795535+09:00",
     "ModuleType": 6
   }
 ]
