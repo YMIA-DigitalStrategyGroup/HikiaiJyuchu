@@ -482,7 +482,7 @@
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-02-02T16:05:23.079323+09:00",
+    "LockDateTime": "2026-02-02T16:05:50.9091594+09:00",
     "ModuleType": 1
   },
   {
@@ -496,13 +496,13 @@
     "ModuleType": 6
   },
   {
-    "ModuleName": "Pages/インポートフォルダー1/色マスタ管理_新",
+    "ModuleName": "Pages/色マスタ管理_新",
     "State": 3,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-02-02T16:05:23.080273+09:00",
+    "LockDateTime": "2026-02-02T16:05:50.9096349+09:00",
     "ModuleType": 6
   },
   {
@@ -512,7 +512,7 @@
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-02-02T16:05:23.0803127+09:00",
+    "LockDateTime": "2026-02-02T16:05:50.9093946+09:00",
     "ModuleType": 1
   },
   {
@@ -522,7 +522,7 @@
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-02-02T16:05:23.0803234+09:00",
+    "LockDateTime": "2026-02-02T16:05:50.9095344+09:00",
     "ModuleType": 1
   },
   {
@@ -532,7 +532,7 @@
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-02-02T16:05:23.0803274+09:00",
+    "LockDateTime": "2026-02-02T16:05:50.9096087+09:00",
     "ModuleType": 1
   },
   {
