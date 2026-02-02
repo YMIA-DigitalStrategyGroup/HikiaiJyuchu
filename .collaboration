@@ -377,7 +377,17 @@
   },
   {
     "ModuleName": "MasterPCPage/引合受注管理メニュー",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-02T16:33:21.6426605+09:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\引合受注管理メニュー.json",
+      "MasterPages\\引合受注管理メニュー.rd"
+    ]
   },
   {
     "ModuleName": "PageReport/レポート1",
