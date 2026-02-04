@@ -15,16 +15,15 @@
   },
   {
     "Name": "サーバーへ発行2",
-    "ApplicationUrl": "https://YMIADIGITALSV01/remacs_本番引合受注",
+    "ApplicationUrl": "http://YMIADIGITALSV01/remacs_本番引合受注",
     "PublishSettings": {
       "IsPrivateServer": true,
       "ServerName": "YMIADIGITALSV01",
-      "UserName": "kazukiirei@yanmar.com",
-      "SitePort": 443,
+      "UserName": "kazuki_irei@yanmar.com",
+      "SitePort": 80,
       "AppName": "remacs_本番引合受注",
       "AppStartPage": "",
       "TakeServeronline": true,
-      "Https": true,
       "PublishRolesToServer": true
     }
   }

@@ -45,7 +45,19 @@
       }
     },
     "InLogicalVisibleIndexes": [
-      6
+      6,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
     ],
     "Count": 60
   },
@@ -261,7 +273,10 @@
     },
     "22,37": {
       "TotalRowSetting": {
-        "FormulaType": 5,
+        "StaticText": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=ROUNDUP(SUM(見積書のExcel出力!AL23),0)"
+        },
         "StyleInfo": {
           "Formatter": "#,##0_ ;[Red]-#,##0"
         }
@@ -329,7 +344,7 @@
                     }
                   }
                 ],
-                "ID": "420c77f1-952f-4069-883a-0ed6c2ca2bd3"
+                "ID": "137edad3-bbef-4cea-b767-cad335ea19f3"
               }
             ]
           }
@@ -376,7 +391,7 @@
                     }
                   }
                 ],
-                "ID": "326391ac-1a19-42e0-b177-4820759e0467"
+                "ID": "5deb4cd5-40e0-403c-b070-3134f7eab79e"
               }
             ]
           }
@@ -695,7 +710,7 @@
       },
       {
         "FontFamily": 0,
-        "Formatter": 12,
+        "Formatter": 15,
         "HorizontalAlignment": 14,
         "BorderBottom": 0,
         "BorderTop": 0,
@@ -726,11 +741,11 @@
         "BorderRight": 0
       },
       {
-        "Background": 15,
+        "Background": 16,
         "FontFamily": 0,
         "FontSize": 18.666666666666664,
         "FontWeight": 6,
-        "Formatter": 16,
+        "Formatter": 17,
         "HorizontalAlignment": 13,
         "BorderBottom": null,
         "BorderTop": null,
@@ -738,7 +753,7 @@
         "BorderRight": null
       },
       {
-        "Background": 17,
+        "Background": 18,
         "FontFamily": 0,
         "FontWeight": 6,
         "BorderBottom": null,
@@ -778,6 +793,7 @@
         "#,##0_);[Red](#,##0)",
         "Center",
         "Right",
+        "#,##0.00_);[Red](#,##0.00)",
         "Accent 2 0",
         "General",
         "Accent 4 0"
@@ -1802,4 +1818,4 @@
     },
     "PageOrder": 1
   }
-}//xMD8odcm50WzbyfhpEpgnOE8bpREbdDEZBkeQ5DgRK8zKMCHEeOzUmgsmxcPk0sIskLHqpbanI3xzq/bNfBoF6XeGgquicO3TXxumBt25eI7dCvc8Z09VwkzkMahUXeKXp86Ib97848WzD/eCkDHCzIsizgEGpV3R3Qf5RGJ6XqFWR231ghBEMaacrLghaGUvT2nsf0v1xvj5Hlzrifhw7moALbZlqd/Z2oc6HDIdfEvk0jiN2ZlgN+qQBjLemjL8633krQ1wRFUMdwzj+RcTf5RowB3AS1v+L+FrrFRnAyqG0DA3igQtXkUX3HJU8IkGG7TkjpXj3rcoyBYRVR4+4AELL0Ez93+6oZ3SaTF/+zLLFDsxomVgo1tX86TRwMleC1YSk0LYrhbAgz3jabC479tQYseUCV7DnCQNP9rtGLSiA4lY/70OAYQ3Tt598sZFPzj8MVT7tSguGslNbV3rxJd3GYU6GkHws1TsNdRS3cISIGbFcWkKo3V7aUi0aFwswFZKlGMudDhsNkk5gR9Bam0zUUvZY2uWKgKAnoUMBWHRC74v+q2H/g0AfpGkip4vn1CWU4LslrarBmVTgfGl6JhLncRm9A3/lM6oz4/6k8ClfVqWE2KIvLJNesB8qouKWausNdl9Qav3pP+RiHJVtnVYykZXKD2QT9UopXjjyuriF2TwpRa30AbdevJT1605DrUyZqrlAYsVGa2yY4zyyadEJdwVBVsjF5D2jWzklGaQVdHNv9JEh+Vdzv2Le6A6di0N9nM5Z/Lj9ZuoL7HSGR9UhG1B8ojy7nTS3W3a0exhg3RyP5BmOGiknhRGU8EUU+XIkDF75T+P15CVNbx2ayVtuS5pY8KVN3S9Es9KxoiDOIWAzaxOJf5/ZxiCRonP2jEUmSCKByiUbS3bWcsCg==|920
+}//OP2a8a0NUk3byEQCdEH65Oh+DxTd45pIb+1dduswcRQV6YeD1pqOrYpBfa9GBXrGZm2ITKLgDmxMlJKGHrcWAFlYp/UFBCWvuVwIi8VoxU00igGbpvkdmZstRpfJVNmVlMqUlgM1m69I/xhdDUr7hiWpNoq6tZLMM2xvLOXsYXRgi79boIz6bfZTpXjL5sWV7BmC7WujtJkbIblxZ1wLEDjJQsS/qvDZ/EG1j4PCpVyuzbj37rtyyDNzQ3Tjd6/H7wfPr2xZ3yUCRunaj5M+GVi4GDJkPGdPRhX2sPa5UH+Tkvibbrtn8CwhRIuCR2i8jjIZkr0RUKAsuEO0w4mKOkSUtocT6CHaFE9697Gp+OgNsng9VPHFpZfWeezQ+aVWWZTlkE14oGVbZHThYVeUWj6L0FLP6BCuQYjRwZxjb4pvOMggw0KvWF5RRlELu+VOqUNERWbnSQFqmIJpUZgdRaCk9DwS+zg3z278FvEYSVbRHIO5llEA4A92ZSBceWKeq57CV5zY+J2MyTXEemwNmIO0vRHnpizTrt0zsM2bQJUwq+J4k90L9cItX3wIOj1G3IqwaZ3JqVm1UOGexZqD4dOxoBzOYS0bMrSsBLjmq6MtxKh29uLdoyPyu6BYW4DVlN7MwqeRCcsIggzqUAmUthgxI1baAXKpc+Bj/YEzN3GzXsCfiLr2NDOOQVwHyc8g1YrqmuaqSHqKA3Xoi9gWT8dfFIYGvq/Cp8wT0TGk7WldCJ0OBxOS4kO+y1HCeopMBQHa69Q1uFsv7x4v01VF5IAIJnqUL1P5KFxECjoWb6lzVleUAqs6ZF34w0SexOk67BR2LhbFpkOiNQXMbWdro/9h8gVycxXg8Eod7j6rXQfaTOUuy2a3MiNUOt3F3YdanbHkxYlCGyw/SEcx2oVjaw==|920

@@ -173,17 +173,7 @@
   },
   {
     "ModuleName": "PCPage/見積書のExcel出力",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-04T11:33:18.863646+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力.json",
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/見積書の出力用画面",
@@ -387,17 +377,7 @@
   },
   {
     "ModuleName": "MasterPCPage/引合受注管理メニュー",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:33:21.6426605+09:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\引合受注管理メニュー.json",
-      "MasterPages\\引合受注管理メニュー.rd"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "PageReport/レポート1",
@@ -461,16 +441,7 @@
   },
   {
     "ModuleName": "PublishConfiguration",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-02T16:26:46.8773217+09:00",
-    "ModuleType": 39,
-    "ToRemoveFiles": [
-      "PublishSettingsConfig.json"
-    ]
+    "ModuleType": 39
   },
   {
     "ModuleName": "Plugin",

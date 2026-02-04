@@ -34,7 +34,24 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "色マスタ管理"
+                    "PageName": "色マスタ管理_新"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "色仕様設定",
+                "Text": "色仕様設定",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "色仕様設定画面"
                   }
                 ],
                 "CanVisitRoleList": [
@@ -106,22 +123,6 @@
             ],
             "SubItems": [
               {
-                "Text": "色仕様書出力",
-                "SelectedIconColor": "Background 1",
-                "SelectedIconColorUseItemColor": true,
-                "IconColorUseItemColor": true,
-                "IsOldMenuPath": false,
-                "CommandList": [
-                  {
-                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "色仕様一覧"
-                  }
-                ],
-                "CanVisitRoleList": [
-                  "FGC_Anonymous"
-                ]
-              },
-              {
                 "Text": "出荷伝票出力",
                 "SelectedIconColor": "Background 1",
                 "SelectedIconColorUseItemColor": true,
@@ -141,7 +142,6 @@
                 "Text": "支給品リスト出力",
                 "SelectedIconColor": "Background 1",
                 "SelectedIconColorUseItemColor": true,
-                "IconColor": null,
                 "IconColorUseItemColor": true,
                 "IsOldMenuPath": false,
                 "CommandList": [
@@ -322,4 +322,4 @@
       "Size": "1760,0"
     }
   ]
-}//sYqxqFQhe8bHV2A08KwdAeiVwykESt362/s1Of1KLHrNKZYCUYyHu8OAJoFoAIno0qEgQtOcruCnMofsMFcJZhwbwx5T+Yzr3hZCszhnIr1yVbdh2uSyyO3JXaM5AKJT2jTmEwTjt0AdZFXDwFavZictix5FMtlYU+3e8Kw/tmdRWC3GKJQcAqfZOX7Xq9CkTrtJhbnZX9jugpNgmw1uIJa2L7FmMxBLoIjJcTX2rSOKn2DhIEniSSpoyQ5GeGQpYBp4Eb4LzAj5YdsVX8VcE8VEaBtOV4J3lGUWYUEN7WvaQohul8BfLgcwpobytjr1VYhjve5zuTTzouirnwl3Z+k/4IwR6WGSjeZoXBoPvao077LkQ87t8ObqC1mcf90Sews246ncMS5NMmF46DYhJ2Dbnj/4ZjjKOgDZhubK9JevsTmfZNGKOgr9g1FLQa6Jv8PRC9I545krDssj+BgkayT9jrTO5Ug0rGZaojn3mcmzTVAJnhxreWMqt1yrDV6QOazXWhN9AvR6VPQzWG+8/VhIK77e1N+l0xjzVHp/VAS7VR2zHmN2PJ26wkoqLX1aTvvs9MzN/ylje78ilNGEBWfdRDuTB0Uu4mj1kpsgpE9iZrFyKTvNFdZKl+YO6/rIgUuKNOt9mMsJbCkq77zdFaXD/0a2d/QJbS6kctoJNkxSoMsoJkuIOCyo+CjxW1GMeMAk4pgJz5J4cp+5X5ge5OzpDCZEwCegDQSFarreW9MliIW5+sz6wYeuiCTUOgDK0cWl+d1Sv8yqa1ArNBAalrtPGh8RG1RscFxV39Ws7zcnye7Xv9j6O7BNPBIU0ss/B6mIiY1rUFQsVWtm4M1WInvRSexc6FIurSGQKg9x3+5tApjUootOR1OHVphidE1ZdNSAUlzHth2ZooQfKXmnHw==|920
+}//vjMof7ocLmwQhv2HBNwVUGJrp5uc8E9jI4GWGlU8jeszUUjE8S4gJMrS6aHDodgf9ox9QCQlrco71a/ZZoRHmUNl1mQB27Y/gYowNaP91ZsJ5Wg6VcPOtw6bQNeoPwn+copIWfEE1iWt+v1E5CrbuTRFJK1EOx5gbPf1rw9LVlqqN1q4Dh0ES7aWgvHBcfjh/LDqoMJVRsW3gaBeA8YAhQwyjvScvVuWZSPbnaF4M+5H7M175mWQl28L8zHtWAufxOMGUAcRR0DNkRYkODl9eVr+DTlxCJNBq1FjudXDId6/9XpkkyA/NiyoEa7O6OCSLgQk7piMC+gibptNCIly9XxrihRWOLLymWi6xuHKVUHBwzmJGXhItDDkqyvULMIvi/p14zG4t2Kg3mTysY0xg4NUOHS97hqHxvPYpgvy0N7ZAAq64F9o4zQ3oFXarbHq0Qr4UVths41pEMdtjFEku/4zbXvMB4EVzeClsKu2dMPhl7ddHUl0uHYD1IAWvjhqN01T/F9YfzAlaLNhLMJ+WN2kT26zWm/OSTgMjeXQ71/EF+SUdAyDafIuODYcCSiSQwn57Lrt/VAo/+ETSFJa/fGgM/wahPaba5e+Aw/5bIpIq/V73KwXZoCVzDriDTXzZ2FXs4VDeiwYmYK1UDs61cl6O0wO499DzcJCwBn5dB2g4usnTAeM757WmZufLgJPDnrICyAEjFTofYS4+TuX2YesQBzV7CSjWkgw+QliNgKkJNRDFFj2MvmQxfwdDhBOnt+IeoY/EyXXydxDV0IQC36fiXVlwkJolMVS19Ws69t5XbEOXtNiYQhh7T2VbxJ4TJdFr2QKt3UQt78xxInKWjWkJ18qrRrvIHs9c7WZe+PXLR/HKWRZaOWS3sn8AdVkGH0ua+OcED7xWJKYWxZ2rw==|920
