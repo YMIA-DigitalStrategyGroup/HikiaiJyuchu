@@ -506,7 +506,17 @@
   },
   {
     "ModuleName": "PCPage/色仕様設定画面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-04T14:16:28.0306318+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\色マスタ管理_新\\色仕様設定画面.json",
+      "Pages\\色マスタ管理_新\\色仕様設定画面.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/色マスタ選択画面",
