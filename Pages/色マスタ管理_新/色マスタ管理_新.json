@@ -47,8 +47,7 @@
     "34,1": "↑↑↑　YGSM情報設定　↑↑↑",
     "52,1": "更新",
     "52,13": "Excel\r\nエクスポート",
-    "52,19": "Excel\r\nインポート",
-    "52,26": "色マスタ\r\n全削除"
+    "52,19": "Excel\r\nインポート"
   },
   "Formulas": {
     "9,35": "ODATA(\"mname?$select=MEISHO&$filter=MEISHO_KUBUN eq 74 and MEISHO_CODE eq \"&IF(ISBLANK(AF10),\"null\",AF10))"
@@ -206,7 +205,7 @@
               "ColumnBindingInfo": {
                 "TableName": "miroshiyom",
                 "ColumnName": "BUIMEISHO",
-                "GUID": "d233aa0d-9c14-43a9-a130-ec3808f709aa"
+                "GUID": "c69ce721-db67-4a14-b45b-ef9cfde3a25a"
               },
               "Order": 0
             },
@@ -214,7 +213,7 @@
               "ColumnBindingInfo": {
                 "TableName": "miroshiyom",
                 "ColumnName": "HINBAN",
-                "GUID": "1372b535-1cba-490c-8c7a-9a333dae0ca4"
+                "GUID": "db03e978-9ea5-404d-985e-624b60a39a8a"
               },
               "Order": 0
             }
@@ -319,7 +318,7 @@
       "BindingInfo": {
         "TableName": "miroshiyom",
         "ColumnName": "HYOUJUNSHOKU",
-        "GUID": "f6637582-f042-4824-8964-28b923d58213"
+        "GUID": "d4167a6b-6984-4288-86b9-b4c8fababee4"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -590,7 +589,7 @@
                     "MessageFormula": "色マスタを更新しました！"
                   }
                 ],
-                "ID": "a90a92ea-5c4c-48d2-8ec8-bb616105388e"
+                "ID": "90d5b491-52c7-4bc9-9634-88c6b9530401"
               }
             ]
           }
@@ -692,48 +691,6 @@
           }
         ],
         "Text": "Excel\r\nインポート",
-        "TemplateKey": "_RS_Normal_Style2"
-      }
-    },
-    "52,26": {
-      "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
-            "ConditionAndCommandPairList": [
-              {
-                "ConfirmDialogSettings": {
-                  "Title": "確認",
-                  "FormulaText": "指定した部位の色マスタを削除してもよろしいでしょうか？",
-                  "YesButtonText": "はい",
-                  "NoButtonText": "いいえ",
-                  "ConfirmIcon": 1
-                },
-                "CommandList": [
-                  {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "miroshiyo",
-                    "UpdateType": "delete",
-                    "ShowConfirm": false,
-                    "RowsToUpdate": 2,
-                    "RowsToUpdateListViewName": "色マスタ管理"
-                  },
-                  {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "miroshiyom",
-                    "UpdateType": "delete",
-                    "ShowConfirm": false,
-                    "RowsToUpdate": 2,
-                    "RowsToUpdateListViewName": "リストビュー4"
-                  }
-                ],
-                "ID": "39c24cb1-20d8-4ebb-bf7b-a81904e67083"
-              }
-            ]
-          }
-        ],
-        "Text": "色マスタ\r\n全削除",
         "TemplateKey": "_RS_Normal_Style2"
       }
     }
@@ -877,25 +834,6 @@
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
-      },
-      {
-        "Background": 6,
-        "FontFamily": 1,
-        "Formatter": 3,
-        "WordWrap": true,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 1,
-        "Formatter": 3,
-        "WordWrap": true,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
       }
     ],
     "Types": {
@@ -905,8 +843,7 @@
         "black",
         "[AUTO]General",
         "@",
-        "Accent 2 -25",
-        "Accent 6 -25"
+        "Accent 2 -25"
       ],
       "Borders": [
         {
@@ -2277,8 +2214,12 @@
       "52,10": 4,
       "52,13": 17,
       "52,19": 17,
-      "52,26": 18,
-      "52,31": 19,
+      "52,26": 4,
+      "52,27": 4,
+      "52,28": 4,
+      "52,29": 4,
+      "52,30": 4,
+      "52,31": 4,
       "52,35": 4,
       "52,36": 4,
       "52,37": 4,
@@ -2291,7 +2232,12 @@
       "53,8": 4,
       "53,9": 4,
       "53,10": 4,
-      "53,31": 19,
+      "53,26": 4,
+      "53,27": 4,
+      "53,28": 4,
+      "53,29": 4,
+      "53,30": 4,
+      "53,31": 4,
       "53,35": 4,
       "53,36": 4,
       "53,37": 4,
@@ -2347,7 +2293,6 @@
     "52,1,2,5",
     "52,13,2,5",
     "52,19,2,5",
-    "52,26,2,5",
     "8,2,1,5",
     "8,7,1,3",
     "8,10,1,6",
@@ -2369,31 +2314,6 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "引合受注管理メニュー",
-    "PageLoadedCommandList": [
-      {
-        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
-        "PropertyItemsList": [
-          {
-            "TargetCells": {
-              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=#REF!"
-            }
-          },
-          {
-            "TargetCells": {
-              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=#REF!"
-            }
-          },
-          {
-            "TargetCells": {
-              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=#REF!"
-            }
-          }
-        ]
-      }
-    ],
     "PermissionData": {
       "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
       "permissionResource": {
@@ -2415,4 +2335,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//0EZT1qSFwx/mwu9cSr6VswEO6oKc4tg+Jbz3k1k3mXblukigX9ohr3BS8jb15JuWGZ+00SUw87QyhhiNtWNONeRJQP0TnEexho9/CTf3kFj6tVafaa9989E9ywZvPgMg6O62AHMc+jOkzcoqaNb/KMJAohMFcBkDYxVVnWcSwr184MQtofffTXuc4fBnacWejVtVPxhJy7y+siiVzMrLkmvBazGOn8z7v243u/4hKfIb8G5w/zehlK/8jzyBbIBt7wMFmUk/1vU2ZaZfXg1Xd2AT2EFHqWGQfNW+pS2dFQ2WlSf6ICMBzDZqJxl8/rZI4GCPAhVoFgeHjwkDnkRj8ZtS2na1zScpK46Vb6VT3IFb84MgmHE15BozUzAub7dMVMQKHqRZFt8/5wiVhgyoPgUUSCUqKatof4juCB6S2Q1+bm1H5kzZp5s8E1/LE1HRHo2jNrQcztmBHb/vE2F04n1bZpYU+vVWnOVE/z9Armq/DZmDQy7VuVjpJzQekucBil6izogZ8r/FzXqKkKPSS2SfiGarTU5BdfBdFVGbUPnmnbADOWWZzsf4Ql9VPSBS4WOfhfAYW+y5ZXQtMy306y42LWxOz7cPK8o5lZWawNLz3icNHHlUB5Kfq8lW6T4NmeDx+WPzkxmWfwqIN8XXdwqD5eYAWadvcEV9Ee2rXUGUxPNoNr6xBGzjKA5WkGJM6nLXUJ4JPzrGQ6k2jnWcBrKspGNx2yt9ucgZuaYx6COA+C8JRbxKYWYoVteAVA0W7cCafsUw+mYOgfHUFAT48DfGzUqKAiLbQmyPIIOLXP/0HlQ3KhkwkorN0gmElKFQjiKa2UoxZl6vLG7G1fChtkNW0PjzuUR7NtqJQcwjuj64ce/yDs7fTgMs9QomugEOzdu0qofPcPMJtZrwOJczCg==|920
+}//z776Q8TxSFCUJqqXseOJxzoYlaQVETLsNZCAFuXZejXPYXv/bCZRZ2TKuOypCAws+IGS2YJB+iPN0UW/2PIQel38NLPpSyfOgAGDMrYLRbSwqwT7XrRag9xmG+Ehd+whz1pDHtdR+BaaavmVzmlrmD7MELueEkK6527AwNRiCA5msGxMnR80ssLtU9ORdDEWkpEyxC2draq/nymxiCY74b7F0YgRli190XjrR+hxRaTWjnbPZ+49ZG+5uFWxgYNwiMcLbVDnTvO+mgPixHh9EX/fljX0CxRnP3itURLbik9cx9/OIICLiZ0AvfQ66nfocuBxYBj9qmcNtigap1HRfV80lJVfH25Bi0YAWEN/ptiknbiHiVkFAa2G4TZ3qSikey+Qt21Hpr7nqLq52VLO6s3//SpEkbrYllKrJo19H8Bb9VyrvZT74jDKUCEA9pSWEZGI7c+xUhlkicLsvv4r4gps3NwGIyg3E896PLUjNiyWkaL/U1MgcwQKiUvLLy5M6/vBemaNz8F1VtxaJrX5V8kenRuxaElcRFWUd9TIpxqXAbJZqX0mJ8fDzfkjiS+D3O+5GEgtBsowwAOuWVeMxjsaMStdVlP8RSV7SSn46iIe+kuQy0MsiCQlpEbBTpAwH/mt+ZAC9pdbwp6Z5wiK1/q5nlTebZjpCWb9dk8DYhFpRzZo3WJzvWiJN4Lhq9VtMVVjqtLl/Tc6ouh6oyTOgUY53bVFX+9apmz49qNL+McrfcZOggTbUz31laz5TuV7MPuHSAD3HbNMVqYVK4cB3t0UqjCg03AvItIfAZEh5P5Pn8cKdux/fQZSd8VwO5/SfRcEPdSKOjI5BehmjRCMLfFDJjvmum97mRZ8myNpqVoPDy2DoegNy9aw0wxXDgZguzg3YDeq2h9WDbDC8e1kng==|920

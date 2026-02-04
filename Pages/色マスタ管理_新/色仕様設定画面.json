@@ -69,7 +69,7 @@
     "41,68": "未使用"
   },
   "Formulas": {
-    "41,54": "ODATA(\"mname?$select=MEISHO&$filter=MEISHO_KUBUN eq 74 and MEISHO_CODE eq \"&IF(ISBLANK(#REF!),\"null\",#REF!))"
+    "41,54": "ODATA(\"mname?$select=MEISHO&$filter=MEISHO_KUBUN eq 74 and MEISHO_CODE eq \"&IF(ISBLANK(AY42),\"null\",AY42))"
   },
   "AttachInfos": {
     "1,31": {
@@ -307,7 +307,7 @@
       "BindingInfo": {
         "TableName": "tiroshiyom",
         "ColumnName": "HYOJUN_COLOR",
-        "GUID": "39bdc061-9d72-45f7-888a-f87ecbf56fa2"
+        "GUID": "cf017e47-67a5-4965-9233-5550dc665a85"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -358,7 +358,7 @@
       "BindingInfo": {
         "TableName": "tiroshiyom",
         "ColumnName": "TOKUBETSU_SHITEI_COLOR",
-        "GUID": "34f2ba71-4dae-490a-8d94-f20d0184e69f"
+        "GUID": "35fa1275-7d67-4b0e-a6e4-13a37b95ad0f"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -439,7 +439,7 @@
                     ]
                   }
                 ],
-                "ID": "a7d23fbe-75df-41ab-a513-b67e0082532b"
+                "ID": "a051e96b-9a47-422c-9c9f-3a00f31fd327"
               },
               {
                 "CommandList": [
@@ -456,7 +456,7 @@
                     ]
                   }
                 ],
-                "ID": "1faf5a4d-8d70-4ce4-bb50-397b33648ffb"
+                "ID": "4ddc3a6e-460c-499c-9852-a9cf6bb87558"
               }
             ]
           }
@@ -613,7 +613,7 @@
                                 "ID": "09a864a18c1447979bdc2aeb25540a89"
                               }
                             ],
-                            "ID": "59fffd54-3eee-4b5d-b0c8-4f1cc881686b"
+                            "ID": "4852f94a-5f57-4d3c-bfb0-e1e9c3d31151"
                           }
                         ]
                       }
@@ -760,14 +760,14 @@
                                 "UpdateRowType": 3
                               }
                             ],
-                            "ID": "62428fc0-d41f-4030-9b77-78bed2363390"
+                            "ID": "5d158dd2-6dd1-4afd-ad7d-786e875cf8d0"
                           }
                         ]
                       }
                     ]
                   }
                 ],
-                "ID": "1bf41f27-e03f-4932-a3b3-dd3411cb5dca"
+                "ID": "a8cd0a12-1751-40df-a7ae-23eb3c0221bb"
               }
             ]
           }
@@ -802,7 +802,7 @@
                     "MessageFormula": "色仕様を更新しました！！"
                   }
                 ],
-                "ID": "ece25522-ecab-4d02-8167-26fbda6366b6"
+                "ID": "4bb95d27-e9e6-49df-8397-1d74bc1848ec"
               }
             ]
           }
@@ -896,33 +896,6 @@
         },
         "TopCondition": null,
         "ListViewStyleName": "_RS_Medium3",
-        "CurrentRowChangedCommandList": [
-          {
-            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
-            "PropertyItemsList": [
-              {
-                "TargetCells": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=色仕様設定画面!BB41"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=色仕様設定画面!V42"
-                }
-              },
-              {
-                "TargetCells": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=色仕様設定画面!BB42"
-                },
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=色仕様設定画面!AA42"
-                }
-              }
-            ]
-          }
-        ],
         "ShowColumnHeaderInDesigner": true,
         "IsRowHeaderVisible": true,
         "IsRowHeaderCheckBoxVisible": true,
@@ -994,7 +967,7 @@
       "BindingInfo": {
         "TableName": "miroshiyom",
         "ColumnName": "HYOUJUNSHOKU",
-        "GUID": "1d96f2eb-031e-4d0c-9151-862d7a8e1e17"
+        "GUID": "3eb3522e-17a2-4d08-b63c-a2a7bf93903d"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1039,13 +1012,6 @@
             "ColumnName": "色名称"
           }
         ]
-      }
-    },
-    "41,54": {
-      "BindingInfo": {
-        "TableName": "miroshiyom",
-        "ColumnName": "HYOUJUNSHOKU_MEISHO",
-        "GUID": "824d2d3d-e907-4308-9a24-f272255954e7"
       }
     },
     "41,59": {
@@ -2252,31 +2218,6 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "引合受注管理メニュー",
-    "PageLoadedCommandList": [
-      {
-        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
-        "PropertyItemsList": [
-          {
-            "TargetCells": {
-              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=#REF!"
-            }
-          },
-          {
-            "TargetCells": {
-              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=#REF!"
-            }
-          },
-          {
-            "TargetCells": {
-              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=#REF!"
-            }
-          }
-        ]
-      }
-    ],
     "PermissionData": {
       "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
       "permissionResource": {
@@ -2311,4 +2252,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//tTdRHk/eD4HLs2ilY/1tAjSRSl8TnS6nFyrVuK8pAbmDZ5x/5swy8AJtMYIBJ8ny1CCEE7jUxCUABT4PqAcZkmnbHlzTbPoVqmtX+qovnhaYTrNJrWG/+wU/WQfyddD94AONUmWhStbXq/dpfITOnbzgtVXvxoKMuPOQVj5yOWYfYNAR5plcGmnfrk81kazhWtE48P185uPVs1k/WswCA8cUK9L6jDvcTVt0mLro+xg7vDhhSVeU5/693onDct6BHPhT8hPdF8ZOnT7YTx+PmEwgDMlhhGuOO6QewBkbohG8wrSeilNBEXx9TSXDhAmJEbPj/CUqUAgxE6tdIG+9ClLWd+eUYSejm49/pPpI4sUtNLNnyx92OmqtX+F4HnHb2BS02QqKazC+eSAaU4ap/Qd8jE7Xe8Ob+tHM+Yg9AKRYhoBPbwnkXYzAvgo3XJiab66j/ZNxESEwZOAqksKnYssU1hVx+/ap6WLpDbP9g742aMY9Ka4NnSHAu9f7HtL03q2WVv4IrYWgGZzcAxGE7v0KgrjdeV1/4Ulq3rIiMkDMJgCe16qw4m4mqv+GVq6n/86DeCpSn5Bl8P5YtFWMh+DWPsvd9B+3AQSj4UWOcnvAmOTveXRVyPU1bdlrSCSLH/I9PRf8uuh95Z1k5KPw5r7P0eGhhYTxTRF6mZJynlOCytPbLBGlBDPrV2/AJF2Br91ek5zAxs+f4dIIR7pUlk5TBsceed6QcVM/Sz987k+xh3b4egWoGTS+mG1StqHJKT932ceY6pihBamtbXkLEYzS3S1ni+fJWMxotOo5kKj0Ur49ss3zghKlrD/1MY97rI1QCmGerMyuEugPMqOi/F+2rtPFGfrrrSC4iygAcwayi6gPuBzZ4aeTdoBpIm1QTnp59jq/44wmFwJoeeuO8A==|920
+}//uSLC5MKChbuoLl/Ulh0hU0+aNbydTAzZWpXM72z+wteUwbmS0Un52cvM3n2Oa+IlfAZQ1Pzv8VxOZUPgHQTOsZxaV85HPV1eWx6+zhC8Zhv/G2GTCG82NFFcx8xGxbESg2WDcPB8d8di18tmg9OVfCSVbMLbttV6naEhHg5bq0rsf4zXTvTyRDxnKtT8zRkKTxFgzX7p3/2uhDrF/aUQ3ulCAZJanL3kI1jvIOw4hvjDorRzJaxLDfOiiW8aHj6URmDqEt4H8L0wVLbif5YD9Jx1ovbkS5VnvSQ6qR8a/k791vqcdL6tCbG4i71n8OFAEIZY/szVla+x3l/CfeEKZ81HP8IKNe3zNtTgsNnl7Id1IrzfGhdwk2znuUP039LS4i4isPTLqWJeuSp7zgWHsHVQ3LyE8sIYrsCP8Tv/5T5ql3K50F+gwSArs+WoofpzSt/xkT9GNCtjpdBwvdUJfu5yheyicQePPnvq0NOSD9fQ0BlwJDKbNeCFo1I8nj61kxnYe2YCwz1gtYaw22WhWNEL0xaWKHl4Moa+zolSj4yl3EXxlRDZrGy7qNDr+Kc7oIaHS/T8tUTy1NVJ1RjnDq+V42zB7DVTzWd1N5lukh0xSQTICm2vJCM01iXQOCONVB9v+6aSRS1USy6f5msOeSQ5c2KpDCy/toGghkNLvbdBe1Qlq7RHarIEikQ/6vfxRWhbyAK4wvPUnGvRJn1r+9XPkPCZMktMxoMLOE3iPQ477s3pCZPvKOMoeqL26pi5mGrKrPnH8ZS6elBk1noNoovEDY6kdaw+QhUhSv6ZBsyu3uqhJ0LL8dsvd/0ck4f8/ZurbhFyY6IDwzsyLlCchs/3mC+THBdv11NKpiX0zUEHVgMpGb+MLUCSnCbpBkqjLN8ShG8bjPGmgBQQX9ISyA==|920
