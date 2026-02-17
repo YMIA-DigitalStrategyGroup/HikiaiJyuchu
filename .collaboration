@@ -105,12 +105,12 @@
   },
   {
     "ModuleName": "Table/tjuchum",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-02-17T17:37:24.9208753+09:00",
+    "LockDateTime": "2026-02-17T17:38:32.1375211+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\tjuchum.json"
