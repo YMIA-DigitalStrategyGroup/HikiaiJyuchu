@@ -27,12 +27,12 @@
   },
   {
     "ModuleName": "TableView/ymia_v_tshikyuhin",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-02-17T17:37:24.9208651+09:00",
+    "LockDateTime": "2026-02-17T17:39:21.2942442+09:00",
     "ModuleType": 23,
     "ToRemoveFiles": [
       "Tables\\ymia_v_tshikyuhin.json"
