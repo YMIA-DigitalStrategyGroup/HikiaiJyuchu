@@ -157,12 +157,12 @@
   },
   {
     "ModuleName": "Table/miroshiyom",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-02-17T17:37:24.9208438+09:00",
+    "LockDateTime": "2026-02-17T17:40:30.0706983+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\miroshiyom.json"
