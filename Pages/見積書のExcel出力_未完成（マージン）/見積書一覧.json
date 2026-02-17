@@ -144,19 +144,38 @@
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
             "TargetTableName": "tmitsumori",
             "SqlCondition": {
-              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-              "CompareType": 6,
-              "ColumnBindingInfo": {
-                "TableName": "tmitsumori",
-                "ColumnName": "MITSUMORI_NBR",
-                "GUID": "a67f98c4-cd33-48dd-81f0-1c68cc805d97"
-              },
-              "Value": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=見積書一覧!H5"
-              }
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "tmitsumori",
+                    "ColumnName": "KISHU",
+                    "GUID": "c2be5dfd-25d8-454f-baaa-0a6f8809cde1"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=見積書一覧!H5"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "tmitsumori",
+                    "ColumnName": "KIBAN",
+                    "GUID": "a9758e35-1df3-4a96-b82c-2b011241a63c"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=見積書一覧!H5"
+                  }
+                }
+              ],
+              "RelationType": 1
             },
-            "ID": "fb3d0d8f4b5845a98ffeaed53f97f95e"
+            "ID": "11a13cc7c09549d68dcc13e8101c12fa"
           }
         ],
         "Text": "検索",
@@ -2250,4 +2269,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//lkwbSwutWi/MF7++dIFZLSCrqYSyGka6bObUTlVWc+9FUQ0AHt042cBgQKJR0jF5DHXDAYzA6q5n6SlpOq7+zfuK4/ixGeH1U0WjLDi1zwc3tLU87L6LLnkQYWOJn8EQyaTCJcXfpCWYWrlWKc2MNWcggAfaD9ji5q2HHVHS2VJoj4/4FD024KZhZiBxb/CArIxyFm6D8VrlDH6BmhFiuV4s6xnPoO9bxBMeTd5Vrw8LhpfUGW9DaRW6kbJuWm5FFGWBIocPQLB4Cry9nI2/ZzaPzHwbuo5t0gIGPvLNNzj3jJQvMvqEe8z3VS9fEhk9j2GFVN3vLMZKIeHbtia4XXQFqZLGAvg34uYnQtSj3olPV4MSkjxHvUh3naScFYC9r7t3EYapar2am1HiKvQ0wETnxfJWh5sqlOuh+LgyzYTjBwWBeEalPuBGOG8uQOLJQPF5DyTBuCUCqw8Om+Ovmpaw63BpInt+BdUAV7cazSo/L1ClfcLeaQjZwtpGHBxt5nOWr9/LWbCO2HyzrsQcyoM4dDHmrBQsjdL70HQCbLq53QrDkV9znRPoK1pCEMoqg/zPg8WzpFhRJT30HiGs/p3YhbhMv1QUz60uvnyWuq8DLf5puSUKSpkKPtEFXOMKHxgwhDp+On2R2YB8BrabEBx6s0Wtz95q8F/BC/lR+sr6OXunGe8AxTTmy5N7CqKC0CK958K8YkorILG3kBsIyCPH/DxDotHt2AutErPR5abi1givivwATjbb/caMa754IUyhW5BEt6ezuQIvz066rpF2l3VEP6o3MCJccrvuZA2yYqk6Uz0Sn9hcTMvJPCXS339pFkIFfRRuq84nDmwHH0FHaf43oOxrhk5xz+XC1VoFdiWS7nVxF15QR7eRV9qj2lAcQuwmqDlurJhIuJZAfg==|920
+}//EzaE0tR/g35W2otkgaIjcYR4TcR/9HozAKz7z3wFTEgWwiEXRVcYeJCFko6rD0MdpgfvMCBNlB983bmgNW7TAWVxonE4VY8VJVdaWbozKcxr2hU26nZe0+v86e58966Cx3iEkc04T6kKHUnf9dUtGQObwqWt1gguA3hLHDvNxpE5Z/ivHPHzRVwbLyhwnhfPcXfYYSR0i2ODpYKzwuUmkCrEGqCN320397eJLxUE/Qyn19UFYbLIBj8W/8BGYYJagRIWLDKFEVjwvajfRqULDAk6weSSsPZlCC7sgTgHWzKBNNimM5JmmA9wM2P86sv1YELMGXaQKWoR8uAeBk5U5I4I+lUk7egbB1MqMTsHX7V9/vfAll3o791UXeP6IJfQy447g9cvYz120fE3I98bBOICRjvnTNO/qVC/q+xKTfTJaJyTqjshahufNqUNPLB6eL1DDy8GvK0FFKy1MsVXCqQibFOrslMhcL3QbQ2IXFuTBK0dmU6OT/slIbmhdb+i6QgwH2YTa4Hz7hLsg2bRuGw6Ii+/U+p1v00F3HLJAN3lsyTRXuJRtjs17r5J0p5H8cUC/BywHFe8JAbY8pt5ugRba9HZmFMBaNeA9/rh7IMJA/zy0Gf9v9bLXRPi5S2OQaMUq5o1ON4Zo/eod5Jpb/0nqejA/6BkjMC2bEjEuKf7+L3anUnsNmwGZSL4clihfigda8oO33EhP/EyAYB8uhdZwPlmuT+RRCTw2mu9tCzO1ZYdrO8r9sUjyjeiF+92bR7LKGoYtReJr4RetOMhyZjza2+ttPS7Tr0QtK9hi46GXtr4Sw7IqHxRwwzV6NiXVAEmaWYh2NAfnEI39/XU9rOgBfquabVpPoBWknksPxF/gyPV7twDdPoGrPQKopsgR1wpfzRjzQbDJkD9sBHQyw==|920

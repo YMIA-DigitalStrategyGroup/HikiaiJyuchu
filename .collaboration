@@ -1,302 +1,95 @@
 [
   {
     "ModuleName": "Table/mkoteiname",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:40:25.5523806+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\mkoteiname.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/mname",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:39:26.6848252+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\mname.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/ymia_v_tshikyuhin",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:39:21.2942442+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\ymia_v_tshikyuhin.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "Table/tmitsumorim",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:41:04.8429397+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\tmitsumorim.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tshikyuhinr",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:37:28.4431304+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\tshikyuhinr.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tmitsumori",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:38:22.3900184+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\tmitsumori.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/ttsumikomihinmr",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:38:09.017641+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\ttsumikomihinmr.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tjuchu",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:38:13.7142234+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\tjuchu.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tjuchum",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:38:32.1375211+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\tjuchum.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/ymia_v_ttsumikomihin",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:39:11.7362043+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\ymia_v_ttsumikomihin.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "Table/tshodan",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:41:00.5179055+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\tshodan.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tiroshiyom",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:38:18.222894+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\tiroshiyom.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/miroshiyom",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:40:30.0706983+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\miroshiyom.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/ymia_v_iroshiyom",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:38:03.7929487+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\ymia_v_iroshiyom.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "Table/ymia_m_colorcd_ygsm",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:41:21.357881+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\ymia_m_colorcd_ygsm.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/miroshiyo",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:40:40.2661831+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\miroshiyo.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/mtsumikomihin_shikyuhin",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:40:55.6769844+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\mtsumikomihin_shikyuhin.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/mkotei",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:40:20.8071034+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\mkotei.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/moption_futai_koji",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:40:51.2234009+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\moption_futai_koji.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/mkosei",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:40:35.1808431+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\mkosei.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tshukka",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:37:33.4214723+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\tshukka.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/t_shukka_yotei",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:41:17.1400347+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\t_shukka_yotei.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/mtorihiki",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:40:45.0586173+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\mtorihiki.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages/積込品のExcel出力",
@@ -336,45 +129,15 @@
   },
   {
     "ModuleName": "PCPage/支給品リスト一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-11T17:08:59.6396356+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\支給品リストのExcel出力\\支給品リスト一覧.json",
-      "Pages\\支給品リストのExcel出力\\支給品リスト一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/支給品リストExcel出力確認画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-11T16:50:08.4592159+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\支給品リストのExcel出力\\支給品リストExcel出力確認画面.json",
-      "Pages\\支給品リストのExcel出力\\支給品リストExcel出力確認画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/支給品リストExcel出力画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:46:55.8919888+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\支給品リストのExcel出力\\支給品リストExcel出力画面.json",
-      "Pages\\支給品リストのExcel出力\\支給品リストExcel出力画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/検索画面 (2)",
@@ -386,17 +149,7 @@
   },
   {
     "ModuleName": "PCPage/工事指令一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T18:21:24.9459562+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\工事指令書のExcel出力\\工事指令一覧.json",
-      "Pages\\工事指令書のExcel出力\\工事指令一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/工事指令書Excel出力",
@@ -404,17 +157,7 @@
   },
   {
     "ModuleName": "PCPage/工事指令書出力画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:49:29.6721852+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\工事指令書のExcel出力\\工事指令書出力画面.json",
-      "Pages\\工事指令書のExcel出力\\工事指令書出力画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/予備画面",
@@ -426,31 +169,11 @@
   },
   {
     "ModuleName": "PCPage/見積書一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-13T14:39:53.245848+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書一覧.json",
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/見積書のExcel出力",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-13T17:14:16.6111494+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力.json",
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/見積書の出力用画面",
@@ -538,17 +261,7 @@
   },
   {
     "ModuleName": "PCPage/色仕様BOM情報作成",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T11:00:02.6087814+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色仕様マスタYGSMデータ作成\\色仕様BOM情報作成.json",
-      "Pages\\色仕様マスタYGSMデータ作成\\色仕様BOM情報作成.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/ビルトイン ページ",
@@ -740,16 +453,7 @@
   },
   {
     "ModuleName": "Table/ttsumikomihinm",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:37:24.9209715+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\ttsumikomihinm.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "PCPage/出荷伝票Excel出力画面",
@@ -781,16 +485,7 @@
   },
   {
     "ModuleName": "Table/ymia_m_miroshiyom",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:40:15.8069633+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\ymia_m_miroshiyom.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Pages/旧・色仕様書のExcel出力",
@@ -802,112 +497,46 @@
   },
   {
     "ModuleName": "Table/mshain",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:37:24.9209763+09:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "Table/tshonin",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:37:24.920978+09:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "Tables/支給品",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:37:24.9209331+09:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Tables/見積",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:37:24.9209503+09:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Tables/出荷伝票",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:37:24.9209534+09:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Tables/工事指令",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:37:24.9209548+09:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Tables/積込品",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:37:24.9209729+09:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Tables/共通",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:37:24.9209802+09:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Tables/色仕様",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:37:53.6226368+09:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "Tables/マスタ関連",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T17:39:55.6720792+09:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "PCPage/工事指令書出力画面 (2)",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-02-17T18:20:21.5952963+09:00",
     "ModuleType": 1
   }
 ]

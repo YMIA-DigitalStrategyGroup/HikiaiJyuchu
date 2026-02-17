@@ -296,7 +296,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
-                  "GUID": "4f519589-f111-441e-8429-8a3fd5ad2ead",
+                  "GUID": "a0fef2f0-d252-4dff-9e0a-5c4f6401476c",
                   "BindingInfo": {
                     "TableName": "tjuchu",
                     "ColumnName": "KANRI_NBR",
@@ -318,11 +318,11 @@
                 }
               }
             },
-            "ID": "473870ffc92d4443911debac10e71488"
+            "ID": "02b2ad2eedf346578b0958f097b182ac"
           },
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
-            "PageName": "工事指令書Excel出力",
+            "PageName": "工事指令書出力画面",
             "PassValues": [
               {
                 "Source": {
@@ -330,7 +330,7 @@
                   "SerializeProperty": "=工事指令一覧!H11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=工事指令書Excel出力!G2"
+                  "SerializeProperty": "=工事指令書出力画面!G2"
                 }
               },
               {
@@ -339,7 +339,7 @@
                   "SerializeProperty": "=工事指令一覧!R11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=工事指令書Excel出力!G4"
+                  "SerializeProperty": "=工事指令書出力画面!G4"
                 }
               },
               {
@@ -348,7 +348,7 @@
                   "SerializeProperty": "=工事指令一覧!引合管理番号"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=工事指令書Excel出力!S2"
+                  "SerializeProperty": "=工事指令書出力画面!S2"
                 }
               }
             ],
@@ -2146,4 +2146,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//7SLjTkME2x9OZCF6zUXPBIw3yACGYpayAAw6cnynPWkwwygMZ8H+2DpK7/MGquO1M0EW2vPZs1AXh0owFVRHkjjEg29lM2HLZfWpoDONO6PDJyrVJzQoGA4p1e0Tp22J+1SGS6eVRwe4a9x/eaeFe6bU15yiq4wvSL5yovY0dVdhyQ96cYl7tHc5+1Zo3wmMOPAHLirLdRuuVIuiRDf56Wv7f7HvRkDOz6gfMRYq9veFZmgbZun0Op2OHMY0UXBQ1DEh1GdJY7SSFYytaTGYaNFUcz7Z/PL6QNCa2Mew0MDDyofRVq44/VX4P1A6TXkKcd3E/3QfHXiKjFCIw3WNGBJsi7jsTbtqPRV7yCEindB26k8/gcEA4sVYRnnuHXJGIjNf+p7mm0dyrDjmBXqJMfNHseDbBIJ9ZoF/VQ+F7+gY8ZT9OBM4EbnQeuW0xIp2g4m6rlY8SDVBEX4pF9ESnOd0dydjCRGV9TAkkhHKz/UM3nEiK8466b7get5nNPzHnkpMCLhfLYwaF/IsrIF+yn4mEHgKjxmNk6RF+rQoIf18IQZ2hOYZ0y4s3xU3Nh/XEje/RlwI6ba433NKbCjhHvxLYrsu2PFq+yNFifCtWoPUSxxCZDUIjx1RF8ezjM2Ndhm9ajKa37Tek0KHz0fB4JqWA6GgA7sSyHPPiIIQCXBUPVdeHk9VVRl57gRULZKTgQGbhqGfPzieZicwB7RXB/GX8BXsOqwabDRXccFN1aLXzOPZQOUSNgwBpVemkGyJPQ1kazlfa3iVCJcnGtctSl1zTKJxV3rPbakxej0402GbK6Qek6VaU7T8i4DdHPZ6dxlQbH9ahQZJb33Babj0U5rxY4YE7ud55MT/m89RXa3b4N4oT8jefuiWW/XOFmnnSuatFdQelol5q6DZW4LJQA==|920
+}//ermfZWEGySaiqfo1PCfQXWpqXvMN74vlu75GaFc3A/N5+g9sv5yK4glEDmx9NtcK5Idsu1k+FfBIT7alSr5Y4OCNLbzr3h1+3WJ306oeB+tFK7T8cCRQ92CEmJ0lpJyz2iUJeHi5QIF6veh+y7YWDR2gorY339KNuqaQ2lDICBER5S6N7t/1S+e9vGB9KounNxs1Ftj2mm9fUKHgOTVs7VAIOnNFw5jNZ2aFFl3eD5wO6SFhbB77yMBmvIC+FVi0sdwgMQicpuGxs95EuF7HEBs3bi+kqCWRovRT+FaObRNVVFEFaOcVl+DN493HGhsFyBy4D8RxRec95XcmzQma7HPAazBQukyTXQxvBHEPIgKn0nFtok1B/Foxu0lbeviOev1qEpVoHcdm1yv3OuJQP8O+aTRGlmw6e/WUXV7iqpKkDrIZ+VOdQwJdFTutElhbA+rfliW4vr46RAKBceKM8jIm9Jh8XVbs48HZcmFFXfFj/echk59RT2XYJy20+J3GqebkwHbRDllmJHVRSrhMW1os99feU3n6LIGdnCy5woidLEM9/1LtIOKscRo5gQPer3BHbeGo9yRvLX1MRa6AlxKchgYTZz5Tybbodi76c1ZPr9QA+w5oT2N+K4D2L5JasOrhPiul+0QWU6q2yyuSjCJC3fGZrV7hAyMan0Mg7+OjtgmxzlcbbUW53g6kKd/LxAQe9GpYZXTRhclu3KN+mgoAoZid5P1x9XHhsr5z282+CyJpXaj82msNP4EXZYXERuIrZA9sqDPMWxnz2RaErH2emarJYpKb66DfPZMVNrn9Wscj0cL48JNHY5nm7drVekN9kfglXfqzFlbDb7LxtgSCd/CP9xwMIFWuJ6LJERc1LTPkU/6+MnalANtWUFqF56BZuByyMmy55rncQP3woQ==|920

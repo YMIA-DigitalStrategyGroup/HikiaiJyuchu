@@ -159,7 +159,7 @@
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "TEHAI_KOBAN",
-        "GUID": "bcf3db67-a41e-4db1-8163-639301c3b70c"
+        "GUID": "59bce32a-594d-49a1-9d87-350e0781e49a"
       }
     },
     "1,47": {
@@ -175,11 +175,11 @@
           "ColumnBindingInfo": {
             "TableName": "tshonin",
             "ColumnName": "SHINSEI_NBR",
-            "GUID": "f2e8b924-119b-4184-91ca-fb0237d36981"
+            "GUID": "5a50d42a-5f53-45c3-8e5a-4e1b23722ed5"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=工事指令書出力画面!S4"
+            "SerializeProperty": "='工事指令書出力画面 (2)'!S4"
           }
         },
         "TopCondition": null,
@@ -195,7 +195,7 @@
       "BindingInfo": {
         "TableName": "tshonin",
         "ColumnName": "SHINSEI_NBR",
-        "GUID": "eb53d643-c1b9-43cd-b228-eeb306b1b7df"
+        "GUID": "0c10ef87-c40b-46a1-a3db-e59c643a87da"
       }
     },
     "2,51": {
@@ -203,7 +203,7 @@
       "BindingInfo": {
         "TableName": "tshonin",
         "ColumnName": "SHONIN_JUN",
-        "GUID": "b42b793d-e0f5-4aaa-83e0-7b9eabb1cfa7"
+        "GUID": "a55a013a-c1da-4cdc-892e-1fecd9e527ba"
       }
     },
     "2,55": {
@@ -211,21 +211,21 @@
       "BindingInfo": {
         "TableName": "tshonin",
         "ColumnName": "SHAIN_CODE",
-        "GUID": "6c898788-e8fe-49e7-9af8-73477903be9c"
+        "GUID": "111db8b6-385a-4dbd-8a09-2b2683674b84"
       }
     },
     "3,18": {
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "SHINSEI_NBR",
-        "GUID": "d966d95f-9c2d-401a-8c52-a217bf98731d"
+        "GUID": "46962263-2c24-4588-87c3-08f86f65227b"
       }
     },
     "15,39": {
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "SHIYO_CODE",
-        "GUID": "bb35c01b-4dc5-485f-a303-4deafbd004d4"
+        "GUID": "c37937a4-aaba-4481-99e9-bd925abcee73"
       }
     },
     "16,7": {
@@ -233,7 +233,7 @@
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "CellDefaultValue": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=工事指令書出力画面!AH2"
+          "SerializeProperty": "='工事指令書出力画面 (2)'!AH2"
         },
         "SavedValidators": [
           {
@@ -249,7 +249,7 @@
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "CellDefaultValue": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=工事指令書出力画面!AH3"
+          "SerializeProperty": "='工事指令書出力画面 (2)'!AH3"
         },
         "SavedValidators": [
           {
@@ -264,42 +264,42 @@
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "SHIJI_YOTEI_DATE",
-        "GUID": "f2f54033-cd65-416c-ac1d-242a0cbf0aba"
+        "GUID": "5e1b5ab6-58cc-4b82-81f9-7ced6e738b14"
       }
     },
     "24,7": {
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "ENGINE_KATASHIKI",
-        "GUID": "cedd20fc-edab-4fa9-b10b-712437d2849d"
+        "GUID": "2a2720bb-a8c8-4aa0-9974-79d7fa12e889"
       }
     },
     "24,17": {
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "GENSOKUHI",
-        "GUID": "551e98cb-2d1d-4045-ae67-47cef1c50f9d"
+        "GUID": "27323c95-700e-4ae3-8780-f71f981fc2ef"
       }
     },
     "24,24": {
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "ENGINE_BIKO",
-        "GUID": "f3c81e92-ee51-4624-8c05-862c9892016a"
+        "GUID": "d934cc10-c212-4258-bef3-510ddb81d786"
       }
     },
     "27,7": {
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "ORDER_NO",
-        "GUID": "0a33cc1a-2ab1-47e0-9ea6-3bac55646fa7"
+        "GUID": "5458f6c7-a57a-4840-87e5-d3bf2d93aaaa"
       }
     },
     "27,18": {
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "KANRI_NBR",
-        "GUID": "2810ce60-9b43-403e-876c-56a35fa82aba",
+        "GUID": "7c46d462-38ca-483e-ae8a-befb25d7aaee",
         "RelationBinding": {
           "RelatedTable": "tshodan",
           "RelatedColumn": "KANRI_NBR",
@@ -311,7 +311,7 @@
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "KANRI_NBR",
-        "GUID": "e846f877-3d59-4ca6-b64d-764a916bdaff",
+        "GUID": "d31d8163-3369-4c13-aaa3-2231ac19fc2c",
         "RelationBinding": {
           "RelatedTable": "tshodan",
           "RelatedColumn": "KANRI_NBR",
@@ -323,7 +323,7 @@
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "KANRI_NBR",
-        "GUID": "7d13fe33-2bcc-407d-8519-e2cccb39d68d",
+        "GUID": "d255ff17-0064-4137-b36e-fb0c75bf1c28",
         "RelationBinding": {
           "RelatedTable": "tshodan",
           "RelatedColumn": "KANRI_NBR",
@@ -335,7 +335,7 @@
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "KANRI_NBR",
-        "GUID": "4cfcfd4b-bad3-40e8-8033-0eff08719924",
+        "GUID": "88072257-2fc4-4cdc-86e5-6e39d79cc72f",
         "RelationBinding": {
           "RelatedTable": "tshodan",
           "RelatedColumn": "KANRI_NBR",
@@ -347,14 +347,14 @@
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "JCI_KATASHIKI",
-        "GUID": "f67e169f-3b86-47c5-ac90-8f9fd106b79f"
+        "GUID": "bc9a32ce-7c54-481d-8fd5-ce33fbdeefd3"
       }
     },
     "36,20": {
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "SHIYO_CODE",
-        "GUID": "2d5dc35a-c4c6-4aa2-bcb8-45b0460d73ab"
+        "GUID": "9e372971-fd4f-47ce-a388-50e5a89b2442"
       },
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
@@ -396,7 +396,7 @@
       "BindingInfo": {
         "TableName": "tjuchum",
         "ColumnName": "KOJI_KUBUN",
-        "GUID": "492dd9b1-1a97-49f9-b098-9843c3d0d237"
+        "GUID": "ee7acbf6-e2d5-4b6d-bd1b-f67a28fcd7c3"
       }
     },
     "41,11": {
@@ -404,7 +404,7 @@
       "BindingInfo": {
         "TableName": "tjuchum",
         "ColumnName": "HINMEI",
-        "GUID": "2521939f-3c0e-4e56-8403-8a8a01b5bb47"
+        "GUID": "1edab03a-3e2e-4f03-a994-047dcf1229df"
       }
     },
     "41,42": {
@@ -417,7 +417,7 @@
       "BindingInfo": {
         "TableName": "tjuchum",
         "ColumnName": "SURYO",
-        "GUID": "28e5b110-423c-4684-a5b3-c2f0e1037720"
+        "GUID": "b5e559bf-a937-4eb9-aa02-7a140de2066d"
       }
     },
     "41,45": {
@@ -430,14 +430,14 @@
       "BindingInfo": {
         "TableName": "tjuchum",
         "ColumnName": "HANBAI_KINGAKU",
-        "GUID": "5c605497-e3d3-4522-b245-2675ac5ed2f6"
+        "GUID": "98aae468-25a2-466d-b233-f2194ab44c92"
       }
     },
     "74,5": {
       "BindingInfo": {
         "TableName": "tjuchu",
         "ColumnName": "NONYUSAKI",
-        "GUID": "9a763b8a-ab06-4a33-9584-9305e732d89f"
+        "GUID": "a76576ba-a6f2-49de-80bc-9fd034f49468"
       }
     },
     "83,30": {
@@ -2182,17 +2182,17 @@
     "77,26,2,8",
     "77,37,2,5",
     "77,42,2,8",
+    "42,5,30,46",
+    "73,5,1,17",
+    "74,5,2,17",
     "1,47,1,4",
     "1,51,1,4",
     "1,55,1,4",
-    "42,5,30,46",
     "40,5,1,2",
     "40,7,1,3",
     "40,11,1,31",
     "40,42,1,3",
-    "40,45,1,6",
-    "73,5,1,17",
-    "74,5,2,17"
+    "40,45,1,6"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2224,7 +2224,7 @@
             },
             "Value": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=工事指令書出力画面!G4"
+              "SerializeProperty": "='工事指令書出力画面 (2)'!G4"
             }
           }
         },
@@ -2237,11 +2237,11 @@
           {
             "TargetCells": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=工事指令書出力画面!E2"
+              "SerializeProperty": "='工事指令書出力画面 (2)'!E2"
             },
             "Value": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=工事指令書出力画面!商談管理番号"
+              "SerializeProperty": "='工事指令書出力画面 (2)'!商談管理番号"
             }
           }
         ],
@@ -2259,7 +2259,7 @@
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=工事指令書出力画面!G4"
+            "SerializeProperty": "='工事指令書出力画面 (2)'!G4"
           }
         },
         "ID": "200d8f17650949f68b5b07e027960917"
@@ -2276,7 +2276,7 @@
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=工事指令書出力画面!G4"
+            "SerializeProperty": "='工事指令書出力画面 (2)'!G4"
           }
         },
         "ID": "ee6bb46f06cd4be99816d423f2f59acb"
@@ -2293,7 +2293,7 @@
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=工事指令書出力画面!S2"
+            "SerializeProperty": "='工事指令書出力画面 (2)'!S2"
           }
         },
         "ID": "ba41dc99524e40229b7ea62c2ee40108"
@@ -2315,7 +2315,7 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=工事指令書出力画面!AZ3"
+                        "SerializeProperty": "='工事指令書出力画面 (2)'!AZ3"
                       }
                     ]
                   },
@@ -2328,17 +2328,17 @@
                       {
                         "TargetCells": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=工事指令書出力画面!AH4"
+                          "SerializeProperty": "='工事指令書出力画面 (2)'!AH4"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=工事指令書出力画面!BD3"
+                          "SerializeProperty": "='工事指令書出力画面 (2)'!BD3"
                         }
                       }
                     ]
                   }
                 ],
-                "ID": "47fc77a1-ba98-4890-93f6-03b5c7ccac12"
+                "ID": "9fa4a72d-8803-4739-a8ea-e5c555069bf1"
               },
               {
                 "Condition": {
@@ -2347,7 +2347,7 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=工事指令書出力画面!AZ3"
+                        "SerializeProperty": "='工事指令書出力画面 (2)'!AZ3"
                       }
                     ]
                   },
@@ -2360,17 +2360,17 @@
                       {
                         "TargetCells": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=工事指令書出力画面!AH5"
+                          "SerializeProperty": "='工事指令書出力画面 (2)'!AH5"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=工事指令書出力画面!BD3"
+                          "SerializeProperty": "='工事指令書出力画面 (2)'!BD3"
                         }
                       }
                     ]
                   }
                 ],
-                "ID": "4f7095c3-aed9-4b7b-88a7-1f1dc18885c9"
+                "ID": "7282b48b-4b9b-4a35-9966-be3e482124e5"
               },
               {
                 "Condition": {
@@ -2379,7 +2379,7 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=工事指令書出力画面!AZ3"
+                        "SerializeProperty": "='工事指令書出力画面 (2)'!AZ3"
                       }
                     ]
                   },
@@ -2392,17 +2392,17 @@
                       {
                         "TargetCells": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=工事指令書出力画面!AH6"
+                          "SerializeProperty": "='工事指令書出力画面 (2)'!AH6"
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "=工事指令書出力画面!BD3"
+                          "SerializeProperty": "='工事指令書出力画面 (2)'!BD3"
                         }
                       }
                     ]
                   }
                 ],
-                "ID": "ef226760-b554-4d8e-9ebf-9b8f7a5ba503"
+                "ID": "75076fd9-98e0-4870-8242-d2341ad69cd3"
               }
             ]
           }
@@ -2445,4 +2445,4 @@
     },
     "PageOrder": 1
   }
-}//zIEdbzPYlAMSWDlYrcoettdjllJdIE1sVe+Wlvwh/n7L0QXkf4EGNWEDkvuPlygv3RHavX5aVdg20Zx4Avvct9mD9xs2IhcDFcmHM0JuqHvo0RNTqD+qdt7n3AhjvAU46gIZe8qFfhygdkNP2tSSEjhm/yI8+hb+NhB3AxF1EXGIb2JrpkDnPTlDTQg8ad0JFi2J6VVyuoqj0PGxb6ZbgN4WjtPquEbOo/TInPrm7RaCehL93ho/gcyjhfAue4FaSC3LXpSxz0omJEGEhHo5HqUEdi+jr8xqLZCL9TwwM/X7eRGmyEiGLGae5xdUtJdJxcM00HZq3R0lchf/0cdIIVbxLkP3dtI7DoNqjnC3UhL4RS+QfTTQJYK/deDeRGo6Pkz3G4DIyYeU1quuaxpEAe5s5aaOvggh4l8dxi7HWk6gD0L/XgwdjerLhC4mGOvKJv9879b4aUfY3tcct+L/6nQu7yCyCoqUymqYK3SdY5p96E5YCk0pJS6w1TZLpEQl7Hohgfy2ba8iYSqkOH6AdTLbJZLvROnY3th8guhfCBFbHH3Uxzo5W7DCM9zFv/FknRX3eOVFqVyv16h3qbMZ/BPh7CjT1wAvltZUNdOuPikgxP9lIlQ/LfkPEJcmgHaazc/PvYxvLQwh2BXFY4PKqtFQ/Gaq+fPs3f+Ofu7Iex5Kt/u/ulP1AiTg4J7LzpEL6S+rxkt1MN+3GV1MihyMTyyClAESuxg4tgRfhLnTtWNOO22AOGA4EQtzS4hYQmHxAW9Kxq14IQtPWkK5gcdMn8SMWJwWSTU/JK7LCDKOf7PniAcjTQ493ZlIcE1mPuKKeRi9e/nC9MxWd4E26wE9+qiz+ev8V7kar2PH3rTshjQV4ZCYBj8n4AeAoJ0Ab+JhCvvIKJqjR8RmLG7A4Y6y8Q==|920
+}//Y57jLZMzdyIwE7P5NEKvqG59MWXAZn4ir92SHhtz0tb2Uu1Yhvf+zO2gMCYGlmDEIeSpeLh9zh+1uWOrXmk/yqelVyIawChFzPlLhWkYjuIFuqCDwme0aL7AAj9ujksAubkIj5524VyYqB0/vye9oILd3SXmP7k+UVAm/7pOlJC78r/GCY+SjLuv806BtJ3Zn37f95fz/KmgLtkQSiPuma5REoEgnrh3nxgaL1pfcMcz7wjyLygldTqqNNKKfKOb76HvLYZ8IEaGESRU3yc4uBS31iFgRPq+EcgJbdOat0nkE829XFvZmCFZm8agx+cc3n7SfhFns9lsAzoxhr3wumodmOKKd7DFGcCZkO9mTEWRD4hB7TeH7H13zlS0mye9tuFBNp03wqPqMRAfUA7eSwCBBT9hDXCixx1e6+Ezs3iJiuD0sUCK5i/9Ye9SUmO9z0Hgzh0Wwc1TFKDfAmASKUf09HThprx6dP616jt42F/wKAlSgyapCS6NnFsL6C5ihCDqkuQHzGE1k0UO/A8ZGNGSX+16lW1rGbX8DR0NG7iGkxqVfyp66TNZSnwvO3u8NaFWU1QZmzP/sOYp94A14VQtKFyF94T64PerfgPGu9pbSlK5Oely5NXkrZh6zMackWfHhN2sV/g5yWW4EakC5YxvNo8kIJ/83kLBezjLG0lktAVVwEhoANY2YhaftEaydS/p1b9LOh6fIuGoXPRX69gcs3LBRq1dtDpv1tlgwiZYVI2t2dKAI+KqTQOaEijqQvkZXgKNQ44aw1bT1MMqNEFvZJvbWkqnVIgvSYdEFcISpopNR85sRm/k11J+yn2xIWT3HB2nEihm+RwOhBXl6BzrIw9wU4Su3Y/Ekf9UfjXavvxMQSQRlej4rpVVhd0pPv/ksj1JqqjJRzP8PHtjNw==|920
