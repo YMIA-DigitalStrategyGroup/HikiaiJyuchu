@@ -118,12 +118,12 @@
   },
   {
     "ModuleName": "TableView/ymia_v_ttsumikomihin",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-02-17T17:37:24.9208702+09:00",
+    "LockDateTime": "2026-02-17T17:39:11.7362043+09:00",
     "ModuleType": 23,
     "ToRemoveFiles": [
       "Tables\\ymia_v_ttsumikomihin.json"
