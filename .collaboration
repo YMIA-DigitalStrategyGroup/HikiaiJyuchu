@@ -183,12 +183,12 @@
   },
   {
     "ModuleName": "Table/ymia_m_colorcd_ygsm",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-02-17T17:37:24.9208497+09:00",
+    "LockDateTime": "2026-02-17T17:41:21.357881+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\ymia_m_colorcd_ygsm.json"
