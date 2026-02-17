@@ -553,5 +553,25 @@
   {
     "ModuleName": "Pages/旧・色仕様マスタ管理",
     "ModuleType": 6
+  },
+  {
+    "ModuleName": "Table/mshain",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-17T15:50:08.7650699+09:00",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/tshonin",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-17T15:50:08.7650897+09:00",
+    "ModuleType": 7
   }
 ]
