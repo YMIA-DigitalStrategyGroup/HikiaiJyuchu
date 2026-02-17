@@ -623,5 +623,15 @@
     },
     "LockDateTime": "2026-02-17T17:36:48.8817961+09:00",
     "ModuleType": 22
+  },
+  {
+    "ModuleName": "Tables/共通",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-17T17:37:01.5014963+09:00",
+    "ModuleType": 22
   }
 ]
