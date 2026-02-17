@@ -248,12 +248,12 @@
   },
   {
     "ModuleName": "Table/mkosei",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-02-17T17:37:24.9208469+09:00",
+    "LockDateTime": "2026-02-17T17:40:35.1808431+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\mkosei.json"
