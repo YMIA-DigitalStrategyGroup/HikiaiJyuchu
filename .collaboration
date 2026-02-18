@@ -548,5 +548,16 @@
   {
     "ModuleName": "PCPage/工事指令書出力画面 (2)",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "TableView/ユーザー情報ビュー",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-02-18T11:02:12.5990395+09:00",
+    "ModuleType": 23,
+    "ExclusiveType": 0
   }
 ]
