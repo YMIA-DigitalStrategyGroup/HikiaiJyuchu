@@ -561,16 +561,6 @@
     "ExclusiveType": 0
   },
   {
-    "ModuleName": "Table/ymia_t_shikyuhin_yoteibi",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-03T14:42:09.4490564+09:00",
-    "ModuleType": 7
-  },
-  {
     "ModuleName": "Pages/支給品入荷予定日",
     "State": 3,
     "LockedBy": {
@@ -587,7 +577,7 @@
       "UserName": "UNITY\\AA121806",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-03-03T14:43:04.2948976+09:00",
+    "LockDateTime": "2026-03-03T15:52:31.0941281+09:00",
     "ModuleType": 1
   }
 ]
