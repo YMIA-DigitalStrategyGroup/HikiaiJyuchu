@@ -579,5 +579,15 @@
     },
     "LockDateTime": "2026-03-03T14:42:36.5955785+09:00",
     "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/支給品入荷予定日",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\AA121806",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-03T14:43:04.2948976+09:00",
+    "ModuleType": 1
   }
 ]
