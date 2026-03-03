@@ -559,25 +559,5 @@
     "LockDateTime": "2026-02-18T11:02:12.5990395+09:00",
     "ModuleType": 23,
     "ExclusiveType": 0
-  },
-  {
-    "ModuleName": "Pages/支給品入荷予定日",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-03T14:42:36.5955785+09:00",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "PCPage/支給品入荷予定日",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-03T15:52:31.0941281+09:00",
-    "ModuleType": 1
   }
 ]
