@@ -30,7 +30,16 @@
   },
   {
     "ModuleName": "Table/tmitsumori",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-06T10:40:25.3293244+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\見積\\tmitsumori.json"
+    ]
   },
   {
     "ModuleName": "Table/ttsumikomihinmr",
@@ -38,7 +47,16 @@
   },
   {
     "ModuleName": "Table/tjuchu",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-06T10:40:25.3291941+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\共通\\tjuchu.json"
+    ]
   },
   {
     "ModuleName": "Table/tjuchum",
@@ -50,7 +68,16 @@
   },
   {
     "ModuleName": "Table/tshodan",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-06T10:40:25.3292922+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\共通\\tshodan.json"
+    ]
   },
   {
     "ModuleName": "Table/tiroshiyom",
@@ -86,7 +113,16 @@
   },
   {
     "ModuleName": "Table/mkosei",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-06T10:40:25.3293168+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\マスタ関連\\mkosei.json"
+    ]
   },
   {
     "ModuleName": "Table/tshukka",
