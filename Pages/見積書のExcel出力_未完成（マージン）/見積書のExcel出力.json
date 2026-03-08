@@ -139,17 +139,6 @@
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
-    "8,2": {
-      "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
-      }
-    },
     "8,35": {
       "BindingInfo": {
         "TableName": "tmitsumori",
@@ -285,6 +274,19 @@
         "GUID": "00a61f6c-9bd2-48b5-91de-c12767a6b630"
       }
     },
+    "22,33": {
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "tmitsumorim",
+        "ColumnName": "MITSUMORI_NBR",
+        "GUID": "a344e53d-ef02-4548-9997-e03e01ef6579",
+        "RelationBinding": {
+          "RelatedTable": "tmitsumori",
+          "RelatedColumn": "MITSUMORI_NBR",
+          "DisplayColumn": "MARGIN_FLAG"
+        }
+      }
+    },
     "22,34": {
       "TotalRowSetting": {
         "StaticText": "[合計]"
@@ -304,11 +306,6 @@
         "StyleInfo": {
           "Formatter": "#,##0_ ;[Red]-#,##0"
         }
-      },
-      "BindingInfo": {
-        "TableName": "tmitsumorim",
-        "ColumnName": "KINGAKU",
-        "GUID": "32e7167c-e424-45b5-a983-4a28add941cc"
       }
     },
     "28,50": {
@@ -420,7 +417,7 @@
                     }
                   }
                 ],
-                "ID": "ccdff408-a869-424a-8a9d-8cc4882018f4"
+                "ID": "6da6a86c-8d4e-49e5-9bb5-b9d59bc817ce"
               }
             ]
           }
@@ -468,7 +465,7 @@
                     "AutoFitRowHeight": true
                   }
                 ],
-                "ID": "b77eb0c0-67b4-41b1-a09c-d1f2669c1830"
+                "ID": "5c843b31-9380-4b45-ad90-d51b866eaf6c"
               }
             ]
           }
@@ -596,17 +593,13 @@
         "BorderRight": null
       },
       {
-        "Formatter": 7,
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "FontSize": 18.666666666666664,
+        "HorizontalAlignment": 7,
+        "VerticalAlignment": 8,
+        "BorderBottom": 0
       },
       {
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "BorderBottom": 0
       },
       {
         "VerticalAlignment": 8,
@@ -693,7 +686,7 @@
         "FontFamily": 0,
         "FontSize": 16.0,
         "Formatter": 12,
-        "HorizontalAlignment": 13,
+        "HorizontalAlignment": 7,
         "VerticalAlignment": 8,
         "BorderBottom": 0,
         "BorderTop": null,
@@ -710,7 +703,7 @@
       {
         "FontFamily": 0,
         "FontSize": 16.0,
-        "HorizontalAlignment": 13,
+        "HorizontalAlignment": 7,
         "VerticalAlignment": 8,
         "BorderBottom": 0,
         "BorderTop": null,
@@ -731,11 +724,8 @@
       {
         "FontFamily": 0,
         "FontSize": 16.0,
-        "HorizontalAlignment": 13,
+        "HorizontalAlignment": 7,
         "VerticalAlignment": 8,
-        "BorderBottom": 0
-      },
-      {
         "BorderBottom": 0
       },
       {
@@ -766,10 +756,7 @@
         "Formatter": 9
       },
       {
-        "FontFamily": 0,
-        "Formatter": 9,
-        "BorderTop": null,
-        "BorderRight": null
+        "FontFamily": 0
       },
       {
         "FontFamily": 0,
@@ -784,21 +771,27 @@
         "BorderRight": 0
       },
       {
-        "HorizontalAlignment": 13,
+        "HorizontalAlignment": 7,
         "BorderBottom": 0,
         "BorderLeft": 0,
         "BorderRight": 0
       },
       {
         "FontFamily": 0,
-        "HorizontalAlignment": 13,
+        "HorizontalAlignment": 7,
         "BorderBottom": 0,
         "BorderLeft": 0,
         "BorderRight": 0
       },
       {
         "FontFamily": 0,
-        "HorizontalAlignment": 14,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 13,
         "BorderBottom": 0,
         "BorderTop": 0,
         "BorderLeft": 0,
@@ -806,17 +799,16 @@
       },
       {
         "FontFamily": 0,
-        "Formatter": 15,
-        "HorizontalAlignment": 14,
+        "Formatter": 12,
+        "HorizontalAlignment": 13,
         "BorderBottom": 0,
         "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": 0
+        "BorderLeft": 0
       },
       {
-        "Background": 16,
+        "Background": 14,
         "FontFamily": 0,
-        "HorizontalAlignment": 13,
+        "HorizontalAlignment": 7,
         "BorderBottom": 0,
         "BorderTop": 0,
         "BorderLeft": 0
@@ -824,7 +816,7 @@
       {
         "FontFamily": 0,
         "FontSize": 18.666666666666664,
-        "HorizontalAlignment": 13
+        "HorizontalAlignment": 7
       },
       {
         "FontFamily": 0,
@@ -833,7 +825,7 @@
       {
         "FontFamily": 0,
         "FontSize": 18.666666666666664,
-        "HorizontalAlignment": 13,
+        "HorizontalAlignment": 7,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -842,7 +834,7 @@
       {
         "FontFamily": 0,
         "FontSize": 18.666666666666664,
-        "Formatter": 7,
+        "Formatter": 15,
         "BorderBottom": null,
         "BorderTop": 0,
         "BorderLeft": 0,
@@ -863,19 +855,19 @@
         "BorderRight": 0
       },
       {
-        "Background": 17,
+        "Background": 16,
         "FontFamily": 0,
         "FontSize": 18.666666666666664,
         "FontWeight": 6,
-        "Formatter": 18,
-        "HorizontalAlignment": 13,
+        "Formatter": 17,
+        "HorizontalAlignment": 7,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
       },
       {
-        "Background": 19,
+        "Background": 18,
         "FontFamily": 0,
         "FontWeight": 6,
         "BorderBottom": null,
@@ -907,16 +899,15 @@
         "#FFFFFF00",
         "Background 1 0",
         "Bold",
-        "@",
+        "Center",
         "Bottom",
         "[AUTO]General",
         "Left",
         "yyyy\"年\"m\"月\"d\"日\"",
         "#,##0_);[Red](#,##0)",
-        "Center",
         "Right",
-        "#,##0.00_);[Red](#,##0.00)",
         "Background 1 -5",
+        "@",
         "Accent 2 0",
         "General",
         "Accent 4 0"
@@ -1428,13 +1419,13 @@
       "19,5": 30,
       "19,6": 30,
       "19,7": 37,
-      "19,8": 38,
-      "19,9": 38,
-      "19,10": 38,
-      "19,11": 39,
-      "19,12": 38,
-      "19,13": 38,
-      "19,14": 40,
+      "19,8": 18,
+      "19,9": 18,
+      "19,10": 18,
+      "19,11": 38,
+      "19,12": 18,
+      "19,13": 18,
+      "19,14": 39,
       "19,15": 32,
       "19,16": 32,
       "19,17": 32,
@@ -1446,43 +1437,18 @@
       "19,50": 8,
       "19,51": 8,
       "19,52": 8,
-      "19,53": 41,
-      "19,54": 38,
-      "19,55": 38,
-      "19,56": 38,
-      "19,57": 42,
-      "21,6": 43,
-      "21,7": 44,
-      "21,8": 1,
-      "21,9": 1,
-      "21,10": 1,
-      "21,11": 1,
-      "21,12": 1,
-      "21,13": 1,
-      "21,14": 1,
-      "21,15": 1,
-      "21,16": 1,
-      "21,17": 1,
-      "21,18": 1,
-      "21,19": 1,
-      "21,20": 1,
-      "21,21": 1,
-      "21,22": 1,
-      "21,23": 1,
-      "21,24": 1,
-      "21,25": 1,
-      "21,26": 1,
-      "21,27": 1,
-      "21,28": 1,
-      "21,29": 1,
-      "21,30": 1,
-      "21,31": 1,
-      "21,32": 1,
-      "21,33": 1,
-      "21,34": 45,
+      "19,53": 40,
+      "19,54": 18,
+      "19,55": 18,
+      "19,56": 18,
+      "19,57": 41,
+      "21,6": 42,
+      "21,7": 42,
+      "21,33": 43,
+      "21,34": 44,
       "21,35": 1,
       "21,36": 1,
-      "21,37": 43,
+      "21,37": 42,
       "21,50": 7,
       "21,51": 8,
       "21,52": 9,
@@ -1491,50 +1457,50 @@
       "21,55": 8,
       "21,56": 8,
       "21,57": 8,
-      "22,2": 46,
-      "22,3": 46,
-      "22,4": 47,
-      "22,5": 46,
-      "22,6": 48,
-      "22,7": 10,
-      "22,8": 10,
-      "22,9": 10,
-      "22,10": 10,
-      "22,11": 10,
-      "22,12": 10,
-      "22,13": 10,
-      "22,14": 10,
-      "22,15": 10,
-      "22,16": 10,
-      "22,17": 10,
-      "22,18": 10,
-      "22,19": 10,
-      "22,20": 10,
-      "22,21": 10,
-      "22,22": 10,
-      "22,23": 10,
-      "22,24": 10,
-      "22,25": 10,
-      "22,26": 10,
-      "22,27": 10,
-      "22,28": 10,
-      "22,29": 10,
-      "22,30": 10,
-      "22,31": 10,
-      "22,32": 10,
+      "22,2": 45,
+      "22,3": 45,
+      "22,4": 46,
+      "22,5": 45,
+      "22,6": 47,
+      "22,7": 48,
+      "22,8": 23,
+      "22,9": 23,
+      "22,10": 23,
+      "22,11": 23,
+      "22,12": 23,
+      "22,13": 23,
+      "22,14": 23,
+      "22,15": 23,
+      "22,16": 23,
+      "22,17": 23,
+      "22,18": 23,
+      "22,19": 23,
+      "22,20": 23,
+      "22,21": 23,
+      "22,22": 23,
+      "22,23": 23,
+      "22,24": 23,
+      "22,25": 23,
+      "22,26": 23,
+      "22,27": 23,
+      "22,28": 23,
+      "22,29": 23,
+      "22,30": 23,
+      "22,31": 23,
+      "22,32": 24,
       "22,33": 10,
       "22,34": 49,
       "22,35": 10,
       "22,36": 10,
       "22,37": 50,
-      "22,38": 8,
-      "22,39": 8,
-      "22,40": 8,
-      "22,41": 8,
-      "22,42": 8,
-      "22,43": 8,
-      "22,44": 8,
-      "22,45": 8,
+      "22,38": 23,
+      "22,39": 23,
+      "22,40": 23,
+      "22,41": 23,
+      "22,42": 23,
+      "22,43": 23,
+      "22,44": 23,
+      "22,45": 24,
       "22,50": 8,
       "22,51": 8,
       "22,52": 9,
@@ -1889,7 +1855,6 @@
   },
   "Spans": [
     "7,38,1,8",
-    "8,2,1,22",
     "23,2,33,44",
     "8,35,1,10",
     "10,35,1,10",
@@ -1915,10 +1880,8 @@
     "19,14,1,7",
     "22,2,1,2",
     "22,34,1,3",
-    "22,37,1,9",
     "15,53,2,5",
     "15,50,2,3",
-    "22,7,1,27",
     "22,4,1,2",
     "19,7,1,4",
     "19,11,1,3",
@@ -1944,15 +1907,18 @@
     "59,8,2,7",
     "59,23,2,7",
     "59,33,2,6",
+    "59,39,2,7",
+    "19,34,1,5",
+    "8,2,1,22",
+    "22,7,1,26",
+    "22,37,1,9",
     "21,2,1,2",
     "21,4,1,2",
-    "21,7,1,27",
+    "21,7,1,26",
     "21,34,1,3",
     "21,37,1,9",
     "28,50,1,4",
-    "28,54,1,4",
-    "59,39,2,7",
-    "19,34,1,5"
+    "28,54,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2094,7 +2060,7 @@
                     ]
                   }
                 ],
-                "ID": "3ab6f12a-a0cb-4bc2-af44-0d9783de205c"
+                "ID": "f4ad05c3-8451-4db5-b05d-a7be1d5fefc3"
               },
               {
                 "Condition": {
@@ -2126,7 +2092,7 @@
                     ]
                   }
                 ],
-                "ID": "cf501936-8725-4adf-9dad-584a6899b16c"
+                "ID": "306b96e6-e83d-4ae2-b728-0416a7c2c58e"
               },
               {
                 "Condition": {
@@ -2158,7 +2124,7 @@
                     ]
                   }
                 ],
-                "ID": "132a750a-fcb5-4639-8dc4-542ded2e07c3"
+                "ID": "1ff887a3-8378-41ab-aad0-f0407d8e6e50"
               }
             ]
           }
@@ -2181,7 +2147,7 @@
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
-    "RelatedDataTableName": "tmitsumori"
+    "RelatedDataTableName": "tmitsumorim"
   },
   "PrintInfo": {
     "ColumnStart": 1,
@@ -2199,4 +2165,4 @@
     },
     "PageOrder": 1
   }
-}//KOaf+azsMW6cfJzqyaPGiFRgVouxT/N5naY0w2TlOrZ7zej8WWnaosdr49JM1jtZWVW8EdII+awUQ6QRE+T29Z86s6+RHQgcnndZZGXNCt2iIePjZ6Nfr4Gxt9HGNKxHfokxse2OFCfYTXryp9ZgkKIYJQ/bfDToVoEUwETkVsMFVzr7YaegB6p3RAhXPV83sO3JoXLrODAa3yTA8HXvyzIp0lQaScwBfJuGbSgJ0Uvmq06NNu5Jxb519IB2iCVWlh83E4H5fsQmw/HB+hGZKgY100/A2zJ9PgmuWmAS+Ma4NhtMa6ljnTqAQmgkpSTo/KIWo/Unxp8l+9YE5KHpsRKcExg+dc1GPSgFRutGfY97ZH/H52EpJKzR6DtZJKO+4vZr4wI+XFgy3I5n3N2o4qJUWf9+JLlTA0Yq5Wlkq8RrWQOpp1xkc2h6Ro0ofhctX4M9jl9cu1T1DqV0bKNv+QscKn9Tu9zSxpgDZY8Um2+M0SjqbNB3yhFY2aDKVGFJ6N48tF+uxsXN+95ZbW4QM8neOtjLcGgoGb/3ERM0bj4nLZiEByuZmKzYNrJZT05cwZ7CKk35fmgJ9d8SHyzj67U0ydl8TpHdfxvfSPieHIh0rVF+JsLXTF2go2TMr7Uw9Ys9w+68jK43kgDY2S70JGvr8YmDlU/o0waJLh69LrLgWsZoqFjcIDtgyHi15yA+wxDVym29hIL+SHMVdlX8dvm/V1bLFnPz16Vk4U/iv6DGj40XFV2vDCmBg6JzAQ97/o5+fJM5IuTZCR3S8M1w++yAxIZhVyZodj8DRB4/hgD1QeL1UiAS89QRjNq/NmzGOUzFq9qtvaMkE2WTlq/7j04QGd8JpIMGQPMsc5nINObqHZnrDXB701SV0+5jgAoU6NmXlp6n2EjfKVk3j0rP3A==|920
+}//5wELbLGrglj2BDMmIhsoGGwSxJs1Eq6GGulRJcU0I5OjN8WXqANB9YoJcKBTqc50SXCWwEr8uBQpfXtRVeRqkYC//6uIW9KwsDN7NC9TA7GoNcXK/NFF/P9DXFwIVgJUIYuMlmpX0Hq5b0cI4yJGpe7IjaBTFi+ASxgPw65n0lbS1DttVBnDYkGoOc1P5vjkCuudjMpXsGE//TVOyKQf3RZcStP95NcOG2s/31O9rQAmPvgWtxtsNq/BlBinCLN/XXME/C0GItXh0jBWhOPHRzwll52GkPYxcas6huvb5ucG6op6VPSfRCncRXiF7Qx/mMD5hCeOP0NfIWNuwP3TrbhSz5jXH3ms2I1/sDc680a6WnIe2gTMCFtCqMPt02FFUKfdTIgUSnS4dZMudOMsR8wtzbc+hy1AZ+fybuHFTTTxPJwegJ1MSZwMAEjXx1L1Gd2/zTXA8iVf4czSrMpAbnWZwEskiWiztJzIJJ8d6TSMzi9QWCkjhpCMrflyWlmuqdcASqqjez2/hZ+/jdtkTFKsa1dcvA6oiLUyXA5BR4szaOOokyYaSDu355EwEgGyMLT10N2D/oE9xUWNgBg/T69UvGqc8DbS4oXWs1O8YTKng5lemfqBdN0JYS52UdywwGz87bsV8mQg5BhbFW0WmYklvIl718aibA6LIFmbHMF2wetPOeVFOfL6FRsLeeUBWAsoFVNXWzdppSzDmpyFeOyfpM8k9k2lOv7YSOV5zv7jhfiXLibu8dhcIrC2eOVCWmg/GO2dgh7ofswEFUxV3H93DlfRUbVow6WYr4UtNuUlgozjQwZ59Aj+hgRnh2rbDsoL4jD1LTdZB8ACcD3D6JLS8CesxhfrwW16iuZ89YmJ3aZIDqf2qYSom6Ry8NDcGXe7jWaohrUvblohZWNWMQ==|920

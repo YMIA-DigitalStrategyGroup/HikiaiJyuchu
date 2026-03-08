@@ -682,7 +682,7 @@
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "varchar",
-      "MaxLength": 10,
+      "MaxLength": 50,
       "Name": "HIN_BANGO",
       "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },

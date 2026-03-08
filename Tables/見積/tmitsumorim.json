@@ -164,5 +164,13 @@
     "SEQ_NBR",
     "MEISAI_SEQ_NBR"
   ],
+  "Relations": [
+    {
+      "PrimaryTable": "tmitsumori",
+      "PrimaryColumn": "MITSUMORI_NBR",
+      "ForeignTable": "tmitsumorim",
+      "ForeignColumn": "MITSUMORI_NBR"
+    }
+  ],
   "Indexes": []
 }

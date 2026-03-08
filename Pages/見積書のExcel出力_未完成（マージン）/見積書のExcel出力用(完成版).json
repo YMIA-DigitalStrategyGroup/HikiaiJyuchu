@@ -334,11 +334,10 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
-                    "TargetPageName": "見積書の出力用画面",
                     "NewOtherName": ""
                   }
                 ],
-                "ID": "649d89d6-1e10-4194-a0b2-26cdaac68409"
+                "ID": "1654defe-9290-4e69-8f2c-d3d25decf883"
               }
             ]
           },
@@ -378,7 +377,7 @@
                     "AutoFitRowHeight": true
                   }
                 ],
-                "ID": "43561483-b0b9-4758-bb72-507ee1a84530"
+                "ID": "8fa6af31-47ba-4685-82dd-2eba37b7daac"
               }
             ]
           },
@@ -1452,13 +1451,13 @@
     "15,50,2,3",
     "22,7,1,27",
     "22,4,1,2",
+    "19,7,1,4",
+    "19,11,1,3",
     "21,2,1,2",
     "21,4,1,2",
     "21,7,1,27",
     "21,34,1,3",
-    "21,37,1,9",
-    "19,7,1,4",
-    "19,11,1,3"
+    "21,37,1,9"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1595,4 +1594,4 @@
     },
     "PageOrder": 1
   }
-}//omD+bVIsfLJX2vqeAxzWq8IJkqwSQbySNhh/x8BqQG/dgd7Dm25bgOwwiH9jufbk7zQ4CapGdj9wSBthqJtHAgKIQomzVMQY3hOlrzf5n9fHAYIvAXZ9I/ibMVVRMvTt4pQNAGZWqj7ooAdE0pMRPWQKLx2zdPiHD2dyjEkyGte68VG8+xwD5dx7j7mPJGQU6zqGZrffR8AZhme5NNdC09+eIGIlrEaazNU1xkI0LmDVn/yUh/UVddP6d2B53lqc6phx0C3dIalhmKk/3nqcCbF4iNiB3CP5HVfOa9NNEkDUXT5nTtr/0EWR2rd8yXEyCgUwnnEffuuEUzPTYFRKunLd58+xemWBX/9Si+nUMgiGtBHso0CJOl3I1Z1aQ9pY0sjPuV3FRpq5zMoAMClgu3Tk+Q22C1ANydIBgzW9hKrjmJjhGSaOiyt1ymohXKTKrEvD0aSPMj5Dq6Jjng6tZIa5wq6Sp2MnnSy2lyQ/ir2XfosQotJzu6RaXqsmo+lB0Ha83neVQAjDa0tdE31fZ1aMskUmEMGmpgCkRk+MprbI7eji6p6TEjjrDcnHisYz+WA93BhEuOTumkeD47EKnUlUWChIIzGCSNMaS1UCh83l7n2hr9Bp/ot4siKrzhKnOMPBOfXAyMPc1KJKU62733ZrN+CoqTiYT1nuojk96nAGKXaLE+xSgVqt2x9QXUggj+IWtcfOgHtJbpHSH0Gvzp4BItgTkNyz8P3pq8hHS6glJo5y6ukgBY4GKhypaDRKWWuE+JclARHEaYlcr4X4Srs9kjEb6Ls0vi7+3nft5BrMub9d86NxOEew7j1n1Fvc4rmOkkIxa5892XmWduob3qoSX+GoQFcfC5g0KX+rDboE8uS7nqhJlc7XiBIl9Ym7MDHYvU2WemR/jLz4TLpHZw==|920
+}//k8sgjn456Updt3qsnPmovMFUFW6YLkKWcnGmuf3HHJh9rT+UM6QZ2dOB8bD2xT4EkIsTV3mNt3XbRrZMwIxsbBaCEDMfwAlXf8u2RzGu4+uHhW4k+u7F/vqtL3jEmoimixdBQg05gYmcEcTdG+Cs6doTqAut+k4sqlTUq3QB6p/e0EhiwpmzyUwChj2322SmCrYIY33zgA9hZ9uh5LOCQ2dWuU7M00kbatzaz9cXGTjutpQf/b1m8Z/3o6NZU9W6HfMOTYrH+blYu+CUNdJFdeL2vaSbefWHy+zusns5m9g1/b5NnxXq1iCyvYZMMuYmG2djWaRn55LTI9BYK8XpnG36dQaTRS4BSppNkNU4P5TLBwXrzkqliRRlGM849aKPyF1ftdEGB8luNllZteS7m/R0UxAFXORfd8z5q2R8YIqcjaL8tFpBqh3I0n3xpkKH5Ce+ATyZJtRlHvh8IY3LKzADArSe1K95yxdPCGYrTPTasdphYSQnhQfW4QX7TJM1/snHXE4F7XqnLnzUpqqk2b1iaZFPQjgxXYaFr1bQOLtZh0cBwwXXErIZU5tc3OhKz8mSBW2M79hOCQtm27OIr4hCDFX00speHsn01DNAdhxSVAM6Wu306vhxYAQGyjS6NXZ4Vx4thQwA0fCTh7QmrPIpbn/TOIWlBctyFOHeYsg52xwvDYKywCSiJUYhp/+RWGIk/PGDxA8UQwJZsFhfLYSKsIh+unMX73kh8QX+rr33R6kv/xaSKv+ca49GuGZKyw8ysWzYXWfw2KnRrZ9kbuTwTgpv+Xs59GPBdd8FZrE+/Rlm0XzjvCUAye+/i6oVGPTheZyzouCNxCFHn2mHboLvVpBwQtDIrybmYxY9bhVtAEG7Rud9734z4SnlkrosdJu1ygGQnyPoVGiRRz915A==|920
