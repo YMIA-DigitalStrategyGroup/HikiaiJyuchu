@@ -46,6 +46,7 @@
     },
     "InLogicalVisibleIndexes": [
       6,
+      33,
       49,
       50,
       51,
@@ -93,8 +94,8 @@
     "19,30": "担当者：",
     "21,6": "　",
     "21,7": "品名",
-    "21,34": "数量",
-    "21,37": "金額",
+    "21,35": "数量",
+    "21,38": "金額",
     "21,50": "承認1",
     "23,50": "承認2",
     "25,50": "承認3",
@@ -228,7 +229,7 @@
         "RowIndex": 21,
         "ColumnIndex": 2,
         "RowCount": 35,
-        "ColumnCount": 44,
+        "ColumnCount": 45,
         "SqlCondition": {
           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
           "ColumnBindingInfo": {
@@ -270,8 +271,8 @@
       "TotalRowSetting": {},
       "BindingInfo": {
         "TableName": "tmitsumorim",
-        "ColumnName": "HINMEI",
-        "GUID": "00a61f6c-9bd2-48b5-91de-c12767a6b630"
+        "ColumnName": "BIKO",
+        "GUID": "1b030cf0-b54a-4e93-97c2-53e998abf4cf"
       }
     },
     "22,33": {
@@ -288,6 +289,19 @@
       }
     },
     "22,34": {
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "tmitsumorim",
+        "ColumnName": "MITSUMORI_NBR",
+        "GUID": "b8975a6e-2b93-4770-aaab-bb173c0b9342",
+        "RelationBinding": {
+          "RelatedTable": "tmitsumori",
+          "RelatedColumn": "MITSUMORI_NBR",
+          "DisplayColumn": "MARGIN_FLAG"
+        }
+      }
+    },
+    "22,35": {
       "TotalRowSetting": {
         "StaticText": "[合計]"
       },
@@ -297,15 +311,20 @@
         "GUID": "d03e83ab-eec0-4811-a55f-fdc83943b02f"
       }
     },
-    "22,37": {
+    "22,38": {
       "TotalRowSetting": {
         "StaticText": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=ROUNDUP(SUM(見積書のExcel出力!AL23),0)"
+          "SerializeProperty": "=ROUNDUP(SUM(見積書のExcel出力!AM23),0)"
         },
         "StyleInfo": {
           "Formatter": "#,##0_ ;[Red]-#,##0"
         }
+      },
+      "BindingInfo": {
+        "TableName": "tmitsumorim",
+        "ColumnName": "KINGAKU",
+        "GUID": "412e1c5f-b861-4d98-9d08-e038198d44b7"
       }
     },
     "28,50": {
@@ -417,7 +436,7 @@
                     }
                   }
                 ],
-                "ID": "6da6a86c-8d4e-49e5-9bb5-b9d59bc817ce"
+                "ID": "9cec7d6f-7d30-4f0c-bf95-e4aa60a17089"
               }
             ]
           }
@@ -465,7 +484,7 @@
                     "AutoFitRowHeight": true
                   }
                 ],
-                "ID": "5c843b31-9380-4b45-ad90-d51b866eaf6c"
+                "ID": "0e797795-6705-48d7-a8a4-c35bf052d819"
               }
             ]
           }
@@ -759,13 +778,6 @@
         "FontFamily": 0
       },
       {
-        "FontFamily": 0,
-        "Formatter": 9,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
         "BorderBottom": 0,
         "BorderLeft": 0,
         "BorderRight": 0
@@ -803,7 +815,8 @@
         "HorizontalAlignment": 13,
         "BorderBottom": 0,
         "BorderTop": 0,
-        "BorderLeft": 0
+        "BorderLeft": 0,
+        "BorderRight": null
       },
       {
         "Background": 14,
@@ -1445,10 +1458,18 @@
       "21,6": 42,
       "21,7": 42,
       "21,33": 43,
-      "21,34": 44,
-      "21,35": 1,
-      "21,36": 1,
-      "21,37": 42,
+      "21,35": 25,
+      "21,36": 0,
+      "21,37": 0,
+      "21,38": 25,
+      "21,39": 0,
+      "21,40": 0,
+      "21,41": 0,
+      "21,42": 0,
+      "21,43": 0,
+      "21,44": 0,
+      "21,45": 0,
+      "21,46": 0,
       "21,50": 7,
       "21,51": 8,
       "21,52": 9,
@@ -1457,12 +1478,12 @@
       "21,55": 8,
       "21,56": 8,
       "21,57": 8,
-      "22,2": 45,
-      "22,3": 45,
-      "22,4": 46,
-      "22,5": 45,
-      "22,6": 47,
-      "22,7": 48,
+      "22,2": 44,
+      "22,3": 44,
+      "22,4": 45,
+      "22,5": 44,
+      "22,6": 46,
+      "22,7": 47,
       "22,8": 23,
       "22,9": 23,
       "22,10": 23,
@@ -1489,18 +1510,18 @@
       "22,31": 23,
       "22,32": 24,
       "22,33": 10,
-      "22,34": 49,
-      "22,35": 10,
+      "22,35": 48,
       "22,36": 10,
-      "22,37": 50,
-      "22,38": 23,
-      "22,39": 23,
-      "22,40": 23,
-      "22,41": 23,
-      "22,42": 23,
-      "22,43": 23,
-      "22,44": 23,
-      "22,45": 24,
+      "22,37": 10,
+      "22,38": 49,
+      "22,39": 3,
+      "22,40": 3,
+      "22,41": 3,
+      "22,42": 3,
+      "22,43": 3,
+      "22,44": 3,
+      "22,45": 3,
+      "22,46": 3,
       "22,50": 8,
       "22,51": 8,
       "22,52": 9,
@@ -1587,7 +1608,7 @@
       "34,53": 0,
       "57,0": 0,
       "57,1": 6,
-      "57,2": 51,
+      "57,2": 50,
       "57,3": 23,
       "57,4": 23,
       "57,5": 23,
@@ -1707,16 +1728,16 @@
       "58,59": 0,
       "59,0": 0,
       "59,1": 0,
-      "59,2": 52,
-      "59,8": 53,
-      "59,17": 54,
+      "59,2": 51,
+      "59,8": 52,
+      "59,17": 53,
       "59,18": 0,
       "59,19": 0,
       "59,20": 0,
       "59,21": 0,
       "59,22": 0,
-      "59,23": 53,
-      "59,33": 54,
+      "59,23": 52,
+      "59,33": 53,
       "59,34": 0,
       "59,35": 0,
       "59,36": 0,
@@ -1778,40 +1799,40 @@
       "60,57": 0,
       "60,58": 0,
       "60,59": 0,
-      "63,13": 55,
-      "63,14": 56,
-      "63,15": 56,
-      "63,16": 56,
-      "63,17": 56,
-      "63,18": 56,
-      "63,19": 56,
-      "63,20": 56,
-      "63,21": 56,
-      "63,22": 56,
-      "63,23": 57,
-      "63,24": 58,
+      "63,13": 54,
+      "63,14": 55,
+      "63,15": 55,
+      "63,16": 55,
+      "63,17": 55,
+      "63,18": 55,
+      "63,19": 55,
+      "63,20": 55,
+      "63,21": 55,
+      "63,22": 55,
+      "63,23": 56,
+      "63,24": 57,
       "63,25": 0,
       "63,26": 0,
       "63,27": 0,
       "63,28": 0,
       "63,29": 0,
-      "63,30": 55,
-      "63,31": 56,
-      "63,32": 56,
-      "63,33": 56,
-      "63,34": 56,
-      "63,35": 56,
-      "63,36": 56,
-      "63,37": 56,
-      "63,38": 56,
-      "63,39": 56,
-      "63,40": 57,
-      "63,41": 59,
+      "63,30": 54,
+      "63,31": 55,
+      "63,32": 55,
+      "63,33": 55,
+      "63,34": 55,
+      "63,35": 55,
+      "63,36": 55,
+      "63,37": 55,
+      "63,38": 55,
+      "63,39": 55,
+      "63,40": 56,
+      "63,41": 58,
       "63,42": 0,
       "63,43": 0,
       "63,44": 0,
       "63,45": 0,
-      "64,13": 60,
+      "64,13": 59,
       "64,14": 32,
       "64,15": 32,
       "64,16": 32,
@@ -1821,14 +1842,14 @@
       "64,20": 32,
       "64,21": 32,
       "64,22": 32,
-      "64,23": 61,
+      "64,23": 60,
       "64,24": 0,
       "64,25": 0,
       "64,26": 0,
       "64,27": 0,
       "64,28": 0,
       "64,29": 0,
-      "64,30": 60,
+      "64,30": 59,
       "64,31": 32,
       "64,32": 32,
       "64,33": 32,
@@ -1838,7 +1859,7 @@
       "64,37": 32,
       "64,38": 32,
       "64,39": 32,
-      "64,40": 61,
+      "64,40": 60,
       "64,41": 0,
       "64,42": 0,
       "64,43": 0,
@@ -1855,7 +1876,6 @@
   },
   "Spans": [
     "7,38,1,8",
-    "23,2,33,44",
     "8,35,1,10",
     "10,35,1,10",
     "1,3,1,16",
@@ -1879,7 +1899,6 @@
     "18,7,1,14",
     "19,14,1,7",
     "22,2,1,2",
-    "22,34,1,3",
     "15,53,2,5",
     "15,50,2,3",
     "22,4,1,2",
@@ -1911,12 +1930,14 @@
     "19,34,1,5",
     "8,2,1,22",
     "22,7,1,26",
-    "22,37,1,9",
+    "23,2,33,45",
+    "22,35,1,3",
+    "22,38,1,9",
     "21,2,1,2",
     "21,4,1,2",
     "21,7,1,26",
-    "21,34,1,3",
-    "21,37,1,9",
+    "21,35,1,3",
+    "21,38,1,9",
     "28,50,1,4",
     "28,54,1,4"
   ],
@@ -2060,7 +2081,7 @@
                     ]
                   }
                 ],
-                "ID": "f4ad05c3-8451-4db5-b05d-a7be1d5fefc3"
+                "ID": "f267472e-7256-4d75-83eb-05775230c3f0"
               },
               {
                 "Condition": {
@@ -2092,7 +2113,7 @@
                     ]
                   }
                 ],
-                "ID": "306b96e6-e83d-4ae2-b728-0416a7c2c58e"
+                "ID": "05349ca9-5e16-4384-b9e8-dd18cd7b7c34"
               },
               {
                 "Condition": {
@@ -2124,7 +2145,7 @@
                     ]
                   }
                 ],
-                "ID": "1ff887a3-8378-41ab-aad0-f0407d8e6e50"
+                "ID": "4b1e0690-7d86-4ad1-9432-afa7628b273d"
               }
             ]
           }
@@ -2165,4 +2186,4 @@
     },
     "PageOrder": 1
   }
-}//5wELbLGrglj2BDMmIhsoGGwSxJs1Eq6GGulRJcU0I5OjN8WXqANB9YoJcKBTqc50SXCWwEr8uBQpfXtRVeRqkYC//6uIW9KwsDN7NC9TA7GoNcXK/NFF/P9DXFwIVgJUIYuMlmpX0Hq5b0cI4yJGpe7IjaBTFi+ASxgPw65n0lbS1DttVBnDYkGoOc1P5vjkCuudjMpXsGE//TVOyKQf3RZcStP95NcOG2s/31O9rQAmPvgWtxtsNq/BlBinCLN/XXME/C0GItXh0jBWhOPHRzwll52GkPYxcas6huvb5ucG6op6VPSfRCncRXiF7Qx/mMD5hCeOP0NfIWNuwP3TrbhSz5jXH3ms2I1/sDc680a6WnIe2gTMCFtCqMPt02FFUKfdTIgUSnS4dZMudOMsR8wtzbc+hy1AZ+fybuHFTTTxPJwegJ1MSZwMAEjXx1L1Gd2/zTXA8iVf4czSrMpAbnWZwEskiWiztJzIJJ8d6TSMzi9QWCkjhpCMrflyWlmuqdcASqqjez2/hZ+/jdtkTFKsa1dcvA6oiLUyXA5BR4szaOOokyYaSDu355EwEgGyMLT10N2D/oE9xUWNgBg/T69UvGqc8DbS4oXWs1O8YTKng5lemfqBdN0JYS52UdywwGz87bsV8mQg5BhbFW0WmYklvIl718aibA6LIFmbHMF2wetPOeVFOfL6FRsLeeUBWAsoFVNXWzdppSzDmpyFeOyfpM8k9k2lOv7YSOV5zv7jhfiXLibu8dhcIrC2eOVCWmg/GO2dgh7ofswEFUxV3H93DlfRUbVow6WYr4UtNuUlgozjQwZ59Aj+hgRnh2rbDsoL4jD1LTdZB8ACcD3D6JLS8CesxhfrwW16iuZ89YmJ3aZIDqf2qYSom6Ry8NDcGXe7jWaohrUvblohZWNWMQ==|920
+}//sxPP6TX09JmsyEM9ljmVPChJT4tMXfhNF2ABadR9my4nISxOBPmr+ndlJrIeLzGVNT+6cfN8bhaK8CSy4J7zcNDv8IMJKXS1y53EfOawPdzC0cRJcg5wNG11XWszLcjIaBqX5+0ht+87X3ZzOkdqtrXWwVlM1kc725f8O/VX1LlKJ4aRQVGaG7GT3R4IHiN+IJxR/xrWJs63N4+HUtipmrZsAReZcnwLTRqUAXgJQk1xX88amRZxdHRKYHrTaPRrTuOcEK32Fvf3RbSEr+4suVh4eIJwxHKB4CHnmre8e/NA9ftFl2RzBDtMKYontFDBUqCx9MHvpYGKaYfMLzHe3Kqx26b2r5BquUfMml7Dic9z3ShPFCraAsA5RqwrPJUkoX1kjTMrHdK58KkAwAGEQvk3tdafM4GfzUT163MdezBHihPEWwCO9o3SVUSYdWpU5EMzyKpJBdjOTQiS3gypudKvZeu9ZS5Z4N5A1fdJPcji3dwpCLG7kPmTnEJG0zskNm1Vy12u6ldoCzyeYAhecFjZMQLyimhQdbbGgqDkBWwbedplnAYjpzOiDGSXrqBEqYvPtc+qE00qkUND6I/C0E2GpyAfC3wYVW/iUy+u2P+erdqVRRNXvT/M3c9uYIVnssXnZqXQe0v6/Lko0MQ2uc4fJvP06Anzm0T4sg2y8jrgwR9mmBSPSlR6EgYXJSjPmo5kKpTnEPp3AYw+3m9TPNfjm9NxtqGMNuw2Hy/PU7IUPTl/xOCm4oMbwMGxAysoDruyWZdmnZr0XK4sIJwIXaEDUVyYgBzxrJeixaZjnQ09j5/1SGt8BoTz60hy2KfQE+QXY9I6FpPfWoLt7ZIzjtCo186OcpheNPMHZpwHll/hWSi1j7/yUNvIJctcQS9N2+F/zvzf85kt4FOfWQQQbA==|920
