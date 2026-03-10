@@ -549,5 +549,15 @@
   {
     "ModuleName": "PCPage/Excel確認画面",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/見積書のExcel出力保存用",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-11T08:53:59.1611052+09:00",
+    "ModuleType": 1
   }
 ]
