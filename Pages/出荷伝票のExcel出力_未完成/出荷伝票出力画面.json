@@ -166,8 +166,25 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
-            "NewOtherName": ""
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "確認",
+                  "FormulaText": "本当に実行してもよろしいですか？",
+                  "YesButtonText": "はい",
+                  "NoButtonText": "いいえ",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
+                    "NewOtherName": ""
+                  }
+                ],
+                "ID": "88007b16-7612-49cd-9c04-089add3b7598"
+              }
+            ]
           }
         ],
         "Text": "PDF出力",
@@ -205,9 +222,26 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
-            "TargetPageName": "出荷伝票Excel出力画面",
-            "NewOtherName": ""
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "確認",
+                  "FormulaText": "本当に実行してもよろしいですか？",
+                  "YesButtonText": "はい",
+                  "NoButtonText": "いいえ",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+                    "TargetPageName": "出荷伝票Excel出力画面",
+                    "NewOtherName": ""
+                  }
+                ],
+                "ID": "0f678469-8f11-43ef-9823-3112faddb43b"
+              }
+            ]
           }
         ],
         "Text": "Excel出力",
@@ -316,7 +350,8 @@
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
         "CellDefaultValue": "①積み込み時には、製品に傷が入らない様十分注意してください。ロープ、ベルトが当たる\r\n箇所には、当金、布等を当て傷の入らないようにして下さい。\r\n②製品には、ロープ、ベルトの掛けられない箇所が有ります積み込み作業員の指示に従って下さい\r\n③部品等をガムテープで固定した場合には、着後必ずはがしてください。",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ReadOnly": true
       }
     },
     "17,37": {
@@ -3892,4 +3927,4 @@
     },
     "PageOrder": 1
   }
-}//86jRWbqZxeHU93BfD8fUCxNjqZiTAEt+oX/h0U3NnFN8sjrjHQ+Y3pNc3B5XE32mIrQRJdw1thag64TG0hNkI6BPTnUG/f986g7XSlnA9AC6aAIJulP0F6OrYuuTnyInq4JKHBfza7mEVFjPR5zEZiAp0FbSali+kysnj9JkApMyeMPYymN6NqV+ODm1jhFrMCxetUm8MhRN5teglpxEhkBMhy15gHJ2A8EZKJVwBWPlExn5PzbVSngBbTDwxO/g2lmVFykEr33d+J9PKwcxf8LrKYmtbABj6t3v4MrM2oe7Cu7cQxJ1o6FvJ8XgYX/Sr0krhQ4OzWUjvVNw3hkqvzs+rdRoP+2jzClyQ2CWQ/m3OOOBIjHLyBKhMF1wTmkieb0pQq3WZ8KI/D89zkCvWpoMH0EQSFar3RNvtjNQNtuAQjbJzSJaAYkUDHpul4mILPVijSn/zP2IWBMaOv+FCCmDlwgTrSWzJIuEHSNaR6crWdyiJpobTjoVdg8q7anXLc2TWRPo8ApYpeTwuM8PJwDaRRNsv92IqNnXoUBm6mlNvbWJqt52MY4wGjnZwtXUIpPHUxZqcwqbppQuy5DyhIKJgZRxbmjoTeJ+38RHyWNWX9yqRmyMc1bc5zkyT2J1SWxzKBxzvmHJGIhWqIWNzWgVlPfejfj1RrFZ7b6+xjI4TCaVXpU+lWSmxwWiBdTYutafyeFdF3Sw2os0NB8vfQWhGM6MXUgY6wD8hz11fHK09xVH7XyU2YQLpebVRm1p4SDKspf6SwwuOP38ijYPQDvahAX+zGg2XKJ5m0Fc0Gx40C1t5X3elRaxhjcUOacbeL4AAM2TaDLdIL0sz1yV4xM8gaHzy+fe7Yp0IBy5hZuAOPN/gL1MpzR5DCMYOd8Yv9Bsycvxwc39bqp9i8aWZA==|920
+}//xAm2dolJKaq6fnl7jBwWY/WJ/BbViarhjv1fJ6tj8ux65Cmh6YlY9SDzp3JnaELUmKJz0Ps3TxZX+qltW7WcCDrQuHQP9CFrsJ0cvOvgwJYw+IyAslFG2dZacwXIL3+4hVwjIDbPjHE06w8rdYU8FDV+a29Zr2kFn0onLWWnASCvI0Uv3q8i4zgCgF5vYN6PJab8od1yGCRMYFm5G73bRRA8UoffF8tZMzWOp/OyG3NNEFiEQpop3VrKQAyFG40VH6hi8/UG0M1HcZz3vJi9qYz8KOF5b/Q+ESbB7YlPE1lunFI9672MSg2qdix1ovCwbk6vO5VMed0IcqALejHQJVtWClzvBJBYPT49ASEqymEr31rxmLVR/g9rar7Fz+lemdfSqR4aWkx2nn+Gvop4BYsKEYFzilY1LA2tZgaxZb5jDH5XDW5vDT7Cl99Is49JLBZnbnnqgLUq4dcRO0QdaGWbEH12ym9XLmXBwATOXV/Y0s9f3Zkzujw+3MnBMb5xFx1DSa88/sFy8BRysLOr3hdBcR/tqHtCRE9TbZM7/owceyJs52vuVtTnG7yoEWImzhQCgMKud3SYD34hBZAweO9W7VwhFH8UiEJj1j2DiAOctDdPeaL9vU8wK/v0YJYmWMFiXy3bIBbSj/k1y1cB9Y6kQdGIShCmhCLpkSJ4NrktQLiBs5bSpbjEjCEBb77T3DwuUJik38PQfobDHT7N1aiIza7pje5ZTMKS9nt+UNYLWc+WGkzjsXKFNtfYr0daGQ6OXdzc44Izceyk0Xrg4dyXWEeSpwI0DErMoHEbFnemDBchoUc/oo69j1zCS5/iKjezD5/KY8xr46qqwe/UCBhB/MckM/RtW24oRYgTkg9qMxV9mLT5bmREoBp8XwECKJt/hPGIC7I5LfkhWnd6lQ==|920

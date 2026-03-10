@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
-	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report1111111111</dd:Name>
+	<dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">Report1111111111111</dd:Name>
 	<Body>
 		<Height>29.7cm</Height>
 		<ReportItems>
@@ -9,10 +9,9 @@
 					<Page>
 						<ReportItems>
 							<Textbox Name="TextBox1">
-								<Top>2.566cm</Top>
-								<Left>0.026cm</Left>
-								<Width>1.283cm</Width>
-								<Height>1.411cm</Height>
+								<Top>1in</Top>
+								<Width>0.5051in</Width>
+								<Height>0.5in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -26,6 +25,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<CanGrow>true</CanGrow>
 								<Custom><ReportStyle>
@@ -35,10 +37,10 @@
 								<Value>艇種</Value>
 							</Textbox>
 							<Textbox Name="TextBox2">
-								<Top>2.62cm</Top>
-								<Left>1.349cm</Left>
-								<Width>4.617cm</Width>
-								<Height>1.358cm</Height>
+								<Top>1in</Top>
+								<Left>0.5in</Left>
+								<Width>1.5in</Width>
+								<Height>0.5in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -50,6 +52,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>1</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -57,13 +62,13 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Fields!KISHU.Value</Value>
+								<Value />
 							</Textbox>
 							<Textbox Name="TextBox5">
-								<Top>2.593cm</Top>
-								<Left>6.033cm</Left>
-								<Width>0.913cm</Width>
-								<Height>1.411cm</Height>
+								<Top>1in</Top>
+								<Left>2in</Left>
+								<Width>0.5in</Width>
+								<Height>0.5in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -77,6 +82,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>4</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -88,10 +96,10 @@
 番</Value>
 							</Textbox>
 							<Textbox Name="TextBox3">
-								<Top>2.62cm</Top>
-								<Left>7.011cm</Left>
-								<Width>3.426cm</Width>
-								<Height>1.358cm</Height>
+								<Top>1in</Top>
+								<Left>2.5in</Left>
+								<Width>1.25in</Width>
+								<Height>0.5in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -103,6 +111,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>5</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -110,13 +121,13 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Fields!KIBAN.Value</Value>
+								<Value />
 							</Textbox>
 							<Textbox Name="TextBox4">
-								<Top>2.593cm</Top>
-								<Left>10.504cm</Left>
-								<Width>0.913cm</Width>
-								<Height>1.411cm</Height>
+								<Top>1in</Top>
+								<Left>3.75in</Left>
+								<Width>0.25in</Width>
+								<Height>0.5in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -130,6 +141,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>6</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -141,10 +155,10 @@
 番</Value>
 							</Textbox>
 							<Textbox Name="TextBox6">
-								<Top>2.619cm</Top>
-								<Left>11.456cm</Left>
-								<Width>1.601cm</Width>
-								<Height>1.358cm</Height>
+								<Top>1in</Top>
+								<Left>4in</Left>
+								<Width>0.5in</Width>
+								<Height>0.5in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -156,6 +170,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>7</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -166,10 +183,10 @@
 								<Value />
 							</Textbox>
 							<Textbox Name="TextBox7">
-								<Top>2.593cm</Top>
-								<Left>13.388cm</Left>
-								<Width>1.883cm</Width>
-								<Height>0.609cm</Height>
+								<Top>1in</Top>
+								<Left>5.5in</Left>
+								<Width>0.75in</Width>
+								<Height>0.25in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -183,6 +200,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>8</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -193,10 +213,10 @@
 								<Value>発行日</Value>
 							</Textbox>
 							<Textbox Name="TextBox8">
-								<Top>3.281cm</Top>
-								<Left>13.406cm</Left>
-								<Width>1.883cm</Width>
-								<Height>0.609cm</Height>
+								<Top>1.25in</Top>
+								<Left>5.5in</Left>
+								<Width>0.75in</Width>
+								<Height>0.25in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -210,6 +230,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>9</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -220,10 +243,10 @@
 								<Value>指示納期</Value>
 							</Textbox>
 							<Textbox Name="TextBox9">
-								<Top>2.593cm</Top>
-								<Left>15.31cm</Left>
-								<Width>3.188cm</Width>
-								<Height>0.609cm</Height>
+								<Top>1in</Top>
+								<Left>6.25in</Left>
+								<Width>1.2303in</Width>
+								<Height>0.25in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -235,6 +258,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>10</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -245,10 +271,10 @@
 								<Value />
 							</Textbox>
 							<Textbox Name="TextBox10">
-								<Top>3.281cm</Top>
-								<Left>15.311cm</Left>
-								<Width>3.188cm</Width>
-								<Height>0.609cm</Height>
+								<Top>1.25in</Top>
+								<Left>6.25in</Left>
+								<Width>1.2303in</Width>
+								<Height>0.25in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -260,6 +286,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>11</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -270,10 +299,10 @@
 								<Value />
 							</Textbox>
 							<Textbox Name="TextBox11">
-								<Top>4.374cm</Top>
-								<Left>0.035cm</Left>
+								<Top>1.75in</Top>
+								<Left>0cm</Left>
 								<Width>1.283cm</Width>
-								<Height>1.411cm</Height>
+								<Height>0.75in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -287,6 +316,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>12</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -297,10 +329,10 @@
 								<Value>セット</Value>
 							</Textbox>
 							<Textbox Name="TextBox12">
-								<Top>4.392cm</Top>
-								<Left>1.393cm</Left>
-								<Width>3.206cm</Width>
-								<Height>0.467cm</Height>
+								<Top>1.75in</Top>
+								<Left>0.5in</Left>
+								<Width>1.5in</Width>
+								<Height>0.25in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -314,6 +346,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>13</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -324,10 +359,10 @@
 								<Value>エンジン型式</Value>
 							</Textbox>
 							<Textbox Name="TextBox13">
-								<Top>4.868cm</Top>
-								<Left>1.411cm</Left>
-								<Width>3.206cm</Width>
-								<Height>0.909cm</Height>
+								<Top>2in</Top>
+								<Left>0.5in</Left>
+								<Width>1.5in</Width>
+								<Height>0.5in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -339,6 +374,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>14</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -346,13 +384,13 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Count(Fields!ENGINE_KATASHIKI.Value, "データソース1_DataSet")</Value>
+								<Value />
 							</Textbox>
 							<Textbox Name="TextBox14">
-								<Top>4.392cm</Top>
-								<Left>4.674cm</Left>
-								<Width>2.324cm</Width>
-								<Height>0.556cm</Height>
+								<Top>1.75in</Top>
+								<Left>2in</Left>
+								<Width>1.5in</Width>
+								<Height>0.25in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -366,6 +404,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>15</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -376,10 +417,10 @@
 								<Value>減速比</Value>
 							</Textbox>
 							<Textbox Name="TextBox15">
-								<Top>4.922cm</Top>
-								<Left>4.675cm</Left>
-								<Width>2.341cm</Width>
-								<Height>0.873cm</Height>
+								<Top>2in</Top>
+								<Left>2in</Left>
+								<Width>1.5in</Width>
+								<Height>0.5in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -391,6 +432,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>16</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -398,13 +442,13 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Count(Fields!GENSOKUHI.Value, "データソース1_DataSet")</Value>
+								<Value />
 							</Textbox>
 							<Textbox Name="TextBox16">
-								<Top>4.41cm</Top>
-								<Left>7.038cm</Left>
-								<Width>3.452cm</Width>
-								<Height>0.486cm</Height>
+								<Top>1.75in</Top>
+								<Left>3.5in</Left>
+								<Width>1.5in</Width>
+								<Height>0.25in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -418,6 +462,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>17</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -428,10 +475,10 @@
 								<Value>エンジン仕様</Value>
 							</Textbox>
 							<Textbox Name="TextBox17">
-								<Top>4.921cm</Top>
-								<Left>7.108cm</Left>
-								<Width>3.364cm</Width>
-								<Height>0.838cm</Height>
+								<Top>2in</Top>
+								<Left>3.5in</Left>
+								<Width>1.5in</Width>
+								<Height>0.5in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -443,6 +490,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>18</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -450,13 +500,13 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Count(Fields!ENGINE_BIKO.Value, "データソース1_DataSet")</Value>
+								<Value />
 							</Textbox>
 							<Textbox Name="TextBox18">
-								<Top>4.425cm</Top>
-								<Left>10.548cm</Left>
-								<Width>2.5cm</Width>
-								<Height>0.522cm</Height>
+								<Top>1.75in</Top>
+								<Left>5in</Left>
+								<Width>1in</Width>
+								<Height>0.25in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -470,6 +520,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>19</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -480,10 +533,10 @@
 								<Value>トモ型式</Value>
 							</Textbox>
 							<Textbox Name="TextBox19">
-								<Top>4.957cm</Top>
-								<Left>10.566cm</Left>
-								<Width>2.5cm</Width>
-								<Height>0.82cm</Height>
+								<Top>2in</Top>
+								<Left>5in</Left>
+								<Width>1in</Width>
+								<Height>0.5in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -495,6 +548,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>20</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -505,10 +561,10 @@
 								<Value />
 							</Textbox>
 							<Textbox Name="TextBox20">
-								<Top>6.227cm</Top>
+								<Top>2.75in</Top>
 								<Left>0cm</Left>
-								<Width>1.283cm</Width>
-								<Height>1.905cm</Height>
+								<Width>1.27cm</Width>
+								<Height>0.75in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -522,6 +578,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>21</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -532,10 +591,10 @@
 								<Value>〇/#</Value>
 							</Textbox>
 							<Textbox Name="TextBox21">
-								<Top>6.191cm</Top>
-								<Left>1.323cm</Left>
-								<Width>3.118cm</Width>
-								<Height>1.852cm</Height>
+								<Top>2.75in</Top>
+								<Left>0.5in</Left>
+								<Width>1.25in</Width>
+								<Height>0.75in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -547,6 +606,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>22</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -554,13 +616,13 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Count(Fields!SEIBAN.Value, "データソース1_DataSet")</Value>
+								<Value />
 							</Textbox>
 							<Textbox Name="TextBox22">
-								<Top>6.209cm</Top>
-								<Left>4.445cm</Left>
-								<Width>2.006cm</Width>
-								<Height>0.926cm</Height>
+								<Top>2.75in</Top>
+								<Left>1.75in</Left>
+								<Width>0.75in</Width>
+								<Height>0.375in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -574,6 +636,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>23</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -584,10 +649,10 @@
 								<Value>販社</Value>
 							</Textbox>
 							<Textbox Name="TextBox23">
-								<Top>7.179cm</Top>
-								<Left>4.445cm</Left>
-								<Width>2.024cm</Width>
-								<Height>0.873cm</Height>
+								<Top>3.1252in</Top>
+								<Left>1.75in</Left>
+								<Width>0.75in</Width>
+								<Height>0.375in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -601,6 +666,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>24</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -611,10 +679,10 @@
 								<Value>支店</Value>
 							</Textbox>
 							<Textbox Name="TextBox24">
-								<Top>6.209cm</Top>
-								<Left>6.509cm</Left>
-								<Width>5.393cm</Width>
-								<Height>0.926cm</Height>
+								<Top>3.1247in</Top>
+								<Left>2.5in</Left>
+								<Width>2.25in</Width>
+								<Height>0.3753in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -626,6 +694,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>25</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -633,13 +704,13 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Count(Fields!HANSHA_NAME.Value, "データソース3_DataSet")</Value>
+								<Value />
 							</Textbox>
 							<Textbox Name="TextBox25">
-								<Top>7.143cm</Top>
-								<Left>6.526cm</Left>
-								<Width>5.393cm</Width>
-								<Height>0.926cm</Height>
+								<Top>2.75in</Top>
+								<Left>2.5in</Left>
+								<Width>2.25in</Width>
+								<Height>0.375in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -651,6 +722,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>26</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -658,13 +732,13 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Count(Fields!SHITEN_NAME.Value, "データソース3_DataSet")</Value>
+								<Value />
 							</Textbox>
 							<Textbox Name="TextBox26">
-								<Top>6.209cm</Top>
-								<Left>11.942cm</Left>
-								<Width>2.5cm</Width>
-								<Height>0.626cm</Height>
+								<Top>2.75in</Top>
+								<Left>4.75in</Left>
+								<Width>1in</Width>
+								<Height>0.25in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,11)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -678,6 +752,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>27</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -688,10 +765,10 @@
 								<Value>特約店</Value>
 							</Textbox>
 							<Textbox Name="TextBox27">
-								<Top>7.479cm</Top>
-								<Left>11.959cm</Left>
-								<Width>2.5cm</Width>
-								<Height>0.575cm</Height>
+								<Top>3.25in</Top>
+								<Left>4.75in</Left>
+								<Width>1in</Width>
+								<Height>0.25in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -705,6 +782,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>28</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -715,10 +795,10 @@
 								<Value>顧客</Value>
 							</Textbox>
 							<Textbox Name="TextBox28">
-								<Top>6.878cm</Top>
-								<Left>11.941cm</Left>
-								<Width>2.5cm</Width>
-								<Height>0.556cm</Height>
+								<Top>3in</Top>
+								<Left>4.75in</Left>
+								<Width>1in</Width>
+								<Height>0.25in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors(4,3)</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -732,6 +812,9 @@
 									<PaddingTop>2pt</PaddingTop>
 									<TextAlign>Center</TextAlign>
 									<VerticalAlign>Middle</VerticalAlign>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>29</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -742,10 +825,10 @@
 								<Value>販売店</Value>
 							</Textbox>
 							<Textbox Name="TextBox29">
-								<Top>6.209cm</Top>
-								<Left>14.446cm</Left>
-								<Width>4.07cm</Width>
-								<Height>0.626cm</Height>
+								<Top>2.75in</Top>
+								<Left>5.75in</Left>
+								<Width>1.7303in</Width>
+								<Height>0.25in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -757,6 +840,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>30</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -764,13 +850,13 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Count(Fields!TOKUYAKUTEN_NAME.Value, "データソース3_DataSet")</Value>
+								<Value />
 							</Textbox>
 							<Textbox Name="TextBox30">
-								<Top>6.897cm</Top>
-								<Left>14.482cm</Left>
-								<Width>4.07cm</Width>
-								<Height>0.556cm</Height>
+								<Top>3in</Top>
+								<Left>5.75in</Left>
+								<Width>1.7304in</Width>
+								<Height>0.25in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -782,6 +868,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>31</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -789,13 +878,13 @@
 	<StyleId>0b65e860-6c8c-4d79-9c06-69f939517ae6</StyleId>
 	<StyleName>Dark 1 Major</StyleName>
 </ReportStyle></Custom>
-								<Value>=Count(Fields!HANBAITEN_NAME.Value, "データソース3_DataSet")</Value>
+								<Value />
 							</Textbox>
 							<Textbox Name="TextBox31">
-								<Top>7.479cm</Top>
-								<Left>14.499cm</Left>
-								<Width>4.034cm</Width>
-								<Height>0.575cm</Height>
+								<Top>3.25in</Top>
+								<Left>5.75in</Left>
+								<Width>1.7303in</Width>
+								<Height>0.25in</Height>
 								<Style>
 									<BackgroundColor>=Theme.Colors!Light1</BackgroundColor>
 									<Color>=Theme.Colors!Dark1</Color>
@@ -807,6 +896,9 @@
 									<PaddingLeft>2pt</PaddingLeft>
 									<PaddingRight>2pt</PaddingRight>
 									<PaddingTop>2pt</PaddingTop>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>32</ZIndex>
 								<CanGrow>true</CanGrow>
@@ -817,7 +909,7 @@
 								<Value />
 							</Textbox>
 							<Table Name="Table1">
-								<Top>8.89cm</Top>
+								<Top>4.75in</Top>
 								<Left>0cm</Left>
 								<Width>19cm</Width>
 								<Height>2.25cm</Height>
@@ -827,6 +919,9 @@
 									<FontSize>=Theme.Fonts!MinorFont.Size</FontSize>
 									<FontStyle>=Theme.Fonts!MinorFont.Style</FontStyle>
 									<FontWeight>=Theme.Fonts!MinorFont.Weight</FontWeight>
+									<BorderStyle>
+										<Default>Solid</Default>
+									</BorderStyle>
 								</Style>
 								<ZIndex>33</ZIndex>
 								<Custom><ReportStyle>
@@ -933,7 +1028,7 @@
 																</BorderWidth>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<Value>HINMEI</Value>
+															<Value />
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -965,7 +1060,7 @@
 																</BorderWidth>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<Value>SURYO</Value>
+															<Value />
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -997,7 +1092,7 @@
 																</BorderWidth>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<Value>HANBAI_KINGAKU</Value>
+															<Value />
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -1066,8 +1161,7 @@
 																<PaddingTop>2pt</PaddingTop>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<DataElementName>HINMEI</DataElementName>
-															<Value>=Fields!HINMEI.Value</Value>
+															<Value />
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -1087,8 +1181,7 @@
 																<PaddingTop>2pt</PaddingTop>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<DataElementName>SURYO</DataElementName>
-															<Value>=Fields!SURYO.Value</Value>
+															<Value />
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -1108,8 +1201,7 @@
 																<PaddingTop>2pt</PaddingTop>
 															</Style>
 															<CanGrow>true</CanGrow>
-															<DataElementName>HANBAI_KINGAKU</DataElementName>
-															<Value>=Fields!HANBAI_KINGAKU.Value</Value>
+															<Value />
 														</Textbox>
 													</ReportItems>
 												</TableCell>
@@ -1226,7 +1318,7 @@
 										</TableRow>
 									</TableRows>
 								</Footer>
-								<dd:FixedHeight xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">18.372cm</dd:FixedHeight>
+								<dd:FixedHeight xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">12.702cm</dd:FixedHeight>
 								<TableColumns>
 									<TableColumn>
 										<Width>1.459cm</Width>

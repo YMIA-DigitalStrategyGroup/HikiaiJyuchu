@@ -156,7 +156,6 @@
     "18,34": "積込\r\nチェック",
     "18,37": "検査\r\nチェック",
     "18,41": "備考",
-    "19,34": false,
     "41,42": "印",
     "41,46": "印",
     "44,3": "特別積み込み品（受注推進部記入）",
@@ -220,7 +219,7 @@
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=Excel出力編集画面!D5"
+                "SerializeProperty": "=Excel確認画面!D5"
               }
             },
             "ID": "f44a9cf9dbec4e55b3318209a6bf923c"
@@ -232,7 +231,7 @@
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=Excel出力編集画面!D5"
+                  "SerializeProperty": "=Excel確認画面!D5"
                 },
                 "TargetCell": {
                   "SerializeProperty": "=積込品一覧!AH5"
@@ -679,11 +678,11 @@
                     "TargetPageName": "Excel出力",
                     "NewOtherName": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=Excel出力編集画面!R64"
+                      "SerializeProperty": "=Excel確認画面!R64"
                     }
                   }
                 ],
-                "ID": "5f4872ac-07bb-4c80-aaf2-94d2cba277e9"
+                "ID": "d72b6c55-f5f8-43cc-9e21-8fbc1e245563"
               }
             ]
           }
@@ -726,11 +725,11 @@
                     "TargetPageName": "Excel出力",
                     "NewOtherName": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=Excel出力編集画面!AI64"
+                      "SerializeProperty": "=Excel確認画面!AI64"
                     }
                   }
                 ],
-                "ID": "87ff6c9e-445b-4ee6-95f1-3edbfb739994"
+                "ID": "755c081d-1051-42c0-b9d1-fe39d8b55c8d"
               }
             ]
           }
@@ -750,7 +749,7 @@
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=Excel出力編集画面!K15"
+                  "SerializeProperty": "=Excel確認画面!K15"
                 },
                 "TargetCell": {
                   "SerializeProperty": "=Excel出力!P12"
@@ -759,7 +758,7 @@
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=Excel出力編集画面!AO5"
+                  "SerializeProperty": "=Excel確認画面!AO5"
                 },
                 "TargetCell": {
                   "SerializeProperty": "=Excel出力!AT1"
@@ -3743,15 +3742,15 @@
     "63,45,2,5",
     "72,4,2,5",
     "70,14,3,9",
+    "19,34,1,3",
     "18,3,1,2",
     "18,5,1,6",
     "18,11,1,9",
     "18,20,1,11",
     "18,31,1,3",
+    "18,34,1,3",
     "18,37,1,3",
-    "18,41,1,10",
-    "19,34,1,3",
-    "18,34,1,3"
+    "18,41,1,10"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -3768,7 +3767,7 @@
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=Excel出力編集画面!AO5"
+            "SerializeProperty": "=Excel確認画面!AO5"
           }
         },
         "ID": "1db838eb4e7b4a00900fd24591e46b57"
@@ -3785,7 +3784,7 @@
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-            "SerializeProperty": "=Excel出力編集画面!K15"
+            "SerializeProperty": "=Excel確認画面!K15"
           }
         },
         "ID": "37b8fbbdfa4447e8989a5feab5ba6f04"
@@ -3824,4 +3823,4 @@
       "Right": 25
     }
   }
-}//7C2riEDOFoBlMMA0zpIBvLHW/7iDM0Mo00C1C7zFPbNF6BHikI6i/II+OUSpTZnJcnUiZg8GVgPwX9i5V8HKVuDBIb2nwPN6FA1QqINoWAn5pObt4S0P1hTZg6gIlsTH1lgAisVCFXdU11D3SOd8ptrcBLWyhSDClVszBbAVID0iiLXW6shywT2kAxNHH4n3V/WliXO4El13qwP+TWlSSN960l6CXgWK9iCmYvIcqHwAwrfig8Hxn6KwXHJp2RyAMElq1M5TTTsV/pilvrWS9BrgFfdDDtYH3/eFZzF7+OjWQ3Gk7lzunLKGAGwTND3rEudieYTNwX+0DzfRlH3vhg7NujpbSJYTm94k3S7F7pPJgC203OManpEJ+gv/iANU396j44hhjyEReJnO7ctCG7xfDm6JrsJRcVeMTXMC4mZQkZH0CqLpW6uwn3jnxCb6P3De7pLZfnquywBOV1lUWIcoBoUWIva4GGBuvgv9Deavh9EYH1oRCgfsDG4LUNC30PrhYPDXg6I52D1ik9RkMWzftg3q3cjASqXsRYrNaU0SdeqeP9x9zbtH05775PmFSGKNgV+NI9rDKsajvCRjwx+DLGwf+rzIQvOXxPQjCTXuS6haiNoLzcaMm7BLh7WNvNOsdrrNsTtZf5lngoz/zs/BczwFn3pTkiv7nYe+kwlUwHsUknnx7viatYeOu+O8gNncFkS9z7JgUt2wBoR3CxSZuVtn1hdUYWGLQlHc8YDLIAGa/AE/ouhlgv7+pQAFjW57WDRnNNxGbokK88OCSkQ6Wfo/kbAgkVEFhqKhT0KsSD14eoLtz5ah8yxeB0osLKw+AwfoNfYoiWt70spPmU+RCcMycSpDF94R7Ud199LLMJR6dsLca082NxfVH5ojbRlzacWjtpgb32Vf5VmIoQ==|920
+}//bie80Shqc6GwON0bofttdluvdkdIIvjNDTs5VdAxw3rvhBfB5048QQPTqtzXSG1juhgiflWzxBU79saShEzdbCpXQbXCLnbU0jjQnsmUROtPoJ+QwR10+ipwMMKWqff4/svZaNUDHZoDuYpOUOOPHVbVOazTvGLop5E6EqxcmnZjV5zVEV25C5mfeT6bEkct0WCFZ6ghmYr9aU6Ds7bv1mf7RK8OQ9Usl+WUWD12wKq9AwnGvloCtHEp+BVzKeOT8DS1YVnHovcV8wnlgsqXZBFc2U6WpDtoqpF1iTohzHxCquDXvCoNcwRcoXzW2fyjR1fb61ITdaeKdY2LWlNIMnuOytVInBcOSfS/rOrkP+6g0vnRGPLha5ps3crnwEB4rJxboKs1c9qxvd5vQzaMmRPriV5FRJxmoNHyIfZt5PI7p0sVhEtTUB0M5DPQ3R3DFSZh1WFfIlLWSFkc2BAjYsZdCje5b4mOQuEFLcFD4PLN3Y0CE3nTDWS9uthSMizpa5gcAwrOJcqDomodOTTedg2LjuChBMjwFNeNCJMHqp5+ZXekAxAK4FWpdpjpWdQ9aMj+YpyqVNu31zb7V0PgldXoh8hDyE4Q5P7wDwlA3l13/9KtdEmbu+EBRiIpDW/rZqsIUSoC5KPLOWO5/i6cyHqzIEYhMezL4irrT8LtEbqAAAzKPtUTzPyfGMOP8inkwVuVV62VzdxhrcWIhyMbbNX4yBBETGB5tE3JmyTLxFxurvDtGPAmvpmG7jJQyIr+acyNyOjI5RVsmmJofWDevr1gg2xADoVmxUSkl2YnWyez0qeOYv20ZwF6J10hYZlqSl0S1mSMQhKklHNdExI4C0Fr0j7le0pQUDKGhU8xlks0o8eEat0UU2ZZOYCB8/2SLLqmXGRuswgLBLXq4PD1zQ==|920
