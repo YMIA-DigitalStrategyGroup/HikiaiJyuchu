@@ -490,7 +490,17 @@
   },
   {
     "ModuleName": "PageReport/レポート2",
-    "ModuleType": 17
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-10T15:13:37.7408631+09:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\レポート2.json",
+      "Reports\\レポート2.rdlx"
+    ]
   },
   {
     "ModuleName": "ApplicationSetting",
