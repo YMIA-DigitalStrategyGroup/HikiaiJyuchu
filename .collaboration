@@ -165,16 +165,26 @@
   },
   {
     "ModuleName": "PCPage/見積書一覧",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/見積書のExcel出力",
     "State": 1,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-03-11T08:49:11.3675853+09:00",
+    "LockDateTime": "2026-03-11T13:22:35.5895823+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書一覧.json",
+      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書一覧.rd"
+    ]
+  },
+  {
+    "ModuleName": "PCPage/見積書のExcel出力",
+    "State": 2,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-11T13:22:35.5894762+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力.json",
@@ -577,7 +587,7 @@
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-03-11T08:53:59.1611052+09:00",
+    "LockDateTime": "2026-03-11T13:22:35.5896726+09:00",
     "ModuleType": 1
   }
 ]
