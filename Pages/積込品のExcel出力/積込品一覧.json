@@ -289,24 +289,24 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
-            "PageName": "Excel確認画面",
+            "PageName": "積込品出力画面_修正版",
             "PassValues": [
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=積込品一覧!AH5"
+                  "SerializeProperty": "=積込品一覧!H11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=Excel確認画面!K15"
+                  "SerializeProperty": "=積込品出力画面_修正版!K15"
                 }
               },
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=積込品一覧!AH7"
+                  "SerializeProperty": "=積込品一覧!R11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=Excel確認画面!AO5"
+                  "SerializeProperty": "=積込品出力画面_修正版!AO5"
                 }
               }
             ],
@@ -2153,4 +2153,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//R0R0WQNn7SfefAOir00iJ6j/T+HZGxHeeZhChDRlG+Kl5jbG+sMDmelzlMDIk1ZC7IDYBifSUjHp9x46AGNa56ErtmPxiJxNVcAGK8/lY8JmpsO1ULLIR6STuEc7lUB9MISz+B71LD9DjE+mQddMzFoFsN5P56C1Z+fTGlXzRbmOiRubnUphlqeLKNpoLZVmpowvM0b4IVC2c/aQ69b0pOD95JHeJ7rr9u+4LbjgYH8IWlmKzu4fvC/tit1oWV627m1xDLdGS3LAb06Lez1vXyfGtQXmFKPluIEOn7orIL/JheV4OY7QpUwqjAspjeeu/2uNfbOXn7ip1p44fL9yiCWIGuTn3YJJOLSl2a7lfoNCZnslSuMsIoK8IysYOLaeQbi9XfnkGR6RHxGFixOgJCZffh6SK06uuCGj0uEKbEhYz2lat9EKL3y1YzCnX9WjnbfWad1P22FuqsUv7hQIGsVUmnpy43/VlQo2kJsFWYueadDoRqR9GHI5ccpO/68DiTkn03rBPZKCqejzIresfqEidjKg79oYFtNM+wk86088+rcT8Pgott4qLtBrHtH3WFNIH+tmZDguzCLO3tggAJvHg4a3AjIeF6ioTxeyydDFCo1MwtQPuJHxCx99RFwqGcGRu6KmFcIDa4la3iWYvvAnfOf8919wGEts2GvsJ6FzLcIDXdOVS5xDpihLljI4Urlr6/jnFCuvT4BzDRC48SPdcbvnmXEpKuP4KpSJlz5QW43vyioQaBE4c4R4czIK/scEsCeouqMU/knttRVIv06G15TQO48I+UPTeT1QWs5SNPT4sqXChEVu+UKNmFTnOdhSYFZbnCjhAiDD2B9Hcy9Zc8SVJ8xoic+Ti7fHdG0+1Tylo4+czyMj52dA9YtlcpUv4KF6iyi3pJ23gzEYVg==|920
+}//g0gDPiY4EB8HNCIPP+nvFxD1tHkwG6RxDB5cVRLxeyRVs2fEQuGc/ehiQyKdtcKq66hHnPBfSElJ2gGuZ/zVcrpHgCLCtVKX8ai9tZ03hedpv3R6dwT7cZk/xaYEzOltsOjf8jSa614rzsSJqPEhXaEd/m+jE8Fm0kwPypTNS4jYwn86AnUaj/QUpyeqbr2APXGFCI+7j+bBzsKfgfmgnhln/CHwH26lwxmBrxonklJV6Ib5+NuKDGgbWOZ2z1RoOmaF0Cr/A2ZER8OojWOZl4r89ZeCqqF2EU9tWt8eCIzbIA8UrfgIidL8r4k1ePFQkfkzXNHu3sTViBEgNH3e6673Tt7VvH9/3H7Vk/mbDviAfdeB66uUL+qSxM/P31dqFHjWsOW3Q/E3LbehwolmotC1bJYqW0+rjs1etPMMia3Mlu0wDT6Ofyl4bJkIXUyuQrbaBRRLbi2bvMhE4lXJ1MddLHmHCMb4U8ReVv5BT3P3KYs3B1KzKhNJlsaq0/tLHxhfzTfX4ao90tlw7dDUnCEbvLAzRbraYTKjXiJFSIJ6YjhJ7NUtEpmhxjCDT56NfrSGvX0qh0I9g5WlpYXygqCUKH3OMhCCjWJIzNmO11DSJGO44XTYc82xRCM8Nl7byeJAubi/x0EKo1r3b0k5tccSAvJv0up41+KgLZ+vdU46UcPcrgvgnrmeabqaG2fKXVi2yIabaTRq1R/9gYGDMkthl/pmB1Uup9gDPJlKL2lDQMXccuK6N45sdvZtDs2p8W/cOS/gzR7h6wM7G1K63b+7a7oqhB64vDWZkhab0bu3QTpoCgPbjkzp8PFMpW6r6fOgVBSrAqbNx9LynXw82CpwmGOfDPNY4GLjQ0LYSIYU35P8d+lgRV/iBvUW/VDuX0ecrX0LBm4Znj51anTwYw==|920

@@ -335,7 +335,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
-            "SessionGuid": "ccebf1f6-3362-4801-ae46-cdbe1b2c0962",
+            "SessionGuid": "2a069b6e-d187-4617-9030-0243a9bdb686",
             "OpenReportName": "レポート1",
             "SideBarPosition": 0,
             "PassParameters": [
@@ -365,7 +365,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
-                  "GUID": "4fc7d123-6a2b-4f77-b877-5b2f024b345b",
+                  "GUID": "536c3899-bdd3-48ad-8010-d979645e74da",
                   "BindingInfo": {
                     "TableName": "tmitsumori",
                     "ColumnName": "KANRI_NBR",
@@ -387,11 +387,11 @@
                 }
               }
             },
-            "ID": "8d4ff3fb386c4d3e97ab488a65ef5d91"
+            "ID": "8521ce51f8604ca08ef234db8e3dfe7e"
           },
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
-            "PageName": "見積書のExcel出力",
+            "PageName": "見積書のExcel出力保存用",
             "PassValues": [
               {
                 "Source": {
@@ -399,7 +399,7 @@
                   "SerializeProperty": "=見積書一覧!H11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=見積書のExcel出力!BA11"
+                  "SerializeProperty": "=見積書のExcel出力保存用!BA11"
                 }
               },
               {
@@ -408,7 +408,7 @@
                   "SerializeProperty": "=見積書一覧!O11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=見積書のExcel出力!BA13"
+                  "SerializeProperty": "=見積書のExcel出力保存用!BA13"
                 }
               },
               {
@@ -417,7 +417,7 @@
                   "SerializeProperty": "=見積書一覧!S11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=見積書のExcel出力!BA2"
+                  "SerializeProperty": "=見積書のExcel出力保存用!BA2"
                 }
               },
               {
@@ -426,7 +426,7 @@
                   "SerializeProperty": "=見積書一覧!X11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=見積書のExcel出力!BA5"
+                  "SerializeProperty": "=見積書のExcel出力保存用!BA5"
                 }
               },
               {
@@ -435,16 +435,7 @@
                   "SerializeProperty": "=見積書一覧!AA11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=見積書のExcel出力!BA16"
-                }
-              },
-              {
-                "Source": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=見積書一覧!見積番号"
-                },
-                "TargetCell": {
-                  "SerializeProperty": "=見積書のExcel出力!BA9"
+                  "SerializeProperty": "=見積書のExcel出力保存用!BA16"
                 }
               },
               {
@@ -453,11 +444,10 @@
                   "SerializeProperty": "=見積書一覧!AU11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=見積書のExcel出力!C9"
+                  "SerializeProperty": "=見積書のExcel出力保存用!C9"
                 }
               }
-            ],
-            "DeleteCachedQuery": true
+            ]
           }
         ],
         "Text": "見積書",
@@ -2283,4 +2273,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//RvWI18+fAqI7Go3Ja1wVA0JhF+ARCsNXfBK8nUYPxs1k+1qpFktcczuMTkljYuNnwWj1uQbcsLg/nNxYc8sk6Xt3h10NplWtIdnk7V7A95a1YG367upWq5vOXMa7p/qKUeAsH93y+h7pJUAkU/NIgNM1HLoCdStU8W3RsOSCt5084MvTLLiCd1imYX519+9WGGihKkNLFJm37FmSNgwmY06Z4GYA0z5ogf/m0Na1w/VcIxWhnqAAWD/5aa5q3QEpwblRVGCnoSvwRoSmmkwkpc4aIrbXbIMjCz/WgAxTF3ESz+hs5dmH4M50Daiz01XEiu8J9aeCnMnQjGCsOqVcPK/ZSCoVaAXgI11k3k/zb/dRGIXYTxqZiWcdDKUiQwkZ/y4Lfd4wNVaR+fw9rX+t3bWkMYHHm2gmcKBbbKMdxc8qG8MqtuMPchO3268rXva/mX0ZLQwLdjGaDedwkrhQaq4KoqWuPEwX3s7pY/MOLdoxh3PJLZ8j+X00+6HbbiSWC1k+JwVrRHLbGQm4Lqa3vZFBFFtFLSSgKcuN7d1TDk1qqK18L5O4En5S3keLHgd0ixGPiOzVyJzPAV1SdFmxz3dhzlsOyhPTCW3IINGct//MyKbBdANCj7cNtMqRll8JRNL7Hz5q+0siIdlDYXHyJKaySvWsHSHt7KbHwn/4LaAXz8mC62FPjGWY0+s/4iyDw/BkukW2G+WyFiFu6F5ASL+9svp1bsiDaNxj0BdHZrdiqAV349ZUyKTym+FIrHShVCPnrZ5FDtLoB9j+QR+65NKO0GHLB4uMoCNy3VoiPjQdmyAsZ5ZIBztYfsNXjikSouYe+tb9ET+wp/qG7r7XdWT74v2hGmnFd3KGiYODCTfCP9wJxFXF7bDKtOUq5vu+nnOg0Y5FL0aNuUVphu1oSw==|920
+}//InOU6+96n5LvCU+kowj54y/+PamSSfTjqON6it/g/9oLSfLJcuEzh/vTZ6bGtnhAKH2qB5O0J27Dz3gTyXNiUB8Xi3mMqrQ/UId76oLV1PY7KMIu2jXgyZBX1dS9GPjI4sWi4I2RJJJ6VHUbvLHs+9XAPd2g6B4pNYgChMFnjamuHdNH2xFGXIytjSIlfPX//RluHUzuXrxT9bo+Lkbz4mfeBvAQzyguB+Uivjmmr56cnIDL8jvNV8aOXZJhGL99UoR5+bkIiXHEfB31/Gnql1fXsz5UZ6bg8r/GkG2TLtR9if+HgKW/Rl0TTszGCONUEa04Zbw4YTXAXQHwyUfkPfJ7o5/VIJq1BCfotEmFTt9iIRwEejySvSYGAOFW03Cmf/sZZNPXU8LcUHMRuSgVMjFqhPtWvKsFwiib4/2S5fG8WsdpJ5A59hjKHg0YqJIGlJ2WKKVhuqoOh9E6m/x4KQ+JDurDVdbE058NnLOWADDjpG5Qv8uESbL+rkRZfc0lBVzHptOdrjK+qazZOBgC8DG9rb/enpQItzDH7pBf8T3Pyn+Ka6ukmUeIpJOh/HREmpF5ISlUI7Bf2EQwc02KBAHMyl57fxfuGA57OqDkcMw7BgrqTu91h8uItux+DFTgvIrR+2OurqPfcUKHNOxyXg1VzOwa3I0asqBeLo8l+crDeStaBjEvZS0NZJfkFpt+Rj4qr2tuhYlB0ZJAruImbF1dq0Lz0Oe72LKOxpWfJapO25DXK+w+2fpVTYz8oYSvlj8OOsqfPQAsaLk+pfx/+/v7dmrdKIunzrQOfxh7f6moUyIF6mKIOC0//qs8MzIQWET/q7xew1aZus7HRfKYO0wIBdgzqxPZp0Tk62ekD3wAp3smDbCrDrdwkKibBkG/Di38KqKe2Qw/C1Qmf0ZeTg==|920
