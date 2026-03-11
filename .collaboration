@@ -134,7 +134,17 @@
   },
   {
     "ModuleName": "PCPage/検索画面",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-11T16:51:32.1696678+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\積込品のExcel出力\\検索画面.json",
+      "Pages\\積込品のExcel出力\\検索画面.rd"
+    ]
   },
   {
     "ModuleName": "Pages/支給品明細管理",
