@@ -609,5 +609,15 @@
     },
     "LockDateTime": "2026-03-11T13:22:35.5896726+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/積込品出力画面_修正テスト",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-11T14:30:44.846012+09:00",
+    "ModuleType": 1
   }
 ]
