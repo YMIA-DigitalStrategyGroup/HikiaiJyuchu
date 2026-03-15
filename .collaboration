@@ -49,29 +49,11 @@
   },
   {
     "ModuleName": "Table/miroshiyom",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-16T07:59:38.9150575+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\色仕様\\miroshiyom.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TableView/ymia_v_iroshiyom",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-16T07:59:38.9151344+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\色仕様\\ymia_v_iroshiyom.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "Table/ymia_m_colorcd_ygsm",
@@ -95,16 +77,7 @@
   },
   {
     "ModuleName": "Table/mkosei",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-16T07:59:38.9151397+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\マスタ関連\\mkosei.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tshukka",
@@ -508,17 +481,7 @@
   },
   {
     "ModuleName": "PCPage/色仕様設定画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-16T08:01:54.3985876+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\色マスタ管理_新\\色仕様設定画面.json",
-      "Pages\\色マスタ管理_新\\色仕様設定画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/色仕様書Excel出力",
@@ -582,17 +545,7 @@
   },
   {
     "ModuleName": "TableView/ユーザー情報ビュー",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\AA121806",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-16T07:59:38.9151532+09:00",
     "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\ユーザー情報ビュー.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {

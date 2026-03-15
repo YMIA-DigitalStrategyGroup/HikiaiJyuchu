@@ -143,5 +143,9 @@
       ]
     }
   },
+  "PrimaryKey": [
+    "JUCHU_NBR",
+    "IRO_SHIYO_MEISAI_NBR"
+  ],
   "Indexes": []
 }

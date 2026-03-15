@@ -19,7 +19,6 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
-      "Required": true,
       "DatabaseColumnType": "varchar",
       "MaxLength": 50,
       "Name": "BUIDAIBUNRUI_MEISHO",
@@ -43,6 +42,7 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
       "DatabaseColumnType": "varchar",
       "MaxLength": 50,
       "Name": "HINMEI",
@@ -107,9 +107,9 @@
   "PrimaryKey": [
     "KISHU",
     "SHIYO",
-    "BUIDAIBUNRUI_MEISHO",
     "BUIMEISHO",
-    "HINBAN"
+    "HINBAN",
+    "HINMEI"
   ],
   "Indexes": []
 }
