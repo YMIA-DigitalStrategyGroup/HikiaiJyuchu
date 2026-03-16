@@ -149,17 +149,7 @@
   },
   {
     "ModuleName": "PCPage/工事指令書出力画面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-12T15:35:44.239036+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\工事指令書のExcel出力\\工事指令書出力画面.json",
-      "Pages\\工事指令書のExcel出力\\工事指令書出力画面.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/予備画面",
@@ -455,17 +445,7 @@
   },
   {
     "ModuleName": "PCPage/見積書のExcel出力用(完成版)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-11T17:01:13.5828192+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力用(完成版).json",
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力用(完成版).rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "ServerCommand/サーバーサイドコマンド1",
@@ -541,17 +521,7 @@
   },
   {
     "ModuleName": "PCPage/工事指令書出力画面 (2)",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-16T16:14:06.3833945+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\工事指令書のExcel出力\\工事指令書出力画面 (2).json",
-      "Pages\\工事指令書のExcel出力\\工事指令書出力画面 (2).rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "TableView/ユーザー情報ビュー",
@@ -564,17 +534,7 @@
   },
   {
     "ModuleName": "PCPage/見積書のExcel出力保存用",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-11T17:01:36.6345227+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力保存用.json",
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力保存用.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/積込品出力画面_修正版",

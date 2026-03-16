@@ -105,16 +105,16 @@
     "25,49": "承認3",
     "57,2": "発　行　部　門",
     "59,2": "承認者1",
-    "59,17": "承認者2",
-    "59,33": "承認者3",
+    "59,18": "承認者2",
+    "59,34": "承認者3",
     "63,24": "Excel出力",
     "63,40": "PDF"
   },
   "Formulas": {
-    "59,38": "IF(BA26=\"\",\"\",ODATA(\"mshain?$select=SHAIN_NAME&$filter=SHAIN_CODE eq \"&IF(ISBLANK(BA26),\"null\",\"'\"&BA26&\"'\")))",
+    "59,39": "IF(BA26=\"\",\"\",ODATA(\"mshain?$select=SHAIN_NAME&$filter=SHAIN_CODE eq \"&IF(ISBLANK(BA26),\"null\",\"'\"&BA26&\"'\")))",
     "22,4": "IF(G23=\"\",\"\",ODATA(\"mname?$select=ZOKUSEI1&$filter=MEISHO_CODE eq \"&IF(ISBLANK(G23),\"null\",G23)&\" and KUBUN_MEISHO eq '工事区分'\"))",
     "59,8": "IF(BA22=\"\",\"\",ODATA(\"mshain?$select=SHAIN_NAME&$filter=SHAIN_CODE eq \"&IF(ISBLANK(BA22),\"null\",\"'\"&BA22&\"'\")))",
-    "59,23": "IF(BA24=\"\",\"\",ODATA(\"mshain?$select=SHAIN_NAME&$filter=SHAIN_CODE eq \"&IF(ISBLANK(BA24),\"null\",\"'\"&BA24&\"'\")))",
+    "59,24": "IF(BA24=\"\",\"\",ODATA(\"mshain?$select=SHAIN_NAME&$filter=SHAIN_CODE eq \"&IF(ISBLANK(BA24),\"null\",\"'\"&BA24&\"'\")))",
     "10,34": "TODAY()"
   },
   "AttachInfos": {
@@ -374,7 +374,7 @@
                     }
                   }
                 ],
-                "ID": "35316ae4-e4f7-4658-a4fc-dabaf82cbd7e"
+                "ID": "193a55a1-0722-4667-9fdc-af3e7810a9c0"
               }
             ]
           }
@@ -420,7 +420,7 @@
                     }
                   }
                 ],
-                "ID": "fc1a76fc-3854-44f0-a07c-1d1ecfc9b75b"
+                "ID": "d30e32bf-b95d-44c4-bfe9-6b999c8efefc"
               }
             ]
           }
@@ -827,6 +827,14 @@
         "FontFamily": 0,
         "FontSize": 18.666666666666664,
         "HorizontalAlignment": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -1595,9 +1603,9 @@
       "57,41": 23,
       "57,42": 23,
       "57,43": 23,
-      "57,44": 24,
-      "57,45": 11,
-      "57,46": 0,
+      "57,44": 23,
+      "57,45": 24,
+      "57,46": 11,
       "57,47": 0,
       "57,48": 0,
       "57,49": 0,
@@ -1655,7 +1663,7 @@
       "58,42": 15,
       "58,43": 15,
       "58,44": 15,
-      "58,45": 0,
+      "58,45": 15,
       "58,46": 0,
       "58,47": 0,
       "58,48": 0,
@@ -1673,15 +1681,20 @@
       "59,1": 0,
       "59,2": 51,
       "59,8": 52,
-      "59,17": 53,
-      "59,18": 0,
+      "59,18": 53,
       "59,19": 0,
       "59,20": 0,
       "59,21": 0,
       "59,22": 0,
-      "59,23": 52,
-      "59,33": 53,
-      "59,34": 0,
+      "59,23": 0,
+      "59,24": 54,
+      "59,25": 0,
+      "59,26": 0,
+      "59,27": 0,
+      "59,28": 0,
+      "59,29": 0,
+      "59,30": 0,
+      "59,34": 53,
       "59,35": 0,
       "59,36": 0,
       "59,37": 0,
@@ -1708,13 +1721,19 @@
       "59,58": 0,
       "60,0": 0,
       "60,1": 0,
-      "60,17": 0,
       "60,18": 0,
       "60,19": 0,
       "60,20": 0,
       "60,21": 0,
       "60,22": 0,
-      "60,33": 0,
+      "60,23": 0,
+      "60,24": 0,
+      "60,25": 0,
+      "60,26": 0,
+      "60,27": 0,
+      "60,28": 0,
+      "60,29": 0,
+      "60,30": 0,
       "60,34": 0,
       "60,35": 0,
       "60,36": 0,
@@ -1740,34 +1759,34 @@
       "60,56": 0,
       "60,57": 0,
       "60,58": 0,
-      "63,13": 54,
-      "63,14": 55,
-      "63,15": 55,
-      "63,16": 55,
-      "63,17": 55,
-      "63,18": 55,
-      "63,19": 55,
-      "63,20": 55,
-      "63,21": 55,
-      "63,22": 55,
-      "63,23": 56,
-      "63,24": 57,
+      "63,13": 55,
+      "63,14": 56,
+      "63,15": 56,
+      "63,16": 56,
+      "63,17": 56,
+      "63,18": 56,
+      "63,19": 56,
+      "63,20": 56,
+      "63,21": 56,
+      "63,22": 56,
+      "63,23": 57,
+      "63,24": 58,
       "63,25": 0,
       "63,26": 0,
       "63,27": 0,
       "63,28": 0,
       "63,29": 0,
-      "63,30": 54,
-      "63,31": 55,
-      "63,32": 55,
-      "63,33": 55,
-      "63,34": 55,
-      "63,35": 55,
-      "63,36": 55,
-      "63,37": 55,
-      "63,38": 55,
-      "63,39": 56,
-      "63,40": 58,
+      "63,30": 55,
+      "63,31": 56,
+      "63,32": 56,
+      "63,33": 56,
+      "63,34": 56,
+      "63,35": 56,
+      "63,36": 56,
+      "63,37": 56,
+      "63,38": 56,
+      "63,39": 57,
+      "63,40": 59,
       "63,41": 0,
       "63,42": 0,
       "63,43": 0,
@@ -1781,7 +1800,7 @@
       "63,55": 0,
       "63,56": 0,
       "63,57": 0,
-      "64,13": 59,
+      "64,13": 60,
       "64,14": 32,
       "64,15": 32,
       "64,16": 32,
@@ -1791,14 +1810,14 @@
       "64,20": 32,
       "64,21": 32,
       "64,22": 32,
-      "64,23": 60,
+      "64,23": 61,
       "64,24": 0,
       "64,25": 0,
       "64,26": 0,
       "64,27": 0,
       "64,28": 0,
       "64,29": 0,
-      "64,30": 59,
+      "64,30": 60,
       "64,31": 32,
       "64,32": 32,
       "64,33": 32,
@@ -1807,7 +1826,7 @@
       "64,36": 32,
       "64,37": 32,
       "64,38": 32,
-      "64,39": 60,
+      "64,39": 61,
       "64,40": 0,
       "64,41": 0,
       "64,42": 0,
@@ -1892,13 +1911,8 @@
     "63,24,2,5",
     "63,30,2,10",
     "63,40,2,5",
-    "57,2,1,43",
     "59,2,2,6",
     "59,8,2,7",
-    "59,17,2,6",
-    "59,23,2,7",
-    "59,33,2,5",
-    "59,38,2,7",
     "22,2,1,2",
     "22,4,1,2",
     "22,7,1,26",
@@ -1908,6 +1922,11 @@
     "65,49,2,9",
     "64,49,1,4",
     "64,53,1,4",
+    "57,2,1,44",
+    "59,34,2,5",
+    "59,39,2,7",
+    "59,18,2,6",
+    "59,24,2,7",
     "21,2,1,2",
     "21,4,1,2",
     "21,7,1,26",
@@ -2056,7 +2075,7 @@
                     ]
                   }
                 ],
-                "ID": "5b72395c-a999-4926-9f3c-27d72b7ed997"
+                "ID": "b3b69e78-c58e-4f49-a14b-3ca740af87ec"
               },
               {
                 "Condition": {
@@ -2088,7 +2107,7 @@
                     ]
                   }
                 ],
-                "ID": "9931ae88-8dbd-47a1-bd8a-9c4234eaa0fe"
+                "ID": "21a1362b-4480-44ca-a80b-2c84447cd05b"
               },
               {
                 "Condition": {
@@ -2120,7 +2139,7 @@
                     ]
                   }
                 ],
-                "ID": "93ef5208-5ec3-4e77-9742-e58bc1384389"
+                "ID": "37f1b557-c7be-4688-801d-778c48db5c29"
               }
             ]
           }
@@ -2161,4 +2180,4 @@
     },
     "PageOrder": 1
   }
-}//mKp3mbCLayxXVtCTRaqo3GfvyaMBy6hZKm2wHFKHF3LFzREY2P1DHeTYALrt4CA9hMtwSM0VeDpZaMgdf7NNS/bqEaOUG1sC2gtUoftVSHxZR2GIF6XVTpLvzHchkLAI8DwbpAR+VRIpzbqNNPA95cf+PZQ+tACOpaiXF/uOMlNy1AeVkFe0/7jPFWHBJMKgs4ReDPd4WynKR1PtrlDfu7FYmAmArBovk8We85cnGXLVCIPwy2ER298uAiLA4l7qkHytZy88bid/knEk9HfpMVuDujoRtDCA5ANwX5O5+r15A4I/n8nD8noQWMSgFbpaEDprk95RUOlCqpXdGu6dGpFZU1vP0/xc84vzVrckFQiIomPUw7cbw7x4XU8Z8VWxZz80MrGwRhCTFxW9as4ARORmaUxRDdO5E9kJVG5vLN+k+ByF2uoY884o2qLOZl2DqPTGB4K3Jar7SB+1W8Vls2PiXFgnUdXmIt7ZmWISUj0XBY4UkJAKdRtKcvZVf+MZWzvXxbPW6Mgldq0IziFunvhOTpMa5C37afUzSGGEdcDLWev2jg673lDwlJL0NE96zN1Dv4TUg+axUfrnvl0+j2XMlRX4aJGmCOL69BomEICwIjhLTlkAh2R1+it7SFUgD9sDXGo6ZZwHGJ6K7jVlhLRVITp9lRoHbiNrsJck2s7yBl+zGETxbb1KcQFGh0ADlpZs8y7frJAr7WyuqOWYdqGmNOAG3CAMjQkjGu39PyMOwGf9Yysi2Bb559N2go18sZEAowD/ygI6bUaf4Z49sV9Kh1YtQHnge7vTBf1qDGivILbY/OCcruRMCl54okTGvQD+JteBZ9k2RdTjPxCEudMnG82Rhhs2vrbGW3ATC1o4nMqa2q8NgL5PmQ9UTulBZYiYtECNA2EeTisUgqy9fQ==|920
+}//0duiAnn8ciA/1kFA1BGH0XLRS0nW/+sdjVmN7R9uP0iynnL9S8izybx5y441sl0AWTUIXTRYs/hsU+KTPAWYMlOI1Ow6c1nkc8PVn0IXzhOyzuKwzJK3JcrcXrlfhwQl7ioZTozwvllM3cRO+o6iSzZH4jKNtKdgfDQU1mPIikZC7c5odsbk+S0tkaFR86UxvayfA5z6Lv+dlOUBRyntQJphuHDxjW84QWYMV6EdGJn8EoBRJ1ed3NZpFHJfhHLVwhwNILuLyvN2kfjehaYjB3/YPMaFAn6nRal67vGP1BSe34wIK4MFgZVbW7hxmza793g9WFjmYFgJB4optrIw0DUn1/JotdBKHMYIDLn1JcvJe7OYqvg/FEVZdbJvi5KSneoujhNnja1jjljWmtIhWvbdJ6S0h0V9sJwm8e02P/XtyjtI02dwIL3R/2TbMTmxbIZUFsrG76WK9AIDaz5s9n9caVdBHhN7PciNDt6RJmnO816lydjP3ZryjDrSJyeTDoAxKOosQmwa707hMG3w1CjRp8OZf4GMW0iiSFhUgTH1++awL9spLeTpFDkXaEOl0oEnIo5miO+zqKT1IMFE05Q4Sne61Opx9lwm07l8jRwJ7vtcmLuTM6ZDGD8zmQ+qZUSfZnHUjo5IuKnUAdGC6j3wf3KSL9YeGFx/z76pTXq42LlbvjXbUifdgvavGq2Sv6fH83BHreJguFRX1W/us09hzbV1RCFpYk+xYjtB/cWIVyuIo7xYbwfmTNIL+6Ou2mQlNy3HR7/jBZSiQqWQM/mEinrzgIYeugeFYzkq2T9TkOipDHGkIlF8HPg+9zV8QX63BEbLCKwbPoAL1UNBnkKeOhc3oSALkA9M6yRGRPYbAM7I9cLx//uDCZ8iJ4HIAt0Lt3hvAMjXbfE6TszHfw==|920
