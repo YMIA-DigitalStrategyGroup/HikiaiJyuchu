@@ -77,7 +77,16 @@
   },
   {
     "ModuleName": "Table/mkosei",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-17T09:14:44.5801167+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\マスタ関連\\mkosei.json"
+    ]
   },
   {
     "ModuleName": "Table/tshukka",
