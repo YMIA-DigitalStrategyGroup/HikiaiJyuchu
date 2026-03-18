@@ -180,7 +180,17 @@
   },
   {
     "ModuleName": "PCPage/見積書一覧",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-18T16:10:59.7209651+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書一覧.json",
+      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書一覧.rd"
+    ]
   },
   {
     "ModuleName": "Pages/出荷伝票のExcel出力_未完成",
@@ -563,7 +573,17 @@
   },
   {
     "ModuleName": "PCPage/見積書のExcel出力保存用",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-18T16:10:59.7204525+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力保存用.json",
+      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書のExcel出力保存用.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/積込品出力画面_修正版",
@@ -581,6 +601,16 @@
       "Email": "example@example.com"
     },
     "LockDateTime": "2026-03-18T16:10:29.9546567+09:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/見積書マージンテスト",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-18T16:10:59.7205069+09:00",
     "ModuleType": 1
   }
 ]
