@@ -528,6 +528,15 @@
   },
   {
     "ModuleName": "TableView/ymia_v_mitsumori",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-30T15:47:56.4471724+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\見積\\ymia_v_mitsumori.json"
+    ]
   }
 ]
