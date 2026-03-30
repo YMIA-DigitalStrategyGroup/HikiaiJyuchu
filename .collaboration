@@ -13,7 +13,16 @@
   },
   {
     "ModuleName": "Table/tmitsumorim",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-30T14:21:46.3393074+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\見積\\tmitsumorim.json"
+    ]
   },
   {
     "ModuleName": "Table/tshikyuhinr",
@@ -21,7 +30,16 @@
   },
   {
     "ModuleName": "Table/tmitsumori",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-30T14:21:46.3393017+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\見積\\tmitsumori.json"
+    ]
   },
   {
     "ModuleName": "Table/ttsumikomihinmr",
@@ -533,6 +551,15 @@
   },
   {
     "ModuleName": "TableView/ymia_v_mitsumorim",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-30T14:21:46.3393093+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\見積\\ymia_v_mitsumorim.json"
+    ]
   }
 ]
