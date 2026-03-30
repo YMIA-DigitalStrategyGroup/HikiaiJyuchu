@@ -561,5 +561,15 @@
     "ToRemoveFiles": [
       "Tables\\見積\\ymia_v_mitsumorim.json"
     ]
+  },
+  {
+    "ModuleName": "TableView/ymia_v_mitsumori",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-03-30T14:54:57.1344973+09:00",
+    "ModuleType": 23
   }
 ]
