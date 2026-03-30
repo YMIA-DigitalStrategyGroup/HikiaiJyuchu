@@ -13,16 +13,7 @@
   },
   {
     "ModuleName": "Table/tmitsumorim",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-30T14:21:46.3393074+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\見積\\tmitsumorim.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tshikyuhinr",
@@ -30,16 +21,7 @@
   },
   {
     "ModuleName": "Table/tmitsumori",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-30T14:21:46.3393017+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\見積\\tmitsumori.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/ttsumikomihinmr",
@@ -91,16 +73,7 @@
   },
   {
     "ModuleName": "Table/mkosei",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-30T12:17:37.7850723+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\マスタ関連\\mkosei.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tshukka",
@@ -184,17 +157,7 @@
   },
   {
     "ModuleName": "PCPage/見積書一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-30T12:16:44.3690605+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書一覧.json",
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/出荷伝票のExcel出力_未完成",
@@ -551,25 +514,10 @@
   },
   {
     "ModuleName": "TableView/ymia_v_mitsumorim",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-30T14:21:46.3393093+09:00",
-    "ModuleType": 23,
-    "ToRemoveFiles": [
-      "Tables\\見積\\ymia_v_mitsumorim.json"
-    ]
+    "ModuleType": 23
   },
   {
     "ModuleName": "TableView/ymia_v_mitsumori",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-03-30T14:54:57.1344973+09:00",
     "ModuleType": 23
   }
 ]
