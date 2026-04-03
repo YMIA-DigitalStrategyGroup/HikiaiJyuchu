@@ -87,6 +87,9 @@
     "21,49": "承認1",
     "23,49": "承認2",
     "25,49": "承認3",
+    "29,49": "見積額",
+    "31,49": "物件名",
+    "33,49": "エンジン型式",
     "57,2": "発　行　部　門",
     "59,2": "承認者1",
     "59,18": "承認者2",
@@ -99,7 +102,19 @@
     "22,4": "IF(G23=\"\",\"\",ODATA(\"mname?$select=ZOKUSEI1&$filter=MEISHO_CODE eq \"&IF(ISBLANK(G23),\"null\",G23)&\" and KUBUN_MEISHO eq '工事区分'\"))",
     "59,8": "IF(BA22=\"\",\"\",ODATA(\"mshain?$select=SHAIN_NAME&$filter=SHAIN_CODE eq \"&IF(ISBLANK(BA22),\"null\",\"'\"&BA22&\"'\")))",
     "59,24": "IF(BA24=\"\",\"\",ODATA(\"mshain?$select=SHAIN_NAME&$filter=SHAIN_CODE eq \"&IF(ISBLANK(BA24),\"null\",\"'\"&BA24&\"'\")))",
-    "10,34": "TODAY()"
+    "10,34": "TODAY()",
+    "8,34": "BA2",
+    "9,34": "IF(ISERROR(BA9),\"\",BA9)",
+    "11,34": "BA11",
+    "12,34": "BA5",
+    "29,52": "ODATA(\"tmitsumori?$select=MITSUMORI_GAKU&$filter=MITSUMORI_NBR eq \"&IF(ISBLANK(BA2),\"null\",BA2)&\" and SEQ_NBR eq \"&IF(ISBLANK(BA16),\"null\",BA16))",
+    "17,7": "SUM(AL23)",
+    "31,52": "ODATA(\"tmitsumori?$select=KENMEI&$filter=MITSUMORI_NBR eq \"&IF(ISBLANK(BA2),\"null\",BA2)&\" and SEQ_NBR eq \"&IF(ISBLANK(BA16),\"null\",BA16))",
+    "18,7": "IF(ISERROR(BA32),\"\",BA32)",
+    "19,7": "IF(ISERROR(BA11),\"\",BA11)",
+    "33,52": "ODATA(\"tmitsumori?$select=ENGINE_KATASHIKI&$filter=MITSUMORI_NBR eq \"&IF(ISBLANK(BA2),\"null\",BA2)&\" and SEQ_NBR eq \"&IF(ISBLANK(BA16),\"null\",BA16))",
+    "19,11": "IF(ISERROR(BA13),\"\",BA13)",
+    "19,14": "IF(ISERROR(BA34),\"\",BA34)"
   },
   "AttachInfos": {
     "1,19": {
@@ -166,13 +181,8 @@
     "18,7": {
       "BindingInfo": {
         "TableName": "tmitsumori",
-        "ColumnName": "KANRI_NBR",
-        "GUID": "c60d84e7-48a2-45e1-b0b0-e56cea221ba4",
-        "RelationBinding": {
-          "RelatedTable": "tshodan",
-          "RelatedColumn": "KANRI_NBR",
-          "DisplayColumn": "KENMEI"
-        }
+        "ColumnName": "MITSUMORI_GAKU",
+        "GUID": "200dbc19-1fa1-4aa5-b6fd-4aa2156653ec"
       }
     },
     "18,52": {
@@ -219,7 +229,7 @@
               "ColumnBindingInfo": {
                 "TableName": "ymia_v_mitsumorim",
                 "ColumnName": "MITSUMORI_NBR",
-                "GUID": "c1a6e2a2-3b22-414a-9db7-298e02835070"
+                "GUID": "6bd02c72-b44d-437e-bc2c-00c747e48578"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -231,7 +241,7 @@
               "ColumnBindingInfo": {
                 "TableName": "ymia_v_mitsumorim",
                 "ColumnName": "SEQ_NBR",
-                "GUID": "b88c2904-d90f-401f-b831-296111f4f69d"
+                "GUID": "812b99e4-92be-4c34-9137-fda8e3be5bc0"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -243,7 +253,7 @@
               "ColumnBindingInfo": {
                 "TableName": "ymia_v_mitsumorim",
                 "ColumnName": "EDABAN",
-                "GUID": "fad62d4a-69f4-433a-bb76-b18b49288d53"
+                "GUID": "2393d566-6a5d-46ec-8b6f-8463caadd55b"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -325,31 +335,6 @@
         "GUID": "6f96aa2e-3c7c-45ee-814d-a733d7e726f8"
       }
     },
-    "33,49": {
-      "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-            "TargetTableName": "tmitsumori",
-            "SqlCondition": {
-              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-              "ColumnBindingInfo": {
-                "TableName": "tmitsumori",
-                "ColumnName": "MITSUMORI_NBR",
-                "GUID": "e5c5e720-dbf6-48ef-ad31-e9e49fce78ca"
-              },
-              "Value": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=見積書マージンテスト!BA2"
-              }
-            },
-            "ID": "de3ada0680a444c3a89acc34a111ba0c"
-          }
-        ],
-        "TemplateKey": "_RS_Normal_Style2"
-      }
-    },
     "63,13": {
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
@@ -388,7 +373,7 @@
                     }
                   }
                 ],
-                "ID": "63be2d92-ff88-4fac-9ac6-f0c3712349fd"
+                "ID": "59be18a9-b199-4a04-a587-3a4c28521c3e"
               }
             ]
           }
@@ -434,7 +419,7 @@
                     }
                   }
                 ],
-                "ID": "314ef9f8-b055-48f2-a74a-e501e062925f"
+                "ID": "c00af664-94f9-47fe-b4fc-c08d422ff785"
               }
             ]
           }
@@ -456,7 +441,7 @@
           "ColumnBindingInfo": {
             "TableName": "tshonin",
             "ColumnName": "SHINSEI_NBR",
-            "GUID": "f15f32d2-bbf3-4776-b2c8-6036d2c22fa2"
+            "GUID": "867c8db0-84e1-4458-ac61-7538a6c6e1f8"
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -714,6 +699,7 @@
       {
         "FontFamily": 0,
         "FontSize": 16.0,
+        "Formatter": 12,
         "HorizontalAlignment": 7,
         "VerticalAlignment": 8,
         "BorderBottom": 0,
@@ -815,6 +801,30 @@
         "BorderBottom": 0,
         "BorderTop": 0,
         "BorderLeft": 0
+      },
+      {
+        "Background": 4,
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "Background": 4,
+        "FontFamily": 0,
+        "Formatter": 9,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
       },
       {
         "Background": 14,
@@ -1553,17 +1563,81 @@
       "26,54": 8,
       "26,55": 8,
       "26,56": 8,
-      "33,49": 0,
-      "33,50": 0,
-      "33,51": 0,
-      "33,52": 0,
-      "34,49": 0,
-      "34,50": 0,
-      "34,51": 0,
-      "34,52": 0,
+      "29,49": 50,
+      "29,50": 10,
+      "29,51": 51,
+      "29,52": 10,
+      "29,53": 10,
+      "29,54": 10,
+      "29,55": 10,
+      "29,56": 10,
+      "30,49": 10,
+      "30,50": 10,
+      "30,51": 51,
+      "30,52": 10,
+      "30,53": 10,
+      "30,54": 10,
+      "30,55": 10,
+      "30,56": 10,
+      "31,49": 50,
+      "31,50": 10,
+      "31,51": 51,
+      "31,52": 10,
+      "31,53": 10,
+      "31,54": 10,
+      "31,55": 10,
+      "31,56": 10,
+      "32,49": 10,
+      "32,50": 10,
+      "32,51": 51,
+      "32,52": 10,
+      "32,53": 10,
+      "32,54": 10,
+      "32,55": 10,
+      "32,56": 10,
+      "33,49": 52,
+      "33,50": 10,
+      "33,51": 51,
+      "33,52": 10,
+      "33,53": 10,
+      "33,54": 10,
+      "33,55": 10,
+      "33,56": 10,
+      "34,49": 10,
+      "34,50": 10,
+      "34,51": 51,
+      "34,52": 10,
+      "34,53": 10,
+      "34,54": 10,
+      "34,55": 10,
+      "34,56": 10,
+      "35,49": 0,
+      "35,50": 0,
+      "35,51": 0,
+      "35,52": 0,
+      "35,53": 0,
+      "35,54": 0,
+      "35,55": 0,
+      "35,56": 0,
+      "36,49": 0,
+      "36,50": 0,
+      "36,51": 0,
+      "36,52": 0,
+      "36,53": 0,
+      "36,54": 0,
+      "36,55": 0,
+      "36,56": 0,
+      "37,49": 0,
+      "37,50": 0,
+      "37,51": 0,
+      "37,52": 0,
+      "37,53": 0,
+      "37,54": 0,
+      "37,55": 0,
+      "37,56": 0,
       "57,0": 0,
       "57,1": 6,
-      "57,2": 50,
+      "57,2": 53,
       "57,3": 23,
       "57,4": 23,
       "57,5": 23,
@@ -1681,22 +1755,22 @@
       "58,58": 0,
       "59,0": 0,
       "59,1": 0,
-      "59,2": 51,
-      "59,8": 52,
-      "59,18": 53,
+      "59,2": 54,
+      "59,8": 55,
+      "59,18": 56,
       "59,19": 0,
       "59,20": 0,
       "59,21": 0,
       "59,22": 0,
       "59,23": 0,
-      "59,24": 54,
+      "59,24": 57,
       "59,25": 0,
       "59,26": 0,
       "59,27": 0,
       "59,28": 0,
       "59,29": 0,
       "59,30": 0,
-      "59,34": 53,
+      "59,34": 56,
       "59,35": 0,
       "59,36": 0,
       "59,37": 0,
@@ -1761,34 +1835,34 @@
       "60,56": 0,
       "60,57": 0,
       "60,58": 0,
-      "63,13": 55,
-      "63,14": 56,
-      "63,15": 56,
-      "63,16": 56,
-      "63,17": 56,
-      "63,18": 56,
-      "63,19": 56,
-      "63,20": 56,
-      "63,21": 56,
-      "63,22": 56,
-      "63,23": 57,
-      "63,24": 58,
+      "63,13": 58,
+      "63,14": 59,
+      "63,15": 59,
+      "63,16": 59,
+      "63,17": 59,
+      "63,18": 59,
+      "63,19": 59,
+      "63,20": 59,
+      "63,21": 59,
+      "63,22": 59,
+      "63,23": 60,
+      "63,24": 61,
       "63,25": 0,
       "63,26": 0,
       "63,27": 0,
       "63,28": 0,
       "63,29": 0,
-      "63,30": 55,
-      "63,31": 56,
-      "63,32": 56,
-      "63,33": 56,
-      "63,34": 56,
-      "63,35": 56,
-      "63,36": 56,
-      "63,37": 56,
-      "63,38": 56,
-      "63,39": 57,
-      "63,40": 59,
+      "63,30": 58,
+      "63,31": 59,
+      "63,32": 59,
+      "63,33": 59,
+      "63,34": 59,
+      "63,35": 59,
+      "63,36": 59,
+      "63,37": 59,
+      "63,38": 59,
+      "63,39": 60,
+      "63,40": 62,
       "63,41": 0,
       "63,42": 0,
       "63,43": 0,
@@ -1802,7 +1876,7 @@
       "63,55": 0,
       "63,56": 0,
       "63,57": 0,
-      "64,13": 60,
+      "64,13": 63,
       "64,14": 33,
       "64,15": 33,
       "64,16": 33,
@@ -1812,14 +1886,14 @@
       "64,20": 33,
       "64,21": 33,
       "64,22": 33,
-      "64,23": 61,
+      "64,23": 64,
       "64,24": 0,
       "64,25": 0,
       "64,26": 0,
       "64,27": 0,
       "64,28": 0,
       "64,29": 0,
-      "64,30": 60,
+      "64,30": 63,
       "64,31": 33,
       "64,32": 33,
       "64,33": 33,
@@ -1828,7 +1902,7 @@
       "64,36": 33,
       "64,37": 33,
       "64,38": 33,
-      "64,39": 61,
+      "64,39": 64,
       "64,40": 0,
       "64,41": 0,
       "64,42": 0,
@@ -1893,7 +1967,6 @@
     "12,52,2,5",
     "15,49,2,3",
     "15,52,2,5",
-    "18,7,1,14",
     "18,49,2,3",
     "18,52,2,5",
     "19,7,1,4",
@@ -1906,7 +1979,6 @@
     "23,52,2,5",
     "25,49,2,3",
     "25,52,2,5",
-    "33,49,2,4",
     "63,13,2,11",
     "63,24,2,5",
     "63,30,2,10",
@@ -1929,6 +2001,13 @@
     "22,37,1,9",
     "17,7,1,14",
     "8,34,1,10",
+    "29,49,2,3",
+    "29,52,2,5",
+    "31,49,2,3",
+    "31,52,2,5",
+    "18,7,1,14",
+    "33,49,2,3",
+    "33,52,2,5",
     "21,2,1,2",
     "21,4,1,2",
     "21,7,1,26",
@@ -2065,7 +2144,7 @@
                     ]
                   }
                 ],
-                "ID": "9580e8c1-ec11-4925-9733-cd68bf3e11f4"
+                "ID": "38bdafa4-aff3-47c5-984c-dbbb58a421ae"
               },
               {
                 "Condition": {
@@ -2097,7 +2176,7 @@
                     ]
                   }
                 ],
-                "ID": "aa29afda-2180-4ccb-bae1-55cc1c474ee9"
+                "ID": "ee301905-1673-4247-9d97-1eb7e54c383c"
               },
               {
                 "Condition": {
@@ -2129,7 +2208,7 @@
                     ]
                   }
                 ],
-                "ID": "1bbe3f68-2058-4f99-b1ea-795050263e55"
+                "ID": "4548aece-7370-46f7-9902-984d8e3083a4"
               }
             ]
           }
@@ -2170,4 +2249,4 @@
     },
     "PageOrder": 1
   }
-}//rvBT5ojiTuw/q6g+osdGx6lsPjBSSmlptiO09WcZz/xLcOVB62QorQZYhg1DBYSVO8JpJieiUEH/oiRNGpyoZQF6mMVAA3qjFzeA8aba/a+wQ9lF/zn2d6S5C2yvCXcGxhs4CTSm+4c03Pn4sfI7OJ34wMbZsDKwaO6oZs+ol0dTaTDSZpdgSTUotBq9LWmX2D2vslsQqclKBAQkP4siGj2+1OKEnH6XuuEZixk3wkcuQfuQw6MDOo7jZbPVrl/yXasvHITQZe7ih+1o2GatPf5pGR3wp4IxrmGb4QVgvYIU8XIn4PXBwxjD5Pog3SjC/qXtQY6zbKsMiUu0y6WXt5ExQG9joPD+Xva9c/gkis1ne0tCJCNwUsPP0EyUNaOQLYYfZbTyYpxeBHlkvAL1LXwYP0VpTpzCewlSLSRLvP6OKzd48P/j7hWHdC+V5U6+CEztU026qx2Q+UCnJsfQpxbawkJs+opj0VqLFuq4z60ilRvMA1uN1FBK3PE8YrIAPHK+TnUXji2F3kDTdnSQqKXwfcvxayt7UhfWNjA50lKc0IGWEQgZOZffNAn1MlN/CyS+NY5owqwkUL0gbY9Thzeqk818Z5GmPJNSMixfjmdCcpSonV5dKY2qImJgtFELZXCARJ2zULS9Rkh21NwGEwomV5Dr/aIOYbUFfonf/YCu1ZDZeg21ugUDq6g9TVoQXbAV5WEmsZjxBKWycMWDDUWozzSciw9xY3TNtu+/8hzphM8PT4Qw5SVy16L26BEwlQcFz7LmTK0mFDMwjpQ3t57qK9SffiMDauG6LnTeJplOIWzhR97F6DnjbT4L2pWLfzUHba2iEiTU2CJqHaNm6zLvUbVgqHKS6qxTd9TMPsLoSvxz+w8ROjTeyR2jVhtvxkOiA9cys4fQ6H21C4IhRQ==|920
+}//hEvzzInBOBlLv6Ell5exEGVPCzLE5Tc+KQ2R18JYio4hb2BsYqXsbvX+PptEgvy6Bn+hM+srn6y6TtJis20UphDJXMw1iPpnDt5EzfnOgkpK1J6irXpCiZLRrbkipDK8/9g3YV3h7Cymj6lqZTO7ovcXcoQ1pIeWdYzOrqH4vpwZvRoxNuMY5WytJvTHkKznYINvzgRZt9LRF+ve1yXUs802Nh4fOwQPXwaik+buElTuwhtGR/+2LDK0XuqAyuurt1+9q/0dG4UBmpheIUfzCF0y6Zq7/CBKkVqhXGhIrPgPxtTaDMkilY/XxfqByCw6f71DpdfWmqB7MfdMi2sgsQHxZL9R1+Et41XqVjrq/W5guQj7nu9YXKDqIe9X/Gk3SdOejzV4Yt3L04Te3RlGU9Akz4faFt9P8pMh2G1fK4E36HNsK+VnfFiovSGj1zqVkkH6Dbb4RjuttabuQnSe9+wjRXTfVYoZE2nqnebAOD4bcIhNnZqpP09Y+Ur0gCRUrYC5pd4GtITcACr4C2qy/KOCePs3ZoXTttG1qwh0Ge+O+GHeJDfmczOoF7hgeCNTwWP9l8LpbhKhx+OzKCB5weham4jtx4MtesvPsnjeUs3b139odBe6y9GOSmvdGkKWmjEYhEAmC4xAOuVSRAT+kSAVbycqqeEVIE4lan6dU4SXU5PDiQmL5RxrHdOw2jwjbsSz9hi9FPuffLpiEQQDUcqC1lNot3iU1zm+R7+q1inNJ7IngDGm0bVm4L0xPQrY90tKhYbzaYeFLJojS/SXzpXV7Mmm9zuz6wAd94OUiezdTKcEL3o3SYR8+bMTiOMJEVdKKP2MFHrDAcGQJONJsDeYrV0rMRLoAZmcODdbcIlbY/i9qiBkV7ntCHzgC0F2O6wjqFj5jtTFjYF2oiG7IA==|920
