@@ -333,7 +333,7 @@
       "BindingInfo": {
         "TableName": "tiroshiyom",
         "ColumnName": "HYOJUN_COLOR",
-        "GUID": "6686cb51-951d-4d52-8fbf-4437e9f5db60"
+        "GUID": "fe4827ea-5975-4ca2-a8b0-e76456088acf"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -384,7 +384,7 @@
       "BindingInfo": {
         "TableName": "tiroshiyom",
         "ColumnName": "TOKUBETSU_SHITEI_COLOR",
-        "GUID": "521f5b59-128e-4263-b3a5-f254e3c6f760"
+        "GUID": "f9353342-8af6-4c04-a6c5-9fb4475065ad"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -482,7 +482,7 @@
                     ]
                   }
                 ],
-                "ID": "2898370e-3c5c-4d1c-b417-c7db19c45a17"
+                "ID": "bff4e868-0812-414d-af38-71aae667aedb"
               },
               {
                 "CommandList": [
@@ -499,7 +499,7 @@
                     ]
                   }
                 ],
-                "ID": "603d1e73-fad6-4364-ab07-6307313dca69"
+                "ID": "1e837596-9c85-4fd2-a4eb-d5b5366fec66"
               }
             ]
           }
@@ -657,7 +657,7 @@
                                 "ID": "09a864a18c1447979bdc2aeb25540a89"
                               }
                             ],
-                            "ID": "dae3d231-4d8e-4961-b319-ad0ceb765107"
+                            "ID": "1c69bc39-2b05-4db4-95af-0b216516e537"
                           }
                         ]
                       }
@@ -804,14 +804,14 @@
                                 "UpdateRowType": 3
                               }
                             ],
-                            "ID": "795e07b2-c079-494b-b648-285d9d86394d"
+                            "ID": "4cefd2be-875e-4b23-b6ed-632057ed7fe4"
                           }
                         ]
                       }
                     ]
                   }
                 ],
-                "ID": "15dfc002-986d-42cb-b5ec-dc1f93d0498d"
+                "ID": "225c892b-9a50-4bef-b619-f5eab9647cc6"
               }
             ]
           }
@@ -846,7 +846,7 @@
                     "MessageFormula": "色仕様を更新しました！！"
                   }
                 ],
-                "ID": "4fa6929e-3bf8-4106-afe1-1411ea227eb0"
+                "ID": "765603dc-6bde-4e33-b070-d60fcdce0223"
               }
             ]
           }
@@ -1011,7 +1011,7 @@
       "BindingInfo": {
         "TableName": "miroshiyom",
         "ColumnName": "HYOUJUNSHOKU",
-        "GUID": "7c3b19eb-61d7-43a6-a83a-87a90f71ce21"
+        "GUID": "4a51b224-934d-4147-ade4-0d972abc836f"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -2300,4 +2300,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//qTXnBqZu240pmMd+WKAnvoOCItqSkOAN7UuIQuSKT0BO9Eby0yD8njraYCxeZZnKCKR0LHz/OGBueIIHgxfPAlXk0AsBoamQSNLf8NT5GfQlcSOhhZ346lg0kfcanfmSJjDOh/Fn7z2YcoxdqpwrrNGzYRwEpH7/JA0QnKsiPWtanmjj8mFy8KFmIOrDxbNfOlylMIt689Q7BBJBCAMcWs3TzNR4PLPUYvEcPXi94xOeE8My37BhMpaOOrD+jw7xu+gpa5oh9qMCoT9z/B7G4CVL78Jm3emf1TGDsunS14vA06SEJYdNwO+pNm98AmuVHeRwxT7LR4pzpNrsbeAXkrIYrOQY43gSuLGYNtqYxqB30qm4z2hP9cdtzT+pmlNQIKDWugZFy+QvH7fNit29245WuTlIqxDQWWYcXEX9Zlf16qXWIFxt3mu01cmpPWKKV4zxNhs9NZR0a9JCEw8zO1+C06g4mPCToUMZ56g0HXxSVOEIS4aUnYbjQfWUBdWzqUu6WL3ai6DNrwQ4HyoSmFbdkcXoI4X/Sh/mqBMW14WG2egMrveQmu2XCfVfIanoR3qVDnlLSnBB1HWDS9GLCaThY+qQOsX2U8oLc+kieI5ihTdUf32vlfGcJPavJjzdA6CnqWHNdRTtTTpEduVoAGZ7QgQJiaK2K3J/eDUuXi6swWP/bEzU3NQpx+sXr0IX2KiTj20OtdKABr6GGbq8IIjduphOVsX5pa1sRIzW3VXZJottrmVS3tD6Wzu/ikU+5+G6ZDXNb9KBcnxGajcY6c0E1PU7bYE7/Whwlzq9Nz46XX4C+qwLnQKCHGHHlGYAeZsMfW10SI2yfHVQpKWfX7s3Av4xOzes8mL4o71VFSkRFqA6Gc79Ni/mSCDgOZDciA8EFlcqdpDhl4ZvP4QZvA==|920
+}//AbRCBhJWcKrofLu7AcltqyyqnK4w38A+72r1b8ZQHPWBmrFgBjJ7p1xNkN91wKHsnkUsFr5hSjvyxHJA5ZAa3/lgI/4swSDRaHQPM5CCb47UXuO+jPetPot5kkRgsEppYbWcC3CmH9ZD9TW/J8vbXjydkhRzaMZt1OZK9gIUn61JlkeJDLl5I4MYsTYuZ0oEiUZsLC4jNVm+sZwSLIWqU1TPB43OlP2xOI6H4dlIPuioRkcRBdJxfBVDOeC9oxR2YisRQ+k1SFqgWW90CYaoYfFgF7HhR8aHwAzE3/CIZB5cZ/pN4Bs0Z2CmyMGRd6MYBTHU875W0j8RKNYHZcNj32p/sI7e/2EMFzuaRdNH/+M8HMwdDww7+/rw5Rsn07/3ig6rPMgzUjI1NsxR7TTEFzY3xpVlIzVt/xd7on0LIP2wcFaDaVKhXcEVRPw8gojZZZL73BvURyy7+9bHj1nJfK8z1mOYCu3mxXyZXU3KC3/fIIgGywlZSy0Zy/ONPWBS1U4VTBsZZ2cujK4x8RQI5qJ6lQkMqppa4JOANzo7XFx7ppS/VY9MJ6pj1w9EfxaHKdRdbtdi3XZPLV7PM2fiqVk54SUfWDlwxBSXNeH8cNxTeL0L7p4pTNJflkTdKtXWN8AADwWj2BWRExbdzx1lK71QV87bh+Wjx42JpI4lrYVIzlfGxaMiaIoZKsZCWWVYi1wCsLLnnBRAKu59ZjeYJy93wVPt4HJTuFu5dj7du0EFazK97I7nnVBqXAvlR/TgBfnYcr8euY2sV5IuLBB5I5o+sQD6ffw2M1Ev3Cckctv0eMcUEip63oXcrXJW0ooQSFM4NhW3P3fhJE8b7LjOxpQ0Jpm8z3h/+DhI5/b+P51wWp8VDFgfadxrSR0RF0JefLfELtNKgA9NbPQ3gLsWZA==|920

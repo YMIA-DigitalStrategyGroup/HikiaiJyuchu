@@ -372,7 +372,7 @@
                     "MessageFormula": "データを更新しました！！"
                   }
                 ],
-                "ID": "42d324f0-0038-4ee4-90dc-0375c292e96f"
+                "ID": "d6e7e9a3-60b1-4e8d-b7d2-038746e1498c"
               }
             ]
           }
@@ -408,7 +408,7 @@
                     "MessageFormula": "Excelにエクスポートしました！！"
                   }
                 ],
-                "ID": "3e849b0d-f3ff-401d-b5bc-bb1e121f8694"
+                "ID": "6c5e3c1b-c28d-4c5a-b18d-26fd71899d7a"
               }
             ]
           }
@@ -496,7 +496,7 @@
                     "SuccessMessage": "Excelファイルのインポートが正常に完了しました。"
                   }
                 ],
-                "ID": "4b6a3795-14ee-4497-b29b-69a743c05db9"
+                "ID": "16a8bbd5-951b-4be9-8a89-9ea19d16dc35"
               }
             ]
           }
@@ -1306,6 +1306,7 @@
     "10,7,1,6",
     "10,62,1,5",
     "10,57,1,5",
+    "10,52,1,5",
     "9,2,1,5",
     "9,7,1,6",
     "9,13,1,5",
@@ -1314,11 +1315,10 @@
     "9,34,1,3",
     "9,37,1,6",
     "9,43,1,9",
+    "9,52,1,5",
     "9,57,1,5",
     "9,62,1,5",
-    "9,67,1,3",
-    "10,52,1,5",
-    "9,52,1,5"
+    "9,67,1,3"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1344,4 +1344,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//pDNAXPkmJ0LXvG1KvYp5H+urb7mlGoaff0MVsHUwtQjiHtkjoXHgHuswM8RlqCf8ABwdidEkKby6yQoBGyqdsfRXvs712Ly3GMoaa0SnAots6iGmRWW3bVoIL3mclmPjYs7Ho0psYlx0Vxbg36J2D2Jt5eA35eWIvcWpKuEPeClOjizIeK2/gwSKF3N6n5BhSum4JOnI6etT98pZesUD+0IGD261ApqiWx7QgwPX+B21hCosPou+W4iHZD+G8UkVhV2/uV4sYTpTzedNwtMLugcLtXCrxxyaTX5y3BbE519MoLjN6kbogA0HR/rrubZ5ayAsOPSmNK1TEQj8TCSfFQe9Imh+ynHVRbUt4XqDYDKMUorttG+KuXERG3IeiwoG4+oUY8iXXGo3Cv7CnR2oPkZ+8TuQgNWprm0xAV84s651h9PqSxZuM0l+rk5SvDrB304lwlYrQzfk+5tvM3UZsvwe+gcfd/+JWhGWLkA0VXt/Co4UNnvtlf7fUm5dEXOIgWr/0N/PdNkWPEaxylArSONTX/luG7sY0hacDI6ulE+/DOio6oIVcfTHCE2Rcda8tuG1OlyCPIoPgcUhJAPg94dBD+XQGl46LJnOXugtYSh67lyxEcU4eP3AHFwf+z7GzVsWJFOO2mZufrTDCO3jmjxH/JuD0lscv0BKOnL7vCrV4ympC4qzyfWB+tPbpIzLjseUUWLb7UzU2d+5ecuu3HfimAYs46ToVhbefj3QMSiRI7nBt3kuOhw1UK2fj3sULcZ/0Owqagz+E0qGmyf8pLn+WjUxAamnBfKNtvmrh0yRZDXvaY61X3kf4MneJ6rCtj2I8VzlTMpsv7Ud+Mub7+IgfXDxlG0GlRHvppCyEtMlNz86JjiHjwcpujQBJf/Hz8cfTp3MvNfZs98E3FKpjg==|920
+}//m89XN51x0nDgCnsieepGx7Cf/DoDlo5IpJeZUxgcgx06hLIBIH35dZQ+lssv3ZFVS5ChTiGOJ8m2wz7bgSXjSUqipo4ejJjyuPMVDkdxarbSmGNkvim7buCXNIJNJEU5ny+4CLy/4yDVeO3Nof5FJT9q5eu1TtGMWzvu94qwAUCXFNCC2TF3xrgoh9zXK41MwqK5tBgDZy5c39cMenqXcBPmvQ1WGBaPSOtasLoOuuYa1uc63Skf38ytjtzwPuInd3L2cf4nLFKQK6fOFZbdWDCFd11l3Y/GDOmD239QvgKLT0z1slPOAzuD8rVwAKIQiz/IhNilj6TK4wt97bkN5OAhw8t96W/YHFqAyfF5EsrKNIgSQs47V43b3HB3LDh+jyYDILauQXVojjlLVzi7rfTW0PEuBkXLEmxILJURe1EWyNsZvmSm5xSDFUqGcgtTO77zHWuBpmgoYbcLEWUX+RS+rsx4g50FnCesPAHA+/IrUlHJdFfVdY0jkuUcDcMSFiSkgFZfiZGFmxy0Gf6SPl94uwpw/y6k60Yb5NMViFlQ2H7Sjqc28yHhaSxW7Cz3tPM3lqcBiY8EGPrFr8bNZreKDNd/8N0M2oCLT1YL71PyHc7Jnou3lkWWGyYd1Brw4e6Q8rIUJtTPm42TTZKwxdAhaEIBvDyB3SDQ8LmX1EzG4og7PbMK4F6PPMxUqL1+AXCdUOv8Lpb7Zsy+VwsCdIgNnwAPRkzHlRbQgrl97hFFTAEFpzJ+aZsPUPZaMwq/ba7rQQ5xf1SKXY+8yPTni4/gXD7VsBr44nLtTG4uu1h1Crm05xwJYzWw6xbc088L0/2dVQmIovB3vgvrsmbUiYlDPOaskZ0kxjljCQyjNIiEyGzdPyGOqv0/ZFOb7RESVNO6i1enxngiQTSTnFs93A==|920

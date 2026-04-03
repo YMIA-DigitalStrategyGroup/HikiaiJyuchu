@@ -147,7 +147,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-            "TargetTableName": "tmitsumori",
+            "TargetTableName": "ymia_v_mitsumori",
             "SqlCondition": {
               "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
               "SubConditions": [
@@ -155,35 +155,21 @@
                   "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
                   "CompareType": 6,
                   "ColumnBindingInfo": {
-                    "TableName": "tmitsumori",
-                    "ColumnName": "KISHU",
-                    "GUID": "c2be5dfd-25d8-454f-baaa-0a6f8809cde1"
-                  },
-                  "Value": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=見積書一覧!H5"
-                  }
-                },
-                {
-                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-                  "CompareType": 6,
-                  "ColumnBindingInfo": {
-                    "TableName": "tmitsumori",
-                    "ColumnName": "KIBAN",
-                    "GUID": "a9758e35-1df3-4a96-b82c-2b011241a63c"
-                  },
-                  "Value": {
-                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                    "SerializeProperty": "=見積書一覧!H5"
-                  }
-                },
-                {
-                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
-                  "CompareType": 6,
-                  "ColumnBindingInfo": {
-                    "TableName": "tmitsumori",
+                    "TableName": "ymia_v_mitsumori",
                     "ColumnName": "MITSUMORI_NBR",
-                    "GUID": "618cbae8-b169-476d-af70-9daf074868e3"
+                    "GUID": "2ec33805-b7b1-4f7f-b3ff-61692aec1a31"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=見積書一覧!H5"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "ymia_v_mitsumori",
+                    "ColumnName": "KISHU",
+                    "GUID": "79cfd95e-2e96-417f-bc0c-6bc7528b5471"
                   },
                   "Value": {
                     "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -193,7 +179,7 @@
               ],
               "RelationType": 1
             },
-            "ID": "b2519c9b5de44e2dbb6982a8c0b3fec0"
+            "ID": "42b55a1e2c9943f4a59ccac4d835b98a"
           }
         ],
         "Text": "検索",
@@ -326,8 +312,8 @@
     "10,26": {
       "BindingInfo": {
         "TableName": "ymia_v_mitsumori",
-        "ColumnName": "SEQ_NBR",
-        "GUID": "e10b0f60-5135-45d0-af37-decef68d6711"
+        "ColumnName": "MAX(SEQ_NBR)",
+        "GUID": "8fc6ca92-7f92-4a12-8b74-edbed4144541"
       }
     },
     "10,29": {
@@ -353,7 +339,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
-            "SessionGuid": "2a069b6e-d187-4617-9030-0243a9bdb686",
+            "SessionGuid": "d870cbe6-93a3-4dec-9542-eaf9cfccbe1c",
             "OpenReportName": "レポート1",
             "SideBarPosition": 0,
             "PassParameters": [
@@ -383,7 +369,7 @@
               "TableValueType": 0,
               "BindingInfos": [
                 {
-                  "GUID": "536c3899-bdd3-48ad-8010-d979645e74da",
+                  "GUID": "e675bd9b-ed4a-41a9-8709-5651a2929cbb",
                   "BindingInfo": {
                     "TableName": "tmitsumori",
                     "ColumnName": "KANRI_NBR",
@@ -405,7 +391,7 @@
                 }
               }
             },
-            "ID": "8521ce51f8604ca08ef234db8e3dfe7e"
+            "ID": "6f7821749a7b40cfadad06adb4d9328f"
           },
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
@@ -464,8 +450,18 @@
                 "TargetCell": {
                   "SerializeProperty": "=見積書マージンテスト!C9"
                 }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=見積書一覧!見積番号"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=見積書マージンテスト!BA9"
+                }
               }
-            ]
+            ],
+            "LoadBindingDataOption": 1
           }
         ],
         "Text": "見積書",
@@ -2298,10 +2294,10 @@
     "10,14,1,4",
     "10,18,1,5",
     "10,23,1,3",
-    "10,26,1,3",
     "10,29,1,17",
     "10,46,1,13",
     "10,59,1,4",
+    "10,26,1,3",
     "9,7,1,7",
     "9,14,1,4",
     "9,18,1,5",
@@ -2330,10 +2326,10 @@
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
-    "RelatedDataTableName": "ymia_v_mitsumorim"
+    "RelatedDataTableName": "ymia_v_mitsumori"
   },
   "PrintInfo": {
     "PaperSize": {},
     "Margin": {}
   }
-}//jT3ZdqInYlRNQlk3OQRSrMq4TsGA9cdm706NAgnLk3fuq0IIFL5Bg1CZG438hV6VIdU3LZJc6jgwfxY2q0vYHF+2cYO+oGLDAuI285aMmWB+cp0yZoV+WUaSNUsaOopG5rAnMJ/GMR9ZL0idarQiXuyYZI78m9RJK2XYF/kiDSjuOTHj+zL8LJAIZgpvHPiLMC52LCCsas1nluU5r6w+b2Q77eR6sjUx0qGgGLYD9B3c3WnUTShW6LMewaRJ6b8R6YOH41/hLg6HDtsFsqc4CmXoDVewqrpQhLh+ZOpU4/CSLQ5zKjAELVRtlEVVRh4zjavMstVpdY13fmt565NjUO2Lz9L80LY5MPCrY4+Hv/2UOTPh+znOKsrjrfZoPmQ1GLnNL1U7IdEsj1iVeBrk9Ydz78CBQ2t60Pljhe03lEc6ryrkfAnu2dbCB1YLhtAbSzvbIJtRnTRXRIv/+Y0UMPc3oArxuHWph/SgcmXiUlLg4abWYVxfSKp36rgpJtrogtAeQzbcZwxyJgXHkKkaCypjvVUTiKW9cC8ArVCBt+W6ayaOSAkGuKi2FyQ7KI2a+8xoZIQK4A5+HXKD4XeZ6oH7tkTK9dDixfrRyDN8loXvDioG6hLyTLuh3Ey08gJxamsMnreYy1FuohXsUNfa3NlVpAs2HFuxVfBkpkSMOiDCnBcRu4X/eXqoXyLGt7qfvuJHtRQnZVWn0/An4oC79QQEyGLb8wHsCfkwjGnXsJ5MYfgjmPKT804hdWGkXhYQwaihJfvBv4tu2fR25XeGu/fosGHunWzUwnnMEs+thfd80AvvDO95H37CvI3QUztc8Dxw5CzlQ3u+KF4fbIudJji0fXlKgdu/uwPShPNI1npTDmcHgA++OsvLTYiVmK7xOCe91svjxSpVEHv/h1Ua8A==|920
+}//RGt6GhL+pYYbAIsbtJO2Dv4MvZN55CP8biK+bCtfYg9wY0FrjKCLMV55qk3tAeL1ZQmJlKnWfQYvZwRVgc5gzSN86MBEKx1lXVy1QM7Bu67RptuWTEEyn5C1vYxgOHIMxtKot68FrYbNlPC0/EFUiuyGtCEP4H/3JS5z2R/dm/wE/OivrwLqhN17CjdcfXLAkylsXBIbWp1wnp/zliwlU3LAc8oeCcDCMjBZh4s0N0vYwF4d+fsVhNu4OOCCLUn6r/BZrTFgfxd4cq+r1jMfiZ6SAmatOzAPuK5uK1io5O/PHtRrXZBI22TcprK1iLGVDu17+RykQRfqLa24nkYb0q3tLSt/Zug0Ox9Y4eE1pDWG4xlecWsBWKRxADG/pUh1Ae4sjoB4ucVkUd/p2Dc8HKpSRP8+iU+c3CdynkGlqTyb3DtvNcuinj4y10U6yXhUc8ZZid8hh7PhASgaVp6M6GQabkU81mGH5CDA7WQa4bxWZzP9cTX7CAn1sAWgVhYmeOY9X81COe/IhI3Pm90K/d+gweA2ctVHI4laQJme6ONqSLAX/lUsC/92M1nTSMzVQI9hHlNJZ5crH2Ae67dxvRranW4PGiWa5vwmCRWhcqh/O1KY/z5hRga3ZB/IHIX9mTcjVePK7rRQL2YPewYwzr9vD3UObseewmGB/XH8Jlpl1U4Cr66Pi4MHrbCl3F9ogLj4mIFpn2oxRmDGXVfYbbnPivdoRKIR9Z0XbjUqrSJ79lxI2ywrzYEJRfinktUfxEM+fCRq+y2J6GIIMb4LEwXDl+kYpGiHOWnpTgwZAY+4EoafdGQrSfyKFrnPs7GWgg76lYgRrlBYWijkDy2Tz+M7Et4DuMd9XHZ3NO89l9PN79Cu/EKF6KCqhn/Yysk+BzZvkEQoJwLaykcBaC8CHw==|920

@@ -32,13 +32,6 @@
         }
       }
     },
-    "InLogicalVisibleIndexes": [
-      0,
-      1,
-      2,
-      3,
-      4
-    ],
     "Count": 67
   },
   "Cols": {
@@ -53,15 +46,6 @@
       6,
       33,
       48,
-      49,
-      50,
-      51,
-      52,
-      53,
-      54,
-      55,
-      56,
-      57,
       58
     ],
     "Count": 59
@@ -148,7 +132,7 @@
       "BindingInfo": {
         "TableName": "tmitsumori",
         "ColumnName": "MITSUMORI_NBR",
-        "GUID": "6532bb85-f963-44b8-a583-cff579f4f05d"
+        "GUID": "683f0d3e-aa57-441b-a85a-3dc3cbe7aab8"
       }
     },
     "9,34": {
@@ -176,7 +160,7 @@
       "BindingInfo": {
         "TableName": "tmitsumori",
         "ColumnName": "MITSUMORI_GAKU",
-        "GUID": "c6e32d95-5436-453c-a656-9b9e85c3301a"
+        "GUID": "a681d704-abac-4ed7-ae1a-be23917793d4"
       }
     },
     "18,7": {
@@ -329,7 +313,7 @@
       "TotalRowSetting": {
         "StaticText": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "=ROUNDUP(SUM(見積書マージンテスト!AL23),0)"
+          "SerializeProperty": "=SUM(見積書マージンテスト!AL23)"
         },
         "StyleInfo": {
           "Formatter": "#,##0_ ;[Red]-#,##0"
@@ -346,15 +330,21 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
-            "SessionGuid": "816bb43e-5f97-4713-b844-0bde4f84e2e5",
-            "OpenReportName": "レポート1",
-            "SideBarPosition": 0,
-            "Disabled": true
-          },
-          {
-            "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
-            "NewOtherName": ""
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "tmitsumori",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "tmitsumori",
+                "ColumnName": "MITSUMORI_NBR",
+                "GUID": "e5c5e720-dbf6-48ef-ad31-e9e49fce78ca"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=見積書マージンテスト!BA2"
+              }
+            },
+            "ID": "de3ada0680a444c3a89acc34a111ba0c"
           }
         ],
         "TemplateKey": "_RS_Normal_Style2"
@@ -398,7 +388,7 @@
                     }
                   }
                 ],
-                "ID": "a2dc8023-1ddd-4bf7-977f-b2f039033c04"
+                "ID": "63be2d92-ff88-4fac-9ac6-f0c3712349fd"
               }
             ]
           }
@@ -444,7 +434,7 @@
                     }
                   }
                 ],
-                "ID": "82e42dc3-ece8-4398-95c7-ce75d8ba12bb"
+                "ID": "314ef9f8-b055-48f2-a74a-e501e062925f"
               }
             ]
           }
@@ -719,23 +709,20 @@
         "Formatter": 12,
         "HorizontalAlignment": 7,
         "VerticalAlignment": 8,
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "BorderBottom": 0
       },
       {
         "FontFamily": 0,
         "FontSize": 16.0,
         "HorizontalAlignment": 7,
         "VerticalAlignment": 8,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
         "BorderBottom": 0,
         "BorderTop": null,
         "BorderLeft": null,
@@ -1394,19 +1381,19 @@
       "17,5": 30,
       "17,6": 30,
       "17,7": 31,
-      "17,8": 32,
-      "17,9": 32,
-      "17,10": 32,
-      "17,11": 32,
-      "17,12": 32,
-      "17,13": 32,
-      "17,14": 32,
-      "17,15": 32,
-      "17,16": 32,
-      "17,17": 32,
-      "17,18": 32,
-      "17,19": 32,
-      "17,20": 32,
+      "17,8": 18,
+      "17,9": 18,
+      "17,10": 18,
+      "17,11": 18,
+      "17,12": 18,
+      "17,13": 18,
+      "17,14": 18,
+      "17,15": 18,
+      "17,16": 18,
+      "17,17": 18,
+      "17,18": 18,
+      "17,19": 18,
+      "17,20": 18,
       "17,30": 20,
       "17,31": 0,
       "18,2": 29,
@@ -1414,20 +1401,20 @@
       "18,4": 30,
       "18,5": 30,
       "18,6": 30,
-      "18,7": 33,
-      "18,8": 32,
-      "18,9": 32,
-      "18,10": 32,
-      "18,11": 32,
-      "18,12": 32,
-      "18,13": 32,
-      "18,14": 32,
-      "18,15": 32,
-      "18,16": 32,
-      "18,17": 32,
-      "18,18": 32,
-      "18,19": 32,
-      "18,20": 32,
+      "18,7": 32,
+      "18,8": 33,
+      "18,9": 33,
+      "18,10": 33,
+      "18,11": 33,
+      "18,12": 33,
+      "18,13": 33,
+      "18,14": 33,
+      "18,15": 33,
+      "18,16": 33,
+      "18,17": 33,
+      "18,18": 33,
+      "18,19": 33,
+      "18,20": 33,
       "18,30": 25,
       "18,31": 0,
       "18,49": 7,
@@ -1451,12 +1438,12 @@
       "19,12": 18,
       "19,13": 18,
       "19,14": 39,
-      "19,15": 32,
-      "19,16": 32,
-      "19,17": 32,
-      "19,18": 32,
-      "19,19": 32,
-      "19,20": 32,
+      "19,15": 33,
+      "19,16": 33,
+      "19,17": 33,
+      "19,18": 33,
+      "19,19": 33,
+      "19,20": 33,
       "19,30": 25,
       "19,31": 0,
       "19,49": 8,
@@ -1816,15 +1803,15 @@
       "63,56": 0,
       "63,57": 0,
       "64,13": 60,
-      "64,14": 32,
-      "64,15": 32,
-      "64,16": 32,
-      "64,17": 32,
-      "64,18": 32,
-      "64,19": 32,
-      "64,20": 32,
-      "64,21": 32,
-      "64,22": 32,
+      "64,14": 33,
+      "64,15": 33,
+      "64,16": 33,
+      "64,17": 33,
+      "64,18": 33,
+      "64,19": 33,
+      "64,20": 33,
+      "64,21": 33,
+      "64,22": 33,
       "64,23": 61,
       "64,24": 0,
       "64,25": 0,
@@ -1833,14 +1820,14 @@
       "64,28": 0,
       "64,29": 0,
       "64,30": 60,
-      "64,31": 32,
-      "64,32": 32,
-      "64,33": 32,
-      "64,34": 32,
-      "64,35": 32,
-      "64,36": 32,
-      "64,37": 32,
-      "64,38": 32,
+      "64,31": 33,
+      "64,32": 33,
+      "64,33": 33,
+      "64,34": 33,
+      "64,35": 33,
+      "64,36": 33,
+      "64,37": 33,
+      "64,38": 33,
       "64,39": 61,
       "64,40": 0,
       "64,41": 0,
@@ -1894,7 +1881,6 @@
     "7,37,1,8",
     "7,49,1,3",
     "8,2,1,22",
-    "8,34,1,10",
     "8,49,1,3",
     "8,52,1,5",
     "9,34,1,10",
@@ -1907,7 +1893,6 @@
     "12,52,2,5",
     "15,49,2,3",
     "15,52,2,5",
-    "17,7,1,14",
     "18,7,1,14",
     "18,49,2,3",
     "18,52,2,5",
@@ -1942,6 +1927,8 @@
     "22,7,1,26",
     "22,34,1,3",
     "22,37,1,9",
+    "17,7,1,14",
+    "8,34,1,10",
     "21,2,1,2",
     "21,4,1,2",
     "21,7,1,26",
@@ -1975,20 +1962,8 @@
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
               "ColumnBindingInfo": {
                 "TableName": "tmitsumori",
-                "ColumnName": "EDABAN",
-                "GUID": "56f647fe-ee59-4608-82f0-17fa02ccff8d"
-              },
-              "Value": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=見積書マージンテスト!BA5"
-              }
-            },
-            {
-              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-              "ColumnBindingInfo": {
-                "TableName": "tmitsumori",
                 "ColumnName": "SEQ_NBR",
-                "GUID": "0deb555d-6c24-4977-a608-6e3a5427f679"
+                "GUID": "2c24b95c-f2f2-4dfd-b207-b42a89343d87"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -1997,7 +1972,7 @@
             }
           ]
         },
-        "ID": "931d4315b5f84e30b8e174afd3ce2912"
+        "ID": "43089823ddaa404fa60447da7d421d6e"
       },
       {
         "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
@@ -2022,7 +1997,7 @@
               "ColumnBindingInfo": {
                 "TableName": "tmitsumorim",
                 "ColumnName": "SEQ_NBR",
-                "GUID": "c2cd8cdc-17a8-4edc-b793-5ec7650b3602"
+                "GUID": "ec5b6014-0b54-4578-be82-34a263574bfb"
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -2031,7 +2006,7 @@
             }
           ]
         },
-        "ID": "ea8d30b3b64a4d0e877e72a2e04cfe38"
+        "ID": "b5749b61884a44b18e3900fa1e64bfae"
       },
       {
         "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
@@ -2048,7 +2023,7 @@
             "SerializeProperty": "=見積書マージンテスト!BA9"
           }
         },
-        "ID": "edaff2aaa1d04ea5ac524a86c995fc7e"
+        "ID": "3c58e72408cf4e1080b99a29255521bc"
       },
       {
         "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
@@ -2090,7 +2065,7 @@
                     ]
                   }
                 ],
-                "ID": "137c0eb1-7f6d-4fda-89e6-2bb6f7c15bb9"
+                "ID": "9580e8c1-ec11-4925-9733-cd68bf3e11f4"
               },
               {
                 "Condition": {
@@ -2122,7 +2097,7 @@
                     ]
                   }
                 ],
-                "ID": "408946ce-3cb8-4c91-bd95-125e84e25ee0"
+                "ID": "aa29afda-2180-4ccb-bae1-55cc1c474ee9"
               },
               {
                 "Condition": {
@@ -2154,7 +2129,7 @@
                     ]
                   }
                 ],
-                "ID": "d20b2c22-fa3b-47ef-8625-6044e63fd599"
+                "ID": "1bbe3f68-2058-4f99-b1ea-795050263e55"
               }
             ]
           }
@@ -2177,7 +2152,7 @@
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
-    "RelatedDataTableName": "ymia_v_mitsumorim"
+    "RelatedDataTableName": "tmitsumori"
   },
   "PrintInfo": {
     "ColumnStart": 1,
@@ -2195,4 +2170,4 @@
     },
     "PageOrder": 1
   }
-}//lO7hdQtBM4Gw0InI7jI4vL/3O9r+XqObI6MvEGoCCSzV/CVnER+7NkYYxd0qCtA69T2810honTVum3WoybRYJS+liYylODW3Xp/3iWu/Yfgu1mZ1EDuw9I5+vQ1GV6d3x97p211IaJzqazry3ndVSDg3qhIhxyfA5LWqNxFtjSMTgw5cawNRatQvPOrPV/zIsJJe7f7l0Id5b3DNT6X8QRHvCRCl3Vryb7n37ildTcFNjEWDFAJosfI3AL6UArvY7lGYlqzj+Vm6xxGpPk/eQZpelavCCRaxPHz0cM9WV+KIK0V5LwYzjJcFVmXZZLUAyuvnzz+nspn3gs+lDbadQhhOBLW1GSebeBDTpSGVgM3mKH+osI3Z38/oIbvoZWfFlbCeGCDmTACXmPLf5iRfEefxUIaLh2KWqNXB5H8e8aePAZBDk8eiRbsuC7K+cn2FfbwBtXC8ogZKDeXB5qCZ9dj7/PdMKk6Mq5MQTD1Nb1rH3vJvLzKrML5m4ZzLXr//wDmy1cxnb3kk2fJmZ/YC85Qw/dZCPKE5kFP6c6qSFsTn4DKwr30CoohCVR2SG6Mkgahz2A4PiK7+Fw7PRcSG8Iiqy12getwlEgQipcurMy5G/h1gZYIlM/D6vRyPtQuH1O13D3ADa7UWjKdl1vazIESb2g9NfOIjgmz5O+FTZfq1zOdVFwbDWovP57hgr+6c2uDqx3drckJqTPmAa817aPqtxYch4Je7EMHDi8Eg3AeGlS65/FmU02LQq2w1Iovy9gKeo4xufKhouCETPIqWEDkvEQqwissdE40smTx0yFdF+FHyKjN2sy+AoKeMORapCuV96//hSLavUAT/7BezRi/g0/RxjnFMwZYrBTrTndnv/6ZpinBblGo7YNvQv6hQABEa/dHvxWvzpaafydi49A==|920
+}//rvBT5ojiTuw/q6g+osdGx6lsPjBSSmlptiO09WcZz/xLcOVB62QorQZYhg1DBYSVO8JpJieiUEH/oiRNGpyoZQF6mMVAA3qjFzeA8aba/a+wQ9lF/zn2d6S5C2yvCXcGxhs4CTSm+4c03Pn4sfI7OJ34wMbZsDKwaO6oZs+ol0dTaTDSZpdgSTUotBq9LWmX2D2vslsQqclKBAQkP4siGj2+1OKEnH6XuuEZixk3wkcuQfuQw6MDOo7jZbPVrl/yXasvHITQZe7ih+1o2GatPf5pGR3wp4IxrmGb4QVgvYIU8XIn4PXBwxjD5Pog3SjC/qXtQY6zbKsMiUu0y6WXt5ExQG9joPD+Xva9c/gkis1ne0tCJCNwUsPP0EyUNaOQLYYfZbTyYpxeBHlkvAL1LXwYP0VpTpzCewlSLSRLvP6OKzd48P/j7hWHdC+V5U6+CEztU026qx2Q+UCnJsfQpxbawkJs+opj0VqLFuq4z60ilRvMA1uN1FBK3PE8YrIAPHK+TnUXji2F3kDTdnSQqKXwfcvxayt7UhfWNjA50lKc0IGWEQgZOZffNAn1MlN/CyS+NY5owqwkUL0gbY9Thzeqk818Z5GmPJNSMixfjmdCcpSonV5dKY2qImJgtFELZXCARJ2zULS9Rkh21NwGEwomV5Dr/aIOYbUFfonf/YCu1ZDZeg21ugUDq6g9TVoQXbAV5WEmsZjxBKWycMWDDUWozzSciw9xY3TNtu+/8hzphM8PT4Qw5SVy16L26BEwlQcFz7LmTK0mFDMwjpQ3t57qK9SffiMDauG6LnTeJplOIWzhR97F6DnjbT4L2pWLfzUHba2iEiTU2CJqHaNm6zLvUbVgqHKS6qxTd9TMPsLoSvxz+w8ROjTeyR2jVhtvxkOiA9cys4fQ6H21C4IhRQ==|920
