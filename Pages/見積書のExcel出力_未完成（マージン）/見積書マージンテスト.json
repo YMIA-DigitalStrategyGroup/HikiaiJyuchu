@@ -213,6 +213,13 @@
         "GUID": "201fce15-d3e3-4146-9c75-254ff9936448"
       }
     },
+    "19,34": {
+      "BindingInfo": {
+        "TableName": "tmitsumori",
+        "ColumnName": "KOKYAKU_TANTOSHA",
+        "GUID": "5fa1a235-fd3f-48e1-ba4f-cb93dc77339e"
+      }
+    },
     "21,2": {
       "ListViewInfo": {
         "Name": "リストビュー1",
@@ -373,7 +380,7 @@
                     }
                   }
                 ],
-                "ID": "59be18a9-b199-4a04-a587-3a4c28521c3e"
+                "ID": "fc292779-feb2-4813-ad2f-b3d9cae36a44"
               }
             ]
           }
@@ -419,7 +426,7 @@
                     }
                   }
                 ],
-                "ID": "c00af664-94f9-47fe-b4fc-c08d422ff785"
+                "ID": "6ed39150-cbba-40b7-9d84-3cee4b7df8af"
               }
             ]
           }
@@ -1972,7 +1979,6 @@
     "19,7,1,4",
     "19,11,1,3",
     "19,14,1,7",
-    "19,34,1,4",
     "21,49,2,3",
     "21,52,2,5",
     "23,49,2,3",
@@ -2008,6 +2014,7 @@
     "18,7,1,14",
     "33,49,2,3",
     "33,52,2,5",
+    "19,34,1,4",
     "21,2,1,2",
     "21,4,1,2",
     "21,7,1,26",
@@ -2144,7 +2151,7 @@
                     ]
                   }
                 ],
-                "ID": "38bdafa4-aff3-47c5-984c-dbbb58a421ae"
+                "ID": "d348ab18-a81c-4813-a1ec-6a491506f3f0"
               },
               {
                 "Condition": {
@@ -2176,7 +2183,7 @@
                     ]
                   }
                 ],
-                "ID": "ee301905-1673-4247-9d97-1eb7e54c383c"
+                "ID": "a1eb2cfe-79bb-4956-8b7d-778a7051d905"
               },
               {
                 "Condition": {
@@ -2208,7 +2215,7 @@
                     ]
                   }
                 ],
-                "ID": "4548aece-7370-46f7-9902-984d8e3083a4"
+                "ID": "3c1c41a5-df1b-4ce7-a72b-9a88dbba7162"
               }
             ]
           }
@@ -2249,4 +2256,4 @@
     },
     "PageOrder": 1
   }
-}//hEvzzInBOBlLv6Ell5exEGVPCzLE5Tc+KQ2R18JYio4hb2BsYqXsbvX+PptEgvy6Bn+hM+srn6y6TtJis20UphDJXMw1iPpnDt5EzfnOgkpK1J6irXpCiZLRrbkipDK8/9g3YV3h7Cymj6lqZTO7ovcXcoQ1pIeWdYzOrqH4vpwZvRoxNuMY5WytJvTHkKznYINvzgRZt9LRF+ve1yXUs802Nh4fOwQPXwaik+buElTuwhtGR/+2LDK0XuqAyuurt1+9q/0dG4UBmpheIUfzCF0y6Zq7/CBKkVqhXGhIrPgPxtTaDMkilY/XxfqByCw6f71DpdfWmqB7MfdMi2sgsQHxZL9R1+Et41XqVjrq/W5guQj7nu9YXKDqIe9X/Gk3SdOejzV4Yt3L04Te3RlGU9Akz4faFt9P8pMh2G1fK4E36HNsK+VnfFiovSGj1zqVkkH6Dbb4RjuttabuQnSe9+wjRXTfVYoZE2nqnebAOD4bcIhNnZqpP09Y+Ur0gCRUrYC5pd4GtITcACr4C2qy/KOCePs3ZoXTttG1qwh0Ge+O+GHeJDfmczOoF7hgeCNTwWP9l8LpbhKhx+OzKCB5weham4jtx4MtesvPsnjeUs3b139odBe6y9GOSmvdGkKWmjEYhEAmC4xAOuVSRAT+kSAVbycqqeEVIE4lan6dU4SXU5PDiQmL5RxrHdOw2jwjbsSz9hi9FPuffLpiEQQDUcqC1lNot3iU1zm+R7+q1inNJ7IngDGm0bVm4L0xPQrY90tKhYbzaYeFLJojS/SXzpXV7Mmm9zuz6wAd94OUiezdTKcEL3o3SYR8+bMTiOMJEVdKKP2MFHrDAcGQJONJsDeYrV0rMRLoAZmcODdbcIlbY/i9qiBkV7ntCHzgC0F2O6wjqFj5jtTFjYF2oiG7IA==|920
+}//2VJZH02LRHR7v+e1LNbNvPw9NEgbBbGeR94VYtstLqOL/DuRTN4JNbkxIMG7p0kaXoUdXeWJPoDlQMjAjQSNL9dF1wmRmp+reDM49pjhIelu+KS4HNI5rJO5UdTb3lZIvTI6MynTTf7o8LFb7hL57aid4DC0xRcdNMpMxJP/hiBDLqk9plqCTyXa6YhvZHwAk/pQ0XX2QyM1V5eMYQXBLVLVorTp1qX7HXEhacser3qQmNDL3oL3nBYw5Wu61Wzpw2ezWHchfJ7k4wL4daXw2IYqtjKfES3mCO6AE8GlXyas+SU0O9Z/7PGYvfmbW5YHl6BcPnrY3gbZH9a4BkXlWM74ZTWBOfCvmFkFbJiAERhBcxhapgltuhNmmMWDhGglz7Jg1OyLsW3xx6dDAnyfqIRUwep5AD2hsLy/FBkM5m0wdMaLRoWue/1GP5KxZl4dCbjmV/zDjTZ7YlHsZ/6GKS+s7kQuxZRaWdSO5Xj9v9AokanaVnQ83CNYxV7fUU54Wwk+CGn7sgmKtVspQFTvXjVHV3EkD8h4PrG4mRDpwFnuWkdCLoiPsFy05gsJ8hMWVvNfUkQPrr/gkb4428ABMSzgKVgEK2akwNtcEpR5l3p8WUN70EHN2P5nv2AwowjRd14qIqLy/N9XKc6Ql5hEgsyxbphtMhhWA60fAalch5gv3xriWNZDZ6dCaxvXRD8iTHJ0bpS5C6JJsR0n5U70tYo3yk/c4JNze7N8higpNLxS4G5DNbUaz1vJ7zmQXUd4sMGE/IKnPhA2hic9aKEyhqvGIUI2UFstFnrzNDwA4NE8l/Y3nQOUEjN+pE6evnF+p23maQ6XaKuGpCvwWs9cyEtuPN8gt+AhX9inS/B5ECmATk6Ko4QLHezHkt5vqKPno3GekX/yFKT6hpn6osjoTg==|920

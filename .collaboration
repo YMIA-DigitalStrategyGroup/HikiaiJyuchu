@@ -73,16 +73,7 @@
   },
   {
     "ModuleName": "Table/mkosei",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-03T14:12:59.3196694+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\マスタ関連\\mkosei.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/tshukka",
@@ -519,17 +510,7 @@
   },
   {
     "ModuleName": "PCPage/見積書マージンテスト",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-04-24T14:08:20.0033055+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書マージンテスト.json",
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書マージンテスト.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "TableView/ymia_v_mitsumorim",
