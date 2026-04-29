@@ -482,7 +482,7 @@
                     ]
                   }
                 ],
-                "ID": "bff4e868-0812-414d-af38-71aae667aedb"
+                "ID": "cabf9723-56a6-4f69-befe-ebc294f3fa0a"
               },
               {
                 "CommandList": [
@@ -499,7 +499,7 @@
                     ]
                   }
                 ],
-                "ID": "1e837596-9c85-4fd2-a4eb-d5b5366fec66"
+                "ID": "3209f273-5252-4f35-a1ce-395a12e46268"
               }
             ]
           }
@@ -657,7 +657,7 @@
                                 "ID": "09a864a18c1447979bdc2aeb25540a89"
                               }
                             ],
-                            "ID": "1c69bc39-2b05-4db4-95af-0b216516e537"
+                            "ID": "9998db48-9c18-4e55-acfa-c364342c88b6"
                           }
                         ]
                       }
@@ -804,14 +804,14 @@
                                 "UpdateRowType": 3
                               }
                             ],
-                            "ID": "4cefd2be-875e-4b23-b6ed-632057ed7fe4"
+                            "ID": "39d9a652-d601-4048-977d-6ef9609e9124"
                           }
                         ]
                       }
                     ]
                   }
                 ],
-                "ID": "225c892b-9a50-4bef-b619-f5eab9647cc6"
+                "ID": "400e4c1d-d1e3-43c1-8552-9cf411dbd662"
               }
             ]
           }
@@ -846,7 +846,7 @@
                     "MessageFormula": "色仕様を更新しました！！"
                   }
                 ],
-                "ID": "765603dc-6bde-4e33-b070-d60fcdce0223"
+                "ID": "28a0a0e2-e02b-41a0-b4f7-3ebee81248ed"
               }
             ]
           }
@@ -2300,4 +2300,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//AbRCBhJWcKrofLu7AcltqyyqnK4w38A+72r1b8ZQHPWBmrFgBjJ7p1xNkN91wKHsnkUsFr5hSjvyxHJA5ZAa3/lgI/4swSDRaHQPM5CCb47UXuO+jPetPot5kkRgsEppYbWcC3CmH9ZD9TW/J8vbXjydkhRzaMZt1OZK9gIUn61JlkeJDLl5I4MYsTYuZ0oEiUZsLC4jNVm+sZwSLIWqU1TPB43OlP2xOI6H4dlIPuioRkcRBdJxfBVDOeC9oxR2YisRQ+k1SFqgWW90CYaoYfFgF7HhR8aHwAzE3/CIZB5cZ/pN4Bs0Z2CmyMGRd6MYBTHU875W0j8RKNYHZcNj32p/sI7e/2EMFzuaRdNH/+M8HMwdDww7+/rw5Rsn07/3ig6rPMgzUjI1NsxR7TTEFzY3xpVlIzVt/xd7on0LIP2wcFaDaVKhXcEVRPw8gojZZZL73BvURyy7+9bHj1nJfK8z1mOYCu3mxXyZXU3KC3/fIIgGywlZSy0Zy/ONPWBS1U4VTBsZZ2cujK4x8RQI5qJ6lQkMqppa4JOANzo7XFx7ppS/VY9MJ6pj1w9EfxaHKdRdbtdi3XZPLV7PM2fiqVk54SUfWDlwxBSXNeH8cNxTeL0L7p4pTNJflkTdKtXWN8AADwWj2BWRExbdzx1lK71QV87bh+Wjx42JpI4lrYVIzlfGxaMiaIoZKsZCWWVYi1wCsLLnnBRAKu59ZjeYJy93wVPt4HJTuFu5dj7du0EFazK97I7nnVBqXAvlR/TgBfnYcr8euY2sV5IuLBB5I5o+sQD6ffw2M1Ev3Cckctv0eMcUEip63oXcrXJW0ooQSFM4NhW3P3fhJE8b7LjOxpQ0Jpm8z3h/+DhI5/b+P51wWp8VDFgfadxrSR0RF0JefLfELtNKgA9NbPQ3gLsWZA==|920
+}//SpOijOX65UdtxeuguquwZ6CQCbwIBdiNIuMoMdnhWr7hvnGwfwY2YyUYmMhkBiqyVNtHAJ10wuSVSc9slyC19T2WSm1QcoKlUvuqpOLZUE+J4KN+S+XPlOkaa0Qe8P8lo0pR8+o/0w/ZlFx5qDz3bTAeFBI2cA+naicsDbs4FIOxYuKupvk8b7zaN+A33TO8P3pE+w7zF9Rp6ZwSDukM8WZUGAh23J4qK2cvOH2ejaRF8KvFwPZye+3HVMJmvsxFPvsBvHwNefw91+pO30+NZ0cBJsVw3Zi8ZlNJZToMw+FmwFEmONfcbkexoBp6dmEsVCH04Epfp0Db8nSz27OZeZoSxNxM9DWuhdn5G8ornARuyPD79R4EhrLASMedf172AHLqX1T2tdyDFtcTWWNyeQiDG5mFaV1IpYDCyvqpsa8sZ4VOjH10g5A1OSOrgLhXQl4PhHdjyN55MdkVbLhgibbgZxVYkoSDH7vVXad4J05qONBIEmZABKRn6gBbUw1N9y4P+U7ac412F4uYLdHljLenIYEJx8mRkSzBz6qo6Zl4gn3OY7gsnv1d+kf/7k22LXmnSXiBntlzTb/IlQwPxhwKsaVL6FSXE5VvWWiymcTA1q5Xn3fkVOPWeobZKw91jhgvcGcRdT0CulLIxfURZV1WA+ubgrew/g9C5dTZ3MudPopGXpTRfG1DNAPFI6qmzFgbjyk2W9eIn02lnBRg4vYF6mHv6r5pswFXaI59DP3v18TNucOoFBiNI7ISW1g9UiJa0W5owMfhVH0IGodd5Oa/nCQkTgV6MHbgdA8cScaua530+SMWATkEyMcdrHAyIw1luwig8hmsbmLaTvcRU4ytagRy1zqpQxfTVxWyrHO1f+TmSwlysRyxKTOXsrOYXa4skYkvVVe751iIEXrfEw==|920

@@ -15,6 +15,7 @@
         "TemplateKey": "_RS_Dark_ThemeStyle2",
         "Items": [
           {
+            "Value": "マスタデータ管理",
             "Text": "マスタデータ管理",
             "IconPath": "Navigation/165_home_3.svg",
             "SelectedIconColor": "Background 1",
@@ -26,6 +27,7 @@
             ],
             "SubItems": [
               {
+                "Value": "色仕様マスタ管理",
                 "Text": "色仕様マスタ管理",
                 "SelectedIconColor": "Background 1",
                 "SelectedIconColorUseItemColor": true,
@@ -112,6 +114,7 @@
             ]
           },
           {
+            "Value": "Excel出力機能",
             "Text": "Excel出力機能",
             "IconPath": "Navigation/183_table_2.svg",
             "SelectedIconColor": "Background 1",
@@ -123,6 +126,7 @@
             ],
             "SubItems": [
               {
+                "Value": "出荷伝票出力",
                 "Text": "出荷伝票出力",
                 "SelectedIconColor": "Background 1",
                 "SelectedIconColorUseItemColor": true,
@@ -139,6 +143,7 @@
                 ]
               },
               {
+                "Value": "支給品リスト出力",
                 "Text": "支給品リスト出力",
                 "SelectedIconColor": "Background 1",
                 "SelectedIconColorUseItemColor": true,
@@ -322,4 +327,4 @@
       "Size": "1760,0"
     }
   ]
-}//vjMof7ocLmwQhv2HBNwVUGJrp5uc8E9jI4GWGlU8jeszUUjE8S4gJMrS6aHDodgf9ox9QCQlrco71a/ZZoRHmUNl1mQB27Y/gYowNaP91ZsJ5Wg6VcPOtw6bQNeoPwn+copIWfEE1iWt+v1E5CrbuTRFJK1EOx5gbPf1rw9LVlqqN1q4Dh0ES7aWgvHBcfjh/LDqoMJVRsW3gaBeA8YAhQwyjvScvVuWZSPbnaF4M+5H7M175mWQl28L8zHtWAufxOMGUAcRR0DNkRYkODl9eVr+DTlxCJNBq1FjudXDId6/9XpkkyA/NiyoEa7O6OCSLgQk7piMC+gibptNCIly9XxrihRWOLLymWi6xuHKVUHBwzmJGXhItDDkqyvULMIvi/p14zG4t2Kg3mTysY0xg4NUOHS97hqHxvPYpgvy0N7ZAAq64F9o4zQ3oFXarbHq0Qr4UVths41pEMdtjFEku/4zbXvMB4EVzeClsKu2dMPhl7ddHUl0uHYD1IAWvjhqN01T/F9YfzAlaLNhLMJ+WN2kT26zWm/OSTgMjeXQ71/EF+SUdAyDafIuODYcCSiSQwn57Lrt/VAo/+ETSFJa/fGgM/wahPaba5e+Aw/5bIpIq/V73KwXZoCVzDriDTXzZ2FXs4VDeiwYmYK1UDs61cl6O0wO499DzcJCwBn5dB2g4usnTAeM757WmZufLgJPDnrICyAEjFTofYS4+TuX2YesQBzV7CSjWkgw+QliNgKkJNRDFFj2MvmQxfwdDhBOnt+IeoY/EyXXydxDV0IQC36fiXVlwkJolMVS19Ws69t5XbEOXtNiYQhh7T2VbxJ4TJdFr2QKt3UQt78xxInKWjWkJ18qrRrvIHs9c7WZe+PXLR/HKWRZaOWS3sn8AdVkGH0ua+OcED7xWJKYWxZ2rw==|920
+}//wiXB9/JI/pQ4MD+7+nNrbF07GBnqLestlCik18JVTjKNMoYGodHdb5ezjRIZh5ZIgk0I36NST9dzig2F40SXT23nGBiHhcbvCe/ke425EBwH7EUkxyFOQnFz5LvA57vlbWPJjV3u55OqPLGJfUp8XXIG77ejSD+CEHAgGmAF/W1Y/+Cfw3LZnAxGhzqVEa8B2ClMtKptQAO1lvgVt37M53qbfH8S5VKeUfUUmJjNBG5UQnkMRWxVY6x842CP0i9BsQoj2X7ymEzU5+WWQqcozY8+pz8d1DP3dcFYbVD/KVli3Ulh64ai71CUySJycIoAcRCha2JYoOv5Iek46ShB1KF67U8rRQTqswqcEGBtJuZnzjo7Pppq2QOm8iVb9QUdigagGZffG5d8KcCRZBFbn4xBvUxpZrn3NNEqeCgSmlCko2oeOsgVgLN4mI0DWg5mYqtSy6Esu94L9qIp59vNs83ngrqC5YW3SbbBveIwfhPJJoKXG22GYh8TV7GUkZfZ6AWzTPZkIaU1RwxH7fMEHceeSxUt2rFPxnzkdIiBOOftjnl9MzvAvnWsQ9vXLV2S35jIhpgR05t6MD7c7f6LMTX8uzdyt2lFGt/o0A9iIyoR7xn8tdf9Va8zzK21Ij4c+EeSBWV6j0I1K+U4xwMeY3fAVkXVhVEDaCF/0c+B1qA9Qktp6ZEMPnTbezisLS8kHWLOxR1Z/1lRrzuZUKB8PF/4PXZN7YvW9fUNNHk5zvpChIBSHtESRFCERK0ESZisbQDhWY7Qg8KC28dytGvhCkRdpOkIMkgV3I5R/CG7ZYMU4mSVgkXsOW9/i4ui0F2qnWOjoBT2B/YZSDu8qI3VZT+WT51Q14as/lKLVPUWmE8mv5QuRtyDJXTMTipuOeYa5Jp3dCTaQoSphvpR7FDM4g==|920
