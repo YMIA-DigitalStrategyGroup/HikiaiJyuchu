@@ -292,7 +292,17 @@
   },
   {
     "ModuleName": "PCPage/オプション工事マスタ管理",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-04-29T16:57:31.1154341+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\オプション工事マスタ管理\\オプション工事マスタ管理.json",
+      "Pages\\オプション工事マスタ管理\\オプション工事マスタ管理.rd"
+    ]
   },
   {
     "ModuleName": "Pages/色仕様マスタYGSMデータ作成",
