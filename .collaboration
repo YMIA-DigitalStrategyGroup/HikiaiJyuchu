@@ -446,7 +446,17 @@
   },
   {
     "ModuleName": "PageReport/レポート2",
-    "ModuleType": 17
+    "State": 2,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-05-06T13:47:50.639229+09:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\レポート2.json",
+      "Reports\\レポート2.rdlx"
+    ]
   },
   {
     "ModuleName": "PageReport/レポート1",
@@ -519,5 +529,15 @@
   {
     "ModuleName": "Table/ymia_m_optionm",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "PageReport/工事指令書発行",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-05-06T13:47:50.639332+09:00",
+    "ModuleType": 17
   }
 ]
