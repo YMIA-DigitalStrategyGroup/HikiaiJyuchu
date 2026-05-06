@@ -46,6 +46,15 @@
       6,
       33,
       48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
       58
     ],
     "Count": 59
@@ -373,14 +382,13 @@
                   {
                     "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
                     "ExportExcelPageNameMode": 2,
-                    "TargetPageName": "見積書のExcel出力用(完成版)",
                     "NewOtherName": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=見積書マージンテスト!N64"
                     }
                   }
                 ],
-                "ID": "e1e72bfd-cd7f-45e1-9d7d-caeae07b87e7"
+                "ID": "1daaa06c-d8e0-4c62-9649-b3929f39aa34"
               }
             ]
           }
@@ -426,7 +434,7 @@
                     }
                   }
                 ],
-                "ID": "32daca2d-83fa-4c09-bd97-9daf5b093e80"
+                "ID": "4b0486a1-5b5c-44b3-950a-cfc4ea18332c"
               }
             ]
           }
@@ -2151,7 +2159,7 @@
                     ]
                   }
                 ],
-                "ID": "94023cc2-4a4c-4e33-9815-76d015b5e387"
+                "ID": "f97a805a-a7fc-4d87-a900-6f8b436859e9"
               },
               {
                 "Condition": {
@@ -2183,7 +2191,7 @@
                     ]
                   }
                 ],
-                "ID": "8166476b-908f-45ec-9f5b-16129ab91689"
+                "ID": "95a7e0d2-1880-4caf-bc64-17b3d0ff0a35"
               },
               {
                 "Condition": {
@@ -2215,7 +2223,7 @@
                     ]
                   }
                 ],
-                "ID": "f3fe1bbe-bff7-479d-aecd-ecdb529648c4"
+                "ID": "f4b2940e-939d-4336-a54a-71091f11fbb0"
               }
             ]
           }
@@ -2256,4 +2264,4 @@
     },
     "PageOrder": 1
   }
-}//RBuc78hhHBiMVmt1L8+CEg0MPnKpIbeDPM7Lw43hld8jhGpe4xCF+05fnYcf5FVxxD7m8//lQE4d4vVeWjtL0FNQ9wepgDOxznB/2GGr5pvBu3CrmCisI7fy/xEFra/GNkccplgzYEraq4RwairEt7PrDUb0E5848uRUtXyS7tGgbePY+RbIX92poGQ2Tejc3r8NudZAcqk5Cbu8dDJjeoPMkhp+JwQAdL/vZfTa2VVfteZu0TWAYSEfl1HpaVwbgJwbRUnZhLnelp+PM0WhVOjzTkRjlRtXz+gBRKdkbTsSdv8LaiWMP8fwFOtjTJmaC96bETe/r18Y3kaTO3p4ZrIbYwpCz+3PZF6F+sw1YEAV2P45yyMeHuxvbQyWhcU7yRD/7CwtEqSaRePPHeK5wsiPQMhdRYq3W7TBiOe2DTBItaEuALksySatZz/QoOEn4JIyCn+vzKd2w+iiPFwXRv3MJb4/0TBMj+vJyWqWZYArIY5qsdJdotj26zh7dJ38nAv+UC/mhCWu/zDfAPQcdoC9RUvuT0PyzH0o2PhjNEc3uShqlVBi65+teS7QABEMbzxvhvFRNv1dSuccTrZoMV7bX8qG8IfrtinFYHA8I3ewJE/PvZsV9WakVpY34jR07tb04SHqXfXSkddLzevog7p146bhL7wB/rbnEQXWoCqgNNDjqBGTicgG8G1e1E6QmcU8ckUEJ9xeapXAUVmrFBxK+qa9HFEU9Q10mFFj4IjwVi1VJdeNtH6jCvcDBoY1ujGKgVKtVzt0Vgn6KOQwoBqRfO41WzsSDb22oeT9Sw8b88ZIL4fucDNJKzYQA9hHvpnBVHA+daZOs+94AihLaiaus05HsaS6jx3q+A83Dtbo2e5pSFV41mDHCcpCV1NEnAPQ6enyNsWamL8R/3XK3g==|920
+}//2uc6KYQAXCDAgx4ktDdHhSI92XThE9wSmz/54nLPiPFGWVW+uOoefdFF5iZ4xptuc3lgdhqdhLS9dZeYFM5fPzcBkHKvpdgLHwD0Lj6u6Ckq/k/MlU5BfiZIFUrTaUB79TB0wf+Wmq7FB7hVHQsHDJO5TrqIeAxeGJ0qJ6Iea7BhQuDV3qPMPDqZIx03QjK9j2iABolp0FYrJ8RKZfTXrlxjgmyXRR6DvGamOa17qmLD9npp2k4iSPqq/J1fXZkMZSEcmBzgDdHyhEIjVVk2UbqoC9xNktMVPLybg9A75LjmORW6653f2jtiPJ7Dk4QP+xDXiJDF7sH1RurqBFh/ZMuU2rgGxdgm829skp9IrVwtw62EgNYXd79TLX7S+wLIB0Czb8/EJGDQw4y51ImZr/kbqqotTREV/9TYOWuksUV3GuqOvADANAzVmgW1sWm7dAgVb/HUoAyNiVHuswPM2yDojl+fG2neqYFyDqXwTjV2n1ZRuPTgeHOCxp06BW1VoDcAeEZuZL87NhtDyE8WlnA/4g0ZaymsNc1PUC4oK4v1SV3Nwo6j5GLoV0UqD9ltYI5DLBsEy/rpUMISIKS9H2LzV+jI6D/oBSnjQkpLn1QfSk2QLaPQanhqDh/czHz99i8GTRn5Pmw2WQ6V/l9YMBI/fG/h6pByW3EoabO4EYBYVIe19X93yy/QSO0h3Gih5TfzVqBdRHXwRjUbFiujzpl7FRtvaovRIrTc8GubDXP6ep6ZcpOxIQZkKtKVFwYUBw3NdolvlnN801Pyqj/Eq7QHsZXtrb03Ej4bs7WffJ+6LxBxvsmn+AErRMaPnpa2g7GnHCCo58UVJEKdcWU67obJEsKmy64DG4iP1RBIdNgG7op2hxhrWTlaD+9d7uLBWQJ3B9LH284ViBw7tnf9Kw==|920
