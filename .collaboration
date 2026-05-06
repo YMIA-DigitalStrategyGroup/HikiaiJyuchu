@@ -250,16 +250,26 @@
   },
   {
     "ModuleName": "PCPage/工事指令書出力画面",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/予備画面",
     "State": 1,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-05-06T15:13:27.5401768+09:00",
+    "LockDateTime": "2026-05-06T15:24:48.8020946+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\工事指令書のExcel出力\\工事指令書出力画面.json",
+      "Pages\\工事指令書のExcel出力\\工事指令書出力画面.rd"
+    ]
+  },
+  {
+    "ModuleName": "PCPage/予備画面",
+    "State": 2,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-05-06T15:24:48.8009965+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\工事指令書のExcel出力\\予備画面.json",
@@ -272,7 +282,17 @@
   },
   {
     "ModuleName": "PCPage/工事指令書出力画面 (2)",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-05-06T15:24:48.8015278+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\工事指令書のExcel出力\\工事指令書出力画面 (2).json",
+      "Pages\\工事指令書のExcel出力\\工事指令書出力画面 (2).rd"
+    ]
   },
   {
     "ModuleName": "Pages/支給品明細管理",
