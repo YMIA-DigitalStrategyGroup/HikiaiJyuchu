@@ -185,7 +185,17 @@
   },
   {
     "ModuleName": "PCPage/積込品出力画面_修正版",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-05-06T11:01:26.1667704+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\積込品のExcel出力\\積込品出力画面_修正版.json",
+      "Pages\\積込品のExcel出力\\積込品出力画面_修正版.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/積込品Excel画面",
