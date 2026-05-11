@@ -619,5 +619,15 @@
     },
     "LockDateTime": "2026-05-11T13:38:49.3247782+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Table/tshikyuhin",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-05-11T13:53:31.7396381+09:00",
+    "ModuleType": 7
   }
 ]
