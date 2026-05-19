@@ -152,6 +152,13 @@
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
+    "8,2": {
+      "BindingInfo": {
+        "TableName": "tmitsumori",
+        "ColumnName": "NONYUSAKI",
+        "GUID": "ebe2817f-cf6f-4c82-9c37-23e3aedbd78a"
+      }
+    },
     "8,34": {
       "BindingInfo": {
         "TableName": "tmitsumori",
@@ -278,6 +285,18 @@
             }
           ]
         },
+        "OrderByCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "ymia_v_mitsumorim",
+                "ColumnName": "KANRI_NBR",
+                "GUID": "03a4def6-1672-4fc8-af5a-c66a5a8e7322"
+              },
+              "Order": 0
+            }
+          ]
+        },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 100
@@ -388,7 +407,7 @@
                     }
                   }
                 ],
-                "ID": "1daaa06c-d8e0-4c62-9649-b3929f39aa34"
+                "ID": "db60b355-834f-4335-8643-cccd1564993a"
               }
             ]
           }
@@ -434,7 +453,7 @@
                     }
                   }
                 ],
-                "ID": "4b0486a1-5b5c-44b3-950a-cfc4ea18332c"
+                "ID": "f8710b63-8596-433d-877a-893c6e361de6"
               }
             ]
           }
@@ -1969,7 +1988,6 @@
     "4,52,2,5",
     "7,37,1,8",
     "7,49,1,3",
-    "8,2,1,22",
     "8,49,1,3",
     "8,52,1,5",
     "9,34,1,10",
@@ -2029,7 +2047,8 @@
     "21,34,1,3",
     "21,37,1,9",
     "63,49,1,4",
-    "63,53,1,4"
+    "63,53,1,4",
+    "8,2,1,22"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2159,7 +2178,7 @@
                     ]
                   }
                 ],
-                "ID": "f97a805a-a7fc-4d87-a900-6f8b436859e9"
+                "ID": "78db4360-38a5-41ed-8dc8-42b921c79900"
               },
               {
                 "Condition": {
@@ -2191,7 +2210,7 @@
                     ]
                   }
                 ],
-                "ID": "95a7e0d2-1880-4caf-bc64-17b3d0ff0a35"
+                "ID": "2bb4e936-0941-46b3-b550-ff13181aa91c"
               },
               {
                 "Condition": {
@@ -2223,7 +2242,7 @@
                     ]
                   }
                 ],
-                "ID": "f4b2940e-939d-4336-a54a-71091f11fbb0"
+                "ID": "c324220f-7375-4034-9a1d-369b8e69c19b"
               }
             ]
           }
@@ -2264,4 +2283,4 @@
     },
     "PageOrder": 1
   }
-}//2uc6KYQAXCDAgx4ktDdHhSI92XThE9wSmz/54nLPiPFGWVW+uOoefdFF5iZ4xptuc3lgdhqdhLS9dZeYFM5fPzcBkHKvpdgLHwD0Lj6u6Ckq/k/MlU5BfiZIFUrTaUB79TB0wf+Wmq7FB7hVHQsHDJO5TrqIeAxeGJ0qJ6Iea7BhQuDV3qPMPDqZIx03QjK9j2iABolp0FYrJ8RKZfTXrlxjgmyXRR6DvGamOa17qmLD9npp2k4iSPqq/J1fXZkMZSEcmBzgDdHyhEIjVVk2UbqoC9xNktMVPLybg9A75LjmORW6653f2jtiPJ7Dk4QP+xDXiJDF7sH1RurqBFh/ZMuU2rgGxdgm829skp9IrVwtw62EgNYXd79TLX7S+wLIB0Czb8/EJGDQw4y51ImZr/kbqqotTREV/9TYOWuksUV3GuqOvADANAzVmgW1sWm7dAgVb/HUoAyNiVHuswPM2yDojl+fG2neqYFyDqXwTjV2n1ZRuPTgeHOCxp06BW1VoDcAeEZuZL87NhtDyE8WlnA/4g0ZaymsNc1PUC4oK4v1SV3Nwo6j5GLoV0UqD9ltYI5DLBsEy/rpUMISIKS9H2LzV+jI6D/oBSnjQkpLn1QfSk2QLaPQanhqDh/czHz99i8GTRn5Pmw2WQ6V/l9YMBI/fG/h6pByW3EoabO4EYBYVIe19X93yy/QSO0h3Gih5TfzVqBdRHXwRjUbFiujzpl7FRtvaovRIrTc8GubDXP6ep6ZcpOxIQZkKtKVFwYUBw3NdolvlnN801Pyqj/Eq7QHsZXtrb03Ej4bs7WffJ+6LxBxvsmn+AErRMaPnpa2g7GnHCCo58UVJEKdcWU67obJEsKmy64DG4iP1RBIdNgG7op2hxhrWTlaD+9d7uLBWQJ3B9LH284ViBw7tnf9Kw==|920
+}//qSSXqST2sUufu5483E5vlYtCCRZsqjUDSmH2BZapJlQerMGvZsbPdDs4v62pIUHCenDDv60BxPt90PWd5VnLJRxRmfKzRVZ0jl2deep79BgKzEZCE2WrRf7RY+JOXgjVFFrOrwAu29I58qzldM28KXEteIqT1CXFZcqb8CR91LrV+ij9rR6fJJRuUS+SXYpygTCff2/FgOgpkXkCpByjBX5JN81OEcVT8VZ8Kwz3XN7LoV50pfhoXqAX/KiFZz5Rx2qxrC6pHkvCYAi/n3txxbWqiey1FpGdf7xEXGYzXYjM0vAd4rdaDCp5Fa14Vik21dZU4+PcqlhLv4JNlEIQ0BT7n3lVdX1Cj1fDTYdcyoRiq9/EcZWx2DzZNB+W0G6R5DtHz25nPCIf+P+ZjAG4DLx52YoB0XTnl57AsVVuNxkge13eIOflmTU2r7hXacaTg+I+a3T8DYn8Qf7nxE0Kxs6SkL04Ypv1mTW6/h9v0Y9sQfV0oC9LCibDWG9REg8IBPjA7loIK9XS9bqLAOLVAtt6geVfwBPYgbi6s3sYCHuItjNMztyLeWtE8/2esuMD6B52yzzWCFe8Dwr4Vq83jbIjqlZe187xUyz+tubFzeIhSbwg0ZyxRwWOM6j9wcQQCoi8e2q1btzXakAJGQDVijhq7rurYO9phSPFWXOA+Qygph74IdhHsJmnIjY44GME4zWjSHdRphQqFIeRXYfUHIQiRRcFb3OCgIR2IqvEf4ZghNhbK+cYEOi3a+VuNt3x68leXlou26qJCsl2lVGcqgVVzBEAWj/BQ4/vWvZmhwhZyDz0gSXib4LrHy8SupM9GZ2ALyIO61JOJrpwRLrOmavVKPhBHLdC4nPr1XuvOKstare95XF4Rs/zQ60A+wLZ3Ozm7NzsGfqmgEMchfV+cA==|920

@@ -552,18 +552,13 @@
         "TableName": "tjuchu",
         "ColumnName": "NONYUSAKI",
         "GUID": "99858e1b-bb38-4d90-89eb-aeb904638c62"
-      },
-      "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
-        "TemplateKey": "_RS_BottomLine_Normal7"
-      },
-      "DataValidationInfo": {
-        "IgnoreBlank": false
+      }
+    },
+    "13,37": {
+      "BindingInfo": {
+        "TableName": "tjuchu",
+        "ColumnName": "KOKYAKU_TANTOSHA",
+        "GUID": "720780f9-d6de-4b28-b74e-a20fef8fea2d"
       }
     },
     "15,47": {
@@ -630,11 +625,23 @@
     "19,3": {
       "ListViewInfo": {
         "Name": "リストビュー1",
-        "TableName": "tshikyuhinr",
+        "TableName": "tshikyuhin",
         "RowIndex": 19,
         "ColumnIndex": 3,
         "RowCount": 33,
         "ColumnCount": 49,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "tshikyuhin",
+            "ColumnName": "JUCHU_NBR",
+            "GUID": "8b2f6b4a-82f9-45e4-b1e4-925733111d35"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=支給品リストExcel出力画面!D4"
+          }
+        },
         "TopCondition": null,
         "ListViewStyleName": "_RS_ListStyle1",
         "ShowColumnHeaderInDesigner": true,
@@ -648,25 +655,25 @@
     },
     "20,3": {
       "BindingInfo": {
-        "TableName": "tshikyuhinr",
+        "TableName": "tshikyuhin",
         "ColumnName": "SHIKYUHIN_MEISAI_NBR",
-        "GUID": "28a8c70d-f5b1-428d-9fb6-03bbb1849dd6"
+        "GUID": "cb9795ca-9ab2-48ee-b66a-7d24f58f471c"
       }
     },
     "20,4": {
       "NameUsedInJavaScript": "HINBAN",
       "BindingInfo": {
-        "TableName": "tshikyuhinr",
+        "TableName": "tshikyuhin",
         "ColumnName": "HINMEI",
-        "GUID": "0b138404-2620-4192-abce-a0ca3ab488c4"
+        "GUID": "d7bbb070-adbf-4d7d-abca-780fc6155416"
       }
     },
     "20,17": {
       "NameUsedInJavaScript": "HINMEI",
       "BindingInfo": {
-        "TableName": "tshikyuhinr",
+        "TableName": "tshikyuhin",
         "ColumnName": "KIKAKU",
-        "GUID": "0e8ff048-dca0-48a3-b0bf-b403513bf238"
+        "GUID": "61e8c711-ab35-4391-ba3a-126bbccabb0b"
       }
     },
     "20,31": {
@@ -674,46 +681,46 @@
     },
     "20,35": {
       "BindingInfo": {
-        "TableName": "tshikyuhinr",
+        "TableName": "tshikyuhin",
         "ColumnName": "SURYO",
-        "GUID": "51b0ea90-557c-4f86-9cdc-25a3b92829f8"
+        "GUID": "b9c674f6-aefb-406f-a43a-365afb33d31d"
       }
     },
     "20,39": {
       "NameUsedInJavaScript": "KIBO_NOKI",
       "BindingInfo": {
-        "TableName": "tshikyuhinr",
+        "TableName": "tshikyuhin",
         "ColumnName": "KIBO_NOKI",
-        "GUID": "40003c9a-b6f2-480b-898e-0ef078940406"
+        "GUID": "36b09e5a-300f-44fa-a564-dcdd18786c4c"
       }
     },
     "20,43": {
       "NameUsedInJavaScript": "NYUKA_YOTEI",
       "BindingInfo": {
-        "TableName": "tshikyuhinr",
+        "TableName": "tshikyuhin",
         "ColumnName": "NYUKA_YOTEI",
-        "GUID": "783aacc5-6c03-4d70-ad12-fd806a249496"
+        "GUID": "e6a38cf0-48f0-4896-8877-96d203a88115"
       }
     },
     "20,47": {
       "BindingInfo": {
-        "TableName": "tshikyuhinr",
+        "TableName": "tshikyuhin",
         "ColumnName": "KOTEI_CODE",
-        "GUID": "cc122b69-af8b-47cc-9070-bcc4531b5c3b"
+        "GUID": "d4b1a55f-38f8-4bee-b544-a64ec9f32a3b"
       }
     },
     "20,50": {
       "BindingInfo": {
-        "TableName": "tshikyuhinr",
+        "TableName": "tshikyuhin",
         "ColumnName": "HASSOMOTO",
-        "GUID": "f5caf27e-c49e-4eb2-8cba-748a52a3f80e"
+        "GUID": "ab4fd21c-30c7-406b-8286-ab10823e85cf"
       }
     },
     "20,51": {
       "BindingInfo": {
-        "TableName": "tshikyuhinr",
+        "TableName": "tshikyuhin",
         "ColumnName": "TANI_CODE",
-        "GUID": "82d5982f-aa63-4fae-9a64-c68370c8fa22"
+        "GUID": "ca56ea39-c047-42aa-922e-587345601ae1"
       }
     },
     "52,39": {
@@ -852,7 +859,6 @@
       },
       {
         "FontSize": 18.666666666666664,
-        "Formatter": 5,
         "HorizontalAlignment": 7,
         "VerticalAlignment": 8
       },
@@ -2185,31 +2191,31 @@
     "17,47,1,3",
     "18,43,1,4",
     "18,47,1,3",
-    "20,4,1,13",
-    "20,17,1,14",
-    "20,31,1,4",
-    "20,35,1,2",
-    "20,37,1,2",
-    "20,39,1,4",
-    "20,43,1,4",
-    "20,47,1,3",
     "21,3,31,49",
     "52,3,2,36",
     "52,39,2,8",
     "54,3,2,36",
     "54,39,2,8",
-    "13,37,1,4",
     "2,47,2,2",
     "2,49,2,8",
-    "8,3,2,13",
+    "20,4,1,13",
     "19,4,1,13",
+    "20,17,1,14",
     "19,17,1,14",
+    "20,31,1,4",
     "19,31,1,4",
+    "20,35,1,2",
     "19,35,1,2",
+    "20,37,1,2",
     "19,37,1,2",
+    "20,39,1,4",
     "19,39,1,4",
+    "20,43,1,4",
     "19,43,1,4",
-    "19,47,1,3"
+    "20,47,1,3",
+    "19,47,1,3",
+    "8,3,2,19",
+    "13,37,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2237,7 +2243,7 @@
                 "ID": "ee691a0015b54adaac9bf46828d36257"
               }
             ],
-            "ID": "8b977ef3-3717-49b5-8750-2448e5a2a4ae"
+            "ID": "83dfd77d-dfc8-4dd8-aa76-4e2a31de792b"
           }
         ]
       }
@@ -2276,4 +2282,4 @@
     },
     "PageOrder": 1
   }
-}//BKMpTWS/lw8uCgwPvDPXLiy2gTZ3rx6O7C1rb1gkItKluwPpiRiW07IHnBwqkct7NjYBwXsY8Ef9UdLsAMKsS6mBdSJQENa3DqJXsa1Kp3GOP09a1MbRYRWi6m+1j+YEsWES4YeuIGoPoSFTc4dSDT2n+XjwS0OaorP3PVkh2Tx6T5M4o88bou/6X/jJKm2rm2ETMGbLvDj3Eefg/r7EdnFOJvGqCbzSV9rMy3kpol2xwaTJT38C6vqXC7eIl/DqDDTGZzGYjMbmax3ivI0NRs+gliI7bH6BiSOyi5Va3DQCMvrCPp8HOsAJxs5WV2Evj+ZTvm1DEEBSmtxoc3UY5BJ6FyikCnswKLwo/7vEeD3D6rnQi+9Zh7ybDxChGMbdujGjkznNtlTYU4/2+cFSDJrmM/Ph+NZsXVKEJyvYoEnD6dztjXhAhyaf1QFWwe9gKzm9Sq3sHTEpw/dYgmhGBdUWM9Nzt1YwjV95GKZAU64ZHa3BBUtn+NDVSi36mR1wD/8W4UQQlk+1PLu4k5jEThfqXHx5z4P/XlqwH/JhdV0eWnYkotY++3y3mT5BvP5pDwOlsS8cROpt7buVdPWePYw6hQn1K//8ocaWzaHa0ItQxzSP4BQ+AkTZ/8w/Vib3wQFyhVILZuXWMvTM/XHFF5QL7yTNkdlJVeDTN86MiXuU9VbjDhTVVf87bkfdrXt33vqAZrrsUV6KQ5JD6BAJjbXJdSDEFMr2EEj3rYZgoVeZ/XBLiBanOMEDYTKwyAXJbOmIZ96xS21GEn8nPjJnY3EYQ8kjeNMcCH5hfDPUbtfPhkFM86poTmSym8Vh94AL92SiVM8ZDQZAujRcMndZiG0ygOeCA9qpZNJp/sFJ2zWKbUKqywo2k6/LjhSEYyaETCKV6ZgdpU8HfxjNNLSVew==|920
+}//HBDc3+cHE+qNwtNUwOZfUk8k91v5Gg7q39EGOxPOMwOiutgGAAK/dGlQsRO09+WWuCh8Pp8YhWODnkCzGEVyWExufrs1GjL6aR22UKg5YsgHg4p3EUIUoyFUy7ZvVWdDK11NXIZxWsGQr/Ii8qrD12/1dBY1BZb+eqjI5OFUrfJ81K+YLTATafZEvVtRXoeBfPHzYwZ02rYmVnsBTBXzovzmdlANHmnBNy5RPXjU78/TH45y/9cxqgPVuDzSEijkYOr8awssmEAEO8cU0dV59PeANBtMXsn2xYLz86o0CgQVTqCinHd9MREuZy8agjFNbPCq4O5id+EN/rt56vduZMpNeeovMDAoxUWZ45ubtLclr61kI1d0qhFV5Xp/489ni2Vr90kLMX9En7P2F8etg6nfOjwhdA/GWvgISLdT/GQtrSQOncEKuo9MHNSXJ3Mz97hm6H+OT2gZrYp6fn3b0rTwru7U4iIOMziEqyjnPm7rhFR+5oZE3AMkgPIkJqdCoEI70T6sHs0xgOzFi7bn2K/GGKh/MRgLnzTMP6NMaVirB5i3+Yl7C7gP5GXb7bBIEUMV7UmiBe+6yQgDYCTQC2tlZ7X4RGq9Xn7FVuv5jm3w07fy8pksYmXqM/vYhkYCFI720ORJjAVUwI2AtIhLAuZPrg+wpMF8n0yqmHUd+jn6iobAcXBsgTWVuCEIrpa5olTYPxCdvbTJlxyPNSvee1wbjcL5UIIliI73tTc1iMHancvuHoxlI/bQLSO7nMXNTZhDlSQDWgmtrIvo5VGdzavPcChzpFLGhDNBa3QBF0XejIUUhA9Itv+GfqvcPaSCCUXie6PinmjyUKx3vvNd1qCdNL387pPJ4oqu4enke+sC3tk1qqACMmSBHxtqpW7+FUgZmuUcIS2jvbXItoZnug==|920

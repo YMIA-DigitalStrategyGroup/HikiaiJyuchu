@@ -133,6 +133,13 @@
         "TemplateKey": "_RS_Normal_Style2"
       }
     },
+    "8,2": {
+      "BindingInfo": {
+        "TableName": "tmitsumori",
+        "ColumnName": "NONYUSAKI",
+        "GUID": "58284bfe-09db-403d-9836-fe92dd9c2bc6"
+      }
+    },
     "8,34": {
       "BindingInfo": {
         "TableName": "tmitsumori",
@@ -206,6 +213,13 @@
         "TableName": "tmitsumori",
         "ColumnName": "ENGINE_KATASHIKI",
         "GUID": "81fa20df-598a-4cc2-b5c7-4903b622678b"
+      }
+    },
+    "19,34": {
+      "BindingInfo": {
+        "TableName": "tmitsumori",
+        "ColumnName": "KOKYAKU_TANTOSHA",
+        "GUID": "bb5f72e8-855c-467f-b9dd-5d8e007fea51"
       }
     },
     "21,2": {
@@ -373,14 +387,14 @@
                   {
                     "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
                     "ExportExcelPageNameMode": 2,
-                    "TargetPageName": "見積書のExcel出力用(完成版)",
+                    "TargetPageName": "見積書のExcel出力用",
                     "NewOtherName": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=見積書のExcel出力保存!N64"
                     }
                   }
                 ],
-                "ID": "eb7bae5b-7924-49a3-84e8-3edf861c13ad"
+                "ID": "e2c93cd5-6241-4ad6-8102-cbe18fbc3c8f"
               }
             ]
           }
@@ -426,7 +440,7 @@
                     }
                   }
                 ],
-                "ID": "4b83f2f8-1312-447f-9f42-2a20c9705f07"
+                "ID": "1f7f6cd2-b591-435f-a43d-4b5500ea8922"
               }
             ]
           }
@@ -1888,7 +1902,6 @@
     "4,52,2,5",
     "7,37,1,8",
     "7,49,1,3",
-    "8,2,1,22",
     "8,34,1,10",
     "8,49,1,3",
     "8,52,1,5",
@@ -1909,7 +1922,6 @@
     "19,7,1,4",
     "19,11,1,3",
     "19,14,1,7",
-    "19,34,1,4",
     "21,49,2,3",
     "21,52,2,5",
     "23,49,2,3",
@@ -1944,7 +1956,9 @@
     "21,34,1,3",
     "21,37,1,9",
     "63,49,1,4",
-    "63,53,1,4"
+    "63,53,1,4",
+    "8,2,1,22",
+    "19,34,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1993,7 +2007,7 @@
             }
           ]
         },
-        "ID": "314554d9803b4dd3bd43522aa64d3ca9"
+        "ID": "0d3a1cace1d84f578462053be5eaffa0"
       },
       {
         "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
@@ -2086,7 +2100,7 @@
                     ]
                   }
                 ],
-                "ID": "ffe96a77-e67e-4022-b785-6f32ee137d45"
+                "ID": "5142ce27-da70-4afa-960b-53cf2cce6394"
               },
               {
                 "Condition": {
@@ -2118,7 +2132,7 @@
                     ]
                   }
                 ],
-                "ID": "dfd443d0-67de-4246-b0f8-6c485b149be8"
+                "ID": "2119a8dc-7368-460d-9c54-e4b5c88008d9"
               },
               {
                 "Condition": {
@@ -2150,7 +2164,7 @@
                     ]
                   }
                 ],
-                "ID": "5849e8e6-13d5-4cd7-ac40-1486c6f9d78b"
+                "ID": "85196bae-ed22-44d0-aad1-c9acb7b68ca5"
               }
             ]
           }
@@ -2173,7 +2187,7 @@
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
-    "RelatedDataTableName": "tmitsumorim"
+    "RelatedDataTableName": "tmitsumori"
   },
   "PrintInfo": {
     "ColumnStart": 1,
@@ -2191,4 +2205,4 @@
     },
     "PageOrder": 1
   }
-}//FLlz0n0cAExZ2Elh5ATRwqd8dGigIS8nutyrOY1QAjWS9vmBgmwG+ss+gyRYZlhXJiNkIYw9rVEV0eqoUdFt3Nw0OANPeTUdGFKC3zI7kSj6LnMl99IAQxpUmcRzU2f5UDvgSemCRGjkOcJBHBihmVYkqfCWAbKK8gGv6SfTxxNH34oPOWtWBCUr8cDv/dmug7y+knRs4+w8n+xZw1QiN0H5ZleaN1NVoUgjbQUlnqF4QLonMLr2mEllnMIQgqF6qsHxDkD7ZDWg9Z/HaxMHdV9KxBap7shaR5uSDELG5OFzxY4pKPFqSsA/FTUf2Mj1YKfDxPYYoeUf4BiB8fjHXRLQIlxru5/AV4wz1rePyMkBDlvHkK+o/LCIzbe4A3Zt/dMCLGaCFSLkcXucAujWVYNC7d+b7wHkRbaIp4UGzey3oYvMN2hdSoLMVF0Gws2XkbV/gdACup8v+mvr+HMTbQHaIFUQZSZd/mQD7lgQnbWPWskwgi6he8Nn32ro+gDC3AMBTJGqp17MJ9JlLFkNb1IU6KnHXd8gOvZyo9BkK3rM9NBuNigkkY0jsG3/NF3A9XICllqUROQ4J2hLmJTAIXzf8qoZKzFJ4qZy45S6aGDCOPsh7XCw5hrcpu63uba+TJ9s3ZjnjEfAChU87cWuaTU5cdkwt7VbCAU/4cHAZBgnSo+RR105MibCmZ9V5HLXc9AiRu+Qt+KxUr5hRPcYt3vU4wS3l5fjj7BOYWO3EY2sTjJKwxMZrWrwp9UC5Woj0xVLEoJcrCX7ils79HbPJ6eBN22C5HwBw3WhzXWHiLdvpA4dEq3WRiC2tJrE/ORBmZHRorYtLGXSlBZWpMmlgM0IKzHEcYxAEB71/OA5v1uH91ugsziig3dVFlijaOPKvmdimqwc2upFzvVrhT12Yw==|920
+}//aLTBx6bP+k+TN8kGyWqgriftfafiJVZBMb2/rpg5r9wUZdJw1aIZjJviASD0jE074TXxGV7mo0oh2Yc6UKAYUwD9puq1uFVuNUIKcITn1jKZfXI6oFuYrUfWeXUPrtrejYSjjhAoJP3L8He5c47DRxiPHyPCVBxHq6QtBrzZCpNZEA58+ezciUryigRoX5vl9Qx7BFlZlIUJwOWXd4W89SnNWDOocncYaJCcUKmbez0ofwjRE0ZLk7Vk5BgsJL3VbYpHTSsVq9o89LKKdUWnqnuswGTJ3QvUtX8fzaAAMje8Uxe5L9Hf/pKdb6QuBF96qcOQuR/PkRy7HUVFxvTMPnoq2ZfRCRsJFgHfjFZgYgGBjbgG/4BkL7XIzNbJr1URJLGqhn7VLWJEeL3I9gx7MQNStKHTow9XmrtjxL/0WS0JztchK7cyOkgZa9FQSGnBY88QSIsbD/b7X5DyNurExKRnAK9P3hai6wdgh8rOitpK7tBJ6ffDQz3L/lXOmwg+Xfd2Nnndu6ysIjZJGqL845oarHl3dtREfsW9YcHqvJU1DpUTEclhkTGDvByfFWzp1nDOWB1aTen8PLM8pOnYhv2PZIiqeDWDm3RiPNDnp+yogp4H2IolQssLgW4d/spJd5E1wIQiG/P7+5sDn1wOsZC7CiEtJnZcw62sEadnhiowjycazPsXb8ApDhxxQj6D2bL1mGBLeUWX1qvyGQNn85vihoC5qlmLSfsZeuxKqVE39HQn+9mbBm/vcjkH4j4bBJ/TKetzNXY8rUk0FWfbZmVpyOsY2gxl6k9/tOxU9Evx2PaDmXP8xgrbK8MLTIiJN31ggjldx+G+nwxboh+ILwzLUDXBVkWvyQPHaJPteGRXdLS+cRhN9LtppQR7vLPQ0TlXcmpiOj09K7fXhHBf4A==|920
