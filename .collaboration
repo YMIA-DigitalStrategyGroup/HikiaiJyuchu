@@ -9,11 +9,29 @@
   },
   {
     "ModuleName": "Table/tjuchu",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-14T10:56:52.6292741+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\共通\\tjuchu.json"
+    ]
   },
   {
     "ModuleName": "Table/tjuchum",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-14T10:56:52.6293065+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\共通\\tjuchum.json"
+    ]
   },
   {
     "ModuleName": "Table/tshodan",
@@ -41,7 +59,16 @@
   },
   {
     "ModuleName": "Table/mkosei",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-14T10:56:52.629313+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\マスタ関連\\mkosei.json"
+    ]
   },
   {
     "ModuleName": "Table/mtorihiki",
@@ -49,7 +76,16 @@
   },
   {
     "ModuleName": "Table/moption_futai_koji",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-14T10:56:52.6293169+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\マスタ関連\\moption_futai_koji.json"
+    ]
   },
   {
     "ModuleName": "Table/mtsumikomihin_shikyuhin",
@@ -73,7 +109,16 @@
   },
   {
     "ModuleName": "Table/tmitsumori",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-14T10:56:52.6293226+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\見積\\tmitsumori.json"
+    ]
   },
   {
     "ModuleName": "Table/tmitsumorim",
@@ -546,7 +591,16 @@
   },
   {
     "ModuleName": "Table/ymia_m_optionm",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-09-14T10:56:52.6293379+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\ymia_m_optionm.json"
+    ]
   },
   {
     "ModuleName": "PageReport/工事指令書発行",
