@@ -645,13 +645,13 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "PCPage/社内展開用",
+    "ModuleName": "PCPage/社外用",
     "State": 3,
     "LockedBy": {
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-09-29T14:16:26.8404672+09:00",
+    "LockDateTime": "2026-09-29T14:16:41.2635129+09:00",
     "ModuleType": 1
   },
   {
