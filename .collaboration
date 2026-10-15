@@ -663,5 +663,15 @@
     },
     "LockDateTime": "2026-09-29T14:16:26.8403402+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "TableView/ymia_v_kojishirei",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-10-15T11:06:26.8649455+09:00",
+    "ModuleType": 23
   }
 ]
