@@ -409,14 +409,14 @@
                   {
                     "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
                     "ExportExcelPageNameMode": 2,
-                    "TargetPageName": "工事指令書出力画面",
+                    "TargetPageName": "社内用",
                     "NewOtherName": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=工事指令書Excel出力!W83"
                     }
                   }
                 ],
-                "ID": "1c9d6541-ad47-4a38-92be-7db1b4ae5252"
+                "ID": "04a4a96f-1db3-49d9-a4f6-9f4ea2de8d01"
               }
             ]
           },
@@ -485,7 +485,7 @@
                   {
                     "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
                     "ExportExcelPageNameMode": 2,
-                    "TargetPageName": "工事指令書出力画面",
+                    "TargetPageName": "社内用",
                     "NewOtherName": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=工事指令書Excel出力!AM83"
@@ -493,7 +493,7 @@
                     "AutoFitRowHeight": true
                   }
                 ],
-                "ID": "91a4aff7-5ac8-47ec-9375-0c5401293646"
+                "ID": "899b3c06-0bdc-4b45-84ea-fa3254864ebf"
               }
             ]
           },
@@ -2265,4 +2265,4 @@
     },
     "PageOrder": 1
   }
-}//PuP1NByBOCb3N+ubi1WWqwl6Cq6odyEVJxrz0EnV2gJH0dekJsPSHA/s6hq6QvNmTe534ukXPMzHsc8Eo+z1EbTtEfZSwkOhTgKIsN+gBq7NJqfLrfyFtTf2jIJ6SqSKo+be1fVtDF4GOjZC/MihRHr+/Pb/X1rFgKUTM5XgznSR0J25LSekVHQMRBOufv+IwnpMwo7L2X09RcPv4dQ5UvxOAq9xMTc9O6BXquSZWD/AG1NG5Gcg9IvfTOy/euKN5lrcRWLOotCL04ugn9OTwJwfMcKQz3EVJITfjN8TjWg6jsdna2JzmD1I+EnpHti8rnuBbF/C2zBmBozhFyqpSK/m8kn7KEiY7xLmkmcADsJF5cvK1sKB6PKO8zPEaOL0gKtH+UBvsNknC5TKz77U+W61Z/tmR/zahYy2xF922AeCr482g+jzoQlpjLUFdVPXcszsgqCMEnBK5xhuIoTsGYVrTt7ajvZfZLgGt7Sd7zG1xiGkU9qETd9w1tfVrxqmAd1dJxG95g6bigsnJ/oOU40kQfjr7qhawhS6p2+F4QTauoALpHCqt6SdgmomLcGzokJPrclIgpx45JUyOpFwo6n5gNujvsypi5r1TTYi1dZ7Mo++E/lhhA5Ry7pXLjLl59CNJc8haZUWSRQ64Lt4QWvcqnM6hX4uh5Obs6lPvlgSEnDikL5I/y752uSF1CHEufGF1uCsY5FR9CgPZHmd3frmWVercTP/PoqFLFbt9iCOrSaaoSyks9icQP7yf/vHEE6+dCU/qEgSP96EuyZSUb/9yWg/VjsfOnUnxrh5Eatsr3C8kga9O9idzsgg5QlxM9c11gUihuQdwkBLPvZ9M2yk59f3thu4VnryuoTh8a0RfMwfbS4h6ZEnVeq1mM/br3O+VjtGjZfrF9PhEA3/Qw==|920
+}//U1XI9ypvW5k2za/6A+8wNgr6kyxBlRZc1V41V7i5fcoGWMyQZkuTMXHhdaprx8ghfVNwOdVkCqZOjC0BPnav1DR95xpkcjmzJ2EhZoGhTO8b8lqKYkBYeztYEv6gLI7HC3K2e6exONLa8p/sWp/TJ0hIWEM4o9UlsGgYkVJWf3oo3DK0p92NolOZ4Z+TFm6gwC3enfqD1hvCsCrn6F/Moh/SbsNQ7DZ3MrNmv7Z9+Z9cDM4H0ENXKLMhDq39oaCpAa7PL2v5NUFMDeiqB9w51ra4IAki85dv8cZYPLy8kVVXbOrzPkCjF8xX6OCffcTY07ralSEARo6no7H2ipVqKm8thPJ/C0nqPuhTFHS/F+Sr1wsNACbM8uByows3/5NpdIe7ZhyxNWLWLRbgQRvLDlqcA7lcNCq3lNs0lvWGypwkJ1kkhxmQ4xvnjzH1GdpkrvhjHxXg2z/YMIO6BTKU7Vx3wN2RW+sKKLzE9apLnwSmA56s6Ki0AXY2RyRp1UhyJFjKQGG65wI8iHIPCeUXYFRLtRc1t4TLD9msU7TumIMR2AtHuYW/NIzWP2oRoXUTWdLMXKeHiUKP7glR8RpK53Awy9kz2FFtvaqR8sUePexC817xxQwD0q9HQkauk78X6u7KEOJh7rKIKFYV/FZdtWk8LISg7bqbFZSp7mFPidkq9bNqD6b4HRThczowCn01WDrJ7WQ6taNzwaDfavuN4nP0S2yvOvO4RJSSTJJFdTpkWpuU/IsUiYufz26wbKxl9EZmGLbzcDk198jP8N0V0TJgoDqVMhavsEJZklNAGgazuZHRBkaq14caBiozY832mwmxUJbLAru23QBR1ruThu6ImRLlrYKhnMH9zRgMmYiu0qlxNgd2VDurcWDjYA9TxIYQo8SQ1XRKFfO+KFkL3g==|920

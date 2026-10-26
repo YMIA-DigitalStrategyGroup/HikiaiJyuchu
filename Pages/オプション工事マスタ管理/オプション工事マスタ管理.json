@@ -90,7 +90,7 @@
         }
       }
     },
-    "Count": 127
+    "Count": 88
   },
   "Values": {
     "1,1": "機種(艇種)",
@@ -118,74 +118,6 @@
     "36,18": "Excelインポート"
   },
   "AttachInfos": {
-    "0,99": {
-      "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.ImportExcelToListViewCommand, ServerDesignerCommon",
-            "ListViewName": "リストビュー2",
-            "ImportExcelToListViewColumnInfos": [
-              {
-                "Column": "機種",
-                "ColumnName": "機種"
-              },
-              {
-                "Column": "品番",
-                "ColumnName": "品番"
-              },
-              {
-                "Column": "区分",
-                "ColumnName": "区分"
-              },
-              {
-                "Column": "単価",
-                "ColumnName": "単価"
-              },
-              {
-                "Column": "作成日",
-                "ColumnName": "作成日"
-              },
-              {
-                "Column": "更新者",
-                "ColumnName": "更新者"
-              },
-              {
-                "Column": "最終更新日",
-                "ColumnName": "最終更新日"
-              },
-              {
-                "Column": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=オプション工事マスタ管理!CZ6"
-                },
-                "ColumnName": "品名"
-              }
-            ],
-            "IsShowSuccessAlert": true,
-            "SuccessMessage": "Excelファイルのインポートが正常に完了しました。"
-          }
-        ],
-        "TemplateKey": "_RS_Normal_Style2"
-      }
-    },
-    "0,109": {
-      "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
-            "ListviewName": "リストビュー2",
-            "UpdateType": 3
-          },
-          {
-            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
-            "MessageFormula": "更新完了！"
-          }
-        ],
-        "TemplateKey": "_RS_Normal_Style2"
-      }
-    },
     "1,19": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
@@ -471,22 +403,6 @@
         "DoNotLoadDataWhenLoadPage": true
       }
     },
-    "4,75": {
-      "ListViewInfo": {
-        "Name": "リストビュー2",
-        "TableName": "ymia_m_optionm",
-        "RowIndex": 4,
-        "ColumnIndex": 75,
-        "RowCount": 14,
-        "ColumnCount": 43,
-        "TopCondition": null,
-        "ListViewStyleName": "_RS_Medium2",
-        "ShowColumnHeaderInDesigner": true,
-        "ShowEditStatusIcon": true,
-        "UseSimpleBar": true,
-        "ColumnOperation": 2
-      }
-    },
     "5,1": {
       "BindingInfo": {
         "TableName": "moption_futai_koji",
@@ -555,7 +471,7 @@
       "BindingInfo": {
         "TableName": "moption_futai_koji",
         "ColumnName": "TANI",
-        "GUID": "33c6d67a-f7ef-4066-9682-edfcdba37736"
+        "GUID": "736c9bba-85be-4fdf-86db-81413315ae8f"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -643,69 +559,6 @@
         "GUID": "6ebae12d-d75e-4dd0-b623-c4bf96c97450"
       }
     },
-    "5,75": {
-      "NameUsedInJavaScript": "機種",
-      "BindingInfo": {
-        "TableName": "ymia_m_optionm",
-        "ColumnName": "機種",
-        "GUID": "ecb19dbf-9350-42b6-b078-0a5b8fff639b"
-      }
-    },
-    "5,79": {
-      "NameUsedInJavaScript": "品番",
-      "BindingInfo": {
-        "TableName": "ymia_m_optionm",
-        "ColumnName": "品番",
-        "GUID": "0314a637-89da-4b90-8cfa-b7c7f09e15fd"
-      }
-    },
-    "5,83": {
-      "NameUsedInJavaScript": "区分",
-      "BindingInfo": {
-        "TableName": "ymia_m_optionm",
-        "ColumnName": "区分",
-        "GUID": "f12b790a-8b08-46d6-b8ee-2afc442e3f94"
-      }
-    },
-    "5,87": {
-      "NameUsedInJavaScript": "単価",
-      "BindingInfo": {
-        "TableName": "ymia_m_optionm",
-        "ColumnName": "単価",
-        "GUID": "129dae04-f1ab-4451-aa02-20908d8e5e6e"
-      }
-    },
-    "5,91": {
-      "NameUsedInJavaScript": "作成日",
-      "BindingInfo": {
-        "TableName": "ymia_m_optionm",
-        "ColumnName": "作成日",
-        "GUID": "d4b39c6e-fc14-4db3-b2c3-65197bc8e344"
-      }
-    },
-    "5,95": {
-      "NameUsedInJavaScript": "更新者",
-      "BindingInfo": {
-        "TableName": "ymia_m_optionm",
-        "ColumnName": "更新者",
-        "GUID": "f1b12a22-5efb-411b-987c-878704587885"
-      }
-    },
-    "5,99": {
-      "NameUsedInJavaScript": "最終更新日",
-      "BindingInfo": {
-        "TableName": "ymia_m_optionm",
-        "ColumnName": "最終更新日",
-        "GUID": "45f02afa-29c4-4548-8d22-f5cb28abe181"
-      }
-    },
-    "5,103": {
-      "BindingInfo": {
-        "TableName": "ymia_m_optionm",
-        "ColumnName": "品名",
-        "GUID": "922f1b8e-2d29-453b-9221-0fad82968a78"
-      }
-    },
     "36,1": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
@@ -732,7 +585,7 @@
                     "MessageFormula": "データを更新しました！！"
                   }
                 ],
-                "ID": "72fe8daf-63df-42b3-b5e1-81c19c72c78c"
+                "ID": "acd16c2f-b38d-43ed-ab8d-2c66d80bd0ff"
               }
             ]
           }
@@ -768,7 +621,7 @@
                     "MessageFormula": "Excelにエクスポートしました！！"
                   }
                 ],
-                "ID": "1aa654b6-0b46-475b-b18e-d62aeda1f804"
+                "ID": "967a4e5a-70d8-4574-9090-968305192435"
               }
             ]
           }
@@ -878,7 +731,7 @@
                     "SuccessMessage": "Excelファイルのインポートが正常に完了しました。"
                   }
                 ],
-                "ID": "ca388d60-a7b5-47b8-85e8-ba33de75513b"
+                "ID": "bed07570-9a28-4cb4-a6a5-d6e597bb2fcd"
               }
             ]
           }
@@ -1186,7 +1039,7 @@
       "0,69": 0,
       "0,70": 0,
       "0,71": 0,
-      "0,72": 0,
+      "0,72": 2,
       "0,73": 2,
       "0,74": 2,
       "0,75": 2,
@@ -1199,36 +1052,9 @@
       "0,82": 2,
       "0,83": 2,
       "0,84": 2,
-      "0,85": 2,
+      "0,85": 0,
       "0,86": 2,
       "0,87": 2,
-      "0,88": 2,
-      "0,89": 2,
-      "0,90": 2,
-      "0,91": 2,
-      "0,92": 2,
-      "0,93": 2,
-      "0,94": 2,
-      "0,95": 2,
-      "0,96": 2,
-      "0,97": 2,
-      "0,98": 2,
-      "0,99": 2,
-      "0,105": 2,
-      "0,106": 2,
-      "0,107": 2,
-      "0,108": 2,
-      "0,109": 2,
-      "0,114": 2,
-      "0,115": 2,
-      "0,116": 2,
-      "0,117": 2,
-      "0,118": 2,
-      "0,119": 2,
-      "0,120": 2,
-      "0,121": 2,
-      "0,122": 2,
-      "0,123": 2,
       "1,1": 3,
       "1,2": 4,
       "1,3": 4,
@@ -1294,7 +1120,7 @@
       "1,69": 0,
       "1,70": 0,
       "1,71": 0,
-      "1,72": 0,
+      "1,72": 2,
       "1,73": 2,
       "1,74": 2,
       "1,75": 2,
@@ -1307,34 +1133,9 @@
       "1,82": 2,
       "1,83": 2,
       "1,84": 2,
-      "1,85": 2,
+      "1,85": 0,
       "1,86": 2,
       "1,87": 2,
-      "1,88": 2,
-      "1,89": 2,
-      "1,90": 2,
-      "1,91": 2,
-      "1,92": 2,
-      "1,93": 2,
-      "1,94": 2,
-      "1,95": 2,
-      "1,96": 2,
-      "1,97": 2,
-      "1,98": 2,
-      "1,105": 2,
-      "1,106": 2,
-      "1,107": 2,
-      "1,108": 2,
-      "1,114": 2,
-      "1,115": 2,
-      "1,116": 2,
-      "1,117": 2,
-      "1,118": 2,
-      "1,119": 2,
-      "1,120": 2,
-      "1,121": 2,
-      "1,122": 2,
-      "1,123": 2,
       "2,1": 14,
       "2,2": 15,
       "2,3": 15,
@@ -1399,7 +1200,7 @@
       "2,69": 0,
       "2,70": 0,
       "2,71": 0,
-      "2,72": 0,
+      "2,72": 2,
       "2,73": 2,
       "2,74": 2,
       "2,75": 2,
@@ -1412,45 +1213,9 @@
       "2,82": 2,
       "2,83": 2,
       "2,84": 2,
-      "2,85": 2,
+      "2,85": 0,
       "2,86": 2,
       "2,87": 2,
-      "2,88": 2,
-      "2,89": 2,
-      "2,90": 2,
-      "2,91": 2,
-      "2,92": 2,
-      "2,93": 2,
-      "2,94": 2,
-      "2,95": 2,
-      "2,96": 2,
-      "2,97": 2,
-      "2,98": 2,
-      "2,99": 2,
-      "2,100": 2,
-      "2,101": 2,
-      "2,102": 2,
-      "2,103": 2,
-      "2,104": 2,
-      "2,105": 2,
-      "2,106": 2,
-      "2,107": 2,
-      "2,108": 2,
-      "2,109": 2,
-      "2,110": 2,
-      "2,111": 2,
-      "2,112": 2,
-      "2,113": 2,
-      "2,114": 2,
-      "2,115": 2,
-      "2,116": 2,
-      "2,117": 2,
-      "2,118": 2,
-      "2,119": 2,
-      "2,120": 2,
-      "2,121": 2,
-      "2,122": 2,
-      "2,123": 2,
       "3,1": 0,
       "3,2": 0,
       "3,3": 0,
@@ -1522,7 +1287,7 @@
       "3,69": 0,
       "3,70": 0,
       "3,71": 0,
-      "3,72": 0,
+      "3,72": 2,
       "3,73": 2,
       "3,74": 2,
       "3,75": 2,
@@ -1535,45 +1300,9 @@
       "3,82": 2,
       "3,83": 2,
       "3,84": 2,
-      "3,85": 2,
+      "3,85": 0,
       "3,86": 2,
       "3,87": 2,
-      "3,88": 2,
-      "3,89": 2,
-      "3,90": 2,
-      "3,91": 2,
-      "3,92": 2,
-      "3,93": 2,
-      "3,94": 2,
-      "3,95": 2,
-      "3,96": 2,
-      "3,97": 2,
-      "3,98": 2,
-      "3,99": 2,
-      "3,100": 2,
-      "3,101": 2,
-      "3,102": 2,
-      "3,103": 2,
-      "3,104": 2,
-      "3,105": 2,
-      "3,106": 2,
-      "3,107": 2,
-      "3,108": 2,
-      "3,109": 2,
-      "3,110": 2,
-      "3,111": 2,
-      "3,112": 2,
-      "3,113": 2,
-      "3,114": 2,
-      "3,115": 2,
-      "3,116": 2,
-      "3,117": 2,
-      "3,118": 2,
-      "3,119": 2,
-      "3,120": 2,
-      "3,121": 2,
-      "3,122": 2,
-      "3,123": 2,
       "4,1": 0,
       "4,6": 0,
       "4,9": 0,
@@ -1705,26 +1434,7 @@
     "4,39,1,7",
     "4,46,1,6",
     "4,52,1,20",
-    "6,1,29,71",
-    "0,99,2,6",
-    "6,75,12,43",
-    "4,75,1,4",
-    "5,75,1,4",
-    "4,79,1,4",
-    "5,79,1,4",
-    "4,83,1,4",
-    "5,83,1,4",
-    "4,87,1,4",
-    "5,87,1,4",
-    "4,91,1,4",
-    "5,91,1,4",
-    "4,95,1,4",
-    "5,95,1,4",
-    "4,99,1,4",
-    "5,99,1,4",
-    "0,109,2,5",
-    "5,103,1,6",
-    "4,103,1,6"
+    "6,1,29,71"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1751,4 +1461,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//ZvBcTSV3xQoSwtpvqgcXeFlZ4tv7ndaVqhXAHG9bOxeK85mfCK+bTz7KAAa2/oQvc57OG4wOe+S7xQXEwaQfHN/JpO29jAlWYCaCEfCf4/knhJ+9nTu6fD5d/kgMOoo+V6PkAornlDn4MciE8ZEgPnUJXRMB0PwFdRBfi3S8ASw6kpOXd++asCTWrnsnv6eOJLx2ten76PK+lkJ+897QZzfGujv6qJsn1rJPIXhnzACOctDLfaot6bdbTN3dciGB/DZEVKQyPIo942PdPQ6AXqD3w3praf5ztSseRv4+9mu1+ktUs+KB7KLBudqdEEwB+ZdCbvysBT6ClxGtCTb2L1NZqNroxHdwXK7tJKLrcVTsOyE9elzJ2OU5YayrIkGFJLfxTr4SjyFxb/lbyndNLeiQ/0Gpjpd8Ck70Q3F+0zf8889RE7zF9KrhaonOYMcMd6ofB+xw6xLhPw8xAYkl/uKd7Lkmxbepigox5W4GgPof//OGsTUEU9rod+cgjXeasB3C7/+AMGLt/0x+GAPz+d2RHR+3GtnQZxQDKdFQMs83bAvO08N8ADxjgz3x5Jesq2ngltVCXDR0NB/tfaP3EmGz/zCdUzMag7ipKZuj2eD87h1F9qmIZDIHjsBlme9wmz29FWkGUr5EqM6o0hxCUx/eNRwA+t/hzomcmUJfbEHc7tFl7Rm1Ieyn6uOiq93nhZeEVUsdQdzwMiZcbdGx2eptDSjtVznACDZCLOoZ/j7H+zrOckb4qvQbcxLiDG6OLXFv1D14he+Mp86jkbhVbqlmHrXfuQhBZiaJsMvWjSNXpsds09tHyJNp3CJKDGcOCdYca1qr68WjkFc3jlX6kNahGtegDDNKceJoSGKY0OcC+kZYLhiHnrMjQT5WmmEEIM3taixzaFNSNfFMXD7TCg==|920
+}//CxywglA4YTtsUKfuKDmPLAOoREYQbkxGMlzcggSPh2xveTOyhgju7v/BeqtiYHc/N3jh8Zpj8m05vUZObnzt5JQY1fI5wNQlkd6zxBlre9fZ/3sPv0Dcn1g2qVUxxqIpwNlhOk2Iked4ZZw04XxHCgVBWE3Z4IdVBhMTKWnnpBvNccgbcReBfp/Ade9WgU6xDxljAUv+h7jg71yej45SzSMW2CerqOtI1aliv4oIGXsM37YVxAFMDxnwZ6IpL2K1pofzGSzzvu06RU9No42WWut+ar1b8S54ExVMD09AwPfAMOOK5IJLG2zgA9EQsCeg90dIyQsJ42wrfvPyHSsbOw1z0fF5VvDWbXGSVJspk+hJn0EcRjC3P2ubdixXZHTnwhnrguVhYOAEW0P1C2NJZk+7Kas6L3fDg+pGceYztBSiCHVIjExwVesquS58F1eGLqLtoIiUqxZFE8x0Ww5FfUU4POd7QGHkwNl3RlVcfVamKetmrSJqL/F+CcwwH+ogkfBPTa6T6rf22hsNKXrmQseSJVvCpT4cHfXg+Ycef465yxSQr63tnTH8bvRT3yMidO+A6M8V1DX5jcM0YTcMdtSS9KaBiq2PZxwHzthTCHZqt17HMbAUZeTO6XKM4U8E3TWq/KDuriC+QkNLBu8+sZxASLDKp11blBLWyYxOp8ofGZfQDIxw5UwdZ+a58vr/0/5+rBrvIAsrngIVdtzFLvOXwbtlg/Z90qGfEm6YtooCz5IXf6QX15YPj/2tnwAgEBHKseAdDgiqRq0Lv6c7B2qx1WFipJws5BjUAXPvw3O2leo6iHMZykOjeGdL246UZLlLkPI7Q/5d2uzdE2GU1JcOhRIc3y9q0r6cyNUfEu62Ed5aODba3T+4CYuqfvX+K2wleNC/UKseMBs7xLHOyg==|920

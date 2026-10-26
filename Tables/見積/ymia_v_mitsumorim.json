@@ -3,6 +3,7 @@
   "Columns": [
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
       "DatabaseColumnType": "varchar",
       "MaxLength": 8,
       "Name": "SHAIN_CODE",
@@ -17,6 +18,7 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
       "DatabaseColumnType": "int",
       "MaxLength": -1,
       "Name": "MITSUMORI_NBR",
@@ -24,6 +26,7 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
       "DatabaseColumnType": "int",
       "MaxLength": -1,
       "Name": "SEQ_NBR",
@@ -31,6 +34,7 @@
     },
     {
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
       "DatabaseColumnType": "int",
       "MaxLength": -1,
       "Name": "MEISAI_SEQ_NBR",
@@ -227,11 +231,16 @@
     "ConnectionId": "MySql1",
     "SourceTableName": "ymia_v_mitsumorim",
     "SourceTableSchema": "",
-    "CreateViewSql": "select `d`.`SHAIN_CODE` AS `SHAIN_CODE`,`d`.`KANRI_NBR` AS `KANRI_NBR`,`d`.`MITSUMORI_NBR` AS `MITSUMORI_NBR`,`d`.`SEQ_NBR` AS `SEQ_NBR`,`d`.`MEISAI_SEQ_NBR` AS `MEISAI_SEQ_NBR`,`d`.`KUBUN` AS `KUBUN`,`d`.`HINBAN` AS `HINBAN`,`d`.`HINMEI` AS `HINMEI`,`d`.`BIKO` AS `BIKO`,`d`.`SURYO` AS `SURYO`,`d`.`TANI` AS `TANI`,`d`.`TANKA` AS `TANKA`,`d`.`KINGAKU` AS `KINGAKU`,`d`.`SHIIRE` AS `SHIIRE`,`d`.`SEIZO_GENKA` AS `SEIZO_GENKA`,`d`.`HANBAIHI` AS `HANBAIHI`,`d`.`JINKENHI` AS `JINKENHI`,`d`.`TOROKU_TIMESTAMP` AS `TOROKU_TIMESTAMP`,`d`.`TOROKUSHA_CODE` AS `TOROKUSHA_CODE`,`d`.`KOSHIN_TIMESTAMP` AS `KOSHIN_TIMESTAMP`,`d`.`KOSHINSHA_CODE` AS `KOSHINSHA_CODE`,`mitsumori_unique`.`EDABAN` AS `EDABAN`,`mitsumori_unique`.`MARGIN_FLAG` AS `MARGIN_FLAG`,`mitsumori_unique`.`MARGIN_RITSU1` AS `MARGIN_RITSU1`,`mitsumori_unique`.`MARGIN_RITSU2` AS `MARGIN_RITSU2`,`mitsumori_unique`.`MARGIN_RITSU3` AS `MARGIN_RITSU3`,`mitsumori_unique`.`KISHU` AS `KISHU`,`mitsumori_unique`.`KIBAN` AS `KIBAN`,`mitsumori_unique`.`KENMEI` AS `KENMEI`,`mitsumori_unique`.`NONYUSAKI` AS `NONYUSAKI`,truncate((case when (`mitsumori_unique`.`MARGIN_FLAG` = 3) then (((`d`.`KINGAKU` * (1 + (`mitsumori_unique`.`MARGIN_RITSU1` / 100.0))) * (1 + (`mitsumori_unique`.`MARGIN_RITSU2` / 100.0))) * (1 + (`mitsumori_unique`.`MARGIN_RITSU3` / 100.0))) when (`mitsumori_unique`.`MARGIN_FLAG` = 2) then ((`d`.`KINGAKU` * (1 + (`mitsumori_unique`.`MARGIN_RITSU1` / 100.0))) * (1 + (`mitsumori_unique`.`MARGIN_RITSU2` / 100.0))) when (`mitsumori_unique`.`MARGIN_FLAG` = 1) then (`d`.`KINGAKU` * (1 + (`mitsumori_unique`.`MARGIN_RITSU1` / 100.0))) else `d`.`KINGAKU` end),-(3)) AS `MARGIN_KOMI_KINGAKU` from ((select `tmitsumori`.`MITSUMORI_NBR` AS `MITSUMORI_NBR`,`tmitsumori`.`EDABAN` AS `EDABAN`,max(`tmitsumori`.`SEQ_NBR`) AS `MAX_SEQ_NBR`,`tmitsumori`.`MARGIN_FLAG` AS `MARGIN_FLAG`,`tmitsumori`.`MARGIN_RITSU1` AS `MARGIN_RITSU1`,`tmitsumori`.`MARGIN_RITSU2` AS `MARGIN_RITSU2`,`tmitsumori`.`MARGIN_RITSU3` AS `MARGIN_RITSU3`,`tmitsumori`.`KISHU` AS `KISHU`,`tmitsumori`.`KIBAN` AS `KIBAN`,`tmitsumori`.`KENMEI` AS `KENMEI`,`tmitsumori`.`NONYUSAKI` AS `NONYUSAKI` from `tmitsumori` group by `tmitsumori`.`MITSUMORI_NBR`,`tmitsumori`.`EDABAN`,`tmitsumori`.`MARGIN_FLAG`,`tmitsumori`.`MARGIN_RITSU1`,`tmitsumori`.`MARGIN_RITSU2`,`tmitsumori`.`MARGIN_RITSU3`) `mitsumori_unique` left join `tmitsumorim` `d` on(((`mitsumori_unique`.`MITSUMORI_NBR` = `d`.`MITSUMORI_NBR`) and (`mitsumori_unique`.`MAX_SEQ_NBR` = `d`.`SEQ_NBR`))))",
+    "CreateViewSql": "select `t`.`SHAIN_CODE` AS `SHAIN_CODE`,`t`.`KANRI_NBR` AS `KANRI_NBR`,`t`.`MITSUMORI_NBR` AS `MITSUMORI_NBR`,`t`.`SEQ_NBR` AS `SEQ_NBR`,`t`.`MEISAI_SEQ_NBR` AS `MEISAI_SEQ_NBR`,`t`.`KUBUN` AS `KUBUN`,`t`.`HINBAN` AS `HINBAN`,`t`.`HINMEI` AS `HINMEI`,`t`.`BIKO` AS `BIKO`,`t`.`SURYO` AS `SURYO`,`t`.`TANI` AS `TANI`,`t`.`TANKA` AS `TANKA`,`t`.`KINGAKU` AS `KINGAKU`,`t`.`SHIIRE` AS `SHIIRE`,`t`.`SEIZO_GENKA` AS `SEIZO_GENKA`,`t`.`HANBAIHI` AS `HANBAIHI`,`t`.`JINKENHI` AS `JINKENHI`,`t`.`TOROKU_TIMESTAMP` AS `TOROKU_TIMESTAMP`,`t`.`TOROKUSHA_CODE` AS `TOROKUSHA_CODE`,`t`.`KOSHIN_TIMESTAMP` AS `KOSHIN_TIMESTAMP`,`t`.`KOSHINSHA_CODE` AS `KOSHINSHA_CODE`,`t`.`EDABAN` AS `EDABAN`,`t`.`MARGIN_FLAG` AS `MARGIN_FLAG`,`t`.`MARGIN_RITSU1` AS `MARGIN_RITSU1`,`t`.`MARGIN_RITSU2` AS `MARGIN_RITSU2`,`t`.`MARGIN_RITSU3` AS `MARGIN_RITSU3`,`t`.`KISHU` AS `KISHU`,`t`.`KIBAN` AS `KIBAN`,`t`.`KENMEI` AS `KENMEI`,`t`.`NONYUSAKI` AS `NONYUSAKI`,`t`.`MARGIN_KOMI_KINGAKU` AS `MARGIN_KOMI_KINGAKU` from (select `d`.`SHAIN_CODE` AS `SHAIN_CODE`,`d`.`KANRI_NBR` AS `KANRI_NBR`,`d`.`MITSUMORI_NBR` AS `MITSUMORI_NBR`,`d`.`SEQ_NBR` AS `SEQ_NBR`,`d`.`MEISAI_SEQ_NBR` AS `MEISAI_SEQ_NBR`,`d`.`KUBUN` AS `KUBUN`,`d`.`HINBAN` AS `HINBAN`,`d`.`HINMEI` AS `HINMEI`,`d`.`BIKO` AS `BIKO`,`d`.`SURYO` AS `SURYO`,`d`.`TANI` AS `TANI`,`d`.`TANKA` AS `TANKA`,`d`.`KINGAKU` AS `KINGAKU`,`d`.`SHIIRE` AS `SHIIRE`,`d`.`SEIZO_GENKA` AS `SEIZO_GENKA`,`d`.`HANBAIHI` AS `HANBAIHI`,`d`.`JINKENHI` AS `JINKENHI`,`d`.`TOROKU_TIMESTAMP` AS `TOROKU_TIMESTAMP`,`d`.`TOROKUSHA_CODE` AS `TOROKUSHA_CODE`,`d`.`KOSHIN_TIMESTAMP` AS `KOSHIN_TIMESTAMP`,`d`.`KOSHINSHA_CODE` AS `KOSHINSHA_CODE`,`mitsumori_unique`.`EDABAN` AS `EDABAN`,`mitsumori_unique`.`MARGIN_FLAG` AS `MARGIN_FLAG`,`mitsumori_unique`.`MARGIN_RITSU1` AS `MARGIN_RITSU1`,`mitsumori_unique`.`MARGIN_RITSU2` AS `MARGIN_RITSU2`,`mitsumori_unique`.`MARGIN_RITSU3` AS `MARGIN_RITSU3`,`mitsumori_unique`.`KISHU` AS `KISHU`,`mitsumori_unique`.`KIBAN` AS `KIBAN`,`mitsumori_unique`.`KENMEI` AS `KENMEI`,`mitsumori_unique`.`NONYUSAKI` AS `NONYUSAKI`,(case when (`mitsumori_unique`.`MARGIN_FLAG` = 3) then (ceiling((((round((`d`.`KINGAKU` * (1 + (`mitsumori_unique`.`MARGIN_RITSU1` / 100.0))),2) * round((1 + (`mitsumori_unique`.`MARGIN_RITSU2` / 100.0)),2)) * (1 + (`mitsumori_unique`.`MARGIN_RITSU3` / 100.0))) / 1000.0)) * 1000) when (`mitsumori_unique`.`MARGIN_FLAG` = 2) then (ceiling(((round((`d`.`KINGAKU` * (1 + (`mitsumori_unique`.`MARGIN_RITSU1` / 100.0))),2) * (1 + (`mitsumori_unique`.`MARGIN_RITSU2` / 100.0))) / 100.0)) * 100) when (`mitsumori_unique`.`MARGIN_FLAG` = 1) then (ceiling(((`d`.`KINGAKU` * (1 + (`mitsumori_unique`.`MARGIN_RITSU1` / 100.0))) / 100.0)) * 100) else `d`.`KINGAKU` end) AS `MARGIN_KOMI_KINGAKU` from ((select `tmitsumori`.`MITSUMORI_NBR` AS `MITSUMORI_NBR`,`tmitsumori`.`EDABAN` AS `EDABAN`,max(`tmitsumori`.`SEQ_NBR`) AS `MAX_SEQ_NBR`,`tmitsumori`.`MARGIN_FLAG` AS `MARGIN_FLAG`,`tmitsumori`.`MARGIN_RITSU1` AS `MARGIN_RITSU1`,`tmitsumori`.`MARGIN_RITSU2` AS `MARGIN_RITSU2`,`tmitsumori`.`MARGIN_RITSU3` AS `MARGIN_RITSU3`,`tmitsumori`.`KISHU` AS `KISHU`,`tmitsumori`.`KIBAN` AS `KIBAN`,`tmitsumori`.`KENMEI` AS `KENMEI`,`tmitsumori`.`NONYUSAKI` AS `NONYUSAKI` from `tmitsumori` group by `tmitsumori`.`MITSUMORI_NBR`,`tmitsumori`.`EDABAN`,`tmitsumori`.`MARGIN_FLAG`,`tmitsumori`.`MARGIN_RITSU1`,`tmitsumori`.`MARGIN_RITSU2`,`tmitsumori`.`MARGIN_RITSU3`) `mitsumori_unique` join `tmitsumorim` `d` on(((`mitsumori_unique`.`MITSUMORI_NBR` = `d`.`MITSUMORI_NBR`) and (`mitsumori_unique`.`MAX_SEQ_NBR` = `d`.`SEQ_NBR`))))) `t`",
     "ViewInfo": {
       "IsUpdatable": true,
       "QueryColumns": []
     }
   },
+  "PrimaryKey": [
+    "MITSUMORI_NBR",
+    "SEQ_NBR",
+    "MEISAI_SEQ_NBR"
+  ],
   "Indexes": []
 }

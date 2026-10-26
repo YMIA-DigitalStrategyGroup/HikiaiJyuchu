@@ -339,7 +339,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
-            "SessionGuid": "70d15a30-f627-4643-9c03-a9709b4f1e78",
+            "SessionGuid": "3500b399-318f-43df-8b13-80ed993ef9f2",
             "OpenReportName": "レポート1",
             "SideBarPosition": 0,
             "PassParameters": [
@@ -362,14 +362,14 @@
           },
           {
             "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
-            "ParameterName": "見積番号",
+            "ParameterName": "引合管理No",
             "TableValue": {
               "TableName": "tmitsumori",
               "OnlyGetValue": true,
               "TableValueType": 0,
               "BindingInfos": [
                 {
-                  "GUID": "e675bd9b-ed4a-41a9-8709-5651a2929cbb",
+                  "GUID": "1eeb0398-9e58-4893-aef8-01f194dd2414",
                   "BindingInfo": {
                     "TableName": "tmitsumori",
                     "ColumnName": "KANRI_NBR",
@@ -391,7 +391,7 @@
                 }
               }
             },
-            "ID": "6f7821749a7b40cfadad06adb4d9328f"
+            "ID": "811bc14c09f3450d948cab7a91ef3326"
           },
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
@@ -454,7 +454,7 @@
               {
                 "Source": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=見積書一覧!見積番号"
+                  "SerializeProperty": "=見積書一覧!引合管理No"
                 },
                 "TargetCell": {
                   "SerializeProperty": "=見積書マージンテスト!BA9"
@@ -2333,4 +2333,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//dQUlipuuv9N9kfoFpZe8KDAm5JXB18k4c7yJyd5m4uwty6O0M9YK+rfFleVjsU3qEGcChzXAKcHzpk0FqezymfCHoEX3gQZvSkxeo6gtPwRM180uYJw/PtVn1gtRiAHQVjT3ta3Yt/Aq3efWVYlodsN/nK1Og+n3M67PN80rvjueNes+l9rqtQqQ6ywbxIoV9urx+Lo/WFlqVmLQrUZUpp4U4BGs/vD5A1s2SHaLSPjhSSOG1QxpCJrGET6i0maUwtZTEaDYDld+7IWqSDj5JW/weZmTTDSZU/tC/ogl7+YP1MR44s9lvNAIgtG9MqD4wOBa12uZkS+lFNlLRd17B+zPVu4t3QPbkip42cMXdEMx/LAof56KOve31QsQGlvmy+X8R97vZeKMUfmGHP+R9ToPx1A3EODEvxwKxZC2rCz+bVyB7bWFeKqMeQQncqqqhq+0N7R1t535TqFt+vSEx1FhkJLsBUl13Z/h8ovbswdH65o5cU6cF5Nf6mA5xH3buvwErROz5ZeUkKU5onRHQmsUgHDF+RdEVXCZ6GuAQEp3WEbcvHmlrICRwC7pasKdfxdEVFsz4a2q73HFuF5hA9iupYNMD+aKnkq8U1QWXZUKYLuz55WtwBWeCZcxYfTcLKwVHP3Gs/s+1c5qox2S2oulaflVBLy+J83sk2EJxKDfmJd9KYNxvS01YFjhIXG5M6oXChNL4+RJsaBuyy9j+gkNlHZLNFs3bC4gWW0NbZRKkY1DjyYxcJ734v+rKzpqCkvM+H9LnWavJEkEchZB670nsBG1bGH18PCaRCCNfrcgAzDO2Qtgl8QlkagSwVF4QT21EaeIbmcNz9R8c0M1RH3i/66+8VnjWrEjYzPgUUHKAAnNb4Eyxf2bnYb7/BNNDrfO4W7mTGSb6rvDAB93Cg==|920
+}///O9C4dOiZHSmMsmhoux9qVvBtkSyYBZnKNAwyaupvyUfufUwIfq0SbRSMYOpaFojHPsQwX1rMbf4aAvAULB4HNd3KiBoxR/U8pxAoHsg7Qh7nEH2xS/owMW2+PgyBLhRFqF6KwjyhyuhDJs/2u68wtTur4jQ4BAW1bKlblFl0noMPljcUw2nlGiytNXH1eQtgKhBuwgHyID3O7D7k/e+Ogk6Nyv37kQUIp0XL1uAFuw3lDIagywrd+c9c1Hj0JshoqYf7w1AUcc5181HHHJyMRQZgQ/87nZfbpa5uMQeWzf4F7TAKg1tj13FbsQs9y376MUsHaeCD/6AeRdo/evhpwlrcBvY61bnW/Fp18+gzioEwWeZVavTxzuYe+vPX60zbuzWzrm5mrBiXv4KO+D34tGzw+ruU4RhExkpg8v57ikEB2m+URhlZyhzG5v8rFfGCQ7n42fUpMKlrroTV1DZwOrUr1JVO2ZTwhQQeh5aXsiohjxQjefeKlrzs1RucO5MKNUqXab9NbtKYaI65y3SU6IB47Q4t1Si92kOByWWfDMb4cE4oaUCRBuCogmtdESD+fI7H9jWXh3iuYGWF7Pei2M94hG8cT4dO1ckdNS98CnfOyW46Iq4SqLBTasyRtXDEVuL224jwKsFGS1XXoSsCwkxMMAJ1N9DbI54MSzC5FY9YUtaGCKQhTw7BBAXekaZhN+kBNoGHl+GCD1bNyctgrf9NqC4JJRhlkalJ6p/9OQo6HLx87HylXcyT95NFTtQ4EbIOH/qRwRp/nFpdlSEE1IRJKeAK44UNWPWc9jrXWM/RHEUs+lAtgByRoL32cDP/Np6jvf8YoJO1QWo4z1A7xxbI2SRcxCugqNpFSCYOr1k1VkWaiPf2Wv0CM+3DJRDqZmasI1d4N/oR2b3eRZ1ig==|920
