@@ -41,7 +41,16 @@
   },
   {
     "ModuleName": "Table/mkosei",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-10-28T09:52:36.0925036+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\マスタ関連\\mkosei.json"
+    ]
   },
   {
     "ModuleName": "Table/mtorihiki",
@@ -49,7 +58,16 @@
   },
   {
     "ModuleName": "Table/moption_futai_koji",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-10-28T09:52:36.0925284+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\マスタ関連\\moption_futai_koji.json"
+    ]
   },
   {
     "ModuleName": "Table/mtsumikomihin_shikyuhin",
