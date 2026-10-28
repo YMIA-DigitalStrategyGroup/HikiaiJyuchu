@@ -428,7 +428,7 @@
                   "SerializeProperty": "=工事指令一覧!X11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=生産部用!AB17"
+                  "SerializeProperty": "=生産部用!AB23"
                 }
               }
             ],
@@ -446,6 +446,51 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "社内用",
+            "PassValues": [
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=工事指令一覧!H11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=社内用!G2"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=工事指令一覧!R11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=社内用!G4"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=工事指令一覧!X11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=社内用!AB24"
+                }
+              },
+              {
+                "Source": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=工事指令一覧!BC11"
+                },
+                "TargetCell": {
+                  "SerializeProperty": "=社内用!S2"
+                }
+              }
+            ],
+            "DeleteCachedQuery": true,
+            "LoadBindingDataOption": 1,
+            "Disabled": true
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "PageName": "社内用",
             "PassValues": [
               {
@@ -525,7 +570,7 @@
                   "SerializeProperty": "=工事指令一覧!X11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=生産部用!AB17"
+                  "SerializeProperty": "=生産部用!AB23"
                 }
               },
               {
@@ -578,7 +623,7 @@
                   "SerializeProperty": "=工事指令一覧!X11"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=社外用!AB17"
+                  "SerializeProperty": "=社外用!AB22"
                 }
               },
               {
@@ -2408,4 +2453,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//33lZAMS4LxSgSef0ck3bD/NLQJGYeIwfQd4vGys/6txA5roKotg0kgcRM/8zk93reZ4ImkzOkmB41KHh4p0JapbVyz8sPF2yrNOTt5Lmqurve1DSc3vICoYO3iOr3P6X2DQ60wPflwyv0wleDSvWrPn4U/EnBDq1OJ7tBzsvRgjAWVwNuqHRADkMyokjTpO0nPmEnn3iMiSWFYeZW6XTpjTa6bo3q0qMC72h3NqaTV2RKfXChL98sT61hm1EVG5HYnwdc/iYDonuR8pmjXE05XGNZYBjrAVUpRUaHD9ruMZxSxxrCMf/LG2S3KWAltdM7L/qi4QkDAQtxlfNiXEGYy9a2M8Y1qpatrmuXsomWV+GtMm4EJ2XA08hrt0z41LIcuk+z4p8YOzJ01HpINDFC1/9CFZHv/XzDc0R6d9xxGXPMkVQYcwB8tp8pF4QgAe2mVCXm484gV94a5Hk0fLJdW+jGQmBT/7UDbsGJ1RK/Xm/mOaPyZnH5DgnbE74hLQWoordetC33dfFZS+0VN17t55ttAN6bzCDWa2KDhxg9qFIrDpUyQuHzr+iqoS7n7Jz/s3rxvwtyXJTmUliW6R37iTxvyWkeW1yyG3d0gEmZINsH3ldyAMJ+H8FW+0kczb5iOzIbGPb6plKrJnjMgcQ9FF8uKUKhX7Azz6pZxY8Xm+5dd6l5K7erWWeYu+n2EIwBCo5Kbsuyy7NAKdtNDR6d99KCATPy+rI9fK3O30XBgG+Mxe9UdSV/VsSfhdqIFdT9w2VV0zeNAzgr2RuuOCOOFjdaJjwZBQOwtHeU41RsBYQcO6Nwp+n1bXBej9qOHukgCxz/bQza3yTu2cL/nRWhqOzbDC2oX1Z7Nk8rI5cNdP5n1BqpkbUu8V4wXAuBEonbd1jtTO7atWR1h7QQtsP6Q==|920
+}//h9FUJ2dMJRraQzb27hPA2KcQ3IrmB1ndK6jBulMxdtc5cXk9hNXEzb5nanbue90Z18hXUJO0WL2FtLCrlwcnmAaTKFoHgR9kMzYWOrAZopelh430E5agW7EJzAA6k4qNEgeUSVRlQln4/FITEUXSeO/WQzfApqOo1sI6NHv488zVd49E8Dsjd5/ZrF7Z1RIuTdCGu1LWBHsjAT5Ygqbs3j87TFfMeso7m6weepb5oWjRAyv8aWf4Ep0dx/HGOeyDTuqmma8BMMMxNk7e9QsrEyHvu+YshFQn5c7O5VwBszoLBOJ+jCjWmv19/2vW+6wVZpOUau1JfWhNhqxxbvV5jwYgvpKgnKxgS8k7zCmZpg/eM3T1VfeBf3gGdwxmZnr2OjuC879SNbE88Xk4t0mTHqex+NyBTCl3o31y31Aaj/kMTn7ZIhArLZS5xbT1hzVwUwBAs/mFiFOc+n9kNMBJDN8zk9sPvDeVCDYIVSbSC1GCB/8ys5Qi1r2yxp0ufVIYqEGwDr1hSQ1wdmt0+3rhsJPB/+e9BSva+fGZkyJN5BSnzSTi1ZPJIuG7FDUZQYKiwihVhfHlsonx5ScoJWhmaoo4CzSATnWLAs2bLc1gio6CPfQS/vhGrsG1xe0aN9n8b3LntnGHYzIz3fqz3xBnk7ricwgfsuR0OGGQO+8MiqkDW6vR0TfITb1WT5Bhke3vnDRolXZ0gQxuJZqFh/Q9UmsSrHHzpZxN1zuAsPK450j3ANPvUP07xR7SlVf6qktJtevW1+GSFPKjtMnpzkiGgTVuoiTO7JqaHYPTtv7a22an4RIccu4oCxCAnaFoMgy6ypHbMGBkEczDtXraoEuZw5E2ETSAu3o6n0/4yqCGc3/z88YjYZPh6fggv9iYTPR/okpli1scc4WI9bh6BgXUwQ==|920

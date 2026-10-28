@@ -43,18 +43,7 @@
       }
     },
     "InLogicalVisibleIndexes": [
-      33,
-      48,
-      49,
-      50,
-      51,
-      52,
-      53,
-      54,
-      55,
-      56,
-      57,
-      58
+      33
     ],
     "Count": 59
   },
@@ -123,7 +112,8 @@
     "19,7": "IF(ISERROR(BA11),\"\",BA11)",
     "31,52": "ODATA(\"tmitsumori?$select=MITSUMORI_GAKU&$filter=MITSUMORI_NBR eq \"&IF(ISBLANK(BA2),\"null\",BA2)&\" and SEQ_NBR eq \"&IF(ISBLANK(BA16),\"null\",BA16))",
     "19,11": "IF(ISERROR(BA13),\"\",BA13)",
-    "19,14": "IF(ISERROR(BA36),\"\",BA36)"
+    "19,14": "IF(ISERROR(BA36),\"\",BA36)",
+    "19,34": "ODATA(\"mshain?$select=SHAIN_NAME&$filter=SHAIN_CODE eq \"&IF(ISBLANK(BA22),\"null\",\"'\"&BA22&\"'\"))"
   },
   "AttachInfos": {
     "1,19": {
@@ -275,6 +265,26 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=見積書マージンテスト!BA5"
               }
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 1,
+              "ColumnBindingInfo": {
+                "TableName": "ymia_v_mitsumorim",
+                "ColumnName": "KUBUN",
+                "GUID": "453d181c-a734-45d6-b876-7d794df950f1"
+              },
+              "Value": "5"
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "CompareType": 1,
+              "ColumnBindingInfo": {
+                "TableName": "ymia_v_mitsumorim",
+                "ColumnName": "KUBUN",
+                "GUID": "a0e3035a-f442-42cb-8b00-636ee6d1f90e"
+              },
+              "Value": "6"
             }
           ]
         },
@@ -305,6 +315,13 @@
         "UseSimpleBar": true,
         "ReserveStyleForBlankRow": true,
         "ColumnOperation": 2
+      }
+    },
+    "21,52": {
+      "BindingInfo": {
+        "TableName": "tmitsumori",
+        "ColumnName": "SHAIN_CODE",
+        "GUID": "dce047af-bd8c-41d4-90c1-ef7e5f76d579"
       }
     },
     "22,4": {
@@ -400,7 +417,7 @@
                     }
                   }
                 ],
-                "ID": "7b6ac07c-c2d8-4251-bc3d-38419ced1e8c"
+                "ID": "df36d2c9-88e1-454b-a83d-8f3ccb6f5821"
               }
             ]
           }
@@ -446,7 +463,7 @@
                     }
                   }
                 ],
-                "ID": "c0a5270b-56f4-470a-9470-e82e143b595e"
+                "ID": "140ae369-3dea-49ec-97f0-779653fa6428"
               }
             ]
           }
@@ -1520,11 +1537,11 @@
       "21,49": 7,
       "21,50": 8,
       "21,51": 8,
-      "21,52": 8,
-      "21,53": 8,
-      "21,54": 8,
-      "21,55": 8,
-      "21,56": 8,
+      "21,52": 34,
+      "21,53": 35,
+      "21,54": 35,
+      "21,55": 35,
+      "21,56": 36,
       "22,2": 44,
       "22,3": 44,
       "22,4": 45,
@@ -1572,11 +1589,11 @@
       "22,49": 8,
       "22,50": 8,
       "22,51": 8,
-      "22,52": 8,
-      "22,53": 8,
-      "22,54": 8,
-      "22,55": 8,
-      "22,56": 8,
+      "22,52": 40,
+      "22,53": 18,
+      "22,54": 18,
+      "22,55": 18,
+      "22,56": 41,
       "23,49": 50,
       "23,50": 51,
       "23,51": 52,
@@ -2038,7 +2055,6 @@
     "63,30,2,10",
     "63,40,2,5",
     "59,2,2,6",
-    "59,8,2,7",
     "22,2,1,2",
     "23,2,32,44",
     "65,49,2,9",
@@ -2046,9 +2062,7 @@
     "64,53,1,4",
     "57,2,1,44",
     "59,34,2,5",
-    "59,39,2,7",
     "59,18,2,6",
-    "59,24,2,7",
     "22,4,1,2",
     "22,7,1,26",
     "22,34,1,3",
@@ -2077,8 +2091,11 @@
     "35,49,2,3",
     "35,52,2,5",
     "21,49,2,3",
-    "21,52,2,5",
-    "19,34,1,4"
+    "59,39,2,7",
+    "59,24,2,7",
+    "59,8,2,7",
+    "19,34,1,4",
+    "21,52,2,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2208,7 +2225,7 @@
                     ]
                   }
                 ],
-                "ID": "a449b6e5-4dd0-4a81-b5e4-da37f460b35b"
+                "ID": "12bb7035-fa08-47c0-a40b-8d753a40a177"
               },
               {
                 "Condition": {
@@ -2240,7 +2257,7 @@
                     ]
                   }
                 ],
-                "ID": "e9657042-d7ef-4810-b6c5-ff1687089aac"
+                "ID": "ae6effa0-7bd1-44d7-8fa9-b69b7921679b"
               },
               {
                 "Condition": {
@@ -2272,7 +2289,7 @@
                     ]
                   }
                 ],
-                "ID": "8fd002f1-b1dc-42eb-93fc-26362e9195f6"
+                "ID": "880f1c98-dbe8-4734-861a-2ace5d1ec167"
               }
             ]
           }
@@ -2313,4 +2330,4 @@
     },
     "PageOrder": 1
   }
-}//QJM/xpEiJA8JNVg2kKe8fm0BdD108Z/9XpOVnpregdHYxTCVgVMpTPHqKprVjcvTF/VZ4fGztoZEjEV0ruCPVLpr+Sa9ZyFGwRZigmsM0VDC8f899qVnsR+1Ae701WjVE2P8ZLf8VdB5j7Qm9wyDaaFpoOv4ryAkPFcCBtzhIFylojScX11tC4O+3x5TFX6znZWi0WggNKd1UK2cNgOVA1nv7bavLInwXJ9L1IDe4RdYYO4I24kUSaEBv7saLWUiykFP/HjFkydyVsg80wxldvZlhFYVPR2gPVnTmVpvtAFs1iDUEd61grc7d2/njD5KIxwR/NrkJtYwE1Cz840yWhh+ewqf4pm0TeB6X2hcHmp9QB0ANIKICmsxNirMRG9i5tMsnYbIQ+C+l2rT9Uxcvpu2y/q49jtsMxOVx5SvoGjTVwQqh6zAtN4J6VYr/qiXAA0QNijaytWfeBlHU6TgdqQxWm4HvW3tuJvX+4TGKkSW8FZYpQq0NqgQ2uRdMTo6T9LrvPE+xA+BACyZd2Y27XvkiIhfxK9Umt3Juzns00XrNNARXnWtl45AKOBKShAPYbZVCUXsIqdVt2R7AV6p2KLBxyxH9ag2MM7wYJD3apABPY0P7Y8lJoKgJoaEFOrFkNdT8I+Pxv8QkBKJq81aVVb6FULDxPYV1HoybeFpSIkI8+JWS0L4QCg5eF2tlYHcyjLlPTbzSxG9qTgdo0OzgExAd7O5o68Rf+7Dkby96G3vd6W2VrIKWuUxggftTwLro51oQFNIRkuevjdh3s3QeenolCjgGH7fms1ZfKiTa7aMrUlPqcg13HFzsKZnRNWUzt8ea85bQug9qvlJt51EtzYVWHlcMVzTc8YImSg4oIo16nse0hvPPNLrxwZfG5xYqaZlEdPFts6xEbu1uWv9qg==|920
+}//miLgVZnFEeo3PT1NGRcfC7T15YU+vJoS+Hk0R0BuK6pwxsLsM7uNT70ZoetNj2kNw/HGb34MPKBpyrbprEHQ4Tt6z3N/cmzY1b6aFlKx9ENg9RegqF6ak6HSOZSEt7dZagkCXz2SVWL0v0lqPjuCLN4Th/QLMITN4BOsrdXFGtlgY7JQiNUI/Z37qdBtkkMCkpSqAkQ5FWz3fwZeqgdFsgYel+rL9qXLstAX+NUatT2IGxiAI1s3Ux61FI+Q1ey4s8gloctbtA/X2lRApzOWjnOSVL9Tyr7JRMrC9eWaJnlcJJ22HmQBaR9uBMiZNrG2CWUpovW0MkVpvGqny4EcvuiGuPuVOdQsZHDDmtGrHlNLyBqJqLgTZm5M3wlwaZLgvIJtpp0CIykslImf5cOT8VtyeTvS5/d10ISevDgTc6AxbDV2gtjBG7Hk/fUGIDt9PnDGpcBiC4B8trG2WubRe9CRL9l4mxdfUGvDsyiByzFarSC0RNbxlVUUVEeQQWiFAX7Xqk+ZW9p1bTq+nLNF51maMh1/WkDxC7gIKVu+Aomjb1M+QtxzHAyE7e0dzrejYdk4eaoLtyWhIvS+Iew6dhStz3SH3rSPazyHkPfp3IboptxvPaqd3UldOJyfDTUG6/HSnpvQiOaUSeUl4D2Yv+w4LphGK/Sf+cenxXsXZxoTa1jToQgYLui8lnmVblYILgQzE3szIdG+m8yA/JwCErnwB8DqTEZ3LLAA3dWReqMiQlmPLnZ8jqHQqAK+V8mdfO7WWJnTcT5nGKjtUuVmSHz5zPOMfQhb8zBtC9VdprzqEpkU3t2i5KKsqp4JmO6wPgaI/dJp/y5P5Fz/3amn7MSLnszJQg6Xmx0hSkd8ULNTnmYWlmPOQ42/rJyyOENrX0TmqGQ85PirazPGRM7GyA==|920
