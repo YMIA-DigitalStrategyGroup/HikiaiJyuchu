@@ -552,7 +552,17 @@
   },
   {
     "ModuleName": "PCPage/社内用",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-10-30T15:50:27.6851108+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\工事指令書のExcel出力\\社内用.json",
+      "Pages\\工事指令書のExcel出力\\社内用.rd"
+    ]
   },
   {
     "ModuleName": "TableView/ymia_v_kojishirei",
