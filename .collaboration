@@ -41,16 +41,7 @@
   },
   {
     "ModuleName": "Table/mkosei",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-10-30T16:25:11.6250357+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\マスタ関連\\mkosei.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/mtorihiki",
@@ -207,31 +198,11 @@
   },
   {
     "ModuleName": "PCPage/見積書一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-10-29T17:10:39.0607552+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書一覧.json",
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/見積書マージンテスト",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-10-28T17:00:51.3911089+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書マージンテスト.json",
-      "Pages\\見積書のExcel出力_未完成（マージン）\\見積書マージンテスト.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/見積書のExcel出力保存",
@@ -271,17 +242,7 @@
   },
   {
     "ModuleName": "PCPage/工事指令一覧",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-10-30T15:47:21.3689164+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\工事指令書のExcel出力\\工事指令一覧.json",
-      "Pages\\工事指令書のExcel出力\\工事指令一覧.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/工事指令書Excel出力",
@@ -305,17 +266,7 @@
   },
   {
     "ModuleName": "PCPage/オプション工事マスタ管理",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-09T15:43:05.4405765+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\オプション工事マスタ管理\\オプション工事マスタ管理.json",
-      "Pages\\オプション工事マスタ管理\\オプション工事マスタ管理.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/色仕様マスタYGSMデータ作成",
@@ -563,45 +514,15 @@
   },
   {
     "ModuleName": "PCPage/生産部用",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-05T16:03:30.8689926+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\工事指令書のExcel出力\\生産部用.json",
-      "Pages\\工事指令書のExcel出力\\生産部用.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/社外用",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-05T16:59:00.4314713+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\工事指令書のExcel出力\\社外用.json",
-      "Pages\\工事指令書のExcel出力\\社外用.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/社内用",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-10-30T15:50:27.6851108+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\工事指令書のExcel出力\\社内用.json",
-      "Pages\\工事指令書のExcel出力\\社内用.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "TableView/ymia_v_kojishirei",
@@ -613,32 +534,14 @@
   },
   {
     "ModuleName": "PCPage/ビュー変更版テスト",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-10-30T15:42:58.1179959+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "TableView/ymia_v_kojishirei2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-10-30T15:46:30.5794958+09:00",
     "ModuleType": 23
   },
   {
     "ModuleName": "MasterPCPage/工事指令書",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-02T17:00:25.4761766+09:00",
     "ModuleType": 3
   }
 ]

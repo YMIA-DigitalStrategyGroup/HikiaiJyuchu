@@ -270,16 +270,16 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
-                    "TargetTableName": "ymia_v_kojishirei",
+                    "TargetTableName": "ymia_v_kojishirei2",
                     "SqlCondition": {
                       "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
                       "SubConditions": [
                         {
                           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                           "ColumnBindingInfo": {
-                            "TableName": "ymia_v_kojishirei",
+                            "TableName": "ymia_v_kojishirei2",
                             "ColumnName": "JUCHU_NBR",
-                            "GUID": "1d553259-167b-479f-8600-7971ca31d22e"
+                            "GUID": "6145b4f1-01d7-4222-b14f-0278d9e795ec"
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
@@ -289,31 +289,31 @@
                         {
                           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                           "ColumnBindingInfo": {
-                            "TableName": "ymia_v_kojishirei",
+                            "TableName": "ymia_v_kojishirei2",
                             "ColumnName": "EDABAN",
-                            "GUID": "c59d5da6-7dca-4ab3-977f-26e56d024896"
+                            "GUID": "0407e575-bede-43c1-be37-015abd7b42ce"
                           },
                           "Value": {
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                            "SerializeProperty": "=生産部用!AB23"
+                            "SerializeProperty": "=生産部用!F12"
                           }
                         },
                         {
                           "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
                           "CompareType": 1,
                           "ColumnBindingInfo": {
-                            "TableName": "ymia_v_kojishirei",
+                            "TableName": "ymia_v_kojishirei2",
                             "ColumnName": "KUBUN",
-                            "GUID": "c50919d8-9749-42cd-a5e4-217626ec76a3"
+                            "GUID": "cd228181-e68e-470f-91eb-6c42964c1451"
                           },
                           "Value": "6"
                         }
                       ]
                     },
-                    "ID": "6b52e570bc164dff9bc6a5eb7499353f"
+                    "ID": "3131f54bc77a4724b5ad5b12548beea9"
                   }
                 ],
-                "ID": "22f7c2d4-7ae4-406f-892d-2b84d1cf52ab"
+                "ID": "2318c367-1b42-46a3-bfa8-2c700c0f68ed"
               },
               {
                 "Condition": {
@@ -384,7 +384,7 @@
                     "ID": "c9040960451b4ec799d99be9621943a3"
                   }
                 ],
-                "ID": "f6b21a7d-a45c-4033-a581-f2f7087a9504"
+                "ID": "517e4935-eb82-431f-b04a-6429119f112b"
               }
             ]
           }
@@ -556,7 +556,7 @@
     "46,5": {
       "ListViewInfo": {
         "Name": "リストビュー1",
-        "TableName": "ymia_v_kojishirei",
+        "TableName": "ymia_v_kojishirei2",
         "RowIndex": 46,
         "ColumnIndex": 5,
         "RowCount": 35,
@@ -580,17 +580,17 @@
     "47,10": {
       "TotalRowSetting": {},
       "BindingInfo": {
-        "TableName": "ymia_v_kojishirei",
+        "TableName": "ymia_v_kojishirei2",
         "ColumnName": "KUBUN",
-        "GUID": "79290b54-0a17-4c2d-8936-5362506dc8d0"
+        "GUID": "e8d7b40e-d350-40c3-aef1-9336917321a4"
       }
     },
     "47,11": {
       "TotalRowSetting": {},
       "BindingInfo": {
-        "TableName": "ymia_v_kojishirei",
+        "TableName": "ymia_v_kojishirei2",
         "ColumnName": "BIKO",
-        "GUID": "57ad0444-2c2f-4833-9a32-8720e637be86"
+        "GUID": "45993490-9a1b-44e6-9a03-467bf67c830e"
       }
     },
     "93,30": {
@@ -2566,18 +2566,18 @@
     "86,5,2,5",
     "86,10,2,8",
     "82,5,1,46",
-    "47,7,1,3",
-    "46,7,1,3",
     "3,6,2,8",
     "1,18,2,7",
     "25,40,3,9",
-    "47,11,1,40",
-    "46,11,1,40",
     "48,5,33,46",
     "10,5,1,8",
     "10,19,1,8",
     "11,19,2,8",
-    "11,5,2,8"
+    "11,5,2,8",
+    "47,7,1,3",
+    "46,7,1,3",
+    "47,11,1,40",
+    "46,11,1,40"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2591,7 +2591,7 @@
           "TableValueType": 0,
           "BindingInfos": [
             {
-              "GUID": "b6ef7ea4-2670-4966-9a50-534bc649ed46",
+              "GUID": "fc1a5e48-be37-4dda-b189-5b03e4671476",
               "BindingInfo": {
                 "TableName": "tjuchu",
                 "ColumnName": "KANRI_NBR",
@@ -2613,7 +2613,7 @@
             }
           }
         },
-        "ID": "8935dd7bdff24f99b8ec5b1d30119fd0",
+        "ID": "4b8892bb6e9747deb20422a6367ef06c",
         "Disabled": true
       },
       {
@@ -2726,7 +2726,7 @@
             }
           ]
         },
-        "ID": "e589c836b7974f7a8e7b42e159d09b04"
+        "ID": "8a19075dc50e407092fa4522d74ca3c2"
       },
       {
         "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
@@ -2768,7 +2768,7 @@
                     ]
                   }
                 ],
-                "ID": "b69616c9-a35a-4723-ba37-cde73101bad9"
+                "ID": "78cfa39e-6042-43a2-8a54-ee50fb529d54"
               },
               {
                 "Condition": {
@@ -2800,7 +2800,7 @@
                     ]
                   }
                 ],
-                "ID": "72e7c5ad-6c9a-4603-a5fb-2ba52bdba39c"
+                "ID": "7fa7cefd-177c-45f4-b8f3-566c7edc7153"
               },
               {
                 "Condition": {
@@ -2832,7 +2832,7 @@
                     ]
                   }
                 ],
-                "ID": "db55cd04-5bfc-435c-bac6-3373436a79eb"
+                "ID": "dc8d0976-0031-481a-8fb5-6fd785652d2e"
               }
             ]
           }
@@ -2874,4 +2874,4 @@
     },
     "PageOrder": 1
   }
-}//khC3F5cGdbzC0QR5HOgiF/WEiQEtEsPpgaHYo3l8PJtiabnqciqylu4anhtbgWZB9WIsDQ0eqdtk1wdrkQCXMx7YezpOOKS5F+ZWbDlaw1ySvnbOsFz3sxmaCmUWKnonzzAlD8veUtqK+wk3h262/tkii+a9x/Wv7dRaxdHF9BwKVQ4ehtgbiTFxsh0TTwJsRvZ8C2L3hMmR5EsQHMc15GTiDZTy4AaebeujkqwnHV7U4ceioGQmwXS/AODdgzbCgWwORtO+MzjpugD1FwvvpL3StqeSptmpHUMIzIKdsNraKIA1ayQZhQRhKJAiWfWrPejAgIdXDslQ+eRPyvYbECxv6No37AI+UFXLfrVs5klAZkxSE0eQXhr2mZXDIxk9VPV8YfDqbHw+E5BCcyWy3aj6rqb5eYjmf51VeqLcW/DPlWQXm4IqA/1pmMeOZNYwlazG8YokAd9rxkqHp0PXF+RGGWJgrqL5ReWzke8thrasONbuIirbeUkrP5mYGk2K+MhXBHfo2X/yVo5IwM6BX7vacxgVHc6T+KO+JFO/SCP12WR+14WHAiKt5i9oao8nUSzBx32zRJl18dvvPuYzdluHjjeeDw79k9ss8WLm+32cBkk+K+Odi974Y18MelRmGx3iomc1zu2mGNAULlY3HYr1Vu0HntT22/n7dhd0qu4IxoIo8C26HPuGCPCgmw78d8Itn3KPWGQ6mLf0rL1Lgi0saZAh78yjI/3AjB1L48JXH8YOWfgTe/GBGSHwbc/iPkdCktIa9dGRwC9GAHZ8HbqOKsCFuz4+ce6ZahzdVHkg2XvjqJ1NoJqmDw+Y+AH4pOCn/jF51VTqp1U1LXwSkDySrCxFbqje8kPpuJgr+ijnzJNprq4omioi0KoUY28ISQtcB4cCZFq/7Y2jez7epA==|920
+}//QJ1mD9i1yoX6b9S7OHxNRZhqa4O1Wx9O/1X8qVKEbpx5pNY/tBYq3BH80At9B+1EZW8vIJRrVQrM3xFoSDl5CDFQ0nH4Mt2TJ12mMi/AXeWhHby+PGdbpKiIgHFLcPtowOEEPblO4dUk9tiXBBgu1MdVrSQ0gs8z26WQFs2aAZ9vgQwNx5WBu12fc7Ny+fstfJS5AOXoPHotf3pmMmhos+fQkj1vCYU5tYvRGHKjq9YUREnXU+kkEis1btcm3Wsnex9gmcyVbAZ12AQ/p6T7jW7dUzw/1yH6AQgwdicwF+KnIoiY9pkLeFH8Di1QNtCp1eYiCezfKUxEuKQuEDj+HyQekB75r4j0ohg0XP120yyW+mEeAcipPCzWJ7ce8IX9WTXarDgrV1u62Svog7ts5Fd5614S9yCmIVano1CfQ8+A7DJq3yc/B/veM/MjC+s9mdabH82wT2l1aU09Mp5UcJ7LN8aiEho0uqUcZKEKffYQPhqh1ldhqGdk/eVuEYFgxJJRyWzTS2SICA+FIc6ZORLFwbSFsPkXZ6Q+YMWI9fAC9cpzn8Pv/L9hV36DHkyuOK3Fxo/YDnz5RLOE/7TMxsKmyQW4+lojTaaDh9OneO/gMbrTnTR13VFu2sKEbohPcm4WjiJE0YU0SnUNnBFKdAMNe8LOWurskeKXxsOGcWndFTTNP/vr/6aN1qHhwwuLmMksb/9ZksaUweavLySQdUACniWYq2+Zauh1bL56AqOZhdbr9DNbHJGPypieQ6v3pvYCTzBt1pwCiIkexeGCKRHTdmVJVl9KFifqAU+yDEKBHhPT0U6SnSVW5CSQ+ipT63WhqoqBWmu5T+PObR7CAST4/1dDy7BZIo+gsMoU/DqfA3Ne11IXalA2dQZTKnfkSJUsZDMkw/PU8I56Ce6XSQ==|920

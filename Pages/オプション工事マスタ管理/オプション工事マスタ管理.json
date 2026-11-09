@@ -108,7 +108,7 @@
     "4,18": "変更仕様",
     "4,29": "表示順",
     "4,32": "工事区分",
-    "4,39": "単位",
+    "4,39": "数量",
     "4,42": "本社仕切",
     "4,48": "S1価格",
     "4,54": "卸価格",
@@ -116,6 +116,7 @@
     "4,64": "分類",
     "4,70": "備考",
     "4,71": "摘要年月",
+    "4,77": "備考",
     "5,60": 99,
     "35,1": "※注意書き",
     "36,1": "　オプションマスタを管理するテーブルは、艇種-仕様-変更仕様で一意になる必要があります（品番が入力されないパターンがあったので、変更仕様を使用しています）",
@@ -458,7 +459,7 @@
       "BindingInfo": {
         "TableName": "moption_futai_koji",
         "ColumnName": "KOJI_KUBUN",
-        "GUID": "7adab174-19a0-4b85-bbc2-1fc0c07420da"
+        "GUID": "381175da-6d88-44f2-8849-333a71cebb30"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -593,7 +594,7 @@
       "BindingInfo": {
         "TableName": "moption_futai_koji",
         "ColumnName": "TANI",
-        "GUID": "319b583b-92fc-438c-85c1-cb05ba761bf2"
+        "GUID": "6c8bf68a-2710-411a-a8df-26a3e88de147"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -715,7 +716,7 @@
                     "MessageFormula": "データを更新しました！！"
                   }
                 ],
-                "ID": "9a01a6dd-ea7b-4ccc-b3cc-e409d8519a37"
+                "ID": "9b0b96c1-77fe-471b-9e8f-fa04fa53318b"
               }
             ]
           }
@@ -751,7 +752,7 @@
                     "MessageFormula": "Excelにエクスポートしました！！"
                   }
                 ],
-                "ID": "b0358953-0cc5-47c1-b4e7-a44779f8db28"
+                "ID": "0b1083d1-3666-4246-9a54-262578313426"
               }
             ]
           }
@@ -817,6 +818,20 @@
                       {
                         "Column": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=オプション工事マスタ管理!AD6"
+                        },
+                        "ColumnName": "表示順"
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=オプション工事マスタ管理!AG6"
+                        },
+                        "ColumnName": "工事区分"
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=オプション工事マスタ管理!AN6"
                         },
                         "ColumnName": "数量"
@@ -826,7 +841,21 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=オプション工事マスタ管理!AQ6"
                         },
-                        "ColumnName": "単価"
+                        "ColumnName": "本社仕切"
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=オプション工事マスタ管理!AW6"
+                        },
+                        "ColumnName": "S1価格"
+                      },
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=オプション工事マスタ管理!BC6"
+                        },
+                        "ColumnName": "卸価格"
                       },
                       {
                         "Column": {
@@ -847,7 +876,7 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=オプション工事マスタ管理!BT6"
                         },
-                        "ColumnName": "適用年月"
+                        "ColumnName": "摘要年月"
                       },
                       {
                         "Column": {
@@ -861,7 +890,7 @@
                     "SuccessMessage": "Excelファイルのインポートが正常に完了しました。"
                   }
                 ],
-                "ID": "5648b35e-8ec8-4ac3-b445-ae15cf1528e5"
+                "ID": "a708ab66-1fbe-4264-b7c7-2f962c00c158"
               }
             ]
           }
@@ -1670,4 +1699,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//FwEOmEV3/7POmAceBjkG+x+ptmxtow7nMXYaxa18YSpiJJu1QAdtioAtILUkmAvbJxr1LOQBriyiR/2QOmebWJ8kY6ETFFU1ceNGC+kHQ0yXlDTFtSH8Mfau4a0OQEd96NW0S1yWvJczFzkpU0+0/lk1gyStXMe4t8Lddtz24uEA+VRJIVwM6TH5MQ7rM4n3AC5HBybzyrQ3Vb2t5uMqBo7PZoBGyksH57rfnYyHn/UAuiF0n7pjADHWpd4bCQ0kYd4hBeK5U201IS/EMPUVECdBTlWarl9wJTS02zGxYw77gpEtzNty5pFH9In27a0G+9vecdzuyeu1ONs4K3x8UZTkjv60eCaKIPRw0qMZ+BfAfb0EG12gAfauyhYzwfY5ZDYxZun7ApN5577Bu8OK3t6sycnwQhc2ljAtfDsAEODpjPg/jFvtCism/HnJgYfR+iyeI/YbUhvSe38sXlIHLBL5nJsin2+T+VO4vAGHzmzFXjarcKEoG9qQmdkIMqW6QzxLSdFeSpTQoJ2flHdXafBApX5xJfbzG4cYwbNcQpa9JdUMFL/Sj/85whTsdHl7fZqPpKjzD7Qo/yWzAaCN4fZd+tv4PMxbFXKUum6MqPgUdkKkjZKvSEP2nIpKX3VkwJpNmfSq/QrEUL5HlG5IAglAig96ibTM28bLgNaRuAuzNefXjXnI85/tZ98N5xKzL+CeQWDwTi0PfPNNXjzrm1eHVFj+oZcNAA4FzjmWt1+32bc3yNTlpZS2HqdxP3jGS/QQ+U/2i5CBrzXufhl96iloV64BeQuvRv5CU2MWKro640nnPN1Z+uuZ6B4Fpgb/C0xBee2Nl2dEgltnf31fJZt2K6KAaUoAoTWPIlYfGGd+i0iS/0gQVnqjtp7L+kpKruQK8MAJYYkYwwDWanSV9Q==|920
+}//ERucf5dP1RNKMkZmQQ7hL+FfkxVK+OkfQ4OHlitN/CEh1niws0mzf99WWvWksVadJKmAxc80z/zD3pIEA1lYnyUZ6zE8zf4jqYiEVPFEERlp5SEmOXyMK1W0wtv5EPv3ZcQkLsLBTuizRtkYknRu6pzLHQ+jOmlVAEFjite3RGe4YYrZfslOBzidHR8qlpCb3Fj8JEOYh8BORhEyXiuCMHKJnfjx7Ke5rTPmahoRqm3hswh2FczGk8Ewh8T7ZizaIK3Csyab9F+CTU9p9PNEPjoqAXizpKmZpFPUoO6SE+9OKskoauFqVU5AjXz11z6pf/rnTYWE6e84RmHkPEGjR3ttLhqsX/D6K7caYR0R0TVoaoapty9pHWFzTi75sTol01yLUQjxACuicTn2D0Czq5coFkxCR64g4+GYQO5SdbvtwYBaY0M9afYgLmKpzGe6bDCDYnkTtEhsxGWErvHk/w78MZEgvZ3EfUvr5sheTH8HIfzpQFImq16DCMe7zxnX+EAoZrXafK5XQc/qeZ8nFhINtmeScRLZiZWxytg4z8E5zL6NlXGst9hHjEUhHF37dF4txU7uRO55R/Am7n3k8u+/mN+A/EX0XTfbk851Wv+G7w9Lw1xMuziD7R5hYr3mN3wQ8r/c/cqhs6eQiIxLy8zlJz77VxdWBJrWvr2tPSJxr+RC+WbVhF+eZOi25VBMxo+5iqglc8W9AsfFdwwyX9HhBkOwKixNaG9F2tY7coIXVyLarl2wI7MmkXn82sLE1NrQcnEGeVmpyP0kHG52uox31cZKGjU7P7O3JkwJ0UY0rhxl2mRaG28umxWkabe0hdEgEZ3FuaUQLFg0sDIDtxRUNWqmut4VdA/3F+sXh7cskqg1Jj1zMUsQoNsJcUtmv8neEZzNJMQPZbAsxQkpCQ==|920

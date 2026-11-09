@@ -1,0 +1,175 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 36
+  },
+  "Cols": {
+    "Count": 64
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.svg"
+      }
+    },
+    "2,54": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "7,0": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_Dark_ThemeStyle2",
+        "Items": [
+          {
+            "Value": "工事指令一覧",
+            "Text": "工事指令一覧",
+            "IconPath": "Navigation/165_home_3.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "社内用",
+                "Text": "社内用",
+                "IconPath": "Application/031_edit_file_2.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "生産部用",
+                "Text": "生産部用",
+                "IconPath": "Application/031_edit_file_2.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "社外用",
+                "Text": "社外用",
+                "IconPath": "Application/031_edit_file_2.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "Height": 45.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "Height": 32.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
+    "7,12": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 2 0",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "2,54": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,1,5,10",
+    "7,12,29,52",
+    "2,54,3,10",
+    "7,0,29,12"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Repeat": true,
+      "Name": "727a4398-2932-40ee-8acf-1dcc2c6119f7",
+      "DisplayName": "背景画像1",
+      "ForguncyPictureName": "PCMasterBackground",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 2,
+      "Size": "200,210"
+    },
+    {
+      "Name": "a0212117-67a3-4093-9b4e-6e0ac4ef44ad",
+      "DisplayName": "背景画像2",
+      "ForguncyPictureName": "PCMasterBanner",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "Size": "1280,100"
+    }
+  ]
+}//Arlf3Wh6dstXebEHcuizNjvlRaY3pSrSR1FrZ/TDehv8cZpwJReyDbabpMT52cNxB6cgEI5NCwVKtla6RV19iqmbQNeDzknDl4R8kBGem+p0dTG5zbTH+b9PSDqyVWXAvVGcC9ukG2UWwiaXeQz5kF+6o+NR4VtwLQ1KBFF09Yrp52YJVvqb26zuLTdmJCGH/vndcZNLD5bY0gs8WbqhaZkWVGeQ86Pjsx7swOKhZ+0OqbYThNhTo4PLbLyOx218NU6aDNqAO3eP7nnUnrG9vgNw6sp4eIhRnQlbqr2HxoAs7v1H4FXGHQ6IgPaVIl9dLJs+0eZEb8g2iuSELnAvp2f7F2WHmn2tHn8ackB2ghZ5LBgsC+WFREOy9r7u2EDqJSZswpmVndKT8JUUM0+CD7M9HJ/gTukANjIrJWFwt8QwyDvkbYtzv/n67sznUfbEx8/gCoHKVW2H1Gsq8/XILlD8CkDjcKPn+XW7M//IVhQ2kq2hnhc++uvH90ZR8li83vaXVihG8sUp6Wad3yIIMylkepoUFBJrBl3WjoqEbVsKz+DjNdTUQTluEZI6qi/35Z+esZvD4Xc3bTcRaj1iByoLDzD4WudnnCEdOv7/AyRLnxB3kEJXMG4s2jdt0fq0p4iLNHHwsH/o3U9zpTOvKnl+d4Y9ZxFO9bAqkI3gx6nVhF6aTamHU4LuZqOV647H9XtMYdWC8xKbUeyyepTJ64hfodYc01qx041a+2qmhMHbZMeiau2yWYMxdqz0GGW5McqleCFUfJf1HkRfTfvzdhMV9dAfXyibWS2+HunlIwOwr5R8ZDn85DoJ0uf11OrrYcriVqZv68t38YZd0M8dlnPccquW5RBu0gbHsUoNd5tYPHF7ejkIr10ghn80m4AsGWyAvSIExo+fi8NoFuFJpg==|920
