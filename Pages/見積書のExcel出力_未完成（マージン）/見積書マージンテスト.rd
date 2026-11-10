@@ -20,6 +20,7 @@
     "31,52": "ODATA(\"tmitsumori?$select=MITSUMORI_GAKU&$filter=MITSUMORI_NBR eq \"&IF(ISBLANK(BA2),\"null\",BA2)&\" and SEQ_NBR eq \"&IF(ISBLANK(BA16),\"null\",BA16))",
     "19,11": "IF(ISERROR(BA13),\"\",BA13)",
     "19,14": "IF(ISERROR(BA36),\"\",BA36)",
-    "19,34": "ODATA(\"mshain?$select=SHAIN_NAME&$filter=SHAIN_CODE eq \"&IF(ISBLANK(BA22),\"null\",\"'\"&BA22&\"'\"))"
+    "19,34": "ODATA(\"mshain?$select=SHAIN_NAME&$filter=SHAIN_CODE eq \"&IF(ISBLANK(BA22),\"null\",\"'\"&BA22&\"'\"))",
+    "21,52": "ODATA(\"tmitsumori?$select=SHAIN_CODE&$filter=MITSUMORI_NBR eq \"&IF(ISBLANK(BA2),\"null\",BA2)&\" and EDABAN eq \"&IF(ISBLANK(BA5),\"null\",BA5))"
   }
 }

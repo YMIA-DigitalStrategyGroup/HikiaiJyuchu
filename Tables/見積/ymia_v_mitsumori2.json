@@ -1,0 +1,254 @@
+{
+  "Name": "ymia_v_mitsumori2",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 8,
+      "Name": "SHAIN_CODE",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "KANRI_NBR",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "MITSUMORI_NBR",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "SEQ_NBR",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "MEISAI_SEQ_NBR",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "KUBUN",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 20,
+      "Name": "HINBAN",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 50,
+      "Name": "HINMEI",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 200,
+      "Name": "BIKO",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "decimal",
+      "MaxLength": -1,
+      "Name": "SURYO",
+      "ColumnType": "System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 50,
+      "Name": "TANI",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "TANKA",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "KINGAKU",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "SHIIRE",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "SEIZO_GENKA",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "HANBAIHI",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "JINKENHI",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "TOROKU_TIMESTAMP",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 8,
+      "Name": "TOROKUSHA_CODE",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "KOSHIN_TIMESTAMP",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 8,
+      "Name": "KOSHINSHA_CODE",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "EDABAN",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DefaultValue": 0,
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "MARGIN_FLAG",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "MARGIN_RITSU1",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "MARGIN_RITSU2",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "MARGIN_RITSU3",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "bigint",
+      "MaxLength": -1,
+      "Name": "TANKA_OROSHI",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 11,
+      "Name": "KISHU",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 4,
+      "Name": "KIBAN",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 50,
+      "Name": "KENMEI",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "varchar",
+      "MaxLength": 50,
+      "Name": "NONYUSAKI",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "decimal",
+      "MaxLength": -1,
+      "Name": "MARGIN_KOMI_KINGAKU",
+      "ColumnType": "System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "ExternalDatabaseInfo": {
+    "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
+    "ConnectionId": "MySql1",
+    "SourceTableName": "ymia_v_mitsumori2",
+    "SourceTableSchema": "",
+    "CreateViewSql": "select `t`.`SHAIN_CODE` AS `SHAIN_CODE`,`t`.`KANRI_NBR` AS `KANRI_NBR`,`t`.`MITSUMORI_NBR` AS `MITSUMORI_NBR`,`t`.`SEQ_NBR` AS `SEQ_NBR`,`t`.`MEISAI_SEQ_NBR` AS `MEISAI_SEQ_NBR`,`t`.`KUBUN` AS `KUBUN`,`t`.`HINBAN` AS `HINBAN`,`t`.`HINMEI` AS `HINMEI`,`t`.`BIKO` AS `BIKO`,`t`.`SURYO` AS `SURYO`,`t`.`TANI` AS `TANI`,`t`.`TANKA` AS `TANKA`,`t`.`KINGAKU` AS `KINGAKU`,`t`.`SHIIRE` AS `SHIIRE`,`t`.`SEIZO_GENKA` AS `SEIZO_GENKA`,`t`.`HANBAIHI` AS `HANBAIHI`,`t`.`JINKENHI` AS `JINKENHI`,`t`.`TOROKU_TIMESTAMP` AS `TOROKU_TIMESTAMP`,`t`.`TOROKUSHA_CODE` AS `TOROKUSHA_CODE`,`t`.`KOSHIN_TIMESTAMP` AS `KOSHIN_TIMESTAMP`,`t`.`KOSHINSHA_CODE` AS `KOSHINSHA_CODE`,`t`.`EDABAN` AS `EDABAN`,`t`.`MARGIN_FLAG` AS `MARGIN_FLAG`,`t`.`MARGIN_RITSU1` AS `MARGIN_RITSU1`,`t`.`MARGIN_RITSU2` AS `MARGIN_RITSU2`,`t`.`MARGIN_RITSU3` AS `MARGIN_RITSU3`,`t`.`TANKA_OROSHI` AS `TANKA_OROSHI`,`t`.`KISHU` AS `KISHU`,`t`.`KIBAN` AS `KIBAN`,`t`.`KENMEI` AS `KENMEI`,`t`.`NONYUSAKI` AS `NONYUSAKI`,`t`.`MARGIN_KOMI_KINGAKU` AS `MARGIN_KOMI_KINGAKU` from (select `d`.`SHAIN_CODE` AS `SHAIN_CODE`,`d`.`KANRI_NBR` AS `KANRI_NBR`,`d`.`MITSUMORI_NBR` AS `MITSUMORI_NBR`,`d`.`SEQ_NBR` AS `SEQ_NBR`,`d`.`MEISAI_SEQ_NBR` AS `MEISAI_SEQ_NBR`,`d`.`KUBUN` AS `KUBUN`,`d`.`HINBAN` AS `HINBAN`,`d`.`HINMEI` AS `HINMEI`,`d`.`BIKO` AS `BIKO`,`d`.`SURYO` AS `SURYO`,`d`.`TANI` AS `TANI`,`d`.`TANKA` AS `TANKA`,`d`.`KINGAKU` AS `KINGAKU`,`d`.`SHIIRE` AS `SHIIRE`,`d`.`SEIZO_GENKA` AS `SEIZO_GENKA`,`d`.`HANBAIHI` AS `HANBAIHI`,`d`.`JINKENHI` AS `JINKENHI`,`d`.`TOROKU_TIMESTAMP` AS `TOROKU_TIMESTAMP`,`d`.`TOROKUSHA_CODE` AS `TOROKUSHA_CODE`,`d`.`KOSHIN_TIMESTAMP` AS `KOSHIN_TIMESTAMP`,`d`.`KOSHINSHA_CODE` AS `KOSHINSHA_CODE`,`mitsumori_unique`.`EDABAN` AS `EDABAN`,`mitsumori_unique`.`MARGIN_FLAG` AS `MARGIN_FLAG`,`mitsumori_unique`.`MARGIN_RITSU1` AS `MARGIN_RITSU1`,`mitsumori_unique`.`MARGIN_RITSU2` AS `MARGIN_RITSU2`,`mitsumori_unique`.`MARGIN_RITSU3` AS `MARGIN_RITSU3`,`opt`.`TANKA_OROSHI` AS `TANKA_OROSHI`,`mitsumori_unique`.`KISHU` AS `KISHU`,`mitsumori_unique`.`KIBAN` AS `KIBAN`,`mitsumori_unique`.`KENMEI` AS `KENMEI`,`mitsumori_unique`.`NONYUSAKI` AS `NONYUSAKI`,(case when ((`opt`.`HINBAN` is not null) and (`opt`.`TANKA_OROSHI` is not null)) then `opt`.`TANKA_OROSHI` when (`mitsumori_unique`.`MARGIN_FLAG` = 3) then (ceiling((((round((`d`.`KINGAKU` * (1 + (`mitsumori_unique`.`MARGIN_RITSU1` / 100.0))),2) * round((1 + (`mitsumori_unique`.`MARGIN_RITSU2` / 100.0)),2)) * (1 + (`mitsumori_unique`.`MARGIN_RITSU3` / 100.0))) / 1000.0)) * 1000) when (`mitsumori_unique`.`MARGIN_FLAG` = 2) then (ceiling(((round((`d`.`KINGAKU` * (1 + (`mitsumori_unique`.`MARGIN_RITSU1` / 100.0))),2) * (1 + (`mitsumori_unique`.`MARGIN_RITSU2` / 100.0))) / 100.0)) * 100) when (`mitsumori_unique`.`MARGIN_FLAG` = 1) then (ceiling(((`d`.`KINGAKU` * (1 + (`mitsumori_unique`.`MARGIN_RITSU1` / 100.0))) / 100.0)) * 100) else `d`.`KINGAKU` end) AS `MARGIN_KOMI_KINGAKU` from (((select `tmitsumori`.`MITSUMORI_NBR` AS `MITSUMORI_NBR`,`tmitsumori`.`EDABAN` AS `EDABAN`,max(`tmitsumori`.`SEQ_NBR`) AS `MAX_SEQ_NBR`,`tmitsumori`.`MARGIN_FLAG` AS `MARGIN_FLAG`,`tmitsumori`.`MARGIN_RITSU1` AS `MARGIN_RITSU1`,`tmitsumori`.`MARGIN_RITSU2` AS `MARGIN_RITSU2`,`tmitsumori`.`MARGIN_RITSU3` AS `MARGIN_RITSU3`,`tmitsumori`.`KISHU` AS `KISHU`,`tmitsumori`.`KIBAN` AS `KIBAN`,`tmitsumori`.`KENMEI` AS `KENMEI`,`tmitsumori`.`NONYUSAKI` AS `NONYUSAKI` from `tmitsumori` group by `tmitsumori`.`MITSUMORI_NBR`,`tmitsumori`.`EDABAN`,`tmitsumori`.`MARGIN_FLAG`,`tmitsumori`.`MARGIN_RITSU1`,`tmitsumori`.`MARGIN_RITSU2`,`tmitsumori`.`MARGIN_RITSU3`) `mitsumori_unique` join `tmitsumorim` `d` on(((`mitsumori_unique`.`MITSUMORI_NBR` = `d`.`MITSUMORI_NBR`) and (`mitsumori_unique`.`MAX_SEQ_NBR` = `d`.`SEQ_NBR`)))) left join `moption_futai_koji` `opt` on((`d`.`HINBAN` = `opt`.`HINBAN`)))) `t`",
+    "ViewInfo": {
+      "ViewName": "ymia_v_mitsumori2",
+      "IsUpdatable": true,
+      "QueryColumns": []
+    }
+  },
+  "PrimaryKey": [
+    "MITSUMORI_NBR",
+    "SEQ_NBR",
+    "MEISAI_SEQ_NBR"
+  ],
+  "Indexes": []
+}
