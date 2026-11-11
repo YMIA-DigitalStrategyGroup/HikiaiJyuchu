@@ -41,7 +41,16 @@
   },
   {
     "ModuleName": "Table/mkosei",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-11-11T14:24:07.8649207+09:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\マスタ関連\\mkosei.json"
+    ]
   },
   {
     "ModuleName": "Table/mtorihiki",
@@ -546,7 +555,16 @@
   },
   {
     "ModuleName": "TableView/ymia_v_kojishirei",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-11-11T14:24:07.8651146+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\工事指令\\ymia_v_kojishirei.json"
+    ]
   },
   {
     "ModuleName": "TableView/ymia_v_kojishonin",
@@ -558,7 +576,16 @@
   },
   {
     "ModuleName": "TableView/ymia_v_kojishirei2",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-11-11T14:24:07.8651299+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\工事指令\\ymia_v_kojishirei2.json"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/工事指令書",
