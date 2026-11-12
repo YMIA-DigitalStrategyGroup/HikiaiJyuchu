@@ -46,7 +46,7 @@
       "UserName": "UNITY\\999D4610",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2026-11-11T14:24:07.8649207+09:00",
+    "LockDateTime": "2026-11-12T15:00:32.3106832+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\マスタ関連\\mkosei.json"
@@ -94,7 +94,16 @@
   },
   {
     "ModuleName": "TableView/ymia_v_mitsumori",
-    "ModuleType": 23
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-11-12T15:00:32.3106981+09:00",
+    "ModuleType": 23,
+    "ToRemoveFiles": [
+      "Tables\\見積\\ymia_v_mitsumori.json"
+    ]
   },
   {
     "ModuleName": "Tables/工事指令",
