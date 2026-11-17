@@ -246,6 +246,145 @@
             "Value": "項目3",
             "DisplayValue": "項目3"
           }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=社外用!U10"
+                      }
+                    ]
+                  },
+                  "value": "1"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "ymia_v_kojishirei2",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "ymia_v_kojishirei2",
+                            "ColumnName": "JUCHU_NBR",
+                            "GUID": "7bb67b30-bb05-414b-89d5-6abe3a791e57"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=社外用!G4"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "ymia_v_kojishirei2",
+                            "ColumnName": "EDABAN",
+                            "GUID": "5e4b8d32-faea-4361-9623-70524733cbce"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=社外用!F10"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 1,
+                          "ColumnBindingInfo": {
+                            "TableName": "ymia_v_kojishirei2",
+                            "ColumnName": "KUBUN",
+                            "GUID": "24994abe-a17a-4325-b354-915c0e9ab6ea"
+                          },
+                          "Value": "6"
+                        }
+                      ]
+                    },
+                    "ID": "9ad140d058b744f58b956d2618e1f4e0"
+                  }
+                ],
+                "ID": "c595cc9b-0fa3-446e-8d38-012898092942"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=社外用!U10"
+                      }
+                    ]
+                  },
+                  "value": "2"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "ymia_v_kojishirei2",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "ymia_v_kojishirei2",
+                            "ColumnName": "JUCHU_NBR",
+                            "GUID": "84f18177-cb75-454d-b7dc-2d13761f183a"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=社外用!G4"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "ymia_v_kojishirei2",
+                            "ColumnName": "EDABAN",
+                            "GUID": "707a053c-d659-4451-a765-5578bc818e1e"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=社外用!F10"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 1,
+                          "ColumnBindingInfo": {
+                            "TableName": "ymia_v_kojishirei2",
+                            "ColumnName": "KUBUN",
+                            "GUID": "1833241e-b1f4-4f3f-b491-d0a480069988"
+                          },
+                          "Value": "6"
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 1,
+                          "ColumnBindingInfo": {
+                            "TableName": "ymia_v_kojishirei2",
+                            "ColumnName": "KUBUN",
+                            "GUID": "46421b46-2a67-4208-88be-540089ab2ecb"
+                          },
+                          "Value": "5"
+                        }
+                      ]
+                    },
+                    "ID": "c2cc2e6458114248b2add800f51243d9"
+                  }
+                ],
+                "ID": "e1359407-42b5-4c60-a9bc-f6d23e1ece8f"
+              }
+            ]
+          }
         ]
       }
     },
@@ -327,7 +466,7 @@
                     "ID": "03de235082ef49dab4b7072f5181caa4"
                   }
                 ],
-                "ID": "6a6281b1-cd15-4031-a6b0-35e6b22502c3"
+                "ID": "c4bc57cb-cda4-4378-bb8b-778e2d92ffff"
               },
               {
                 "Condition": {
@@ -452,7 +591,7 @@
                     "ID": "1720ab15751940548629f4656fcb9fb5"
                   }
                 ],
-                "ID": "ca451593-c630-4cc9-84ee-19db4cce359a"
+                "ID": "67907042-b585-4c3c-9a8e-16155f7228a0"
               }
             ]
           }
@@ -3137,7 +3276,7 @@
                     ]
                   }
                 ],
-                "ID": "7b0fc080-5b2b-4d78-9faa-dba335d740b4"
+                "ID": "41522921-10da-4481-88e7-2afda6b2f87a"
               },
               {
                 "Condition": {
@@ -3169,7 +3308,7 @@
                     ]
                   }
                 ],
-                "ID": "80a62e6e-deda-456b-ace0-723ccd041644"
+                "ID": "944d33ff-c0d5-4ac4-b756-240dec525277"
               },
               {
                 "Condition": {
@@ -3201,7 +3340,7 @@
                     ]
                   }
                 ],
-                "ID": "8c92c581-0ea1-4200-9eed-2d526f740091"
+                "ID": "5633bff6-9319-4a4c-8451-d9a51d86cd60"
               }
             ]
           }
@@ -3244,4 +3383,4 @@
     },
     "PageOrder": 1
   }
-}//hPVhk5i+x5VuRQMVpPj54hvKJ55yQyx1ZaBheVuTJa62/zJstZCMl9YBskdCVSO67RR/GUmoS9XlumZDKjAF64lbqthueCfXND9hHm1/wioIUmdfU9e7tvkvIis4UoDYQH4h6v8L53IWahSC1lc3wph5p8c2rKIAuVP874SiKXS+AmFF7w51qL9ER6PIOENe6KnaS2F7T37fCD1iJfjqsRi6NRezrA1dGpg+sdWMdg3gs5nKpRJesvaBbTgPc4neFycPYM34uWBqvIQOOlFOW56OJW4I+KoqWVRz0gV6Db3mNW+PUFmp/XlT1vzI96lF7M+j/y1AWfGMzzy5bBWLdazSzq/2aEweOTHJZMpNrlqf57Z16Xxdz1bo1TKr0VMYXB6AF86U4k8OlJAV3v7YMxcK1zJjRqzZm9eoV7oxWyTEhJA2fcptW5veFKshCovEWQHN2eR4+CmqDiUnYU2gF5yofW91QqyhBYHGHWDtybK9u0p/WU0DR5FuXL/YlT8pF7oKG4DF+YhK9L6zysorFf1kUQd1gT0v6+mMxr6Uwa1buPKYxZwVHrQrFwgK38KzcwcrZm8e7pp8I/zCcFfwRQWG0rfewhuQh1ha+22TyKTQB0klTLUZ5SqUppJgEKYBu9hk75PDUTI3Xe5XJe18ptS/n9oPPt36/9gXHlxb6HRUTZCxAQnwaPR0KVNJ4jhNuCOctfys+/cTjPN6oL6t1OZH6bgLiT1ioYxaZgBx+ZAgDqA6S7zCd9wJC2NDJ53y3Edu8iM4zZDPqIiwuH2yWhBfZCvAj90uIILtMstVYSVdnHzm9o6SuQ3KCCcSoUFlvjjQFHaxeyYWWxJ5Fgs6U2XOLBum2Fb/1yVK/0wKd+eI4rN9P+ZsKqgzS+sYdmbacYL6WdbJbd8HaqwAc/CRsw==|920
+}//xQY4sqe/x1GxJjbEa9iqv01ApYrIeHur3k1sS1sidMIgY8TOAFSgly+j9q3YZCPqMpQ0Slrf1gOwp8jQRxY2sYL9CnV1Z2RumUEBSQHW0SNXoSrLZfDPJnzKUlG5wwmnuE4v+wXBkvBWpVVvPtUsNLsfLiJ5BfZuFrBANeT6YV8wsYZFqXlaJtAVWp/XrHeaRgE9axO1S+lJdW4uLo3uJJUftCjjK0GFODx7ov6x9veC7oAGANEJCX2l+kC19zKy64+a6b01peN2C2eXQIBsS34+CcWMhEaFUojyM4CKW88GZ3s2mSlrsxyhyembcA8sv2YMn1w+o/r8BMridOL+zkt5ba7kXcFLJDVRImn2h074p97ku4VzWJiLfadecpguKFIvwqoPUCcpBjiQY6gKn0ZN7RSiuGJn5YO+Arxbp/SG8wcU3cuUubf8Ej0yzykaHkRgPVzowFXK95JZEuqYPZzG3RpWNHcd9RYh+rxiz6dNAfy1epH93NXFa8nDzWM+JWdINTS9XqmCaw3i3R5BCtbd0iUHe5rT7tTlJnAhZVgtRiD2v4cugMJPffiBYyB3N+woSEh4th4n280j5UobFHuR/KFqwdcjp4QUQocBdv1YNcTEun54UMUdTGlVeX6JfX4dyTBVM7O/ib6ogYf/kh3tO99CtLcX1IVBloAY7+LmS37BjDrJ8CrlHeKPmiFOzsMjeuS+lCh4QOJgV4WZAwPkYoAZIPrPrIGRkYYn5toughOuiaK71HlvEhnS8nCItCztj32Gn4nRKVMeNbA2Jh0ZORth66/f45/qBfTVVCwGylgkZNIYf/gUCDcVwbiNkUAlTglT+FLOdeuis82WfHXwcMyg3+R4TjOTDkKsilkeh4cDSyq2avzzehnh1i9qvOrk7MOvbw+zPrrxs4oPbg==|920

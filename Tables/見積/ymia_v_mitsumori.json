@@ -14,6 +14,13 @@
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "int",
       "MaxLength": -1,
+      "Name": "SHINSEI_NBR",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
       "Name": "EDABAN",
       "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     },
@@ -50,7 +57,7 @@
       "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
       "DatabaseColumnType": "int",
       "MaxLength": -1,
-      "Name": "MAX(SEQ_NBR)",
+      "Name": "MAX_SEQ_NBR",
       "ColumnType": "System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
     }
   ],
@@ -59,7 +66,7 @@
     "ConnectionId": "MySql1",
     "SourceTableName": "ymia_v_mitsumori",
     "SourceTableSchema": "",
-    "CreateViewSql": "select `tmitsumori`.`MITSUMORI_NBR` AS `MITSUMORI_NBR`,`tmitsumori`.`EDABAN` AS `EDABAN`,`tmitsumori`.`NONYUSAKI` AS `NONYUSAKI`,`tmitsumori`.`KISHU` AS `KISHU`,`tmitsumori`.`KIBAN` AS `KIBAN`,`tmitsumori`.`KENMEI` AS `KENMEI`,max(`tmitsumori`.`SEQ_NBR`) AS `MAX(SEQ_NBR)` from `tmitsumori` group by `tmitsumori`.`EDABAN`,`tmitsumori`.`MITSUMORI_NBR`",
+    "CreateViewSql": "select `tmitsumori`.`MITSUMORI_NBR` AS `MITSUMORI_NBR`,`tmitsumori`.`SHINSEI_NBR` AS `SHINSEI_NBR`,`tmitsumori`.`EDABAN` AS `EDABAN`,`tmitsumori`.`NONYUSAKI` AS `NONYUSAKI`,`tmitsumori`.`KISHU` AS `KISHU`,`tmitsumori`.`KIBAN` AS `KIBAN`,`tmitsumori`.`KENMEI` AS `KENMEI`,max(`tmitsumori`.`SEQ_NBR`) AS `MAX_SEQ_NBR` from `tmitsumori` group by `tmitsumori`.`MITSUMORI_NBR`,`tmitsumori`.`SHINSEI_NBR`,`tmitsumori`.`EDABAN`,`tmitsumori`.`NONYUSAKI`,`tmitsumori`.`KISHU`,`tmitsumori`.`KIBAN`,`tmitsumori`.`KENMEI`",
     "ViewInfo": {
       "ViewName": "ymia_v_mitsumori",
       "IsUpdatable": true,

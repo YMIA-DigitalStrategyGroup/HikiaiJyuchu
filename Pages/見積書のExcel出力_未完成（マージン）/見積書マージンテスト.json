@@ -51,7 +51,8 @@
       53,
       54,
       55,
-      56
+      56,
+      57
     ],
     "Count": 59
   },
@@ -454,7 +455,7 @@
                     }
                   }
                 ],
-                "ID": "1ed6beca-cd38-490d-81a8-2637b1dde7a5"
+                "ID": "4144025a-07ed-4969-aaec-395d2334838c"
               }
             ]
           }
@@ -500,7 +501,7 @@
                     }
                   }
                 ],
-                "ID": "aec82046-8c7c-4a76-9e3b-fa58681ee66d"
+                "ID": "c5c1ad81-9632-412b-b4d9-4e3acb6bfcde"
               }
             ]
           }
@@ -2169,10 +2170,22 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "=見積書マージンテスト!BA16"
               }
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "tmitsumori",
+                "ColumnName": "EDABAN",
+                "GUID": "d216e2f7-d80c-4931-8f99-840951786d43"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=見積書マージンテスト!BA5"
+              }
             }
           ]
         },
-        "ID": "ff97ebeaf1514f4593cd966f6eee0c1d"
+        "ID": "e1c9fd5f15474fa0ba151e8087dd88d7"
       },
       {
         "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
@@ -2189,7 +2202,7 @@
             "SerializeProperty": "=見積書マージンテスト!BA9"
           }
         },
-        "ID": "0f7f46d963b64edb9100df442c48b2d2"
+        "ID": "bf109eeab19949bfa36c6ba8788d5cd2"
       },
       {
         "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
@@ -2265,7 +2278,7 @@
                     ]
                   }
                 ],
-                "ID": "87b59398-b822-429d-a074-e6cbfeddec43"
+                "ID": "a7f8bec9-6ab1-41ff-af3d-1e6f0429d1d2"
               },
               {
                 "Condition": {
@@ -2297,7 +2310,7 @@
                     ]
                   }
                 ],
-                "ID": "6577b5c7-406f-4215-b48d-d6d2d6e014a3"
+                "ID": "36d1bdb4-4795-4730-8f75-54d349ff7fa9"
               },
               {
                 "Condition": {
@@ -2329,7 +2342,7 @@
                     ]
                   }
                 ],
-                "ID": "606aa54f-0c97-4454-84ee-63fe149233b1"
+                "ID": "7fc9df01-4523-4fbe-ab07-38a214f39562"
               }
             ]
           }
@@ -2370,4 +2383,4 @@
     },
     "PageOrder": 1
   }
-}//UDLbASw6PPMoXBVQT7U9G5XJ6g341zwJg/waOWVOkxOWITH0ZGv3WpTSITBeQYxMLtHscaGBdhsEkfgstSgrXF0LVRGun9VUes+Bma/GxnAlSto8P1PTW/PpwRo1KU+xZUe5ju7W3wFeKkXNnFjkav+QFbt6El3bljokYczeef+sdv2t0pl2rSJqLhy0vpDPxIDiknqqBkhw8XDCPmd6YEmAP3OzubOzlRpF0Uyy0C9Vhu9IQ/geHprr2FdmMNcB25pq4vWy5y7laGKsaPTKnV++Of+WSRf37LjB7JhggC3X7AavPkbmk3hj+B7efS3dmVtaSciZ5ipTlqKfMIlM5jA6JeDaxHYQOaPeoKt+aNiIr3EcVz9hFIGAVc2cBjJ/AEU2zIbtNWILfGX7JY5Jj2JfYDn5KHwGenXioA9oqbXpdhVfj8PDSlE+CS7Dq5/ed0iC3fCMseY5pPX7t0MbAf5n6r5zZSOx79c82PUjAsiwlYduPZhSH5maKhz4ZaqT2YyM436sTO1ujm9D0QhD0KHCWEoYPG9vOVlJJ8fyxxQA3uaxf4HiaIc3NS+28PYJlHTzqW0/UFjDFbs1YLrlYobOANpNh7MoImIIY63j8ZQ1J06d0Twf/rItWtfm7KZldzCKravcmNztwa8F52Bzg09W8f4rS+ff5vbkkeZmXf/0oTHVf1S6hXbWzlwdxQ1mvJIsszAQfEq81O6gBqAZJ7EdhPtyiU+EPCbFN4Hr1NXu7FMDjsg6EhfiqWbxUkpptlrWy0UylKCd1PTt0nEqhN2gNDHzv3c7takNcu/gSQ1l2M3nX7FahFLQrabN0CC6ftjqiSUFfs4cIqTbIS13rOUFr7000rdjU5NmfjOl+qvQDpkuMqse9Wu5CHcqYzDO+6OBcroRy3oZHG8KdJFHkg==|920
+}//clPyoA0lYvS1ujNhhy1fO8TLYJce+MBuexzNTCJBw3PvBJsxSpDXqHYUIwBuiSP5WfBDcsVEEbGylz1UwCU0T3uVA2/aJbsJQ8hzFOqM3UiUiMGwaWl1zfgz3Xx3kd8CpPbKjEn5SJZCT9iCwaE7C6ifHOLlSlO1jCxNkleNpChCMwzuISM6o9H+ACaDg2qnOfuPwXhk3R6LJupUJlQ4p28B8QCxUTBpu2MeudM7gWkeBAAwRCI/QdChdKKiHUTawNNtByPcSXneFtpm3GfHbAvpGpyvWlCAISn4l+JmiaONF2hSQhLSjSiS5BsGbjdOq7I5WSeky0NZFQhxm92WubhxeVkpvFdPwi/vpRlX5ackWx697EqnNevuLh2AgLV+aK3omvEH9BM7A4L/ts2+rb1jtkp3OiZwtss4iRp0fb//bj8WlMg/okSedTK8g+7qLrsv5SLKYhWo8fZ18MLo/oIudFOs6pmdYJim2g/ifUVLa4Q8+w5boACaM7ScCopXl/WQ5nUWfHrXmt7Hm2r/sqde5yibN/VbqAlwcOZ23yLmqBxvLmCtmvt01p1UlHnldauD7y5pSpuwP+w4tuJmw9Hf5ZTxas8m63AYH19+jEH9JhsfFW8oj4g9yjuVD5QPPB80KFot4bMzo9IP/izIu/Opc5GaI5Bm1UALW6vVVA/n6ILqs87V3PGErMQ3iy4WmZ9+OiDGRdO5T1FfLlMLEeWXnW1zYZLQSViFhzGYeXUt/CxeojP9vZQE3gg6APKm3TOxmoZ2puBn+F6mE4t/s6QXI+V0Bykf9vaZfjaNyiNpBIqxwKY2ZT4V6uuP1L5yxdNeENsl7Y2/gnmxOVactkS2Qyz4V7TMF/EE9uTj2D/C+4jkR/pu9p9pC3Q43wOLAHrzZ5FajO6x9Lft5imY0Q==|920
