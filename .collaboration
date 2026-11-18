@@ -518,7 +518,17 @@
   },
   {
     "ModuleName": "PCPage/社外用",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "UNITY\\999D4610",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-11-18T09:28:21.4098047+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\工事指令書のExcel出力\\社外用.json",
+      "Pages\\工事指令書のExcel出力\\社外用.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/社内用",
