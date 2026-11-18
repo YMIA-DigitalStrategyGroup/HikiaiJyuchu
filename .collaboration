@@ -514,45 +514,15 @@
   },
   {
     "ModuleName": "PCPage/生産部用",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-18T12:04:23.5541843+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\工事指令書のExcel出力\\生産部用.json",
-      "Pages\\工事指令書のExcel出力\\生産部用.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/社外用",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-18T09:28:21.4098047+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\工事指令書のExcel出力\\社外用.json",
-      "Pages\\工事指令書のExcel出力\\社外用.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/社内用",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "UNITY\\999D4610",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-11-18T09:44:08.9444057+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\工事指令書のExcel出力\\社内用.json",
-      "Pages\\工事指令書のExcel出力\\社内用.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "TableView/ymia_v_kojishirei",

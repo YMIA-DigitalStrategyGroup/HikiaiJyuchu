@@ -14,7 +14,7 @@
     "90,10": "ODATA(\"mshain?$select=SHAIN_NAME&$filter=SHAIN_CODE eq \"&IF(ISBLANK(AH5),\"null\",\"'\"&AH5&\"'\"))",
     "80,43": "ROUND((AR77/1.05),-3)",
     "77,43": "SUM(BM50)",
-    "83,27": "ODATA(\"ymia_v_kojishirei?$select=MARGIN_KOMI_KINGAKU&$filter=JUCHU_NBR eq \"&IF(ISBLANK(G4),\"null\",G4)&\" and KUBUN eq 5\")",
+    "83,27": "ODATA(\"ymia_v_kojishirei2?$select=MARGIN_KOMI_KINGAKU&$filter=JUCHU_NBR eq \"&IF(ISBLANK(G4),\"null\",G4)&\" and KUBUN eq 5\")",
     "83,43": "AB84+AJ84",
     "79,43": "AR77+AR78",
     "83,35": "SUM(BP60)",

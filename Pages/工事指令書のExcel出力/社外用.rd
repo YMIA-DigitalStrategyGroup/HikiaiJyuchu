@@ -5,7 +5,7 @@
   "Formulas": {
     "21,40": "TODAY()",
     "1,33": "LEFT(G2,11)",
-    "46,7": "IF(K47=\"\",\"\",ODATA(\"mname?$select=ZOKUSEI1&$filter=MEISHO_CODE eq \"&IF(ISBLANK(K47),\"null\",K47)&\" and MEISHO_KUBUN eq 82\"))",
+    "46,7": "IF(K47=\"\",\"\",ODATA(\"mname?$select=ZOKUSEI1&$filter=MEISHO_CODE eq \"&IF(ISBLANK(K47),\"null\",K47)&\" and KUBUN_MEISHO eq '工事区分'\"))",
     "2,33": "RIGHT(G2,4)",
     "86,10": "ODATA(\"ymia_v_kojishonin?$select=SHAIN_NAME&$filter=SHINSEI_NBR eq \"&IF(ISBLANK(S4),\"null\",S4)&\" and SHONIN_JUN eq 1\")",
     "86,26": "ODATA(\"ymia_v_kojishonin?$select=SHAIN_NAME&$filter=SHINSEI_NBR eq \"&IF(ISBLANK(S4),\"null\",S4)&\" and SHONIN_JUN eq 2\")",
