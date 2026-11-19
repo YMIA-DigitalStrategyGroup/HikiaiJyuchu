@@ -43,6 +43,7 @@
       }
     },
     "InLogicalVisibleIndexes": [
+      6,
       33,
       49,
       50,
@@ -109,11 +110,11 @@
     "22,4": "IF(G23=\"\",\"\",ODATA(\"mname?$select=ZOKUSEI1&$filter=MEISHO_CODE eq \"&IF(ISBLANK(G23),\"null\",G23)&\" and KUBUN_MEISHO eq '工事区分'\"))",
     "59,8": "ODATA(\"ymia_v_kojishonin?$select=SHAIN_NAME&$filter=SHINSEI_NBR eq \"&IF(ISBLANK(BA19),\"null\",BA19)&\" and SHONIN_JUN eq 1\")",
     "59,24": "ODATA(\"ymia_v_kojishonin?$select=SHAIN_NAME&$filter=SHINSEI_NBR eq \"&IF(ISBLANK(BA19),\"null\",BA19)&\" and SHONIN_JUN eq 2\")",
-    "10,34": "TODAY()",
-    "8,34": "BA2",
-    "9,34": "IF(ISERROR(BA9),\"\",BA9)",
-    "11,34": "BA11",
-    "12,34": "BA5",
+    "12,35": "BA5",
+    "11,35": "BA11",
+    "10,35": "TODAY()",
+    "9,35": "IF(ISERROR(BA9),\"\",BA9)",
+    "8,35": "BA2",
     "35,52": "ODATA(\"tmitsumori?$select=ENGINE_KATASHIKI&$filter=MITSUMORI_NBR eq \"&IF(ISBLANK(BA2),\"null\",BA2)&\" and SEQ_NBR eq \"&IF(ISBLANK(BA16),\"null\",BA16))",
     "17,7": "SUM(AL23)",
     "33,52": "ODATA(\"tmitsumori?$select=KENMEI&$filter=MITSUMORI_NBR eq \"&IF(ISBLANK(BA2),\"null\",BA2)&\" and SEQ_NBR eq \"&IF(ISBLANK(BA16),\"null\",BA16))",
@@ -123,7 +124,8 @@
     "19,11": "IF(ISERROR(BA13),\"\",BA13)",
     "19,14": "IF(ISERROR(BA36),\"\",BA36)",
     "19,34": "ODATA(\"mshain?$select=SHAIN_NAME&$filter=SHAIN_CODE eq \"&IF(ISBLANK(BA22),\"null\",\"'\"&BA22&\"'\"))",
-    "21,52": "ODATA(\"tmitsumori?$select=SHAIN_CODE&$filter=MITSUMORI_NBR eq \"&IF(ISBLANK(BA2),\"null\",BA2)&\" and EDABAN eq \"&IF(ISBLANK(BA5),\"null\",BA5))"
+    "21,52": "ODATA(\"tmitsumori?$select=SHAIN_CODE&$filter=MITSUMORI_NBR eq \"&IF(ISBLANK(BA2),\"null\",BA2)&\" and EDABAN eq \"&IF(ISBLANK(BA5),\"null\",BA5))",
+    "8,18": "ODATA(\"tmitsumori?$select=KOKYAKU_TANTOSHA&$filter=MITSUMORI_NBR eq \"&IF(ISBLANK(BA2),\"null\",BA2)&\" and EDABAN eq \"&IF(ISBLANK(BA5),\"null\",BA5)&\" and SEQ_NBR eq \"&IF(ISBLANK(BA16),\"null\",BA16))"
   },
   "AttachInfos": {
     "1,19": {
@@ -173,14 +175,21 @@
         "GUID": "ebe2817f-cf6f-4c82-9c37-23e3aedbd78a"
       }
     },
-    "8,34": {
+    "8,18": {
+      "BindingInfo": {
+        "TableName": "tmitsumori",
+        "ColumnName": "KOKYAKU_TANTOSHA",
+        "GUID": "4f7648e8-7fa5-45b5-8b8f-050554b1eb7c"
+      }
+    },
+    "8,35": {
       "BindingInfo": {
         "TableName": "tmitsumori",
         "ColumnName": "MITSUMORI_NBR",
         "GUID": "683f0d3e-aa57-441b-a85a-3dc3cbe7aab8"
       }
     },
-    "9,34": {
+    "9,35": {
       "BindingInfo": {
         "TableName": "tmitsumori",
         "ColumnName": "KANRI_NBR",
@@ -194,14 +203,14 @@
         "GUID": "4f41553f-65e9-4b9c-b248-a951a0cbbada"
       }
     },
-    "11,34": {
+    "11,35": {
       "BindingInfo": {
         "TableName": "tmitsumori",
         "ColumnName": "KISHU",
         "GUID": "467bc4f4-cb89-4605-9be7-1054e4d95667"
       }
     },
-    "12,34": {
+    "12,35": {
       "BindingInfo": {
         "TableName": "tmitsumori",
         "ColumnName": "EDABAN",
@@ -455,7 +464,7 @@
                     }
                   }
                 ],
-                "ID": "4144025a-07ed-4969-aaec-395d2334838c"
+                "ID": "f99b23e8-c580-45e5-85f9-f68833bbf45a"
               }
             ]
           }
@@ -501,7 +510,7 @@
                     }
                   }
                 ],
-                "ID": "c5c1ad81-9632-412b-b4d9-4e3acb6bfcde"
+                "ID": "682f813d-d8fa-4bec-b4ed-c7610d7284a2"
               }
             ]
           }
@@ -717,8 +726,13 @@
         "BorderRight": null
       },
       {
+        "FontFamily": 0,
         "HorizontalAlignment": 10,
-        "VerticalAlignment": 8
+        "VerticalAlignment": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "Background": 4,
@@ -737,11 +751,7 @@
       },
       {
         "FontFamily": 0,
-        "Formatter": 9,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "Formatter": 9
       },
       {
         "Formatter": 9,
@@ -751,9 +761,22 @@
         "BorderRight": null
       },
       {
+        "FontFamily": 0,
+        "Formatter": 9,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
         "Formatter": 11,
         "HorizontalAlignment": 10,
-        "VerticalAlignment": 8
+        "VerticalAlignment": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "BorderTop": 0,
@@ -832,10 +855,6 @@
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "Formatter": 9
       },
       {
         "FontFamily": 0
@@ -881,7 +900,7 @@
       },
       {
         "FontFamily": 0,
-        "Formatter": 12,
+        "Formatter": 14,
         "HorizontalAlignment": 13,
         "BorderBottom": 0,
         "BorderTop": 0,
@@ -931,7 +950,7 @@
         "BorderRight": 0
       },
       {
-        "Background": 14,
+        "Background": 15,
         "FontFamily": 0,
         "HorizontalAlignment": 7,
         "BorderBottom": 0,
@@ -967,7 +986,7 @@
       {
         "FontFamily": 0,
         "FontSize": 18.666666666666664,
-        "Formatter": 15,
+        "Formatter": 16,
         "BorderBottom": null,
         "BorderTop": 0,
         "BorderLeft": 0,
@@ -988,11 +1007,11 @@
         "BorderRight": 0
       },
       {
-        "Background": 16,
+        "Background": 17,
         "FontFamily": 0,
         "FontSize": 18.666666666666664,
         "FontWeight": 6,
-        "Formatter": 17,
+        "Formatter": 18,
         "HorizontalAlignment": 7,
         "BorderBottom": null,
         "BorderTop": null,
@@ -1000,7 +1019,7 @@
         "BorderRight": null
       },
       {
-        "Background": 18,
+        "Background": 19,
         "FontFamily": 0,
         "FontWeight": 6,
         "BorderBottom": null,
@@ -1039,6 +1058,7 @@
         "yyyy\"年\"m\"月\"d\"日\"",
         "#,##0_);[Red](#,##0)",
         "Right",
+        "#,##0_ ;[Red]-#,##0",
         "Background 1 -5",
         "@",
         "Accent 2 0",
@@ -1406,7 +1426,7 @@
       "8,15": 16,
       "8,16": 16,
       "8,17": 16,
-      "8,18": 16,
+      "8,18": 22,
       "8,19": 16,
       "8,20": 16,
       "8,21": 16,
@@ -1414,7 +1434,16 @@
       "8,23": 16,
       "8,24": 23,
       "8,30": 24,
-      "8,34": 25,
+      "8,35": 25,
+      "8,36": 0,
+      "8,37": 0,
+      "8,38": 0,
+      "8,39": 0,
+      "8,40": 0,
+      "8,41": 0,
+      "8,42": 0,
+      "8,43": 0,
+      "8,44": 0,
       "8,49": 26,
       "8,50": 27,
       "8,51": 28,
@@ -1424,21 +1453,48 @@
       "8,55": 27,
       "8,56": 28,
       "9,30": 29,
-      "9,34": 25,
+      "9,35": 25,
+      "9,36": 0,
+      "9,37": 0,
+      "9,38": 0,
+      "9,39": 0,
+      "9,40": 0,
+      "9,41": 0,
+      "9,42": 0,
+      "9,43": 0,
+      "9,44": 0,
       "10,2": 30,
-      "10,30": 29,
-      "10,34": 31,
+      "10,30": 31,
+      "10,35": 32,
+      "10,36": 0,
+      "10,37": 0,
+      "10,38": 0,
+      "10,39": 0,
+      "10,40": 0,
+      "10,41": 0,
+      "10,42": 0,
+      "10,43": 0,
+      "10,44": 0,
       "10,49": 7,
       "10,50": 8,
       "10,51": 8,
-      "10,52": 32,
+      "10,52": 33,
       "10,53": 11,
       "10,54": 11,
       "10,55": 11,
       "10,56": 12,
       "11,2": 30,
-      "11,30": 29,
-      "11,34": 25,
+      "11,30": 31,
+      "11,35": 25,
+      "11,36": 0,
+      "11,37": 0,
+      "11,38": 0,
+      "11,39": 0,
+      "11,40": 0,
+      "11,41": 0,
+      "11,42": 0,
+      "11,43": 0,
+      "11,44": 0,
       "11,49": 8,
       "11,50": 8,
       "11,51": 8,
@@ -1447,18 +1503,27 @@
       "11,54": 16,
       "11,55": 16,
       "11,56": 17,
-      "12,2": 29,
-      "12,30": 29,
-      "12,34": 25,
+      "12,2": 31,
+      "12,30": 31,
+      "12,35": 25,
+      "12,36": 0,
+      "12,37": 0,
+      "12,38": 0,
+      "12,39": 0,
+      "12,40": 0,
+      "12,41": 0,
+      "12,42": 0,
+      "12,43": 0,
+      "12,44": 0,
       "12,49": 7,
       "12,50": 8,
       "12,51": 8,
-      "12,52": 32,
+      "12,52": 33,
       "12,53": 11,
       "12,54": 11,
       "12,55": 11,
       "12,56": 12,
-      "13,2": 29,
+      "13,2": 31,
       "13,49": 8,
       "13,50": 8,
       "13,51": 8,
@@ -1467,7 +1532,7 @@
       "13,54": 16,
       "13,55": 16,
       "13,56": 17,
-      "14,30": 33,
+      "14,30": 34,
       "14,31": 0,
       "15,30": 24,
       "15,31": 0,
@@ -1479,7 +1544,7 @@
       "15,54": 8,
       "15,55": 8,
       "15,56": 8,
-      "16,30": 29,
+      "16,30": 31,
       "16,31": 0,
       "16,49": 8,
       "16,50": 8,
@@ -1489,12 +1554,12 @@
       "16,54": 8,
       "16,55": 8,
       "16,56": 8,
-      "17,2": 34,
-      "17,3": 35,
-      "17,4": 35,
-      "17,5": 35,
-      "17,6": 35,
-      "17,7": 36,
+      "17,2": 35,
+      "17,3": 36,
+      "17,4": 36,
+      "17,5": 36,
+      "17,6": 36,
+      "17,7": 37,
       "17,8": 16,
       "17,9": 16,
       "17,10": 16,
@@ -1510,55 +1575,55 @@
       "17,20": 16,
       "17,30": 24,
       "17,31": 0,
-      "18,2": 34,
-      "18,3": 35,
-      "18,4": 35,
-      "18,5": 35,
-      "18,6": 35,
-      "18,7": 37,
-      "18,8": 38,
-      "18,9": 38,
-      "18,10": 38,
-      "18,11": 38,
-      "18,12": 38,
-      "18,13": 38,
-      "18,14": 38,
-      "18,15": 38,
-      "18,16": 38,
-      "18,17": 38,
-      "18,18": 38,
-      "18,19": 38,
-      "18,20": 38,
-      "18,30": 29,
+      "18,2": 35,
+      "18,3": 36,
+      "18,4": 36,
+      "18,5": 36,
+      "18,6": 36,
+      "18,7": 38,
+      "18,8": 39,
+      "18,9": 39,
+      "18,10": 39,
+      "18,11": 39,
+      "18,12": 39,
+      "18,13": 39,
+      "18,14": 39,
+      "18,15": 39,
+      "18,16": 39,
+      "18,17": 39,
+      "18,18": 39,
+      "18,19": 39,
+      "18,20": 39,
+      "18,30": 31,
       "18,31": 0,
       "18,49": 7,
       "18,50": 8,
       "18,51": 8,
-      "18,52": 32,
+      "18,52": 33,
       "18,53": 11,
       "18,54": 11,
       "18,55": 11,
       "18,56": 12,
-      "19,2": 34,
-      "19,3": 35,
-      "19,4": 35,
-      "19,5": 35,
-      "19,6": 35,
-      "19,7": 39,
+      "19,2": 35,
+      "19,3": 36,
+      "19,4": 36,
+      "19,5": 36,
+      "19,6": 36,
+      "19,7": 40,
       "19,8": 16,
       "19,9": 16,
       "19,10": 16,
-      "19,11": 40,
+      "19,11": 41,
       "19,12": 16,
       "19,13": 16,
-      "19,14": 41,
-      "19,15": 38,
-      "19,16": 38,
-      "19,17": 38,
-      "19,18": 38,
-      "19,19": 38,
-      "19,20": 38,
-      "19,30": 29,
+      "19,14": 42,
+      "19,15": 39,
+      "19,16": 39,
+      "19,17": 39,
+      "19,18": 39,
+      "19,19": 39,
+      "19,20": 39,
+      "19,30": 31,
       "19,31": 0,
       "19,49": 8,
       "19,50": 8,
@@ -1568,17 +1633,17 @@
       "19,54": 16,
       "19,55": 16,
       "19,56": 17,
-      "21,6": 42,
-      "21,7": 42,
+      "21,6": 29,
+      "21,7": 29,
       "21,33": 43,
-      "21,34": 29,
+      "21,34": 31,
       "21,35": 0,
       "21,36": 0,
-      "21,37": 42,
+      "21,37": 29,
       "21,49": 7,
       "21,50": 8,
       "21,51": 8,
-      "21,52": 32,
+      "21,52": 33,
       "21,53": 11,
       "21,54": 11,
       "21,55": 11,
@@ -1895,7 +1960,7 @@
       "59,36": 0,
       "59,37": 0,
       "59,38": 0,
-      "59,39": 0,
+      "59,39": 61,
       "59,40": 0,
       "59,41": 0,
       "59,42": 0,
@@ -1997,15 +2062,15 @@
       "63,56": 0,
       "63,57": 0,
       "64,13": 67,
-      "64,14": 38,
-      "64,15": 38,
-      "64,16": 38,
-      "64,17": 38,
-      "64,18": 38,
-      "64,19": 38,
-      "64,20": 38,
-      "64,21": 38,
-      "64,22": 38,
+      "64,14": 39,
+      "64,15": 39,
+      "64,16": 39,
+      "64,17": 39,
+      "64,18": 39,
+      "64,19": 39,
+      "64,20": 39,
+      "64,21": 39,
+      "64,22": 39,
       "64,23": 68,
       "64,24": 0,
       "64,25": 0,
@@ -2014,14 +2079,14 @@
       "64,28": 0,
       "64,29": 0,
       "64,30": 67,
-      "64,31": 38,
-      "64,32": 38,
-      "64,33": 38,
-      "64,34": 38,
-      "64,35": 38,
-      "64,36": 38,
-      "64,37": 38,
-      "64,38": 38,
+      "64,31": 39,
+      "64,32": 39,
+      "64,33": 39,
+      "64,34": 39,
+      "64,35": 39,
+      "64,36": 39,
+      "64,37": 39,
+      "64,38": 39,
       "64,39": 68,
       "64,40": 0,
       "64,41": 0,
@@ -2074,11 +2139,7 @@
     "7,49,1,3",
     "8,49,1,3",
     "8,52,1,5",
-    "9,34,1,10",
-    "10,34,1,10",
     "10,49,2,3",
-    "11,34,1,10",
-    "12,34,1,10",
     "12,49,2,3",
     "15,49,2,3",
     "15,52,2,5",
@@ -2101,12 +2162,10 @@
     "59,34,2,5",
     "59,18,2,6",
     "17,7,1,14",
-    "8,34,1,10",
     "18,7,1,14",
     "21,2,1,2",
     "63,49,1,4",
     "63,53,1,4",
-    "8,2,1,22",
     "23,49,2,3",
     "23,52,2,5",
     "25,49,2,3",
@@ -2123,7 +2182,6 @@
     "59,39,2,7",
     "59,24,2,7",
     "59,8,2,7",
-    "19,34,1,4",
     "21,52,2,5",
     "10,52,2,5",
     "12,52,2,5",
@@ -2136,7 +2194,16 @@
     "22,34,1,3",
     "21,34,1,3",
     "22,37,1,9",
-    "21,37,1,9"
+    "21,37,1,9",
+    "8,2,1,16",
+    "8,18,1,6",
+    "19,34,1,7",
+    "9,35,1,10",
+    "10,35,1,10",
+    "11,35,1,10",
+    "12,35,1,10",
+    "8,35,1,10",
+    "9,30,1,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2185,7 +2252,7 @@
             }
           ]
         },
-        "ID": "e1c9fd5f15474fa0ba151e8087dd88d7"
+        "ID": "5e13611a0fab416ba6c6c4fd0849be0e"
       },
       {
         "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
@@ -2236,7 +2303,7 @@
             }
           ]
         },
-        "ID": "151385df7f9243379f9560ae3e552c54"
+        "ID": "bc03ead0439f4464af61a55233630b6c"
       },
       {
         "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
@@ -2278,7 +2345,7 @@
                     ]
                   }
                 ],
-                "ID": "a7f8bec9-6ab1-41ff-af3d-1e6f0429d1d2"
+                "ID": "c5972ebd-f005-4c4a-b6f5-cc0632287362"
               },
               {
                 "Condition": {
@@ -2310,7 +2377,7 @@
                     ]
                   }
                 ],
-                "ID": "36d1bdb4-4795-4730-8f75-54d349ff7fa9"
+                "ID": "b3013a4d-7aa8-48b4-83d1-8e126256ab2f"
               },
               {
                 "Condition": {
@@ -2342,7 +2409,7 @@
                     ]
                   }
                 ],
-                "ID": "7fc9df01-4523-4fbe-ab07-38a214f39562"
+                "ID": "f09cc5d0-8abf-4efe-aead-9d1328cec209"
               }
             ]
           }
@@ -2383,4 +2450,4 @@
     },
     "PageOrder": 1
   }
-}//clPyoA0lYvS1ujNhhy1fO8TLYJce+MBuexzNTCJBw3PvBJsxSpDXqHYUIwBuiSP5WfBDcsVEEbGylz1UwCU0T3uVA2/aJbsJQ8hzFOqM3UiUiMGwaWl1zfgz3Xx3kd8CpPbKjEn5SJZCT9iCwaE7C6ifHOLlSlO1jCxNkleNpChCMwzuISM6o9H+ACaDg2qnOfuPwXhk3R6LJupUJlQ4p28B8QCxUTBpu2MeudM7gWkeBAAwRCI/QdChdKKiHUTawNNtByPcSXneFtpm3GfHbAvpGpyvWlCAISn4l+JmiaONF2hSQhLSjSiS5BsGbjdOq7I5WSeky0NZFQhxm92WubhxeVkpvFdPwi/vpRlX5ackWx697EqnNevuLh2AgLV+aK3omvEH9BM7A4L/ts2+rb1jtkp3OiZwtss4iRp0fb//bj8WlMg/okSedTK8g+7qLrsv5SLKYhWo8fZ18MLo/oIudFOs6pmdYJim2g/ifUVLa4Q8+w5boACaM7ScCopXl/WQ5nUWfHrXmt7Hm2r/sqde5yibN/VbqAlwcOZ23yLmqBxvLmCtmvt01p1UlHnldauD7y5pSpuwP+w4tuJmw9Hf5ZTxas8m63AYH19+jEH9JhsfFW8oj4g9yjuVD5QPPB80KFot4bMzo9IP/izIu/Opc5GaI5Bm1UALW6vVVA/n6ILqs87V3PGErMQ3iy4WmZ9+OiDGRdO5T1FfLlMLEeWXnW1zYZLQSViFhzGYeXUt/CxeojP9vZQE3gg6APKm3TOxmoZ2puBn+F6mE4t/s6QXI+V0Bykf9vaZfjaNyiNpBIqxwKY2ZT4V6uuP1L5yxdNeENsl7Y2/gnmxOVactkS2Qyz4V7TMF/EE9uTj2D/C+4jkR/pu9p9pC3Q43wOLAHrzZ5FajO6x9Lft5imY0Q==|920
+}//CycxmXHueVoSySfZaLtRBbhGjHSHoQQkQoojmhG+6GN9WvLKsfeDUauv1ALKsPH6VbuLbwTBjiyliucSqP/DGqr+BkEu0yVRQoC3fdcfApwkzA0yKCkiJ2oIAlOfFLF2S01od7IB02nHSYyR8M7Njx4l00zXk96T8NDsaCsoOQPyGJOHVorzxq61T7AmsEov8T+vh1K1g7QwW9N5lc/r2/E8esZd52wNB1Z05Ky5SYcErYmLdwR+CtzmNhhI4zgGgfwaeYJK/GLN0ESXqClY9gDtjN2oG7r5Mx/vJyzBt65mRXjFmnnh2x2mMDgSyOszNWo38cfb2+uTJdtMDOS0aVQXaE9EVMq9bwuyeNk8qaWTbuMCeyZGoOHquHONeSTMAxoqlas75yGb4+tXg10eTcRiRCRkIrwjeMmLLVgNoskWRLVI0YgtupnkxkLt66SI7xqylhWraj0NGuaKePNhwzNnbIxuF7T0lJ5T4WG+DSNvDd2c/IBn/PRsmvh94XtrcIRDU7zzBaiHubHUXVRa0lDaTXvrLmD/z5E60Fq06zYOJyW3CFnCZlp0NxGqID7MTU7ivlZVGTrQS75empSoT8gLAC0DqWWWifFBHXXYFNrDzK8gcaurMJwpeV0NLZ3mcjJgTU0YmKgu5RnkTOIVS4CY8Wn2hKEGNyQHHW0J7vrr0mlObOPSMRwRz5pZH2VP44f6gwjIIzpL7l6elT+K5ukhVOhPQIoaDn+QXv5p00AyKa427l76MbrShJPqLKkmIjmqutwh5Lq+qAreb3kMgmVL8eJ3rPqNutJQH7C0dOFFiglKgA4ZigmPCRLbnARqJb/GAhBg4UF0RBlfJ4OZdCx8/sHaq8PWKB1aeF22lsCi9ovbAvrKOfMyOzNchsw1PITdKwcYrVnO84NCRNIG6w==|920
